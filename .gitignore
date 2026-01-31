@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+
+# Node
+app/node_modules/
+app/dist/
+app/.env
+app/.env.*
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

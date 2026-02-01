@@ -46,6 +46,17 @@
   animation: float-in 0.6s ease forwards;
 }
 
+.meta-card.clickable {
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.meta-card.clickable:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  box-shadow: 0 8px 24px rgba(228, 87, 46, 0.15);
+}
+
 .meta-card strong {
   font-size: 1.6rem;
   color: var(--ink);

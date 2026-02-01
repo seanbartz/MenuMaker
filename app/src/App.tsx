@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
+import RecipesPage from './RecipesPage'
 
 type MenuItem = {
   text: string
@@ -89,6 +90,7 @@ function App() {
   const [selectedFile, setSelectedFile] = useState<string | null>(null)
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
+  const [currentPage, setCurrentPage] = useState<'menus' | 'recipes'>('menus')
 
   useEffect(() => {
     let cancelled = false
@@ -164,23 +166,27 @@ function App() {
   }, [selectedMenu])
 
   return (
-    <div className="app-shell">
-      <header className="app-header">
-        <div>
-          <p className="eyebrow">MenuMaker</p>
-          <h1>Seasonal, low-waste weekly menus.</h1>
-        </div>
-        <div className="header-meta">
-          <div className="meta-card">
-            <span>Menus</span>
-            <strong>{menus.length}</strong>
-          </div>
-          <div className="meta-card">
-            <span>Recipes</span>
-            <strong>{recipes.length}</strong>
-          </div>
-        </div>
-      </header>
+    <>
+      {currentPage === 'recipes' ? (
+        <RecipesPage recipes={recipes} onBack={() => setCurrentPage('menus')} />
+      ) : (
+        <div className="app-shell">
+          <header className="app-header">
+            <div>
+              <p className="eyebrow">MenuMaker</p>
+              <h1>Seasonal, low-waste weekly menus.</h1>
+            </div>
+            <div className="header-meta">
+              <div className="meta-card">
+                <span>Menus</span>
+                <strong>{menus.length}</strong>
+              </div>
+              <div className="meta-card clickable" onClick={() => setCurrentPage('recipes')}>
+                <span>Recipes</span>
+                <strong>{recipes.length}</strong>
+              </div>
+            </div>
+          </header>
 
       <main className="app-main">
         <aside className="menu-list">
@@ -313,6 +319,8 @@ function App() {
         </section>
       </main>
     </div>
+      )}
+    </>
   )
 }
 

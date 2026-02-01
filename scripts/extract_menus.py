@@ -51,6 +51,12 @@ def strip_urls_from_text(text: str):
     text = MD_LINK_RE.sub(r'\1', text)
     # Then remove any remaining plain URLs
     text = URL_RE.sub('', text)
+    # Remove URLs without protocol (e.g., domain.com/path)
+    text = re.sub(r'\b[a-z0-9-]+\.(com|net|org|edu|gov)/[^\s]*', '', text, flags=re.IGNORECASE)
+    # Remove orphaned HTML tags
+    text = re.sub(r'<[^>]*>', '', text)
+    # Remove URL fragments that look like path/to/recipe/#anchor
+    text = re.sub(r'\b[a-z]+-[a-z]+-[a-z]+(?:-[a-z]+)*/#[^\s]*', '', text)
     # Clean up extra whitespace
     text = ' '.join(text.split())
     return text.strip()

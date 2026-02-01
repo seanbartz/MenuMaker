@@ -3,8 +3,8 @@ import './App.css'
 
 type MenuItem = {
   text: string
-  checked: boolean
   section: string | null
+  meal_type: string
   source_hint: string | null
   links: { text: string; url: string }[]
   urls: string[]
@@ -142,11 +142,10 @@ function App() {
   const menuStats = useMemo(() => {
     if (!selectedMenu) return null
     const total = selectedMenu.items.length
-    const checked = selectedMenu.items.filter((item) => item.checked).length
     const linked = selectedMenu.items.filter(
       (item) => item.urls.length > 0 || item.links.length > 0
     ).length
-    return { total, checked, linked }
+    return { total, linked }
   }, [selectedMenu])
 
   return (
@@ -220,10 +219,6 @@ function App() {
                       <strong>{menuStats.total}</strong>
                     </div>
                     <div>
-                      <span>Completed</span>
-                      <strong>{menuStats.checked}</strong>
-                    </div>
-                    <div>
                       <span>With links</span>
                       <strong>{menuStats.linked}</strong>
                     </div>
@@ -247,12 +242,11 @@ function App() {
                         return (
                           <li key={`${section}-${index}`}>
                             <div className="item-row">
-                              <span className={item.checked ? 'check checked' : 'check'}>
-                                {item.checked ? '✓' : '•'}
-                              </span>
+                              <span className="check">•</span>
                               <div>
                                 <p>{item.text}</p>
                                 <div className="item-meta">
+                                  <span className="pill">{item.meal_type}</span>
                                   {item.source_hint && (
                                     <span className="pill">{item.source_hint}</span>
                                   )}

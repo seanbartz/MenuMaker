@@ -263,6 +263,41 @@
   color: var(--accent);
 }
 
+.item-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.item-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.4rem 0.75rem;
+  background: rgba(61, 122, 107, 0.1);
+  color: var(--accent-2);
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(61, 122, 107, 0.2);
+  transition: all 0.2s ease;
+}
+
+.item-link:hover {
+  background: rgba(61, 122, 107, 0.2);
+  border-color: rgba(61, 122, 107, 0.4);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(61, 122, 107, 0.15);
+}
+
+.item-link::before {
+  content: "🔗";
+  font-size: 0.75rem;
+}
+
+
 .loading,
 .error,
 .empty {

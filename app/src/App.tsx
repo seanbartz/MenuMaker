@@ -68,6 +68,20 @@ function groupBySection(items: MenuItem[]) {
   return groups
 }
 
+function getSiteName(url: string): string {
+  try {
+    const urlObj = new URL(url)
+    return urlObj.hostname.replace(/^www\./, '')
+  } catch {
+    return url
+  }
+}
+
+function isUrl(str: string | null): boolean {
+  if (!str) return false
+  return str.startsWith('http://') || str.startsWith('https://')
+}
+
 function App() {
   const [menus, setMenus] = useState<Menu[]>([])
   const [recipes, setRecipes] = useState<Recipe[]>([])
@@ -247,19 +261,39 @@ function App() {
                                 <p>{item.text}</p>
                                 <div className="item-meta">
                                   <span className="pill">{item.meal_type}</span>
-                                  {item.source_hint && (
+                                  {item.source_hint && !isUrl(item.source_hint) && (
                                     <span className="pill">{item.source_hint}</span>
                                   )}
                                   {matched?.recipe.title && (
                                     <span className="pill accent">Recipe match</span>
                                   )}
-                                  {item.links.length > 0 && (
-                                    <span className="pill">{item.links.length} link</span>
-                                  )}
-                                  {item.urls.length > 0 && (
-                                    <span className="pill">{item.urls.length} url</span>
-                                  )}
                                 </div>
+                                {(item.links.length > 0 || item.urls.length > 0) && (
+                                  <div className="item-links">
+                                    {item.links.map((link, linkIndex) => (
+                                      <a
+                                        key={linkIndex}
+                                        href={link.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="item-link"
+                                      >
+                                        {getSiteName(link.url)}
+                                      </a>
+                                    ))}
+                                    {item.urls.map((url, urlIndex) => (
+                                      <a
+                                        key={`url-${urlIndex}`}
+                                        href={url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="item-link"
+                                      >
+                                        {getSiteName(url)}
+                                      </a>
+                                    ))}
+                                  </div>
+                                )}
                               </div>
                             </div>
                           </li>

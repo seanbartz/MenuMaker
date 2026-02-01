@@ -270,9 +270,9 @@ function App() {
                                 </div>
                                 {(item.links.length > 0 || item.urls.length > 0) && (
                                   <div className="item-links">
-                                    {item.links.map((link, linkIndex) => (
+                                    {item.links.map((link) => (
                                       <a
-                                        key={linkIndex}
+                                        key={link.url}
                                         href={link.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -281,9 +281,9 @@ function App() {
                                         {getSiteName(link.url)}
                                       </a>
                                     ))}
-                                    {item.urls.map((url, urlIndex) => (
+                                    {item.urls.map((url) => (
                                       <a
-                                        key={`url-${urlIndex}`}
+                                        key={url}
                                         href={url}
                                         target="_blank"
                                         rel="noopener noreferrer"

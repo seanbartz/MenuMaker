@@ -229,10 +229,12 @@ function App() {
               <div className="section-grid">
                 {[...groupBySection(selectedMenu.items).entries()].map(([section, items]) => (
                   <div key={section} className="section-card">
-                    <div className="section-title">
-                      <h3>{section}</h3>
-                      <span>{items.length} items</span>
-                    </div>
+                    {section !== 'Unsectioned' && (
+                      <div className="section-title">
+                        <h3>{section}</h3>
+                        <span>{items.length} items</span>
+                      </div>
+                    )}
                     <ul>
                       {items.map((item, index) => {
                         const normalizedItem = normalize(item.text)

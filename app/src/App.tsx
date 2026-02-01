@@ -282,7 +282,7 @@ function App() {
           {status === 'ready' && (
             <div className="menu-groups">
               {Array.from(groupedMenus.entries()).map(([groupName, groupMenus]) => (
-                <div key={groupName} className="menu-group">
+                <div key={`${viewMode}-${groupName}`} className="menu-group">
                   {viewMode !== 'week' && (
                     <h3 className="group-title">
                       {groupName} <span>({groupMenus.length})</span>
@@ -293,7 +293,7 @@ function App() {
                       const isActive = menu.file === selectedFile
                       const dateLabel = formatDate(menu.week_of_date)
                       return (
-                        <li key={menu.file}>
+                        <li key={`${groupName}-${menu.file}`}>
                           <button
                             className={`menu-card ${isActive ? 'active' : ''}`}
                             onClick={() => setSelectedFile(menu.file)}

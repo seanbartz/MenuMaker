@@ -2,6 +2,7 @@ import json
 import re
 from pathlib import Path
 from datetime import datetime
+from typing import Optional
 
 MENUS_DIR = Path(__file__).resolve().parents[1] / "Menus"
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
@@ -58,6 +59,21 @@ def parse_date_from_filename(name: str):
     return None
 
 
+def infer_meal_type(section: Optional[str], item_text: str):
+    text = " ".join(filter(None, [section, item_text])).lower()
+    if any(word in text for word in ["breakfast", "brunch"]):
+        return "breakfast"
+    if "lunch" in text:
+        return "lunch"
+    if any(word in text for word in ["snack", "snacks"]):
+        return "snack"
+    if "dessert" in text:
+        return "dessert"
+    if "drink" in text:
+        return "drink"
+    return "dinner"
+
+
 def parse_menu_file(path: Path):
     text = path.read_text(encoding="utf-8", errors="replace")
     lines = text.splitlines()
@@ -81,8 +97,8 @@ def parse_menu_file(path: Path):
             md_links, urls = extract_links(item_text)
             items.append({
                 "text": item_text,
-                "checked": mark.lower() == "x",
                 "section": current_section,
+                "meal_type": infer_meal_type(current_section, item_text),
                 "source_hint": extract_source_hint(item_text),
                 "links": md_links,
                 "urls": urls,

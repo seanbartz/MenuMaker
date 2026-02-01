@@ -1,10 +1,21 @@
 # Menu week of 7/1/24
 
 
-- [ ] Swiss chard pasta: [https://www.loveandlemons.com/lemony-swiss-chard-pasta/](https://www.loveandlemons.com/lemony-swiss-chard-pasta/)Roasted colorful root vegetables with sage, thyme, and rosemary [https://kitchengatherings.com/root-veg-chicken/](https://kitchengatherings.com/root-veg-chicken/)Smoky beans and greens tacos with ahi verde [https://pinchofyum.com/smoky-beans-greens-tacos-with-aji-verde](https://pinchofyum.com/smoky-beans-greens-tacos-with-aji-verde)	Use carrots and radishes
+- [ ] Swiss chard pasta: )Roasted colorful root vegetables with sage, thyme, and rosemary )Smoky beans and greens tacos with ahi verde ) Use carrots and radishes [https://www.loveandlemons.com/lemony-swiss-chard-pasta/](https://www.loveandlemons.com/lemony-swiss-chard-pasta/)
+- [ ] Swiss chard pasta: )Roasted colorful root vegetables with sage, thyme, and rosemary )Smoky beans and greens tacos with ahi verde ) Use carrots and radishes [https://kitchengatherings.com/root-veg-chicken/](https://kitchengatherings.com/root-veg-chicken/)
+- [ ] Swiss chard pasta: )Roasted colorful root vegetables with sage, thyme, and rosemary )Smoky beans and greens tacos with ahi verde ) Use carrots and radishes [https://pinchofyum.com/smoky-beans-greens-tacos-with-aji-verde](https://pinchofyum.com/smoky-beans-greens-tacos-with-aji-verde)
+- [ ] Swiss chard pasta: )Roasted colorful root vegetables with sage, thyme, and rosemary )Smoky beans and greens tacos with ahi verde ) Use carrots and radishes https://www.loveandlemons.com/lemony-swiss-chard-pasta/](https://www.loveandlemons.com/lemony-swiss-chard-pasta/
+- [ ] Swiss chard pasta: )Roasted colorful root vegetables with sage, thyme, and rosemary )Smoky beans and greens tacos with ahi verde ) Use carrots and radishes https://kitchengatherings.com/root-veg-chicken/](https://kitchengatherings.com/root-veg-chicken/
+- [ ] Swiss chard pasta: )Roasted colorful root vegetables with sage, thyme, and rosemary )Smoky beans and greens tacos with ahi verde ) Use carrots and radishes https://pinchofyum.com/smoky-beans-greens-tacos-with-aji-verde](https://pinchofyum.com/smoky-beans-greens-tacos-with-aji-verde
 - [ ] Radish Bean salad
-- [x] 15 min Egg roll in a bowl [https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl](https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl)Frozen pizza and salad
-- [x] Lemongrass chicken with rice and zucchini [https://pinchofyum.com/lemongrass-chicken-with-rice-and-zucchini](https://pinchofyum.com/lemongrass-chicken-with-rice-and-zucchini)20 min Moo Shu Pork (use Shishito peppers too) [https://www.gimmesomeoven.com/moo-shu-pork/#tasty-recipes-63679](https://www.gimmesomeoven.com/moo-shu-pork/#tasty-recipes-63679)Chicken salad: [https://pinchofyum.com/super-yummy-chicken-salad](https://pinchofyum.com/super-yummy-chicken-salad)
+- [x] 15 min Egg roll in a bowl )Frozen pizza and salad [https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl](https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl)
+- [x] 15 min Egg roll in a bowl )Frozen pizza and salad https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl](https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl
+- [x] Lemongrass chicken with rice and zucchini )20 min Moo Shu Pork (use Shishito peppers too) )Chicken salad: ) [https://pinchofyum.com/lemongrass-chicken-with-rice-and-zucchini](https://pinchofyum.com/lemongrass-chicken-with-rice-and-zucchini)
+- [x] Lemongrass chicken with rice and zucchini )20 min Moo Shu Pork (use Shishito peppers too) )Chicken salad: ) [https://www.gimmesomeoven.com/moo-shu-pork/#tasty-recipes-63679](https://www.gimmesomeoven.com/moo-shu-pork/#tasty-recipes-63679)
+- [x] Lemongrass chicken with rice and zucchini )20 min Moo Shu Pork (use Shishito peppers too) )Chicken salad: ) [https://pinchofyum.com/super-yummy-chicken-salad](https://pinchofyum.com/super-yummy-chicken-salad)
+- [x] Lemongrass chicken with rice and zucchini )20 min Moo Shu Pork (use Shishito peppers too) )Chicken salad: ) https://pinchofyum.com/lemongrass-chicken-with-rice-and-zucchini](https://pinchofyum.com/lemongrass-chicken-with-rice-and-zucchini
+- [x] Lemongrass chicken with rice and zucchini )20 min Moo Shu Pork (use Shishito peppers too) )Chicken salad: ) https://www.gimmesomeoven.com/moo-shu-pork/#tasty-recipes-63679](https://www.gimmesomeoven.com/moo-shu-pork/#tasty-recipes-63679
+- [x] Lemongrass chicken with rice and zucchini )20 min Moo Shu Pork (use Shishito peppers too) )Chicken salad: ) https://pinchofyum.com/super-yummy-chicken-salad](https://pinchofyum.com/super-yummy-chicken-salad
 
 Radish bean salad
 1 rotisserie chicken

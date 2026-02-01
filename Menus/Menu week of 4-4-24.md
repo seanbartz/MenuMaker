@@ -1,8 +1,7 @@
 # Menu week of 4/4/24
 
 
-- [ ] 5 ingredient spicy pork )Red Chile tostadas with eggs (did we like this recipe?) [https://pinchofyum.com/5-ingredient-spicy-pork](https://pinchofyum.com/5-ingredient-spicy-pork)
-- [ ] 5 ingredient spicy pork )Red Chile tostadas with eggs (did we like this recipe?) https://pinchofyum.com/5-ingredient-spicy-pork](https://pinchofyum.com/5-ingredient-spicy-pork
+- [ ] 5 ingredient spicy pork [https://pinchofyum.com/5-ingredient-spicy-pork](https://pinchofyum.com/5-ingredient-spicy-pork)Red Chile tostadas with eggs (did we like this recipe?)
 - [x] Spicy peanut tofu bowls
 - [x] Frozen pizza and bagged salad
 - [x] Grilling:  brats

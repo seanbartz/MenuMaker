@@ -17,14 +17,31 @@ DATE_PATTERNS = [
 CHECKBOX_RE = re.compile(r"^\s*-\s*\[(?P<mark>[xX\s])\]\s*(?P<text>.+?)\s*$")
 HEADING_RE = re.compile(r"^\s*#{1,6}\s*(?P<text>.+?)\s*$")
 SECTION_RE = re.compile(r"^\s*([A-Za-z][A-Za-z\s'&]+?)(?:\s*\(\d+\))?\s*$")
-URL_RE = re.compile(r"https?://[^\s)]+")
+URL_RE = re.compile(r"https?://[^\s\)\]\(]+")
+CHECKBOX_TOKEN_RE = re.compile(r"-\s*\[(?P<mark>[xX\s])\]\s*")
 MD_LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 TRAILING_PAREN_RE = re.compile(r"\(([^)]+)\)\s*$")
 
 
 def extract_links(text: str):
-    md_links = [{"text": m.group(1), "url": m.group(2)} for m in MD_LINK_RE.finditer(text)]
-    urls = [m.group(0) for m in URL_RE.finditer(text)]
+    md_matches = list(MD_LINK_RE.finditer(text))
+    md_links = [{"text": m.group(1), "url": m.group(2)} for m in md_matches]
+    md_spans = [m.span() for m in md_matches]
+    md_urls = {m.group(2) for m in md_matches}
+
+    def overlaps_md(span):
+        return any(span[0] >= start and span[1] <= end for start, end in md_spans)
+
+    urls = []
+    for m in URL_RE.finditer(text):
+        span = m.span()
+        if overlaps_md(span):
+            continue
+        url = m.group(0)
+        if url in md_urls:
+            continue
+        urls.append(url)
+
     return md_links, urls
 
 
@@ -74,9 +91,24 @@ def infer_meal_type(section: Optional[str], item_text: str):
     return "dinner"
 
 
+def warn_if_dirty_lines(path: Path, lines):
+    for idx, line in enumerate(lines, start=1):
+        checkbox_tokens = list(CHECKBOX_TOKEN_RE.finditer(line))
+        if len(checkbox_tokens) > 1:
+            print(f"Warning: {path} has multiple checkbox items on one line at {idx}")
+            continue
+
+        if checkbox_tokens:
+            text = line[checkbox_tokens[0].end():].strip()
+            md_links, urls = extract_links(text)
+            if len(md_links) + len(urls) > 1:
+                print(f"Warning: {path} has multiple links on one item at {idx}")
+
+
 def parse_menu_file(path: Path):
     text = path.read_text(encoding="utf-8", errors="replace")
     lines = text.splitlines()
+    warn_if_dirty_lines(path, lines)
 
     title = None
     week_of_date = parse_date_from_filename(path.name)

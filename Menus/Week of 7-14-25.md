@@ -5,15 +5,11 @@
 - [x] Frozen pizza and salad
 - [x] Frozen orange chicken and broccoli (can also add green beans if extra)
 - [x] Burgers and corn
-- [x] Beef and broccoli stir fry )Sesame apricot tofu )BLTs and Panera broccoli cheddar soup [https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358](https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358)
-- [x] Beef and broccoli stir fry )Sesame apricot tofu )BLTs and Panera broccoli cheddar soup [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)
-- [x] Beef and broccoli stir fry )Sesame apricot tofu )BLTs and Panera broccoli cheddar soup https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358](https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358
-- [x] Beef and broccoli stir fry )Sesame apricot tofu )BLTs and Panera broccoli cheddar soup https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu
-- [x] Beer braised brats and apple mustard slaw ) [https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/](https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/)
-- [x] Beer braised brats and apple mustard slaw ) https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/](https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/
+- [x] Beef and broccoli stir fry [https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358](https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358)
+- [x] Sesame apricot tofu BLTs and Panera broccoli cheddar soup [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)
+- [x] Beer braised brats and apple mustard slaw [https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/](https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/)
 Other:
-- [x] Make bread and butter pickles ) [https://www.browneyedbaker.com/bread-and-butter-pickles/](https://www.browneyedbaker.com/bread-and-butter-pickles/)
-- [x] Make bread and butter pickles ) https://www.browneyedbaker.com/bread-and-butter-pickles/](https://www.browneyedbaker.com/bread-and-butter-pickles/
+- [x] Make bread and butter pickles [https://www.browneyedbaker.com/bread-and-butter-pickles/](https://www.browneyedbaker.com/bread-and-butter-pickles/)
 To use from CSA:
 - [ ] Carrots
 - [x] Green Beans

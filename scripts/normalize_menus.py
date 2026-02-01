@@ -4,14 +4,18 @@ from pathlib import Path
 MENUS_DIR = Path(__file__).resolve().parents[1] / "Menus"
 
 CHECKBOX_TOKEN_RE = re.compile(r"-\s*\[(?P<mark>[xX\s])\]\s*")
+CHECKBOX_PREFIX_RE = re.compile(r"^(?P<indent>\s*)-\s*\[(?P<mark>[xX\s])\]\s*")
 MD_LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
-URL_RE = re.compile(r"https?://[^\s)]+")
+URL_RE = re.compile(r"https?://[^\s\)\]\(]+")
 
 
 def split_multi_checkbox(line: str):
     tokens = list(CHECKBOX_TOKEN_RE.finditer(line))
     if len(tokens) <= 1:
         return None
+
+    prefix = CHECKBOX_PREFIX_RE.match(line)
+    indent = prefix.group("indent") if prefix else ""
 
     lines = []
     for i, token in enumerate(tokens):
@@ -21,62 +25,66 @@ def split_multi_checkbox(line: str):
         if not text:
             continue
         mark = token.group("mark")
-        lines.append(f"- [{mark}] {text}")
+        lines.append(f"{indent}- [{mark}] {text}")
     return lines if lines else None
 
 
-def extract_links(text: str):
-    md_links = [(m.group(1), m.group(2), m.span()) for m in MD_LINK_RE.finditer(text)]
-    url_links = [(m.group(0), m.span()) for m in URL_RE.finditer(text)]
+def extract_link_tokens(text: str):
+    md_matches = list(MD_LINK_RE.finditer(text))
+    md_links = [("md", m.group(0), m.span()) for m in md_matches]
+    md_urls = {m.group(2) for m in md_matches}
+    md_spans = [m.span() for m in md_matches]
 
-    # Remove URLs that are inside markdown links
-    md_url_set = {url for _, url, _ in md_links}
-    url_links = [(url, span) for url, span in url_links if url not in md_url_set]
+    def overlaps_md(span):
+        return any(span[0] >= start and span[1] <= end for start, end in md_spans)
 
-    return md_links, url_links
+    url_links = []
+    for m in URL_RE.finditer(text):
+        span = m.span()
+        if overlaps_md(span):
+            continue
+        url = m.group(0)
+        if url in md_urls:
+            continue
+        url_links.append(("url", url, span))
 
-
-def remove_spans(text: str, spans):
-    if not spans:
-        return text
-    spans = sorted(spans, key=lambda s: s[0])
-    out = []
-    last = 0
-    for start, end in spans:
-        out.append(text[last:start])
-        last = end
-    out.append(text[last:])
-    return "".join(out)
+    tokens = md_links + url_links
+    tokens.sort(key=lambda t: t[2][0])
+    return tokens
 
 
 def split_multi_links(line: str):
-    token = CHECKBOX_TOKEN_RE.match(line)
-    if not token:
+    prefix = CHECKBOX_PREFIX_RE.match(line)
+    if not prefix:
         return None
 
-    mark = token.group("mark")
-    text = line[token.end():].strip()
+    mark = prefix.group("mark")
+    indent = prefix.group("indent")
+    text = line[prefix.end():].strip()
     if not text:
         return None
 
-    md_links, url_links = extract_links(text)
-    total_links = len(md_links) + len(url_links)
-    if total_links <= 1:
+    tokens = extract_link_tokens(text)
+    if len(tokens) <= 1:
         return None
 
-    spans = [span for _, _, span in md_links] + [span for _, span in url_links]
-    base_text = remove_spans(text, spans)
-    base_text = re.sub(r"\s+", " ", base_text).strip()
+    segments = []
+    last = 0
+    for _, _, span in tokens:
+        segments.append(text[last:span[0]])
+        last = span[1]
+    segments.append(text[last:])
 
     lines = []
-    for link_text, link_url, _ in md_links:
-        link_repr = f"[{link_text}]({link_url})"
-        item_text = f"{base_text} {link_repr}".strip() if base_text else link_repr
-        lines.append(f"- [{mark}] {item_text}")
+    last_index = len(tokens) - 1
+    for idx, (_, link_repr, _) in enumerate(tokens):
+        desc = segments[idx].strip()
+        if idx == last_index:
+            tail = segments[idx + 1].strip()
+            desc = f"{desc} {tail}".strip()
 
-    for link_url, _ in url_links:
-        item_text = f"{base_text} {link_url}".strip() if base_text else link_url
-        lines.append(f"- [{mark}] {item_text}")
+        item_text = f"{desc} {link_repr}".strip() if desc else link_repr
+        lines.append(f"{indent}- [{mark}] {item_text}")
 
     return lines if lines else None
 

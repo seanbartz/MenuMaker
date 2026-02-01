@@ -8,4 +8,5 @@
      [https://www.gimmesomeoven.com/everyday-italian-salad/](https://www.gimmesomeoven.com/everyday-italian-salad/)
  </span>Pizza and salad
 - [x] Chicken tacos with green sauce [https://pinchofyum.com/chicken-tacos](https://pinchofyum.com/chicken-tacos) and a makeshift black bean salad
-- [x] Lighter beef and broccoli [https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358](https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358)Chili
+- [x] Lighter beef and broccoli [https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358](https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358)
+- [x] Chili

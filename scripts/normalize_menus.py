@@ -89,6 +89,92 @@ def split_multi_links(line: str):
     return lines if lines else None
 
 
+def split_trailing_text_after_link(line: str):
+    prefix = CHECKBOX_PREFIX_RE.match(line)
+    if not prefix:
+        return None
+
+    mark = prefix.group("mark")
+    indent = prefix.group("indent")
+    text = line[prefix.end():].strip()
+    if not text:
+        return None
+
+    tokens = extract_link_tokens(text)
+    if len(tokens) != 1:
+        return None
+
+    _, link_repr, (start, end) = tokens[0]
+    before = text[:start].strip()
+    after = text[end:].strip()
+    if not after:
+        return None
+
+    trigger_phrases = [
+        "Breakfast:", "Lunch:", "Dinner:", "Dessert:", "Frozen pizza", "Halloween:",
+    ]
+
+    def looks_like_new_item(s: str):
+        if not s:
+            return False
+        if any(s.startswith(tp) for tp in trigger_phrases):
+            return True
+        if s[0].isupper() and not s.lower().startswith(("and ", "with ", "plus ")):
+            return True
+        return False
+
+    if not looks_like_new_item(after):
+        return None
+
+    first = f"{before} {link_repr}".strip() if before else link_repr
+    second = after
+    return [f"{indent}- [{mark}] {first}", f"{indent}- [{mark}] {second}"]
+
+
+def split_trigger_before_link(line: str):
+    prefix = CHECKBOX_PREFIX_RE.match(line)
+    if not prefix:
+        return None
+
+    mark = prefix.group("mark")
+    indent = prefix.group("indent")
+    text = line[prefix.end():].strip()
+    if not text:
+        return None
+
+    tokens = extract_link_tokens(text)
+    if len(tokens) != 1:
+        return None
+
+    _, link_repr, (start, _) = tokens[0]
+    before = text[:start].strip()
+    if not before:
+        return None
+
+    trigger_phrases = [
+        "Breakfast:", "Lunch:", "Dinner:", "Dessert:", "Frozen pizza", "Halloween:",
+    ]
+
+    trigger_index = None
+    for phrase in trigger_phrases:
+        idx = before.find(phrase)
+        if idx > 0:
+            trigger_index = idx
+            break
+
+    if trigger_index is None:
+        return None
+
+    left = before[:trigger_index].strip()
+    right = before[trigger_index:].strip()
+    if not left or not right:
+        return None
+
+    first = f"{left} {link_repr}".strip()
+    second = right
+    return [f"{indent}- [{mark}] {first}", f"{indent}- [{mark}] {second}"]
+
+
 def normalize_file(path: Path):
     original = path.read_text(encoding="utf-8", errors="replace").splitlines()
     updated = []
@@ -106,6 +192,18 @@ def normalize_file(path: Path):
         multi_links = split_multi_links(line)
         if multi_links:
             updated.extend(multi_links)
+            changed = True
+            continue
+
+        split_trailing = split_trailing_text_after_link(line)
+        if split_trailing:
+            updated.extend(split_trailing)
+            changed = True
+            continue
+
+        split_before = split_trigger_before_link(line)
+        if split_before:
+            updated.extend(split_before)
             changed = True
             continue
 

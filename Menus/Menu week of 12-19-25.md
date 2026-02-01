@@ -1,7 +1,8 @@
 # Menu week of 12/19/25
 
 
-- [ ] Sesame Apricot tofu [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)Roasted sweet potato tacos
+- [ ] Sesame Apricot tofu [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)
+- [ ] Roasted sweet potato tacos
 - [x] Instant pot chicken and dumplings [https://pinchofyum.com/instant-pot-chicken-and-dumplings](https://pinchofyum.com/instant-pot-chicken-and-dumplings)
 - [x] Cauliflower mac and cheese, add chicken nuggets White people tacos [https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211](https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211)
 - [x] Gnocchi with creamy mushroom sauce [https://pinchofyum.com/gnocchi-with-creamy-mushroom-sauce](https://pinchofyum.com/gnocchi-with-creamy-mushroom-sauce)

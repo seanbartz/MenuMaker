@@ -5,7 +5,8 @@
 - [ ] Roasted colorful root vegetables with sage, thyme, and rosemary [https://kitchengatherings.com/root-veg-chicken/](https://kitchengatherings.com/root-veg-chicken/)
 - [ ] Smoky beans and greens tacos with ahi verde Use carrots and radishes [https://pinchofyum.com/smoky-beans-greens-tacos-with-aji-verde](https://pinchofyum.com/smoky-beans-greens-tacos-with-aji-verde)
 - [ ] Radish Bean salad
-- [x] 15 min Egg roll in a bowl [https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl](https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl)Frozen pizza and salad
+- [x] 15 min Egg roll in a bowl [https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl](https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl)
+- [x] Frozen pizza and salad
 - [x] Lemongrass chicken with rice and zucchini [https://pinchofyum.com/lemongrass-chicken-with-rice-and-zucchini](https://pinchofyum.com/lemongrass-chicken-with-rice-and-zucchini)
 - [x] 20 min Moo Shu Pork (use Shishito peppers too) [https://www.gimmesomeoven.com/moo-shu-pork/#tasty-recipes-63679](https://www.gimmesomeoven.com/moo-shu-pork/#tasty-recipes-63679)
 - [x] Chicken salad: [https://pinchofyum.com/super-yummy-chicken-salad](https://pinchofyum.com/super-yummy-chicken-salad)

@@ -1,7 +1,8 @@
 # Menu week of 4/28/25
 
 
-- [x] Carmelized pork tacos with (mango) salsa [https://pinchofyum.com/caramelized-pork-tacos-with-pineapple-salsa](https://pinchofyum.com/caramelized-pork-tacos-with-pineapple-salsa)	Sub mango for pineapple
+- [x] Carmelized pork tacos with (mango) salsa [https://pinchofyum.com/caramelized-pork-tacos-with-pineapple-salsa](https://pinchofyum.com/caramelized-pork-tacos-with-pineapple-salsa)
+- [x] Sub mango for pineapple
 - [x] Chicken nuggets, broccoli, sweet potato fries
 - [x] Ricotta meatballs and salad: [https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping](https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping)
 - [x] Egg roll in a bowl [https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl](https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl)

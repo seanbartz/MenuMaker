@@ -7,5 +7,6 @@
 - [x] Spicy Peanut Tofu Bowls [https://pinchofyum.com/spicy-peanut-tofu-bowls](https://pinchofyum.com/spicy-peanut-tofu-bowls)
 - [x] Healthier one pot hamburger helper [Healthier Homemade One Pot Hamburger Helper. - Half Baked Harvest](https://www.halfbakedharvest.com/one-pot-hamburger-helper/)
 - [x] BBQ jackfruit sandwiches and sweet potato fries [BBQ Jackfruit Sandwiches Recipe - Pinch of Yum](https://pinchofyum.com/bbq-jackfruit-sandwiches)
-- [x] Instant Pot chicken and dumplings Frozen pizza and salad [https://pinchofyum.com/instant-pot-chicken-and-dumplings](https://pinchofyum.com/instant-pot-chicken-and-dumplings)
+- [x] Instant Pot chicken and dumplings [https://pinchofyum.com/instant-pot-chicken-and-dumplings](https://pinchofyum.com/instant-pot-chicken-and-dumplings)
+- [x] Frozen pizza and salad
 

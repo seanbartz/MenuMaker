@@ -6,7 +6,7 @@
       "week_of_date": null,
       "items": [
         {
-          "text": "[https://www.twopeasandtheirpod.com/bacon-potato-and-egg-casserole/#wprm-recipe-container-39516](https://www.twopeasandtheirpod.com/bacon-potato-and-egg-casserole/#wprm-recipe-container-39516)Make the night before. Sub water for milk. only add cheese to half and not in the mix.",
+          "text": "[https://www.twopeasandtheirpod.com/bacon-potato-and-egg-casserole/#wprm-recipe-container-39516](https://www.twopeasandtheirpod.com/bacon-potato-and-egg-casserole/#wprm-recipe-container-39516)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -19,7 +19,15 @@
           "urls": []
         },
         {
-          "text": "Carrot cake coffee cake - make the night before [https://pinchofyum.com/carrot-cake-coffee-cake?utm_source=convertkit&utm_medium=email&utm_campaign=What+I%27m+Bringing+Back+Home+for+Easter+Weekend%21+-+17310250](https://pinchofyum.com/carrot-cake-coffee-cake?utm_source=convertkit&utm_medium=email&utm_campaign=What+I%27m+Bringing+Back+Home+for+Easter+Weekend%21+-+17310250)Use vegan butter",
+          "text": "Make the night before. Sub water for milk. only add cheese to half and not in the mix.",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
+          "urls": []
+        },
+        {
+          "text": "Carrot cake coffee cake - make the night before [https://pinchofyum.com/carrot-cake-coffee-cake?utm_source=convertkit&utm_medium=email&utm_campaign=What+I%27m+Bringing+Back+Home+for+Easter+Weekend%21+-+17310250](https://pinchofyum.com/carrot-cake-coffee-cake?utm_source=convertkit&utm_medium=email&utm_campaign=What+I%27m+Bringing+Back+Home+for+Easter+Weekend%21+-+17310250)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -29,6 +37,14 @@
               "url": "https://pinchofyum.com/carrot-cake-coffee-cake?utm_source=convertkit&utm_medium=email&utm_campaign=What+I%27m+Bringing+Back+Home+for+Easter+Weekend%21+-+17310250"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Use vegan butter",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -627,16 +643,24 @@
           "urls": []
         },
         {
-          "text": "Sheet pan chicken pitas [https://pinchofyum.com/sheet-pan-chicken-pitas](https://pinchofyum.com/sheet-pan-chicken-pitas)Frozen pizza and salad",
+          "text": "Sheet pan chicken pitas [https://pinchofyum.com/sheet-pan-chicken-pitas](https://pinchofyum.com/sheet-pan-chicken-pitas)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/sheet-pan-chicken-pitas",
           "links": [
             {
               "text": "https://pinchofyum.com/sheet-pan-chicken-pitas",
               "url": "https://pinchofyum.com/sheet-pan-chicken-pitas"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -669,9 +693,9 @@
           "urls": []
         },
         {
-          "text": "Sheet pan meatballs with tomato salad and green sauce Breakfast: French toast, bacon [https://pinchofyum.com/sheet-pan-meatballs-with-tomato-salad-and-green-sauce](https://pinchofyum.com/sheet-pan-meatballs-with-tomato-salad-and-green-sauce)",
+          "text": "Sheet pan meatballs with tomato salad and green sauce [https://pinchofyum.com/sheet-pan-meatballs-with-tomato-salad-and-green-sauce](https://pinchofyum.com/sheet-pan-meatballs-with-tomato-salad-and-green-sauce)",
           "section": null,
-          "meal_type": "breakfast",
+          "meal_type": "dinner",
           "source_hint": "https://pinchofyum.com/sheet-pan-meatballs-with-tomato-salad-and-green-sauce",
           "links": [
             {
@@ -679,6 +703,14 @@
               "url": "https://pinchofyum.com/sheet-pan-meatballs-with-tomato-salad-and-green-sauce"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Breakfast: French toast, bacon",
+          "section": null,
+          "meal_type": "breakfast",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -1040,7 +1072,7 @@
           "urls": []
         },
         {
-          "text": "Five ingredient spicy pork [https://pinchofyum.com/5-ingredient-spicy-pork](https://pinchofyum.com/5-ingredient-spicy-pork)Gnocchi with Brussels Sprouts, Chicken Sausage and Pesto",
+          "text": "Five ingredient spicy pork [https://pinchofyum.com/5-ingredient-spicy-pork](https://pinchofyum.com/5-ingredient-spicy-pork)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -1050,6 +1082,14 @@
               "url": "https://pinchofyum.com/5-ingredient-spicy-pork"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Gnocchi with Brussels Sprouts, Chicken Sausage and Pesto",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -1397,16 +1437,24 @@
           "urls": []
         },
         {
-          "text": "Spicy peanut tofu bowls [https://pinchofyum.com/spicy-peanut-tofu-bowls](https://pinchofyum.com/spicy-peanut-tofu-bowls)Chicken nuggets, broccoli, sweet potato fries",
+          "text": "Spicy peanut tofu bowls [https://pinchofyum.com/spicy-peanut-tofu-bowls](https://pinchofyum.com/spicy-peanut-tofu-bowls)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/spicy-peanut-tofu-bowls",
           "links": [
             {
               "text": "https://pinchofyum.com/spicy-peanut-tofu-bowls",
               "url": "https://pinchofyum.com/spicy-peanut-tofu-bowls"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Chicken nuggets, broccoli, sweet potato fries",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -1649,7 +1697,7 @@
           "urls": []
         },
         {
-          "text": "Lighter beef and broccoli [https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358](https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358)Chili",
+          "text": "Lighter beef and broccoli [https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358](https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -1659,6 +1707,14 @@
               "url": "https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Chili",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         }
       ]
@@ -2261,7 +2317,7 @@
       "week_of_date": "2025-10-22",
       "items": [
         {
-          "text": "Butternut squash apple soup and croutons: [https://www.wellplated.com/butternut-squash-soup/#wprm-recipe-container-34260](https://www.wellplated.com/butternut-squash-soup/#wprm-recipe-container-34260)Halloween: Chili and cornbread",
+          "text": "Butternut squash apple soup and croutons: [https://www.wellplated.com/butternut-squash-soup/#wprm-recipe-container-34260](https://www.wellplated.com/butternut-squash-soup/#wprm-recipe-container-34260)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -2274,7 +2330,15 @@
           "urls": []
         },
         {
-          "text": "Roasted sweet potato tacos [https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325-jump-target](https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325-jump-target)Halloween: Chili and cornbread",
+          "text": "Halloween: Chili and cornbread",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
+          "urls": []
+        },
+        {
+          "text": "Roasted sweet potato tacos [https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325-jump-target](https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325-jump-target)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -2284,6 +2348,14 @@
               "url": "https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325-jump-target"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Halloween: Chili and cornbread",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -2427,16 +2499,24 @@
           "urls": []
         },
         {
-          "text": "Chicken with Coconut Kale (add red peppers) [https://pinchofyum.com/chicken-with-coconut-kale](https://pinchofyum.com/chicken-with-coconut-kale)Pizza and bagged salad",
+          "text": "Chicken with Coconut Kale (add red peppers) [https://pinchofyum.com/chicken-with-coconut-kale](https://pinchofyum.com/chicken-with-coconut-kale)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/chicken-with-coconut-kale",
           "links": [
             {
               "text": "https://pinchofyum.com/chicken-with-coconut-kale",
               "url": "https://pinchofyum.com/chicken-with-coconut-kale"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Pizza and bagged salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -3002,7 +3082,7 @@
           "urls": []
         },
         {
-          "text": "Instant pot chicken noodle soup Frozen pizza and bagged salad [https://www.spendwithpennies.com/instant-pot-chicken-noodle-soup/](https://www.spendwithpennies.com/instant-pot-chicken-noodle-soup/)",
+          "text": "Instant pot chicken noodle soup [https://www.spendwithpennies.com/instant-pot-chicken-noodle-soup/](https://www.spendwithpennies.com/instant-pot-chicken-noodle-soup/)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": "https://www.spendwithpennies.com/instant-pot-chicken-noodle-soup/",
@@ -3012,6 +3092,14 @@
               "url": "https://www.spendwithpennies.com/instant-pot-chicken-noodle-soup/"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and bagged salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -3226,7 +3314,7 @@
           "urls": []
         },
         {
-          "text": "**Pasta salad: Frozen pizza and salad [https://pinchofyum.com/pasta-salad](https://pinchofyum.com/pasta-salad)",
+          "text": "**Pasta salad: [https://pinchofyum.com/pasta-salad](https://pinchofyum.com/pasta-salad)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": "https://pinchofyum.com/pasta-salad",
@@ -3236,6 +3324,14 @@
               "url": "https://pinchofyum.com/pasta-salad"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -3928,10 +4024,10 @@
           "urls": []
         },
         {
-          "text": "Autumn glow salad add chicken [https://pinchofyum.com/autumn-glow-salad-with-lemon-dressing](https://pinchofyum.com/autumn-glow-salad-with-lemon-dressing)Frozen pizza and salad",
+          "text": "Autumn glow salad add chicken [https://pinchofyum.com/autumn-glow-salad-with-lemon-dressing](https://pinchofyum.com/autumn-glow-salad-with-lemon-dressing)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/autumn-glow-salad-with-lemon-dressing",
           "links": [
             {
               "text": "https://pinchofyum.com/autumn-glow-salad-with-lemon-dressing",
@@ -3941,16 +4037,32 @@
           "urls": []
         },
         {
-          "text": "Spicy peanut tofu bowls: [https://pinchofyum.com/spicy-peanut-tofu-bowls](https://pinchofyum.com/spicy-peanut-tofu-bowls)Ground beef tacos",
+          "text": "Frozen pizza and salad",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
+          "links": [],
+          "urls": []
+        },
+        {
+          "text": "Spicy peanut tofu bowls: [https://pinchofyum.com/spicy-peanut-tofu-bowls](https://pinchofyum.com/spicy-peanut-tofu-bowls)",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": "https://pinchofyum.com/spicy-peanut-tofu-bowls",
           "links": [
             {
               "text": "https://pinchofyum.com/spicy-peanut-tofu-bowls",
               "url": "https://pinchofyum.com/spicy-peanut-tofu-bowls"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Ground beef tacos",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         }
       ]
@@ -4356,7 +4468,7 @@
           "urls": []
         },
         {
-          "text": "Instant Pot chicken and dumplings Frozen pizza and salad [https://pinchofyum.com/instant-pot-chicken-and-dumplings](https://pinchofyum.com/instant-pot-chicken-and-dumplings)",
+          "text": "Instant Pot chicken and dumplings [https://pinchofyum.com/instant-pot-chicken-and-dumplings](https://pinchofyum.com/instant-pot-chicken-and-dumplings)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": "https://pinchofyum.com/instant-pot-chicken-and-dumplings",
@@ -4366,6 +4478,14 @@
               "url": "https://pinchofyum.com/instant-pot-chicken-and-dumplings"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         }
       ]
@@ -4605,16 +4725,24 @@
       "week_of_date": "2024-11-08",
       "items": [
         {
-          "text": "Spaghetti with crispy zucchini [https://pinchofyum.com/spaghetti-with-crispy-zucchini](https://pinchofyum.com/spaghetti-with-crispy-zucchini)Frozen pizza and salad",
+          "text": "Spaghetti with crispy zucchini [https://pinchofyum.com/spaghetti-with-crispy-zucchini](https://pinchofyum.com/spaghetti-with-crispy-zucchini)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/spaghetti-with-crispy-zucchini",
           "links": [
             {
               "text": "https://pinchofyum.com/spaghetti-with-crispy-zucchini",
               "url": "https://pinchofyum.com/spaghetti-with-crispy-zucchini"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -5000,7 +5128,7 @@
           "urls": []
         },
         {
-          "text": "Chickpea curry add bell pepper use yellow curry paste Frozen pizza and salad [https://pinchofyum.com/chickpea-curry](https://pinchofyum.com/chickpea-curry)",
+          "text": "Chickpea curry add bell pepper use yellow curry paste [https://pinchofyum.com/chickpea-curry](https://pinchofyum.com/chickpea-curry)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": "https://pinchofyum.com/chickpea-curry",
@@ -5010,6 +5138,14 @@
               "url": "https://pinchofyum.com/chickpea-curry"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -5060,9 +5196,9 @@
           "urls": []
         },
         {
-          "text": "Dinner: Fancy linguini and sauces, Everyday Italian Salad [https://www.gimmesomeoven.com/everyday-italian-salad](https://www.gimmesomeoven.com/everyday-italian-salad/#tasty-recipes-59711)Breakfast: Bacon potato and egg casserole leftovers, monkey rolls, fruit",
+          "text": "Dinner: Fancy linguini and sauces, Everyday Italian Salad [https://www.gimmesomeoven.com/everyday-italian-salad](https://www.gimmesomeoven.com/everyday-italian-salad/#tasty-recipes-59711)",
           "section": null,
-          "meal_type": "breakfast",
+          "meal_type": "dinner",
           "source_hint": null,
           "links": [
             {
@@ -5070,6 +5206,14 @@
               "url": "https://www.gimmesomeoven.com/everyday-italian-salad/#tasty-recipes-59711"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Breakfast: Bacon potato and egg casserole leftovers, monkey rolls, fruit",
+          "section": null,
+          "meal_type": "breakfast",
+          "source_hint": null,
+          "links": [],
           "urls": []
         }
       ]
@@ -5080,16 +5224,24 @@
       "week_of_date": "2025-12-19",
       "items": [
         {
-          "text": "Sesame Apricot tofu [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)Roasted sweet potato tacos",
+          "text": "Sesame Apricot tofu [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/sesame-apricot-tofu",
           "links": [
             {
               "text": "https://pinchofyum.com/sesame-apricot-tofu",
               "url": "https://pinchofyum.com/sesame-apricot-tofu"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Roasted sweet potato tacos",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -5858,16 +6010,24 @@
       "week_of_date": "2025-12-31",
       "items": [
         {
-          "text": "Sesame Apricot tofu [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)Frozen pizza and salad",
+          "text": "Sesame Apricot tofu [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/sesame-apricot-tofu",
           "links": [
             {
               "text": "https://pinchofyum.com/sesame-apricot-tofu",
               "url": "https://pinchofyum.com/sesame-apricot-tofu"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -6053,10 +6213,10 @@
       "week_of_date": "2025-12-04",
       "items": [
         {
-          "text": "Roasted sweet potato tacos [https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/](https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/)Chicken nuggets, sweet potato fries, broccoli salad",
+          "text": "Roasted sweet potato tacos [https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/](https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/",
           "links": [
             {
               "text": "https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/",
@@ -6066,16 +6226,32 @@
           "urls": []
         },
         {
-          "text": "Black pepper stir fry udon add ground pork [https://pinchofyum.com/black-pepper-stir-fried-udon](https://pinchofyum.com/black-pepper-stir-fried-udon)Frozen pizza and salad",
+          "text": "Chicken nuggets, sweet potato fries, broccoli salad",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
+          "links": [],
+          "urls": []
+        },
+        {
+          "text": "Black pepper stir fry udon add ground pork [https://pinchofyum.com/black-pepper-stir-fried-udon](https://pinchofyum.com/black-pepper-stir-fried-udon)",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": "https://pinchofyum.com/black-pepper-stir-fried-udon",
           "links": [
             {
               "text": "https://pinchofyum.com/black-pepper-stir-fried-udon",
               "url": "https://pinchofyum.com/black-pepper-stir-fried-udon"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -6203,7 +6379,7 @@
           "urls": []
         },
         {
-          "text": "Ang\u2019s tortellini soup Frozen pizza and salad [https://pinchofyum.com/tortellini-soup](https://pinchofyum.com/tortellini-soup)",
+          "text": "Ang\u2019s tortellini soup [https://pinchofyum.com/tortellini-soup](https://pinchofyum.com/tortellini-soup)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": "https://pinchofyum.com/tortellini-soup",
@@ -6213,6 +6389,14 @@
               "url": "https://pinchofyum.com/tortellini-soup"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         }
       ]
@@ -6453,16 +6637,24 @@
           "urls": []
         },
         {
-          "text": "Stovetop vegetarian chili [https://cookieandkate.com/vegetarian-chili-recipe/](https://cookieandkate.com/vegetarian-chili-recipe/)Frozen pizza and salad",
+          "text": "Stovetop vegetarian chili [https://cookieandkate.com/vegetarian-chili-recipe/](https://cookieandkate.com/vegetarian-chili-recipe/)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://cookieandkate.com/vegetarian-chili-recipe/",
           "links": [
             {
               "text": "https://cookieandkate.com/vegetarian-chili-recipe/",
               "url": "https://cookieandkate.com/vegetarian-chili-recipe/"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -7054,16 +7246,24 @@
       "week_of_date": "2025-02-27",
       "items": [
         {
-          "text": "Bang Bang Salmon with avocado cucumber salsa: [https://pinchofyum.com/bang-bang-salmon-with-avocado-cucumber-salsa](https://pinchofyum.com/bang-bang-salmon-with-avocado-cucumber-salsa)Chicken nuggets, broccoli, sweet potato fries",
+          "text": "Bang Bang Salmon with avocado cucumber salsa: [https://pinchofyum.com/bang-bang-salmon-with-avocado-cucumber-salsa](https://pinchofyum.com/bang-bang-salmon-with-avocado-cucumber-salsa)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/bang-bang-salmon-with-avocado-cucumber-salsa",
           "links": [
             {
               "text": "https://pinchofyum.com/bang-bang-salmon-with-avocado-cucumber-salsa",
               "url": "https://pinchofyum.com/bang-bang-salmon-with-avocado-cucumber-salsa"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Chicken nuggets, broccoli, sweet potato fries",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -7109,16 +7309,24 @@
           "urls": []
         },
         {
-          "text": "Chicken with Coconut Kale (use spinach and red peppers) [https://pinchofyum.com/chicken-with-coconut-kale](https://pinchofyum.com/chicken-with-coconut-kale)Frozen pizza and salad",
+          "text": "Chicken with Coconut Kale (use spinach and red peppers) [https://pinchofyum.com/chicken-with-coconut-kale](https://pinchofyum.com/chicken-with-coconut-kale)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/chicken-with-coconut-kale",
           "links": [
             {
               "text": "https://pinchofyum.com/chicken-with-coconut-kale",
               "url": "https://pinchofyum.com/chicken-with-coconut-kale"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -7679,7 +7887,7 @@
       "week_of_date": "2025-03-12",
       "items": [
         {
-          "text": "Ginger chicken meatball sandos [https://pinchofyum.com/ginger-chicken-meatball-sandos?](https://pinchofyum.com/ginger-chicken-meatball-sandos?utm_source=convertkit&utm_medium=email&utm_campaign=7+Recipes+I%27m+Excited+to+Cook+in+March+-+16787787)Pizza and salad",
+          "text": "Ginger chicken meatball sandos [https://pinchofyum.com/ginger-chicken-meatball-sandos?](https://pinchofyum.com/ginger-chicken-meatball-sandos?utm_source=convertkit&utm_medium=email&utm_campaign=7+Recipes+I%27m+Excited+to+Cook+in+March+-+16787787)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -7689,6 +7897,14 @@
               "url": "https://pinchofyum.com/ginger-chicken-meatball-sandos?utm_source=convertkit&utm_medium=email&utm_campaign=7+Recipes+I%27m+Excited+to+Cook+in+March+-+16787787"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -7731,7 +7947,7 @@
           "urls": []
         },
         {
-          "text": "Spring pasta salad with honey mustard dressing [https://www.howsweeteats.com/2021/03/asparagus-pasta-salad/](https://www.howsweeteats.com/2021/03/asparagus-pasta-salad/)Corned beef, cabbage, potatoes",
+          "text": "Spring pasta salad with honey mustard dressing [https://www.howsweeteats.com/2021/03/asparagus-pasta-salad/](https://www.howsweeteats.com/2021/03/asparagus-pasta-salad/)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -7741,6 +7957,14 @@
               "url": "https://www.howsweeteats.com/2021/03/asparagus-pasta-salad/"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Corned beef, cabbage, potatoes",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -8510,16 +8734,24 @@
           "urls": []
         },
         {
-          "text": "Sesame apricot tofu [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)Pizza and bagged salad",
+          "text": "Sesame apricot tofu [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/sesame-apricot-tofu",
           "links": [
             {
               "text": "https://pinchofyum.com/sesame-apricot-tofu",
               "url": "https://pinchofyum.com/sesame-apricot-tofu"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Pizza and bagged salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         }
       ]
@@ -9093,7 +9325,7 @@
           "urls": []
         },
         {
-          "text": "Instant Pot chicken and dumplings Frozen pizza and salad [https://pinchofyum.com/instant-pot-chicken-and-dumplings](https://pinchofyum.com/instant-pot-chicken-and-dumplings)",
+          "text": "Instant Pot chicken and dumplings [https://pinchofyum.com/instant-pot-chicken-and-dumplings](https://pinchofyum.com/instant-pot-chicken-and-dumplings)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": "https://pinchofyum.com/instant-pot-chicken-and-dumplings",
@@ -9103,6 +9335,14 @@
               "url": "https://pinchofyum.com/instant-pot-chicken-and-dumplings"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -9800,16 +10040,24 @@
       "week_of_date": "2025-04-28",
       "items": [
         {
-          "text": "Carmelized pork tacos with (mango) salsa [https://pinchofyum.com/caramelized-pork-tacos-with-pineapple-salsa](https://pinchofyum.com/caramelized-pork-tacos-with-pineapple-salsa)\tSub mango for pineapple",
+          "text": "Carmelized pork tacos with (mango) salsa [https://pinchofyum.com/caramelized-pork-tacos-with-pineapple-salsa](https://pinchofyum.com/caramelized-pork-tacos-with-pineapple-salsa)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/caramelized-pork-tacos-with-pineapple-salsa",
           "links": [
             {
               "text": "https://pinchofyum.com/caramelized-pork-tacos-with-pineapple-salsa",
               "url": "https://pinchofyum.com/caramelized-pork-tacos-with-pineapple-salsa"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Sub mango for pineapple",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -9983,16 +10231,24 @@
       "week_of_date": "2024-04-04",
       "items": [
         {
-          "text": "5 ingredient spicy pork [https://pinchofyum.com/5-ingredient-spicy-pork](https://pinchofyum.com/5-ingredient-spicy-pork)Red Chile tostadas with eggs (did we like this recipe?)",
+          "text": "5 ingredient spicy pork [https://pinchofyum.com/5-ingredient-spicy-pork](https://pinchofyum.com/5-ingredient-spicy-pork)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": "did we like this recipe?",
+          "source_hint": null,
           "links": [
             {
               "text": "https://pinchofyum.com/5-ingredient-spicy-pork",
               "url": "https://pinchofyum.com/5-ingredient-spicy-pork"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Red Chile tostadas with eggs (did we like this recipe?)",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": "did we like this recipe?",
+          "links": [],
           "urls": []
         },
         {
@@ -10417,7 +10673,7 @@
           "urls": []
         },
         {
-          "text": "Gnocchi with brussels sprouts, chicken sausage, and pesto Frozen pizza and salad [https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#tasty-recipes-64011](https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#tasty-recipes-64011)",
+          "text": "Gnocchi with brussels sprouts, chicken sausage, and pesto [https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#tasty-recipes-64011](https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#tasty-recipes-64011)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -10430,16 +10686,32 @@
           "urls": []
         },
         {
-          "text": "Garlic Butter Chicken with Zucchini and corn [https://juliasalbum.com/chicken-with-zucchini-and-corn/](https://juliasalbum.com/chicken-with-zucchini-and-corn/) Can add a little quinoa",
+          "text": "Frozen pizza and salad",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
+          "links": [],
+          "urls": []
+        },
+        {
+          "text": "Garlic Butter Chicken with Zucchini and corn [https://juliasalbum.com/chicken-with-zucchini-and-corn/](https://juliasalbum.com/chicken-with-zucchini-and-corn/)",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": "https://juliasalbum.com/chicken-with-zucchini-and-corn/",
           "links": [
             {
               "text": "https://juliasalbum.com/chicken-with-zucchini-and-corn/",
               "url": "https://juliasalbum.com/chicken-with-zucchini-and-corn/"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Can add a little quinoa",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -10885,16 +11157,24 @@
       "week_of_date": "2025-05-26",
       "items": [
         {
-          "text": "Ricotta meatballs with crispy topping, garlic bread or baguette, zucchini and squash  [https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping](https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping)White people tacos",
+          "text": "Ricotta meatballs with crispy topping, garlic bread or baguette, zucchini and squash [https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping](https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping",
           "links": [
             {
               "text": "https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping",
               "url": "https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "White people tacos",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -10911,7 +11191,7 @@
           "urls": []
         },
         {
-          "text": "BBQ jackfruit sandwiches and sweet potato fries Frozen pizza and salad [https://pinchofyum.com/bbq-jackfruit-sandwiches](https://pinchofyum.com/bbq-jackfruit-sandwiches)",
+          "text": "BBQ jackfruit sandwiches and sweet potato fries [https://pinchofyum.com/bbq-jackfruit-sandwiches](https://pinchofyum.com/bbq-jackfruit-sandwiches)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": "https://pinchofyum.com/bbq-jackfruit-sandwiches",
@@ -10921,6 +11201,14 @@
               "url": "https://pinchofyum.com/bbq-jackfruit-sandwiches"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -11002,7 +11290,7 @@
       "week_of_date": "2024-05-30",
       "items": [
         {
-          "text": "Sweet potato tacos [https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325](https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325)Chicken nuggets, broccoli, sweet potato fries",
+          "text": "Sweet potato tacos [https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325](https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -11015,7 +11303,15 @@
           "urls": []
         },
         {
-          "text": "Strawberry crunch salad and baguette [https://www.howsweeteats.com/2021/05/strawberry-salad/](https://www.howsweeteats.com/2021/05/strawberry-salad/)Burgers, Corn watermelon",
+          "text": "Chicken nuggets, broccoli, sweet potato fries",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
+          "urls": []
+        },
+        {
+          "text": "Strawberry crunch salad and baguette [https://www.howsweeteats.com/2021/05/strawberry-salad/](https://www.howsweeteats.com/2021/05/strawberry-salad/)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -11028,7 +11324,15 @@
           "urls": []
         },
         {
-          "text": "Chicken and broccoli stir fry: [https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/](https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/)Frozen pizza and salad",
+          "text": "Burgers, Corn watermelon",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
+          "urls": []
+        },
+        {
+          "text": "Chicken and broccoli stir fry: [https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/](https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -11038,6 +11342,14 @@
               "url": "https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -12122,7 +12434,7 @@
           "urls": []
         },
         {
-          "text": "Spicy Peanut Tofu Bowls Frozen pizza and salad [https://pinchofyum.com/spicy-peanut-tofu-bowls](https://pinchofyum.com/spicy-peanut-tofu-bowls)",
+          "text": "Spicy Peanut Tofu Bowls [https://pinchofyum.com/spicy-peanut-tofu-bowls](https://pinchofyum.com/spicy-peanut-tofu-bowls)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": "https://pinchofyum.com/spicy-peanut-tofu-bowls",
@@ -12132,6 +12444,14 @@
               "url": "https://pinchofyum.com/spicy-peanut-tofu-bowls"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -12605,7 +12925,7 @@
           "urls": []
         },
         {
-          "text": "15 min Egg roll in a bowl [https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl](https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl)Frozen pizza and salad",
+          "text": "15 min Egg roll in a bowl [https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl](https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -12615,6 +12935,14 @@
               "url": "https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -13536,16 +13864,24 @@
           "urls": []
         },
         {
-          "text": "Spicy Peanut Tofu Bowls  [https://pinchofyum.com/spicy-peanut-tofu-bowls](https://pinchofyum.com/spicy-peanut-tofu-bowls) For when steve is here on Thursday",
+          "text": "Spicy Peanut Tofu Bowls [https://pinchofyum.com/spicy-peanut-tofu-bowls](https://pinchofyum.com/spicy-peanut-tofu-bowls)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/spicy-peanut-tofu-bowls",
           "links": [
             {
               "text": "https://pinchofyum.com/spicy-peanut-tofu-bowls",
               "url": "https://pinchofyum.com/spicy-peanut-tofu-bowls"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "For when steve is here on Thursday",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -14529,16 +14865,24 @@
           "urls": []
         },
         {
-          "text": "Lemongrass chicken with rice and zucchini [Lemongrass Chicken with Rice and Zucchini Recipe - Pinch of Yum](https://pinchofyum.com/lemongrass-chicken-with-rice-and-zucchini)Frozen pizza and salad",
+          "text": "Lemongrass chicken with rice and zucchini [Lemongrass Chicken with Rice and Zucchini Recipe - Pinch of Yum](https://pinchofyum.com/lemongrass-chicken-with-rice-and-zucchini)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/lemongrass-chicken-with-rice-and-zucchini",
           "links": [
             {
               "text": "Lemongrass Chicken with Rice and Zucchini Recipe - Pinch of Yum",
               "url": "https://pinchofyum.com/lemongrass-chicken-with-rice-and-zucchini"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -15113,16 +15457,24 @@
           "urls": []
         },
         {
-          "text": "GNOCCHI WITH BRUSSELS SPROUTS, CHICKEN SAUSAGE AND KALE PESTO [https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#recipe](https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#recipe)Burgers and corn",
+          "text": "GNOCCHI WITH BRUSSELS SPROUTS, CHICKEN SAUSAGE AND KALE PESTO [https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#recipe](https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#recipe)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#recipe",
           "links": [
             {
               "text": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#recipe",
               "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#recipe"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Burgers and corn",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -15618,10 +15970,10 @@
           "urls": []
         },
         {
-          "text": "Sweet potato tacos: [https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325](https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325)Moussaka (Christine\u2019s recipe)",
+          "text": "Sweet potato tacos: [https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325](https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": "Christine\u2019s recipe",
+          "source_hint": null,
           "links": [
             {
               "text": "https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325",
@@ -15631,10 +15983,18 @@
           "urls": []
         },
         {
-          "text": "Peruvian grilled chicken, roasted broccoli and red potatoes [https://www.seriouseats.com/peruvian-style-grilled-chicken-with-green-sauce-recipe](https://www.seriouseats.com/peruvian-style-grilled-chicken-with-green-sauce-recipe)General Taos chicken and broccoli",
+          "text": "Moussaka (Christine\u2019s recipe)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "Christine\u2019s recipe",
+          "links": [],
+          "urls": []
+        },
+        {
+          "text": "Peruvian grilled chicken, roasted broccoli and red potatoes [https://www.seriouseats.com/peruvian-style-grilled-chicken-with-green-sauce-recipe](https://www.seriouseats.com/peruvian-style-grilled-chicken-with-green-sauce-recipe)",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": "https://www.seriouseats.com/peruvian-style-grilled-chicken-with-green-sauce-recipe",
           "links": [
             {
               "text": "https://www.seriouseats.com/peruvian-style-grilled-chicken-with-green-sauce-recipe",
@@ -15644,7 +16004,15 @@
           "urls": []
         },
         {
-          "text": "Bread salad: [https://www.howsweeteats.com/2016/05/panzanella-with-marinated-chickpeas-and-chimichurri/](https://www.howsweeteats.com/2016/05/panzanella-with-marinated-chickpeas-and-chimichurri/)Pizza and salad",
+          "text": "General Taos chicken and broccoli",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
+          "urls": []
+        },
+        {
+          "text": "Bread salad: [https://www.howsweeteats.com/2016/05/panzanella-with-marinated-chickpeas-and-chimichurri/](https://www.howsweeteats.com/2016/05/panzanella-with-marinated-chickpeas-and-chimichurri/)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -15654,6 +16022,14 @@
               "url": "https://www.howsweeteats.com/2016/05/panzanella-with-marinated-chickpeas-and-chimichurri/"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -15685,7 +16061,7 @@
           "urls": []
         },
         {
-          "text": "Stuffed peppers: [https://www.browneyedbaker.com/sausage-mozzarella-basil-stuffed-peppers-recipe/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+browneyedbaker%2Ffeed+%28Brown+Eyed+Baker+%29&utm_content=Google+Reader](https://www.browneyedbaker.com/sausage-mozzarella-basil-stuffed-peppers-recipe/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+browneyedbaker%2Ffeed+%28Brown+Eyed+Baker+%29&utm_content=Google+Reader)Frozen Orange chicken, broccoli, and rice",
+          "text": "Stuffed peppers: [https://www.browneyedbaker.com/sausage-mozzarella-basil-stuffed-peppers-recipe/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+browneyedbaker%2Ffeed+%28Brown+Eyed+Baker+%29&utm_content=Google+Reader](https://www.browneyedbaker.com/sausage-mozzarella-basil-stuffed-peppers-recipe/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+browneyedbaker%2Ffeed+%28Brown+Eyed+Baker+%29&utm_content=Google+Reader)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -15698,7 +16074,15 @@
           "urls": []
         },
         {
-          "text": "Crockpot Potato Soup: [https://www.wellplated.com/weekly-meal-plan-9-8-24/#collection-149323/collection/saved/149323/36631/4](https://www.wellplated.com/weekly-meal-plan-9-8-24/#collection-149323/collection/saved/149323/36631/4) Use leeks instead of an onion. Cook in bacon fat not butter.",
+          "text": "Frozen Orange chicken, broccoli, and rice",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
+          "urls": []
+        },
+        {
+          "text": "Crockpot Potato Soup: [https://www.wellplated.com/weekly-meal-plan-9-8-24/#collection-149323/collection/saved/149323/36631/4](https://www.wellplated.com/weekly-meal-plan-9-8-24/#collection-149323/collection/saved/149323/36631/4)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -15708,6 +16092,14 @@
               "url": "https://www.wellplated.com/weekly-meal-plan-9-8-24/#collection-149323/collection/saved/149323/36631/4"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Use leeks instead of an onion. Cook in bacon fat not butter.",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         }
       ]
@@ -16399,7 +16791,7 @@
           "urls": []
         },
         {
-          "text": "Instant pot cauliflower mac and cheese [https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211](https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211)Bachelor fajitas",
+          "text": "Instant pot cauliflower mac and cheese [https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211](https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -16412,16 +16804,32 @@
           "urls": []
         },
         {
-          "text": "Crunchy Roll Bowls with Crispy Shallots [https://pinchofyum.com/crunchy-roll-bowls](https://pinchofyum.com/crunchy-roll-bowls)Homemade spaghetti sauce and pasta",
+          "text": "Bachelor fajitas",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
+          "links": [],
+          "urls": []
+        },
+        {
+          "text": "Crunchy Roll Bowls with Crispy Shallots [https://pinchofyum.com/crunchy-roll-bowls](https://pinchofyum.com/crunchy-roll-bowls)",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": "https://pinchofyum.com/crunchy-roll-bowls",
           "links": [
             {
               "text": "https://pinchofyum.com/crunchy-roll-bowls",
               "url": "https://pinchofyum.com/crunchy-roll-bowls"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Homemade spaghetti sauce and pasta",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -16569,10 +16977,10 @@
           "urls": []
         },
         {
-          "text": "Ricotta meatballs with crispy topping [https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping](https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping)Bulgar salad",
+          "text": "Ricotta meatballs with crispy topping [https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping](https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping",
           "links": [
             {
               "text": "https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping",
@@ -16582,16 +16990,32 @@
           "urls": []
         },
         {
-          "text": "Instant Pot Chicken and Dumplings [https://pinchofyum.com/instant-pot-chicken-and-dumplings](https://pinchofyum.com/instant-pot-chicken-and-dumplings)Frozen pizza and salad",
+          "text": "Bulgar salad",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
+          "links": [],
+          "urls": []
+        },
+        {
+          "text": "Instant Pot Chicken and Dumplings [https://pinchofyum.com/instant-pot-chicken-and-dumplings](https://pinchofyum.com/instant-pot-chicken-and-dumplings)",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": "https://pinchofyum.com/instant-pot-chicken-and-dumplings",
           "links": [
             {
               "text": "https://pinchofyum.com/instant-pot-chicken-and-dumplings",
               "url": "https://pinchofyum.com/instant-pot-chicken-and-dumplings"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -17199,7 +17623,7 @@
           "urls": []
         },
         {
-          "text": "[Asado](https://www.eatwell101.com/chicken-thighs-asparagus-recipe) Lemon chicken thighs and asparagus",
+          "text": "[Asado](https://www.eatwell101.com/chicken-thighs-asparagus-recipe)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": null,
@@ -17209,6 +17633,14 @@
               "url": "https://www.eatwell101.com/chicken-thighs-asparagus-recipe"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Lemon chicken thighs and asparagus",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -17390,7 +17822,7 @@
           "urls": []
         },
         {
-          "text": "Creamy baked orzo with meatballs Frozen pizza and bagged salad [https://pinchofyum.com/creamy-baked-orzo-with-meatballs](https://pinchofyum.com/creamy-baked-orzo-with-meatballs)",
+          "text": "Creamy baked orzo with meatballs [https://pinchofyum.com/creamy-baked-orzo-with-meatballs](https://pinchofyum.com/creamy-baked-orzo-with-meatballs)",
           "section": null,
           "meal_type": "dinner",
           "source_hint": "https://pinchofyum.com/creamy-baked-orzo-with-meatballs",
@@ -17400,6 +17832,14 @@
               "url": "https://pinchofyum.com/creamy-baked-orzo-with-meatballs"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Frozen pizza and bagged salad",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         },
         {
@@ -17737,16 +18177,24 @@
           "urls": []
         },
         {
-          "text": "Roasted Tomato Focaccia Turkey Sandwich with Pesto Mayo and soup [Trader Joe's Sun-Dried Tomato Focaccia Turkey Sandwich Recipe - Pinch of Yum](https://pinchofyum.com/trader-joes-sun-dried-tomato-focaccia-turkey-sandwich)Bachelor pasta: noodles, leftover zucchini, ground beef, sauce in fridge, ricotta in fridge",
+          "text": "Roasted Tomato Focaccia Turkey Sandwich with Pesto Mayo and soup [Trader Joe's Sun-Dried Tomato Focaccia Turkey Sandwich Recipe - Pinch of Yum](https://pinchofyum.com/trader-joes-sun-dried-tomato-focaccia-turkey-sandwich)",
           "section": null,
           "meal_type": "dinner",
-          "source_hint": null,
+          "source_hint": "https://pinchofyum.com/trader-joes-sun-dried-tomato-focaccia-turkey-sandwich",
           "links": [
             {
               "text": "Trader Joe's Sun-Dried Tomato Focaccia Turkey Sandwich Recipe - Pinch of Yum",
               "url": "https://pinchofyum.com/trader-joes-sun-dried-tomato-focaccia-turkey-sandwich"
             }
           ],
+          "urls": []
+        },
+        {
+          "text": "Bachelor pasta: noodles, leftover zucchini, ground beef, sauce in fridge, ricotta in fridge",
+          "section": null,
+          "meal_type": "dinner",
+          "source_hint": null,
+          "links": [],
           "urls": []
         }
       ]

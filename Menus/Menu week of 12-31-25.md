@@ -1,7 +1,8 @@
 # Menu week of 12/31/25
 
 
-- [x] Sesame Apricot tofu [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)Frozen pizza and salad
+- [x] Sesame Apricot tofu [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)
+- [x] Frozen pizza and salad
 - [x] Chicken with coconut kale add bell pepper [https://pinchofyum.com/chicken-with-coconut-kale](https://pinchofyum.com/chicken-with-coconut-kale)
 - [x] Crock pot white chicken chili and quesadillas [https://iowagirleats.com/crock-pot-white-chicken-chili-recipe/](https://iowagirleats.com/crock-pot-white-chicken-chili-recipe/)
 - [x] Instant pot bbq pulled pork and sweet potato fries [https://damndelicious.net/2020/08/08/instant-pot-bbq-pulled-pork/](https://damndelicious.net/2020/08/08/instant-pot-bbq-pulled-pork/)

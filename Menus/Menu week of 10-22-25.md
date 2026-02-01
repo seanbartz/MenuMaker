@@ -1,8 +1,10 @@
 # Menu week of 10/22/25
 
 
-- [x] Butternut squash apple soup and croutons: [https://www.wellplated.com/butternut-squash-soup/#wprm-recipe-container-34260](https://www.wellplated.com/butternut-squash-soup/#wprm-recipe-container-34260)Halloween: Chili and cornbread
-- [x] Roasted sweet potato tacos [https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325-jump-target](https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325-jump-target)Halloween: Chili and cornbread
+- [x] Butternut squash apple soup and croutons: [https://www.wellplated.com/butternut-squash-soup/#wprm-recipe-container-34260](https://www.wellplated.com/butternut-squash-soup/#wprm-recipe-container-34260)
+- [x] Halloween: Chili and cornbread
+- [x] Roasted sweet potato tacos [https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325-jump-target](https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/#tasty-recipes-72325-jump-target)
+- [x] Halloween: Chili and cornbread
 - [x] Frozen pizza and salad
 - [x] Double recipes to bring to Jill Tuesday 10/28: 
 	- [x] Pulled pork sandwiches: [https://damndelicious.net/2020/08/08/instant-pot-bbq-pulled-pork/](https://damndelicious.net/2020/08/08/instant-pot-bbq-pulled-pork/)

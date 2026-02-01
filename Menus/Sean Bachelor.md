@@ -7,6 +7,7 @@
 - [x] Tilapia bachelor style
 - [x] Bulgur salad
 - [x] Gnocchi and summer squash/zucchini
-- [x] [Asado](https://www.eatwell101.com/chicken-thighs-asparagus-recipe) Lemon chicken thighs and asparagus
+- [x] [Asado](https://www.eatwell101.com/chicken-thighs-asparagus-recipe)
+- [x] Lemon chicken thighs and asparagus
 - [x] Pesto Gnocchi chicken sausage Brussels sprouts
 - [x] Salmon Pasta salad

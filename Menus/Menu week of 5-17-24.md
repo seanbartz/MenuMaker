@@ -5,8 +5,10 @@
 - [x] Spaghetti with crispy zucchini Chicken nuggets, salad, sweet potato fries [https://pinchofyum.com/spaghetti-with-crispy-zucchini](https://pinchofyum.com/spaghetti-with-crispy-zucchini)
 - [x] Sheet pan brown butter salmon, potatoes, and asparagus [https://www.halfbakedharvest.com/lemon-brown-butter-salmon-and-potatoes/](https://www.halfbakedharvest.com/lemon-brown-butter-salmon-and-potatoes/)
 - [x] Strawberry crunch salad and baguette [https://www.howsweeteats.com/2021/05/strawberry-salad/](https://www.howsweeteats.com/2021/05/strawberry-salad/)
-- [x] Gnocchi with brussels sprouts, chicken sausage, and pesto Frozen pizza and salad [https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#tasty-recipes-64011](https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#tasty-recipes-64011)
-- [x] Garlic Butter Chicken with Zucchini and corn [https://juliasalbum.com/chicken-with-zucchini-and-corn/](https://juliasalbum.com/chicken-with-zucchini-and-corn/) Can add a little quinoa
+- [x] Gnocchi with brussels sprouts, chicken sausage, and pesto [https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#tasty-recipes-64011](https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#tasty-recipes-64011)
+- [x] Frozen pizza and salad
+- [x] Garlic Butter Chicken with Zucchini and corn [https://juliasalbum.com/chicken-with-zucchini-and-corn/](https://juliasalbum.com/chicken-with-zucchini-and-corn/)
+- [x] Can add a little quinoa
 
 
 

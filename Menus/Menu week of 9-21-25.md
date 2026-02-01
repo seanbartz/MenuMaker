@@ -6,6 +6,8 @@
 - [x] Apricot tofu and green beans
 - [x] Frozen pizza and salad
 - [x] Crock pot chili
-- [x] Instant pot cauliflower mac and cheese [https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211](https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211)Bachelor fajitas
-- [x] Crunchy Roll Bowls with Crispy Shallots [https://pinchofyum.com/crunchy-roll-bowls](https://pinchofyum.com/crunchy-roll-bowls)Homemade spaghetti sauce and pasta
+- [x] Instant pot cauliflower mac and cheese [https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211](https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211)
+- [x] Bachelor fajitas
+- [x] Crunchy Roll Bowls with Crispy Shallots [https://pinchofyum.com/crunchy-roll-bowls](https://pinchofyum.com/crunchy-roll-bowls)
+- [x] Homemade spaghetti sauce and pasta
 - [x] Moussaka (see recipe book)

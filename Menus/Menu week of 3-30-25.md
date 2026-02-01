@@ -6,4 +6,5 @@
 - [x] Roasted sweet potato tacos Chicken nuggets, broccoli, sweet potato fries [gimmesomeoven.com/roasted-sweet-potato-tacos/](http://gimmesomeoven.com/roasted-sweet-potato-tacos/)
 - [x] Gnocchi with brussels sprouts, chicken sausage, and pesto [https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#tasty-recipes-64011](https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#tasty-recipes-64011)
 - [x] Thai peanut chicken bowls: use chicken thighs [https://pinchofyum.com/thai-peanut-chicken-bowls](https://pinchofyum.com/thai-peanut-chicken-bowls)
-- [x] Sesame apricot tofu [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)Pizza and bagged salad
+- [x] Sesame apricot tofu [https://pinchofyum.com/sesame-apricot-tofu](https://pinchofyum.com/sesame-apricot-tofu)
+- [x] Pizza and bagged salad

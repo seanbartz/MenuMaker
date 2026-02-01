@@ -27,6 +27,7 @@ type Recipe = {
 }
 
 const BASE = import.meta.env.BASE_URL
+const UNSECTIONED_SECTION = 'Unsectioned'
 
 function normalize(text: string) {
   return text
@@ -61,7 +62,7 @@ function seasonLabel(iso: string | null) {
 function groupBySection(items: MenuItem[]) {
   const groups = new Map<string, MenuItem[]>()
   items.forEach((item) => {
-    const key = item.section ?? 'Unsectioned'
+    const key = item.section ?? UNSECTIONED_SECTION
     if (!groups.has(key)) groups.set(key, [])
     groups.get(key)?.push(item)
   })
@@ -229,7 +230,7 @@ function App() {
               <div className="section-grid">
                 {[...groupBySection(selectedMenu.items).entries()].map(([section, items]) => (
                   <div key={section} className="section-card">
-                    {section !== 'Unsectioned' && (
+                    {section !== UNSECTIONED_SECTION && (
                       <div className="section-title">
                         <h3>{section}</h3>
                         <span>{items.length} items</span>

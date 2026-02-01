@@ -45,6 +45,17 @@ def extract_links(text: str):
     return md_links, urls
 
 
+def strip_urls_from_text(text: str):
+    """Remove markdown links and plain URLs from text, leaving only the description."""
+    # First, replace markdown links with their text (e.g., [text](url) -> text)
+    text = MD_LINK_RE.sub(r'\1', text)
+    # Then remove any remaining plain URLs
+    text = URL_RE.sub('', text)
+    # Clean up extra whitespace
+    text = ' '.join(text.split())
+    return text.strip()
+
+
 def extract_source_hint(text: str):
     m = TRAILING_PAREN_RE.search(text)
     if not m:
@@ -127,8 +138,10 @@ def parse_menu_file(path: Path):
             mark = cb.group("mark")
             item_text = cb.group("text").strip()
             md_links, urls = extract_links(item_text)
+            # Strip URLs from the text since they're now in clickable pills
+            clean_text = strip_urls_from_text(item_text)
             items.append({
-                "text": item_text,
+                "text": clean_text,
                 "section": current_section,
                 "meal_type": infer_meal_type(current_section, item_text),
                 "source_hint": extract_source_hint(item_text),

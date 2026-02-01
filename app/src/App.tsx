@@ -83,12 +83,15 @@ function isUrl(str: string | null): boolean {
   return str.startsWith('http://') || str.startsWith('https://')
 }
 
+type ViewMode = 'week' | 'season' | 'meal' | 'site'
+
 function App() {
   const [menus, setMenus] = useState<Menu[]>([])
   const [recipes, setRecipes] = useState<Recipe[]>([])
   const [selectedFile, setSelectedFile] = useState<string | null>(null)
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
+  const [viewMode, setViewMode] = useState<ViewMode>('week')
 
   useEffect(() => {
     let cancelled = false
@@ -136,6 +139,61 @@ function App() {
       return (a.title ?? '').localeCompare(b.title ?? '')
     })
   }, [menus])
+
+  const groupedMenus = useMemo(() => {
+    if (viewMode === 'week') {
+      return new Map([['all', sortedMenus]])
+    }
+    
+    if (viewMode === 'season') {
+      const groups = new Map<string, Menu[]>()
+      const seasonOrder = ['Winter', 'Spring', 'Summer', 'Fall', 'Anytime']
+      sortedMenus.forEach((menu) => {
+        const season = seasonLabel(menu.week_of_date)
+        if (!groups.has(season)) groups.set(season, [])
+        groups.get(season)?.push(menu)
+      })
+      // Sort by season order
+      return new Map([...groups.entries()].sort((a, b) => 
+        seasonOrder.indexOf(a[0]) - seasonOrder.indexOf(b[0])
+      ))
+    }
+    
+    if (viewMode === 'meal') {
+      const groups = new Map<string, Menu[]>()
+      sortedMenus.forEach((menu) => {
+        const mealTypes = new Set(menu.items.map(item => item.meal_type))
+        mealTypes.forEach((mealType) => {
+          if (!groups.has(mealType)) groups.set(mealType, [])
+          groups.get(mealType)?.push(menu)
+        })
+      })
+      return new Map([...groups.entries()].sort())
+    }
+    
+    if (viewMode === 'site') {
+      const groups = new Map<string, Menu[]>()
+      sortedMenus.forEach((menu) => {
+        const sources = new Set(
+          menu.items
+            .map(item => item.source_hint)
+            .filter((hint): hint is string => hint !== null && !isUrl(hint))
+        )
+        if (sources.size === 0) {
+          if (!groups.has('Other')) groups.set('Other', [])
+          groups.get('Other')?.push(menu)
+        } else {
+          sources.forEach((source) => {
+            if (!groups.has(source)) groups.set(source, [])
+            groups.get(source)?.push(menu)
+          })
+        }
+      })
+      return new Map([...groups.entries()].sort())
+    }
+    
+    return new Map([['all', sortedMenus]])
+  }, [sortedMenus, viewMode])
 
   useEffect(() => {
     if (!selectedFile && sortedMenus.length) {
@@ -185,8 +243,35 @@ function App() {
       <main className="app-main">
         <aside className="menu-list">
           <div className="list-header">
-            <h2>Weekly menus</h2>
-            <p>Tap a week to explore ingredients and links.</p>
+            <h2>Menus</h2>
+            <p>Select a view and tap a menu to explore.</p>
+          </div>
+
+          <div className="view-selector">
+            <button
+              className={viewMode === 'week' ? 'active' : ''}
+              onClick={() => setViewMode('week')}
+            >
+              By Week
+            </button>
+            <button
+              className={viewMode === 'season' ? 'active' : ''}
+              onClick={() => setViewMode('season')}
+            >
+              By Season
+            </button>
+            <button
+              className={viewMode === 'meal' ? 'active' : ''}
+              onClick={() => setViewMode('meal')}
+            >
+              By Meal
+            </button>
+            <button
+              className={viewMode === 'site' ? 'active' : ''}
+              onClick={() => setViewMode('site')}
+            >
+              By Site
+            </button>
           </div>
 
           {status === 'loading' && <div className="loading">Loading menus…</div>}
@@ -195,26 +280,41 @@ function App() {
           )}
 
           {status === 'ready' && (
-            <ul>
-              {sortedMenus.map((menu) => {
-                const isActive = menu.file === selectedFile
-                const dateLabel = formatDate(menu.week_of_date)
-                return (
-                  <li key={menu.file}>
-                    <button
-                      className={`menu-card ${isActive ? 'active' : ''}`}
-                      onClick={() => setSelectedFile(menu.file)}
-                    >
-                      <div>
-                        <span className="menu-date">{dateLabel}</span>
-                        <strong>{menu.title ?? menu.file}</strong>
-                      </div>
-                      <span className="menu-season">{seasonLabel(menu.week_of_date)}</span>
-                    </button>
-                  </li>
-                )
-              })}
-            </ul>
+            <div className="menu-groups">
+              {Array.from(groupedMenus.entries()).map(([groupName, groupMenus]) => (
+                <div key={groupName} className="menu-group">
+                  {viewMode !== 'week' && (
+                    <h3 className="group-title">
+                      {groupName} <span>({groupMenus.length})</span>
+                    </h3>
+                  )}
+                  <ul>
+                    {groupMenus.map((menu) => {
+                      const isActive = menu.file === selectedFile
+                      const dateLabel = formatDate(menu.week_of_date)
+                      return (
+                        <li key={menu.file}>
+                          <button
+                            className={`menu-card ${isActive ? 'active' : ''}`}
+                            onClick={() => setSelectedFile(menu.file)}
+                          >
+                            <div>
+                              {viewMode === 'week' && (
+                                <span className="menu-date">{dateLabel}</span>
+                              )}
+                              <strong>{menu.title ?? menu.file}</strong>
+                            </div>
+                            {viewMode === 'week' && (
+                              <span className="menu-season">{seasonLabel(menu.week_of_date)}</span>
+                            )}
+                          </button>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                </div>
+              ))}
+            </div>
           )}
         </aside>
 

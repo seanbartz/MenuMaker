@@ -77,15 +77,71 @@
   margin-bottom: 0.35rem;
 }
 
-.menu-list ul {
+.view-selector {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.view-selector button {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.view-selector button:hover {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: var(--accent-2);
+}
+
+.view-selector button.active {
+  background: var(--accent-2);
+  color: white;
+  border-color: var(--accent-2);
+}
+
+.menu-groups {
+  overflow-y: auto;
+  max-height: 70vh;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.menu-group {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.group-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent-2);
+  margin: 0;
+  padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.group-title span {
+  font-weight: 500;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.menu-group ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
-  gap: 0.9rem;
-  overflow-y: auto;
-  max-height: 70vh;
+  gap: 0.7rem;
 }
+
 
 .menu-card {
   width: 100%;

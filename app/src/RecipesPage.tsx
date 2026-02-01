@@ -14,8 +14,8 @@ const BASE = import.meta.env.BASE_URL
 
 function parseRecipeContent(text: string) {
   const lines = text.split('\n')
-  let ingredients: string[] = []
-  let instructions: string[] = []
+  const ingredients: string[] = []
+  const instructions: string[] = []
   let isInIngredients = false
   let isInInstructions = false
 

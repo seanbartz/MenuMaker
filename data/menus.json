@@ -418,7 +418,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Easy Vegan Burrito Bowls",
+              "url": "https://pinchofyum.com/easy-vegan-burrito-bowls",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -1407,7 +1413,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Mac and Cheese",
+              "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -3583,7 +3595,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Easy Vegan Burrito Bowls",
+              "url": "https://pinchofyum.com/easy-vegan-burrito-bowls",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -5129,7 +5147,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Mac and Cheese",
+              "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -5351,7 +5375,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Easy Vegan Burrito Bowls",
+              "url": "https://pinchofyum.com/easy-vegan-burrito-bowls",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -9096,7 +9126,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Mac and Cheese",
+              "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -9596,7 +9632,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Easy Vegan Burrito Bowls",
+              "url": "https://pinchofyum.com/easy-vegan-burrito-bowls",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -10995,7 +11037,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Mac and Cheese",
+              "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -11155,7 +11203,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Easy Vegan Burrito Bowls",
+              "url": "https://pinchofyum.com/easy-vegan-burrito-bowls",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -11938,7 +11992,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Mac and Cheese",
+              "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -13531,7 +13591,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Mac and Cheese",
+              "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -13572,7 +13638,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": "Well Plated",
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Mac and Cheese",
+              "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -13751,7 +13823,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Mac and Cheese",
+              "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -15678,7 +15756,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Mac and Cheese",
+              "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -16286,7 +16370,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": "Well Plated",
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Mac and Cheese",
+              "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -19181,7 +19271,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Mac and Cheese",
+              "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {

@@ -118,6 +118,14 @@ MAPPING = {
         "url": "https://pinchofyum.com/sesame-apricot-tofu",
         "title": "Sesame Apricot Tofu",
     },
+    "cauliflower walnut taco meat burrito bowls": {
+        "url": "https://pinchofyum.com/easy-vegan-burrito-bowls",
+        "title": "Easy Vegan Burrito Bowls",
+    },
+    "instant pot cauliflower mac and cheese": {
+        "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+        "title": "Instant Pot Cauliflower Mac and Cheese",
+    },
 }
 
 

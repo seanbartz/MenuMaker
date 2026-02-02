@@ -83,7 +83,7 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
               const isActive = index === selectedIndex
               const title = item.link_texts[0] ?? item.item_texts[0] ?? 'Untitled item'
               return (
-                <li key={`${item.url ?? 'no-url'}-${index}`}>
+                <li key={`${item.url ?? 'no-url'}|${title}`}>
                   <button
                     className={`item-card ${isActive ? 'active' : ''}`}
                     onClick={() => setSelectedIndex(index)}

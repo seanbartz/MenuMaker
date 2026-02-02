@@ -141,8 +141,8 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
                 <div className="detail-card">
                   <h3>Seasons</h3>
                   <div className="pill-row">
-                    {selectedItem.menu_seasons.map((season) => (
-                      <span key={season} className="pill">
+                    {selectedItem.menu_seasons.map((season, index) => (
+                      <span key={`${season}-${index}`} className="pill">
                         {season}
                       </span>
                     ))}

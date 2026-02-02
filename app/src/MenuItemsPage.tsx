@@ -151,8 +151,8 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
                 <div className="detail-card">
                   <h3>Meal Types</h3>
                   <div className="pill-row">
-                    {selectedItem.meal_types.map((meal) => (
-                      <span key={meal} className="pill">
+                    {selectedItem.meal_types.map((meal, index) => (
+                      <span key={`${meal}-${index}`} className="pill">
                         {meal}
                       </span>
                     ))}

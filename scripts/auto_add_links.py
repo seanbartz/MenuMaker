@@ -106,6 +106,18 @@ MAPPING = {
         "url": "https://pinchofyum.com/spaghetti-with-crispy-zucchini",
         "title": "Spaghetti with Crispy Zucchini",
     },
+    "autumn glow salad": {
+        "url": "https://pinchofyum.com/autumn-glow-salad-with-lemon-dressing",
+        "title": "Autumn Glow Salad with Lemon Dressing",
+    },
+    "sheet pan pesto gnocchi": {
+        "url": "https://www.twopeasandtheirpod.com/sheet-pan-pesto-gnocchi/",
+        "title": "Sheet Pan Pesto Gnocchi",
+    },
+    "sesame apricot tofu": {
+        "url": "https://pinchofyum.com/sesame-apricot-tofu",
+        "title": "Sesame Apricot Tofu",
+    },
 }
 
 

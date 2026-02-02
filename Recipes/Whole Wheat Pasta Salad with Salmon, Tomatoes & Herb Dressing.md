@@ -10,10 +10,10 @@ The Dressing:**
 * 3 tablespoons chopped fresh oregano
 * 1/4 teaspoon dried chile flakes
 * 1/4 teaspoon 
-* <u>[kosher salt](https://amzn.to/2NFbnzQ)</u>1/4 teaspoon freshly ground black pepper
+* kosher salt1/4 teaspoon freshly ground black pepper
 * 1/3 cup 
-* <u>[olive oil](http://amzn.to/2ntAfZR)</u>**The Rest:**
-* 13 ounces <u>[whole wheat penne pasta](http://amzn.to/2iGdyCg)</u>12 ounces skinless salmon cut into 3/4-inch pieces
+* olive oil**The Rest:**
+* 13 ounces whole wheat penne pasta12 ounces skinless salmon cut into 3/4-inch pieces
 * 8 ounces grape or cherry tomatoes cut in half
 * 3 ounces myzithra or feta cheese
 * salt and pepper to taste

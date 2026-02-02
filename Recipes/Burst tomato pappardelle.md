@@ -5,9 +5,9 @@ For the Chicken:
 * 1 lb. boneless skinless chicken breasts, cut thin or pounded a bit so they cook quicker and more evenly
 * 1/2 cup flour in a bowl with plenty of salt and pepper
 * 1 tablespoon 
-* <u>[DeLallo Private Reserve Extra Virgin Olive Oil](https://www.delallo.com/delallo-private-reserve-extra-virgin-olive-oil-16-9-oz/)</u>1–2 tablespoons butter
+* DeLallo Private Reserve Extra Virgin Olive Oil1–2 tablespoons butter
 For the Pasta and Sauce:
-* 1 package <u>[DeLallo Egg Pappardelle](https://www.delallo.com/delallo-pappardelle-egg-pasta-8-8-oz/)</u>1–2 cups cherry tomatoes
+* 1 package DeLallo Egg Pappardelle1–2 cups cherry tomatoes
 * 1–2 cup sweet corn, cut off the cob (about 2 ears)
 * 1–2 cups zucchini half-moons (about 1 small zucchini)
 * 2 cloves minced garlic

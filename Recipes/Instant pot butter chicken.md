@@ -3,7 +3,7 @@
 [C7B24459-EC61-412B-8ACE-7EE7D91CB8B1](attachments/C7B24459-EC61-412B-8ACE-7EE7D91CB8B1.jpeg)
 
 ## **Ingredients**
-* 1 tablespoon <u>[coconut oil](https://amzn.to/2GF8wkQ)</u>1 small yellow onion 
+* 1 tablespoon coconut oil1 small yellow onion 
 * *diced (about 1 cup)*4 cloves minced garlic 
 * *about 4 teaspoons*1 tablespoon minced fresh ginger
 * 1 1/2 tablespoons curry powder
@@ -18,7 +18,7 @@
 * *cut into small pieces (use coconut oil to make dairy free)*1/2 cup half-and-half 
 * *or full-fat coconut milk, do not use light coconut milk, as it will water down the sauce*1/2 cup plain nonfat Greek yogurt 
 * *or non-dairy yogurt to make dairy-free*Prepared brown rice 
-* *quinoa, or* <u>*[Homemade Naan](https://www.wellplated.com/homemade-naan/)*</u>*, for serving*Chopped fresh cilantro 
+* *quinoa, or* <u>*Homemade Naan*</u>*, for serving*Chopped fresh cilantro 
 * *for serving*
 
 ## Instructions

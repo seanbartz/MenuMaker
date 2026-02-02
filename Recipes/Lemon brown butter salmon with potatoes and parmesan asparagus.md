@@ -7,11 +7,11 @@
 # **INGREDIENTS**
 * 1 pound baby potatoes, halved
 * 4 tablespoons 
-* [extra virgin olive oil](http://l.thrv.me/HBH951-bragg-organic-extra-virgin-olive-)[kosher salt and black pepper](http://l.thrv.me/hbh-natnectr-medksalt)1 - 1 1/2 pounds salmon filet
+* extra virgin olive oilkosher salt and black pepper1 - 1 1/2 pounds salmon filet
 * 2 tablespoons 
-* [cajun seasoning](http://l.thrv.me/HBH5763-thrive-market-organic-cajun-seas)1 tablespoon lemon zest plus 2 tablespoons lemon juice
+* cajun seasoning1 tablespoon lemon zest plus 2 tablespoons lemon juice
 * 2 teaspoons 
-* [red wine vinegar](http://l.thrv.me/HBH3561-napa-valley-naturals-organic-red)1 cup arugula
+* red wine vinegar1 cup arugula
 * 1/2 cup fresh basil leaves, roughly torn
 * 1/4 cup fresh dill, roughly torn
 * 1 bunch asparagus, ends trimmed

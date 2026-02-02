@@ -20,7 +20,7 @@ For balsamic vegetables:
 * 1 red onion, cut into 1” pieces
 For pasta:
 * 1/3 cup <u>pesto</u>½ pound 
-* <u>[Delallo fusill](https://www.delallo.com/shop/delallo-gluten-free-pasta-whole-grain-rice-fusilli)</u>1 15-ounce can cannellini beans, drained and rinsed
+* Delallo fusill1 15-ounce can cannellini beans, drained and rinsed
 * ¼ cup freshly grated parmesan cheese
 * Drizzle balsamic vinegar
 * Red pepper flakes, for serving (optional)

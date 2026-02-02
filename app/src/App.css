@@ -308,6 +308,18 @@
   font-size: 0.75rem;
 }
 
+.item-link.auto-added {
+  background: rgba(228, 87, 46, 0.1);
+  color: var(--accent);
+  border-color: rgba(228, 87, 46, 0.2);
+}
+
+.item-link.auto-added:hover {
+  background: rgba(228, 87, 46, 0.2);
+  border-color: rgba(228, 87, 46, 0.4);
+  box-shadow: 0 2px 8px rgba(228, 87, 46, 0.15);
+}
+
 
 .loading,
 .error,

@@ -7,7 +7,7 @@ type MenuItem = {
   section: string | null
   meal_type: string
   source_hint: string | null
-  links: { text: string; url: string }[]
+  links: { text: string; url: string; auto_added?: boolean }[]
   urls: string[]
 }
 
@@ -285,7 +285,7 @@ function App() {
                                         href={link.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="item-link"
+                                        className={`item-link${link.auto_added ? ' auto-added' : ''}`}
                                       >
                                         {getSiteName(link.url)}
                                       </a>

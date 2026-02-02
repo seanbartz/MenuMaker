@@ -62,6 +62,53 @@ def strip_urls_from_text(text: str):
     return text.strip()
 
 
+def normalize_text(text: str):
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9\\s]", " ", text)
+    text = " ".join(text.split())
+    return text
+
+
+# Single-ingredient produce notes to exclude from menu items.
+# Update this list if you want to keep/remove additional produce items.
+PRODUCE_SINGLETONS = {
+    "apple", "apples",
+    "banana", "bananas",
+    "bell pepper", "bell peppers",
+    "blueberry", "blueberries",
+    "broccoli",
+    "carrot", "carrots",
+    "cauliflower",
+    "celery",
+    "cherry", "cherries",
+    "cucumber", "cucumbers",
+    "eggplant",
+    "garlic",
+    "ginger",
+    "grape", "grapes",
+    "green pepper", "green peppers",
+    "jalapeno", "jalapenos",
+    "kale",
+    "lemon", "lemons",
+    "lime", "limes",
+    "mango", "mangoes",
+    "mushroom", "mushrooms",
+    "onion", "onions",
+    "orange", "oranges",
+    "peach", "peaches",
+    "pear", "pears",
+    "pineapple",
+    "potato", "potatoes",
+    "red onion", "red onions",
+    "red pepper", "red peppers",
+    "spinach",
+    "strawberry", "strawberries",
+    "sweet potato", "sweet potatoes",
+    "tomato", "tomatoes",
+    "zucchini",
+}
+
+
 def extract_source_hint(text: str):
     m = TRAILING_PAREN_RE.search(text)
     if not m:
@@ -164,6 +211,9 @@ def parse_menu_file(path: Path):
             md_links, urls = extract_links(item_text)
             # Strip URLs from the text since they're now in clickable pills
             clean_text = strip_urls_from_text(item_text)
+            normalized = normalize_text(clean_text)
+            if normalized in PRODUCE_SINGLETONS:
+                continue
             items.append({
                 "text": clean_text,
                 "section": current_section,

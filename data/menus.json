@@ -2867,15 +2867,6 @@
           "urls": []
         },
         {
-          "text": "Red peppers",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Poblanos (lots)",
           "section": null,
           "meal_type": "dinner",
@@ -3064,24 +3055,6 @@
         },
         {
           "text": "Red potatoes",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Eggplant",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Cauliflower",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -3905,15 +3878,6 @@
           "urls": []
         },
         {
-          "text": "Green peppers",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Delicata squash",
           "section": null,
           "meal_type": "dinner",
@@ -4396,15 +4360,6 @@
         },
         {
           "text": "Rolls",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Sweet potatoes",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -5607,15 +5562,6 @@
           "urls": []
         },
         {
-          "text": "Carrots",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Pita bread",
           "section": null,
           "meal_type": "dinner",
@@ -6640,15 +6586,6 @@
         },
         {
           "text": "Diakon",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Kale",
           "section": null,
           "meal_type": "dinner",
           "season": "winter",
@@ -8942,15 +8879,6 @@
         },
         {
           "text": "Friday: vegetarian chili, bread, maybe arugula salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Grapes",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
@@ -13421,15 +13349,6 @@
           "urls": []
         },
         {
-          "text": "Kale",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Baby bok choy",
           "section": null,
           "meal_type": "dinner",
@@ -14752,15 +14671,6 @@
           "text": "Brats and grilled corn",
           "section": "Dinner",
           "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Apples",
-          "section": "Snacks",
-          "meal_type": "snack",
           "season": "summer",
           "source_hint": null,
           "links": [],
@@ -16463,15 +16373,6 @@
           "urls": []
         },
         {
-          "text": "Carrots",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Bone-in skin on chicken thighs",
           "section": null,
           "meal_type": "dinner",
@@ -16675,15 +16576,6 @@
           "urls": []
         },
         {
-          "text": "green pepper",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "poblano and banana peppers",
           "section": null,
           "meal_type": "dinner",
@@ -16802,15 +16694,6 @@
               "url": "https://www.jaroflemons.com/hot-honey-chicken-bowls/"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Tomatoes",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -16994,33 +16877,6 @@
         },
         {
           "text": "Poblanos",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Cucumber",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Zucchini",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Tomatoes",
           "section": null,
           "meal_type": "dinner",
           "season": "summer",
@@ -17330,15 +17186,6 @@
         },
         {
           "text": "Yellow squash",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Cucumber",
           "section": null,
           "meal_type": "dinner",
           "season": "summer",
@@ -18645,15 +18492,6 @@
           "source_hint": null,
           "links": [],
           "urls": []
-        },
-        {
-          "text": "Cucumbers",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
         }
       ]
     },
@@ -19080,34 +18918,7 @@
           "urls": []
         },
         {
-          "text": "Celery",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Carrots",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Yellow pepper",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Red peppers",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -19125,25 +18936,7 @@
           "urls": []
         },
         {
-          "text": "Kale",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Baby tomatoes",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Grapes",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -20184,15 +19977,6 @@
           "urls": []
         },
         {
-          "text": "Carrots",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Green Beans",
           "section": null,
           "meal_type": "dinner",
@@ -20211,25 +19995,7 @@
           "urls": []
         },
         {
-          "text": "Zucchini",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Pickling cucumbers",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Tomato",
           "section": null,
           "meal_type": "dinner",
           "season": "summer",

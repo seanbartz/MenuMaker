@@ -70,6 +70,42 @@ MAPPING = {
         "url": "https://cookieandkate.com/vegetarian-italian-chopped-salad-recipe/",
         "title": "Vegetarian Italian Chopped Salad",
     },
+    "chicken tinga tacos": {
+        "url": "https://pinchofyum.com/the-best-chicken-tinga-tacos",
+        "title": "The Best Chicken Tinga Tacos",
+    },
+    "cilantro orange chicken": {
+        "url": "https://pinchofyum.com/cilantro-orange-chicken-with-rice-and-beans",
+        "title": "Cilantro Orange Chicken with Rice and Beans",
+    },
+    "roasted vegetable bowls": {
+        "url": "https://pinchofyum.com/30-minute-meal-prep-roasted-vegetable-bowls-with-green-tahini",
+        "title": "Roasted Vegetable Bowls with Green Tahini",
+    },
+    "butter chicken meatballs": {
+        "url": "https://pinchofyum.com/butter-chicken-meatballs",
+        "title": "Butter Chicken Meatballs",
+    },
+    "bbq salmon bowls": {
+        "url": "https://pinchofyum.com/bbq-salmon-mango-salsa",
+        "title": "BBQ Salmon Bowls with Mango Avocado Salsa",
+    },
+    "pearl cous cous skillet": {
+        "url": "https://pinchofyum.com/couscous-skillet-with-tomatoes-chickpeas-and-feta",
+        "title": "Couscous Skillet with Tomatoes, Chickpeas, and Feta",
+    },
+    "napa chicken salad": {
+        "url": "https://pinchofyum.com/napa-chicken-salad-with-sesame-dressing",
+        "title": "Napa Chicken Salad with Sesame Dressing",
+    },
+    "burst tomato pappardelle": {
+        "url": "https://pinchofyum.com/burst-tomato-pappardelle",
+        "title": "Burst Tomato Pappardelle",
+    },
+    "spaghetti with crispy zucchini": {
+        "url": "https://pinchofyum.com/spaghetti-with-crispy-zucchini",
+        "title": "Spaghetti with Crispy Zucchini",
+    },
 }
 
 
@@ -78,6 +114,7 @@ def normalize(text: str):
     text = re.sub(r"[^a-z0-9\s]", " ", text)
     text = " ".join(text.split())
     text = text.replace("cous cous", "couscous")
+    text = text.replace("bbq", "bbq")
     return text
 
 

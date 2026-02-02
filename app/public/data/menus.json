@@ -1191,7 +1191,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "The Best Chicken Tinga Tacos",
+              "url": "https://pinchofyum.com/the-best-chicken-tinga-tacos",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2356,7 +2362,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Spaghetti with Crispy Zucchini",
+              "url": "https://pinchofyum.com/spaghetti-with-crispy-zucchini",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2365,7 +2377,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Roasted Vegetable Bowls with Green Tahini",
+              "url": "https://pinchofyum.com/30-minute-meal-prep-roasted-vegetable-bowls-with-green-tahini",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2374,7 +2392,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "The Best Chicken Tinga Tacos",
+              "url": "https://pinchofyum.com/the-best-chicken-tinga-tacos",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2383,7 +2407,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Cilantro Orange Chicken with Rice and Beans",
+              "url": "https://pinchofyum.com/cilantro-orange-chicken-with-rice-and-beans",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -4418,7 +4448,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "The Best Chicken Tinga Tacos",
+              "url": "https://pinchofyum.com/the-best-chicken-tinga-tacos",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -9766,7 +9802,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "BBQ Salmon Bowls with Mango Avocado Salsa",
+              "url": "https://pinchofyum.com/bbq-salmon-mango-salsa",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -10832,7 +10874,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "The Best Chicken Tinga Tacos",
+              "url": "https://pinchofyum.com/the-best-chicken-tinga-tacos",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -11215,7 +11263,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "BBQ Salmon Bowls with Mango Avocado Salsa",
+              "url": "https://pinchofyum.com/bbq-salmon-mango-salsa",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -11364,7 +11418,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Cilantro Orange Chicken with Rice and Beans",
+              "url": "https://pinchofyum.com/cilantro-orange-chicken-with-rice-and-beans",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -11872,7 +11932,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butter Chicken Meatballs",
+              "url": "https://pinchofyum.com/butter-chicken-meatballs",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -12641,7 +12707,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "The Best Chicken Tinga Tacos",
+              "url": "https://pinchofyum.com/the-best-chicken-tinga-tacos",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -13225,7 +13297,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "BBQ Salmon Bowls with Mango Avocado Salsa",
+              "url": "https://pinchofyum.com/bbq-salmon-mango-salsa",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -14689,7 +14767,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": "no skewers",
-          "links": [],
+          "links": [
+            {
+              "text": "Cilantro Orange Chicken with Rice and Beans",
+              "url": "https://pinchofyum.com/cilantro-orange-chicken-with-rice-and-beans",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -15449,7 +15533,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "BBQ Salmon Bowls with Mango Avocado Salsa",
+              "url": "https://pinchofyum.com/bbq-salmon-mango-salsa",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -16075,7 +16165,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "Spaghetti with Crispy Zucchini",
+              "url": "https://pinchofyum.com/spaghetti-with-crispy-zucchini",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -16328,7 +16424,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "BBQ Salmon Bowls with Mango Avocado Salsa",
+              "url": "https://pinchofyum.com/bbq-salmon-mango-salsa",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -17783,7 +17885,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butter Chicken Meatballs",
+              "url": "https://pinchofyum.com/butter-chicken-meatballs",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -18190,7 +18298,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "BBQ Salmon Bowls with Mango Avocado Salsa",
+              "url": "https://pinchofyum.com/bbq-salmon-mango-salsa",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -18750,7 +18864,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butter Chicken Meatballs",
+              "url": "https://pinchofyum.com/butter-chicken-meatballs",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -18768,7 +18888,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "BBQ Salmon Bowls with Mango Avocado Salsa",
+              "url": "https://pinchofyum.com/bbq-salmon-mango-salsa",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -18777,7 +18903,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Burst Tomato Pappardelle",
+              "url": "https://pinchofyum.com/burst-tomato-pappardelle",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -18786,7 +18918,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Napa Chicken Salad with Sesame Dressing",
+              "url": "https://pinchofyum.com/napa-chicken-salad-with-sesame-dressing",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -18904,7 +19042,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "Spaghetti with Crispy Zucchini",
+              "url": "https://pinchofyum.com/spaghetti-with-crispy-zucchini",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -19979,7 +20123,13 @@
           "meal_type": "dinner",
           "season": "unknown",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Burst Tomato Pappardelle",
+              "url": "https://pinchofyum.com/burst-tomato-pappardelle",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {

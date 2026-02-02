@@ -126,6 +126,18 @@ MAPPING = {
         "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
         "title": "Instant Pot Cauliflower Mac and Cheese",
     },
+    "instant pot cauliflower curry": {
+        "url": "https://pinchofyum.com/instant-pot-cauliflower-curry",
+        "title": "Instant Pot Cauliflower Curry",
+    },
+    "butternut squash and black bean enchiladas": {
+        "url": "https://www.skinnytaste.com/butternut-squash-and-black-bean/",
+        "title": "Butternut Squash and Black Bean Enchiladas",
+    },
+    "butternut squash mac and cheese": {
+        "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+        "title": "Butternut Squash Mac and Cheese",
+    },
 }
 
 

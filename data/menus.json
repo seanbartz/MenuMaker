@@ -1612,7 +1612,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2152,7 +2158,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -2814,7 +2826,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -3533,7 +3551,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -3568,7 +3592,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Curry",
+              "url": "https://pinchofyum.com/instant-pot-cauliflower-curry",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -3806,7 +3836,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -4096,7 +4132,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": "radishes, avocado",
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash and Black Bean Enchiladas",
+              "url": "https://www.skinnytaste.com/butternut-squash-and-black-bean/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -4224,7 +4266,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash and Black Bean Enchiladas",
+              "url": "https://www.skinnytaste.com/butternut-squash-and-black-bean/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -5888,7 +5936,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -6283,7 +6337,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -6959,7 +7019,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -7550,7 +7616,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -7982,7 +8054,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -8027,7 +8105,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash and Black Bean Enchiladas",
+              "url": "https://www.skinnytaste.com/butternut-squash-and-black-bean/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -8062,7 +8146,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -8365,7 +8455,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Curry",
+              "url": "https://pinchofyum.com/instant-pot-cauliflower-curry",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -10291,7 +10387,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash and Black Bean Enchiladas",
+              "url": "https://www.skinnytaste.com/butternut-squash-and-black-bean/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -10567,7 +10669,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Curry",
+              "url": "https://pinchofyum.com/instant-pot-cauliflower-curry",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -12730,7 +12838,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Curry",
+              "url": "https://pinchofyum.com/instant-pot-cauliflower-curry",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -13805,7 +13919,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash and Black Bean Enchiladas",
+              "url": "https://www.skinnytaste.com/butternut-squash-and-black-bean/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -18938,7 +19058,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Cauliflower Curry",
+              "url": "https://pinchofyum.com/instant-pot-cauliflower-curry",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -20215,7 +20341,13 @@
           "meal_type": "dinner",
           "season": "unknown",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -20233,7 +20365,13 @@
           "meal_type": "dinner",
           "season": "unknown",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash and Black Bean Enchiladas",
+              "url": "https://www.skinnytaste.com/butternut-squash-and-black-bean/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {

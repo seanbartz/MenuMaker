@@ -100,15 +100,6 @@
           "urls": []
         },
         {
-          "text": "Bulgur salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "unknown",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Roasted tomato caprese pasta salad",
           "section": null,
           "meal_type": "dinner",
@@ -184,15 +175,6 @@
               "auto_added": true
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Bulgur salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -481,15 +463,6 @@
           "urls": []
         },
         {
-          "text": "Bulgar salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Broccoli cauliflower beef stir fry",
           "section": null,
           "meal_type": "dinner",
@@ -571,15 +544,6 @@
         },
         {
           "text": "Instant Pot Chicken and dumplings",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and bagged salad",
           "section": null,
           "meal_type": "dinner",
           "season": "winter",
@@ -749,24 +713,6 @@
           "source_hint": null,
           "links": [],
           "urls": []
-        },
-        {
-          "text": "Moe casserole",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
         }
       ]
     },
@@ -776,15 +722,6 @@
       "week_of_date": "2026-01-16",
       "season": "winter",
       "items": [
-        {
-          "text": "White people tacos",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
         {
           "text": "Roasted red pepper pasta and cauliflower",
           "section": null,
@@ -824,15 +761,6 @@
               "url": "https://pinchofyum.com/sheet-pan-chicken-pitas"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -956,24 +884,6 @@
         },
         {
           "text": "Chicken nuggets, broccoli, sweet potato fries",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Ground beef tacos",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
           "section": null,
           "meal_type": "dinner",
           "season": "winter",
@@ -1136,29 +1046,11 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Crock pot white chicken chili (Iowa Girl Eats)",
           "section": null,
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Iowa Girl Eats",
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Ground beef tacos",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
           "links": [],
           "urls": []
         },
@@ -1580,15 +1472,6 @@
           "urls": []
         },
         {
-          "text": "Bulgar salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Curry chicken salad",
           "section": null,
           "meal_type": "dinner",
@@ -1787,15 +1670,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Healthier Hamburger Helper",
           "section": null,
           "meal_type": "dinner",
@@ -1978,15 +1852,6 @@
           "source_hint": null,
           "links": [],
           "urls": []
-        },
-        {
-          "text": "Moe casserole",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
         }
       ]
     },
@@ -2122,15 +1987,6 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Pinch of Yum",
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
           "links": [],
           "urls": []
         },
@@ -2398,15 +2254,6 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": "Spend with Pennies",
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
           "links": [],
           "urls": []
         },
@@ -2684,15 +2531,6 @@
           "urls": []
         },
         {
-          "text": "Kale fried rice",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Roast and/or chop one of the butternut squash",
           "section": null,
           "meal_type": "dinner",
@@ -2834,15 +2672,6 @@
             }
           ],
           "urls": []
-        },
-        {
-          "text": "Bulgar salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
         }
       ]
     },
@@ -2891,15 +2720,6 @@
         },
         {
           "text": "Halloween: Chili and cornbread",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -3255,24 +3075,6 @@
           "urls": []
         },
         {
-          "text": "Moussaka",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Crispy Black bean tacos",
           "section": null,
           "meal_type": "dinner",
@@ -3542,7 +3344,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Baja Grain Bowls",
+              "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -3721,15 +3529,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Caprese pasta salad (Sean lunches)",
           "section": null,
           "meal_type": "lunch",
@@ -3847,15 +3646,6 @@
         },
         {
           "text": "Morracan stew packet",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Moussaka",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -4002,15 +3792,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Slow cooker vegetarian chili",
           "section": null,
           "meal_type": "dinner",
@@ -4048,15 +3829,6 @@
       "items": [
         {
           "text": "Chicken fajitas and roasted tomatillo salsa, black beans, radishes",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Bulgar salad",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -4110,15 +3882,6 @@
       "items": [
         {
           "text": "Roasted chicken thighs with delicata squash",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Bulgar salad",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -4816,15 +4579,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Spicy peanut tofu bowls:",
           "section": null,
           "meal_type": "dinner",
@@ -4836,15 +4590,6 @@
               "url": "https://pinchofyum.com/spicy-peanut-tofu-bowls"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Ground beef tacos",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
           "urls": []
         }
       ]
@@ -4915,15 +4660,6 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": "Pinch of Yum",
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
           "links": [],
           "urls": []
         },
@@ -5051,15 +4787,6 @@
         },
         {
           "text": "Verde chicken enchilada casserole",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Bulgar salad",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -5219,16 +4946,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Moe casserole",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -5345,15 +5069,6 @@
             }
           ],
           "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
         }
       ]
     },
@@ -5463,15 +5178,6 @@
               "auto_added": true
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Pot roast",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -5666,15 +5372,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Autumn glow salad",
           "section": null,
           "meal_type": "dinner",
@@ -5814,15 +5511,6 @@
           "source_hint": "Pinch of Yum - contest",
           "links": [],
           "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
         }
       ]
     },
@@ -5914,15 +5602,6 @@
         },
         {
           "text": "Friday: Peanut butter blossoms and sugar cookies",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Moussaka",
           "section": null,
           "meal_type": "dinner",
           "season": "winter",
@@ -6109,24 +5788,6 @@
               "url": "https://pinchofyum.com/chickpea-curry"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "White people tacos",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -6497,15 +6158,6 @@
           "source_hint": null,
           "links": [],
           "urls": []
-        },
-        {
-          "text": "Moe casserole",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
         }
       ]
     },
@@ -6571,15 +6223,6 @@
         },
         {
           "text": "Ang\u2019s Chicken Wraps and roasted broccoli",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Moussaka",
           "section": null,
           "meal_type": "dinner",
           "season": "winter",
@@ -6742,15 +6385,6 @@
       "items": [
         {
           "text": "Leftover turkey and vegetable dumpling soup",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Pot roast",
           "section": null,
           "meal_type": "dinner",
           "season": "winter",
@@ -7132,15 +6766,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Chicken with coconut kale add bell pepper",
           "section": null,
           "meal_type": "dinner",
@@ -7384,15 +7009,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Chicken tortilla soup and quesadillas",
           "section": null,
           "meal_type": "dinner",
@@ -7539,15 +7155,6 @@
             }
           ],
           "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
         }
       ]
     },
@@ -7559,15 +7166,6 @@
       "items": [
         {
           "text": "Vegetarian chili",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Bulgar salad",
           "section": null,
           "meal_type": "dinner",
           "season": "winter",
@@ -7724,15 +7322,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Blue Apron meal #2",
           "section": null,
           "meal_type": "dinner",
@@ -7743,15 +7332,6 @@
         },
         {
           "text": "Blue Apron meal #1",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Moe casserole",
           "section": null,
           "meal_type": "dinner",
           "season": "winter",
@@ -7849,15 +7429,6 @@
               "url": "https://cookieandkate.com/vegetarian-chili-recipe/"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -7981,25 +7552,7 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Chicken tenders, broccoli, sweet potato fries",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Ground beef tacos",
           "section": null,
           "meal_type": "dinner",
           "season": "winter",
@@ -8195,15 +7748,6 @@
               "auto_added": true
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -8463,15 +8007,6 @@
             }
           ],
           "urls": []
-        },
-        {
-          "text": "Pot roast",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
         }
       ]
     },
@@ -8622,15 +8157,6 @@
           "urls": []
         },
         {
-          "text": "White people tacos",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Chili",
           "section": null,
           "meal_type": "dinner",
@@ -8651,15 +8177,6 @@
               "url": "https://pinchofyum.com/chicken-with-coconut-kale"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -8708,15 +8225,6 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Half Baked Harvest",
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
           "links": [],
           "urls": []
         },
@@ -8908,15 +8416,6 @@
               "auto_added": true
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Pot roast",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -9146,24 +8645,6 @@
           "urls": []
         },
         {
-          "text": "Bulgar salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Pot roast",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Spicy thai chicken and quinoa, roasted broccoli",
           "section": null,
           "meal_type": "dinner",
@@ -9314,15 +8795,6 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": "Half baked harvest",
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
           "links": [],
           "urls": []
         },
@@ -9696,15 +9168,6 @@
           "urls": []
         },
         {
-          "text": "bulgur salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Leftovers: Corned beef sandwiches",
           "section": null,
           "meal_type": "dinner",
@@ -9803,15 +9266,6 @@
           "urls": []
         },
         {
-          "text": "Bulgur salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Crockpot quinoa chicken primavera",
           "section": null,
           "meal_type": "dinner",
@@ -9826,7 +9280,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Baja Grain Bowls",
+              "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -9864,15 +9324,6 @@
       "week_of_date": "2023-03-20",
       "season": "spring",
       "items": [
-        {
-          "text": "Frozen pizza",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
         {
           "text": "Leftover corned beef sandwiches and sweet potato fries",
           "section": null,
@@ -10052,7 +9503,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -10106,15 +9563,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "30 Minute Thai Basil Beef noodles (Half Baked Harvest)",
           "section": null,
           "meal_type": "dinner",
@@ -10151,15 +9599,6 @@
         },
         {
           "text": "Black pepper stir fry udon noodles",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
@@ -10684,7 +10123,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Baja Grain Bowls",
+              "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -10933,15 +10378,6 @@
           "source_hint": null,
           "links": [],
           "urls": []
-        },
-        {
-          "text": "Frozen pizza and bagged salad",
-          "section": "Lunch",
-          "meal_type": "lunch",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
         }
       ]
     },
@@ -11036,15 +10472,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Spicy peanut tofu bowls:",
           "section": null,
           "meal_type": "dinner",
@@ -11114,15 +10541,6 @@
         },
         {
           "text": "Filipino bbq on grill, grilled peppers and zucchini/squash",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Bulgur salad",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
@@ -11428,24 +10846,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Ground beef tacos",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Crispy chicken tikka bowls (Pinch of Yum)",
           "section": null,
           "meal_type": "dinner",
@@ -11473,15 +10873,6 @@
         },
         {
           "text": "Strawberry faro salad with avocado and feta",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Bulgur salad",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
@@ -11563,7 +10954,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": "veg",
-          "links": [],
+          "links": [
+            {
+              "text": "Baja Grain Bowls",
+              "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -11674,7 +11071,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -11705,15 +11108,6 @@
         },
         {
           "text": "Roasted red pepper pasta with cauliflower (Pinch of Yum) - pasta sauce in freezer",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
@@ -11808,21 +11202,18 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Baja grain bowls",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Baja Grain Bowls",
+              "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -11869,15 +11260,6 @@
         },
         {
           "text": "Black pepper stir fry udon noddles with stir fry beef",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and bagged salad",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
@@ -11988,15 +11370,6 @@
               "url": "https://pinchofyum.com/thai-peanut-chicken-bowls"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
           "urls": []
         }
       ]
@@ -12165,15 +11538,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Grilling: brats",
           "section": null,
           "meal_type": "dinner",
@@ -12300,7 +11664,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Baja Grain Bowls",
+              "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -12378,7 +11748,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -12442,15 +11818,6 @@
         },
         {
           "text": "Chickpea, date, and avocado salad with za\u2019atar vinaigrette (Gimme Some Oven) add feta",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen Pizza and salad",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
@@ -12656,15 +12023,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Garlic Butter Chicken with Zucchini and corn",
           "section": null,
           "meal_type": "dinner",
@@ -12799,15 +12157,6 @@
         },
         {
           "text": "Skyline and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and bagged salad",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
@@ -12991,15 +12340,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "1 lb 85/25 ground beef",
           "section": null,
           "meal_type": "dinner",
@@ -13087,15 +12427,6 @@
         },
         {
           "text": "honey mustard grilled salmon with avocado basil sauce, summer cous cous salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Bulgar salad",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
@@ -13210,16 +12541,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Burgers and corn",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Baja Grain Bowls",
+              "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -13254,15 +12582,6 @@
           "urls": []
         },
         {
-          "text": "White people tacos",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Strawberry crunch salad with baguette:",
           "section": null,
           "meal_type": "dinner",
@@ -13288,15 +12607,6 @@
               "url": "https://pinchofyum.com/bbq-jackfruit-sandwiches"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -13343,15 +12653,6 @@
         },
         {
           "text": "Frozen gyros and cucumber and hummus",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Burgers and corn",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
@@ -13449,15 +12750,6 @@
               "url": "https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -13606,15 +12898,6 @@
           "source_hint": null,
           "links": [],
           "urls": []
-        },
-        {
-          "text": "Bulgar salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
         }
       ]
     },
@@ -13626,15 +12909,6 @@
       "items": [
         {
           "text": "PizzaRoasted Sweet Potato Tacos",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Bulgur salad",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
@@ -13781,15 +13055,6 @@
         },
         {
           "text": "Red Chile tostadas with eggs",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and bagged salad",
           "section": null,
           "meal_type": "dinner",
           "season": "spring",
@@ -13995,15 +13260,6 @@
         },
         {
           "text": "Asparagus pasta salad with honey mustard dressing",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and bagged salad",
           "section": null,
           "meal_type": "dinner",
           "season": "summer",
@@ -14383,7 +13639,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Baja Grain Bowls",
+              "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -14450,15 +13712,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Blackberry Pie Bars",
           "section": null,
           "meal_type": "dinner",
@@ -14476,15 +13729,6 @@
       "season": "summer",
       "items": [
         {
-          "text": "Bulgur salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Peruvian chicken, chips and guacamole",
           "section": null,
           "meal_type": "dinner",
@@ -14495,15 +13739,6 @@
         },
         {
           "text": "Pizza and (bagged) salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Kale fried rice",
           "section": null,
           "meal_type": "dinner",
           "season": "summer",
@@ -14726,15 +13961,6 @@
               "url": "https://pinchofyum.com/spicy-peanut-tofu-bowls"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -15051,15 +14277,6 @@
           "urls": []
         },
         {
-          "text": "Bulgar salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Grilled steak salad with beets and scallions",
           "section": null,
           "meal_type": "dinner",
@@ -15114,15 +14331,6 @@
       "items": [
         {
           "text": "Black pepper stir fry udon noodles",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
           "section": null,
           "meal_type": "dinner",
           "season": "summer",
@@ -15288,15 +14496,6 @@
               "url": "https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -15498,15 +14697,6 @@
           "source_hint": "bachelor style",
           "links": [],
           "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
         }
       ]
     },
@@ -15522,7 +14712,13 @@
           "meal_type": "breakfast",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -15558,7 +14754,13 @@
           "meal_type": "lunch",
           "season": "summer",
           "source_hint": "make ahead and bring",
-          "links": [],
+          "links": [
+            {
+              "text": "Bulgur Salad with Grapes and Feta Cheese",
+              "url": "https://www.pbs.org/food/recipes/bulgur-salad-with-grapes-and-feta-cheese",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -15758,15 +14960,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "unknown",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Gnocchi, sauce, zucchini",
           "section": null,
           "meal_type": "dinner",
@@ -15834,15 +15027,6 @@
       "week_of_date": "2019-07-21",
       "season": "summer",
       "items": [
-        {
-          "text": "Bulgar salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
         {
           "text": "grilled honey mustard salmon, bagged costco salad",
           "section": null,
@@ -16379,24 +15563,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Burgers and corn",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Peach cobbler",
           "section": null,
           "meal_type": "dinner",
@@ -16419,7 +15585,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Bulgur Salad with Grapes and Feta Cheese",
+              "url": "https://www.pbs.org/food/recipes/bulgur-salad-with-grapes-and-feta-cheese",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -16515,15 +15687,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Black pepper stir fry udon with stir fry beef (Pinch of Yum)",
           "section": null,
           "meal_type": "dinner",
@@ -16593,15 +15756,6 @@
         },
         {
           "text": "Burgers and sweet corn",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and bagged salad",
           "section": null,
           "meal_type": "dinner",
           "season": "summer",
@@ -16776,15 +15930,6 @@
       "season": "summer",
       "items": [
         {
-          "text": "Bulgur salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Roasted tomato caprese pasta salad",
           "section": null,
           "meal_type": "dinner",
@@ -16906,7 +16051,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Baja Grain Bowls",
+              "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -17026,15 +16177,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Cashew chicken and broccoli (gimme some oven)",
           "section": null,
           "meal_type": "dinner",
@@ -17124,15 +16266,6 @@
           "urls": []
         },
         {
-          "text": "Moussaka",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Chickpea cous cous bowls with tahini sauce",
           "section": null,
           "meal_type": "dinner",
@@ -17166,15 +16299,6 @@
         },
         {
           "text": "Burgers and pattypan squash",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Moussaka",
           "section": null,
           "meal_type": "dinner",
           "season": "summer",
@@ -17275,15 +16399,6 @@
               "url": "https://pinchofyum.com/chicken-wontons-in-spicy-chili-sauce"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -17520,15 +16635,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Saucy soy-butter beef and peppers",
           "section": null,
           "meal_type": "dinner",
@@ -17655,15 +16761,6 @@
           "text": "Lunch: BLTs",
           "section": null,
           "meal_type": "lunch",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
           "links": [],
@@ -17818,15 +16915,6 @@
           "urls": []
         },
         {
-          "text": "Bulgar salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Pickled banana peppers",
           "section": null,
           "meal_type": "dinner",
@@ -17916,15 +17004,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "BBQ jackfruit sandwiches and frozen sweet potato fries",
           "section": null,
           "meal_type": "dinner",
@@ -17996,15 +17075,6 @@
           "urls": []
         },
         {
-          "text": "Kale fried rice",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Vegetarian Italian chopped salad",
           "section": null,
           "meal_type": "dinner",
@@ -18029,15 +17099,6 @@
       "items": [
         {
           "text": "Baked quesadillas",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Bulgar salad",
           "section": null,
           "meal_type": "dinner",
           "season": "summer",
@@ -18078,7 +17139,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Baja Grain Bowls",
+              "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -18127,15 +17194,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "GNOCCHI WITH BRUSSELS SPROUTS, CHICKEN SAUSAGE AND KALE PESTO",
           "section": null,
           "meal_type": "dinner",
@@ -18147,15 +17205,6 @@
               "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#recipe"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Burgers and corn",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -18324,15 +17373,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Panzanella with Marinated chickpeas and chimichurri (How Sweet Eats)",
           "section": null,
           "meal_type": "dinner",
@@ -18455,15 +17495,6 @@
           "urls": []
         },
         {
-          "text": "Bulgar salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Vegetarian enchiladas verde",
           "section": null,
           "meal_type": "dinner",
@@ -18559,15 +17590,6 @@
         },
         {
           "text": "Bachelor: Italian sausage, saut\u00e9 banana peppers, onions, frozen or fresh tomatoes, pasta, any other leftover appropriate vegetables",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Bulgur salad",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -18693,15 +17715,6 @@
         },
         {
           "text": "Chipotle tahini bowls",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -19077,25 +18090,7 @@
           "urls": []
         },
         {
-          "text": "Kale fried rice",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Enchiladas with poblano peppers and leftover pork",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Moussaka",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -19229,15 +18224,6 @@
           "urls": []
         },
         {
-          "text": "Bulgar salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Grilled Steak, veggies",
           "section": null,
           "meal_type": "dinner",
@@ -19272,15 +18258,6 @@
       "week_of_date": "2023-09-17",
       "season": "fall",
       "items": [
-        {
-          "text": "frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
         {
           "text": "Sheet pan pesto gnocchi",
           "section": null,
@@ -19373,15 +18350,6 @@
       "week_of_date": "2021-09-19",
       "season": "fall",
       "items": [
-        {
-          "text": "Bulgur salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
         {
           "text": "Black pepper stir fry udon (pinch of yum sos series - add stir fry beef)",
           "section": null,
@@ -19650,7 +18618,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -19700,15 +18674,6 @@
         },
         {
           "text": "Apricot tofu and green beans",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
           "section": null,
           "meal_type": "dinner",
           "season": "fall",
@@ -19947,15 +18912,6 @@
           "urls": []
         },
         {
-          "text": "Bulgar salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Instant Pot Chicken and Dumplings",
           "section": null,
           "meal_type": "dinner",
@@ -19967,15 +18923,6 @@
               "url": "https://pinchofyum.com/instant-pot-chicken-and-dumplings"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -20114,15 +19061,6 @@
           "urls": []
         },
         {
-          "text": "Bulgur salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Mexican quinoa with lazy guac (double for lunches)",
           "section": null,
           "meal_type": "lunch",
@@ -20199,7 +19137,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Baja Grain Bowls",
+              "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -20613,15 +19557,6 @@
           "urls": []
         },
         {
-          "text": "Bulgur salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "unknown",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Gnocchi and summer squash/zucchini",
           "section": null,
           "meal_type": "dinner",
@@ -20872,15 +19807,6 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Chicken with coconut kale add bell pepper",
           "section": null,
           "meal_type": "dinner",
@@ -21040,29 +19966,11 @@
           "urls": []
         },
         {
-          "text": "Frozen pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Frozen orange chicken and broccoli (can also add green beans if extra)",
           "section": null,
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": "can also add green beans if extra",
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Burgers and corn",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
           "links": [],
           "urls": []
         },

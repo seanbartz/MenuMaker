@@ -108,6 +108,23 @@ PRODUCE_SINGLETONS = {
     "zucchini",
 }
 
+# Items that are not recipe links (premade or ad-hoc), exclude from link matching.
+NON_RECIPE_ITEMS = {
+    "frozen pizza",
+    "frozen pizza and salad",
+    "frozen pizza and bagged salad",
+    "bulgar salad",
+    "bulgur salad",
+    "moussaka",
+    "chicken nuggets, broccoli, sweet potato fries",
+    "moe casserole",
+    "ground beef tacos",
+    "pot roast",
+    "burgers and corn",
+    "white people tacos",
+    "kale fried rice",
+}
+
 
 def extract_source_hint(text: str):
     m = TRAILING_PAREN_RE.search(text)
@@ -212,7 +229,7 @@ def parse_menu_file(path: Path):
             # Strip URLs from the text since they're now in clickable pills
             clean_text = strip_urls_from_text(item_text)
             normalized = normalize_text(clean_text)
-            if normalized in PRODUCE_SINGLETONS:
+            if normalized in PRODUCE_SINGLETONS or normalized in NON_RECIPE_ITEMS:
                 continue
             items.append({
                 "text": clean_text,

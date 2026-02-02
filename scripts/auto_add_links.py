@@ -138,6 +138,18 @@ MAPPING = {
         "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
         "title": "Butternut Squash Mac and Cheese",
     },
+    "baja grain bowls": {
+        "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+        "title": "Baja Grain Bowls",
+    },
+    "bulgur salad": {
+        "url": "https://www.pbs.org/food/recipes/bulgur-salad-with-grapes-and-feta-cheese",
+        "title": "Bulgur Salad with Grapes and Feta Cheese",
+    },
+    "pancakes": {
+        "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+        "title": "Best Buttermilk Pancakes",
+    },
 }
 
 

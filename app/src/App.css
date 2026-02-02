@@ -57,6 +57,20 @@
   box-shadow: 0 8px 24px rgba(228, 87, 46, 0.15);
 }
 
+.meta-card.clickable::after {
+  content: '→';
+  font-size: 1.1rem;
+  color: var(--accent);
+  justify-self: end;
+}
+
+.meta-action {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent-2);
+}
+
 .meta-card strong {
   font-size: 1.6rem;
   color: var(--ink);
@@ -87,6 +101,7 @@
   color: var(--ink);
   margin-bottom: 0.35rem;
 }
+
 
 .menu-list ul {
   list-style: none;

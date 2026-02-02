@@ -191,10 +191,12 @@ function App() {
               <div className="meta-card clickable" onClick={() => setCurrentPage('recipes')}>
                 <span>Recipes</span>
                 <strong>{recipes.length}</strong>
+                <span className="meta-action">View →</span>
               </div>
               <div className="meta-card clickable" onClick={() => setCurrentPage('items')}>
                 <span>Items</span>
                 <strong>{menuItems.length}</strong>
+                <span className="meta-action">View →</span>
               </div>
             </div>
           </header>

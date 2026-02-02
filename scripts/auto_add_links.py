@@ -166,6 +166,10 @@ MAPPING = {
         "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
         "title": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
     },
+    "egg roll in a bowl": {
+        "url": "https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl",
+        "title": "15 Minute Meal Prep Egg Roll in a Bowl",
+    },
 }
 
 
@@ -190,7 +194,7 @@ def main():
             text = item.get("text", "")
             norm = normalize(text)
             for key, info in MAPPING.items():
-                if norm.startswith(key):
+                if norm.startswith(key) or key in norm:
                     item.setdefault("links", []).append({
                         "text": info["title"],
                         "url": info["url"],

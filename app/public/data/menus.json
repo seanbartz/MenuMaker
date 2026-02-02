@@ -358,7 +358,13 @@
           "meal_type": "lunch",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Vegetarian Italian Chopped Salad",
+              "url": "https://cookieandkate.com/vegetarian-italian-chopped-salad-recipe/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2994,7 +3000,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -3003,7 +3015,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -3249,7 +3267,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Autumn Glow Salad with Lemon Dressing",
+              "url": "https://pinchofyum.com/autumn-glow-salad-with-lemon-dressing",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -3303,7 +3327,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Butternut Squash Mac and Cheese",
+              "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -5574,7 +5604,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -6612,7 +6648,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "15 Minute Meal Prep Egg Roll in a Bowl",
+              "url": "https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -8100,7 +8142,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Spicy Peanut Tofu Bowls",
+              "url": "https://pinchofyum.com/spicy-peanut-tofu-bowls",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -9221,7 +9269,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "15 Minute Meal Prep Egg Roll in a Bowl",
+              "url": "https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -9438,7 +9492,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "15 Minute Meal Prep Egg Roll in a Bowl",
+              "url": "https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -10145,7 +10205,13 @@
           "meal_type": "breakfast",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -10430,7 +10496,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -10861,7 +10933,13 @@
           "meal_type": "breakfast",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -11270,7 +11348,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": "use ground beef",
-          "links": [],
+          "links": [
+            {
+              "text": "15 Minute Meal Prep Egg Roll in a Bowl",
+              "url": "https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -11918,7 +12002,13 @@
           "meal_type": "breakfast",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -13009,7 +13099,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Roasted Sweet Potato Tacos",
+              "url": "https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -13579,7 +13675,13 @@
           "meal_type": "breakfast",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -13961,7 +14063,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "15 Minute Meal Prep Egg Roll in a Bowl",
+              "url": "https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -14170,7 +14278,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Yummy Salmon Burgers with Slaw",
+              "url": "https://pinchofyum.com/yummy-salmon-burgers-slaw",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -15536,7 +15650,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Chicken Caesar Salad with Homemade Croutons",
+              "url": "https://damndelicious.net/2023/04/21/best-chicken-caesar-salad-with-homemade-croutons/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -15599,7 +15719,13 @@
           "meal_type": "breakfast",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -16340,7 +16466,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -17025,7 +17157,13 @@
           "meal_type": "breakfast",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -19465,7 +19603,13 @@
           "meal_type": "breakfast",
           "season": "unknown",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -19581,7 +19725,13 @@
           "meal_type": "breakfast",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Best Buttermilk Pancakes",
+              "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {

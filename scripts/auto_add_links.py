@@ -54,6 +54,10 @@ MAPPING = {
         "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
         "title": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
     },
+    "gnocchi with brussels sprouts chicken sausage and pesto": {
+        "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
+        "title": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
+    },
     "slow cooker butternut squash tortellini": {
         "url": "https://www.melskitchencafe.com/slow-cooker-butternut-squash-tortellini/",
         "title": "Slow Cooker Butternut Squash Tortellini",

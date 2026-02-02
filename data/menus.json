@@ -120,7 +120,13 @@
           "meal_type": "dinner",
           "season": "unknown",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
+              "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -1273,7 +1279,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
+              "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -8200,7 +8212,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
+              "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -8738,7 +8756,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
+              "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -10471,7 +10495,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
+              "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -18083,7 +18113,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
+              "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {

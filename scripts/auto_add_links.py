@@ -178,6 +178,30 @@ MAPPING = {
         "url": "https://pinchofyum.com/15-minute-meal-prep-cilantro-lime-chicken-and-lentils",
         "title": "Cilantro Lime Chicken and Lentil Rice Bowls",
     },
+    "chicken and broccoli stir fry": {
+        "url": "https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/",
+        "title": "Chicken and Broccoli Stir Fry",
+    },
+    "baked salmon with amazing lemon sauce": {
+        "url": "https://pinchofyum.com/baked-salmon-with-amazing-lemon-sauce",
+        "title": "Baked Salmon with Amazing Lemon Sauce",
+    },
+    "chicken wontons with spicy sauce": {
+        "url": "https://pinchofyum.com/chicken-wontons-in-spicy-chili-sauce",
+        "title": "Chicken Wontons in Spicy Chili Sauce",
+    },
+    "crock pot white chicken chili": {
+        "url": "https://iowagirleats.com/crock-pot-white-chicken-chili-recipe/",
+        "title": "CrockPot White Chicken Chili",
+    },
+    "lighter broccoli beef": {
+        "url": "https://iowagirleats.com/broccoli-beef-recipe/",
+        "title": "Lighter Broccoli Beef",
+    },
+    "instant pot chicken noodle soup": {
+        "url": "https://www.spendwithpennies.com/instant-pot-chicken-noodle-soup/",
+        "title": "Instant Pot Chicken Noodle Soup",
+    },
 }
 
 

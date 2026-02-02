@@ -578,7 +578,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Damn Delicious",
-          "links": [],
+          "links": [
+            {
+              "text": "Chicken and Broccoli Stir Fry",
+              "url": "https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -610,7 +616,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "Baked Salmon with Amazing Lemon Sauce",
+              "url": "https://pinchofyum.com/baked-salmon-with-amazing-lemon-sauce",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -1069,7 +1081,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Iowa Girl Eats",
-          "links": [],
+          "links": [
+            {
+              "text": "CrockPot White Chicken Chili",
+              "url": "https://iowagirleats.com/crock-pot-white-chicken-chili-recipe/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -1078,7 +1096,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "Chicken Wontons in Spicy Chili Sauce",
+              "url": "https://pinchofyum.com/chicken-wontons-in-spicy-chili-sauce",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -2002,7 +2026,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Iowa Girl Eats",
-          "links": [],
+          "links": [
+            {
+              "text": "Lighter Broccoli Beef",
+              "url": "https://iowagirleats.com/broccoli-beef-recipe/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2290,7 +2320,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": "Spend with Pennies",
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Chicken Noodle Soup",
+              "url": "https://www.spendwithpennies.com/instant-pot-chicken-noodle-soup/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -4457,7 +4493,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Baked Salmon with Amazing Lemon Sauce",
+              "url": "https://pinchofyum.com/baked-salmon-with-amazing-lemon-sauce",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -7834,7 +7876,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "Chicken Wontons in Spicy Chili Sauce",
+              "url": "https://pinchofyum.com/chicken-wontons-in-spicy-chili-sauce",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -8101,7 +8149,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Lighter Broccoli Beef",
+              "url": "https://iowagirleats.com/broccoli-beef-recipe/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -8476,7 +8530,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Lighter Broccoli Beef",
+              "url": "https://iowagirleats.com/broccoli-beef-recipe/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -13358,7 +13418,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Chicken Noodle Soup",
+              "url": "https://www.spendwithpennies.com/instant-pot-chicken-noodle-soup/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -13409,7 +13475,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Lighter Broccoli Beef",
+              "url": "https://iowagirleats.com/broccoli-beef-recipe/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -15187,7 +15259,13 @@
           "meal_type": "dinner",
           "season": "unknown",
           "source_hint": "Gimme Some Oven",
-          "links": [],
+          "links": [
+            {
+              "text": "Chicken and Broccoli Stir Fry",
+              "url": "https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -15401,7 +15479,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": "Damn Delicious",
-          "links": [],
+          "links": [
+            {
+              "text": "Chicken and Broccoli Stir Fry",
+              "url": "https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -15977,7 +16061,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": "Damn Delicious",
-          "links": [],
+          "links": [
+            {
+              "text": "Chicken and Broccoli Stir Fry",
+              "url": "https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]

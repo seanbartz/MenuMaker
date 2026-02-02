@@ -93,6 +93,23 @@ def parse_date_from_filename(name: str):
     return None
 
 
+def season_label(iso_date: Optional[str]):
+    if not iso_date:
+        return "unknown"
+    try:
+        dt = datetime.fromisoformat(iso_date)
+    except ValueError:
+        return "unknown"
+    month = dt.month
+    if month <= 2 or month == 12:
+        return "winter"
+    if 3 <= month <= 5:
+        return "spring"
+    if 6 <= month <= 8:
+        return "summer"
+    return "fall"
+
+
 def infer_meal_type(section: Optional[str], item_text: str):
     text = " ".join(filter(None, [section, item_text])).lower()
     if any(word in text for word in ["breakfast", "brunch"]):
@@ -129,6 +146,7 @@ def parse_menu_file(path: Path):
 
     title = None
     week_of_date = parse_date_from_filename(path.name)
+    season = season_label(week_of_date)
 
     items = []
     current_section = None
@@ -150,6 +168,7 @@ def parse_menu_file(path: Path):
                 "text": clean_text,
                 "section": current_section,
                 "meal_type": infer_meal_type(current_section, item_text),
+                "season": season,
                 "source_hint": extract_source_hint(item_text),
                 "links": md_links,
                 "urls": urls,
@@ -169,6 +188,7 @@ def parse_menu_file(path: Path):
         "file": str(path.relative_to(path.parents[1])),
         "title": title,
         "week_of_date": week_of_date,
+        "season": season,
         "items": items,
     }
 

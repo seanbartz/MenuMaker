@@ -161,8 +161,8 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
                 <div className="detail-card">
                   <h3>Menu Files</h3>
                   <ul>
-                    {selectedItem.menu_files.map((file) => (
-                      <li key={file}>{file}</li>
+                    {selectedItem.menu_files.map((file, index) => (
+                      <li key={`${file}-${index}`}>{file}</li>
                     ))}
                   </ul>
                 </div>

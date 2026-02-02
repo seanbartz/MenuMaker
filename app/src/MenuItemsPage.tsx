@@ -133,8 +133,8 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
                 <div className="detail-card">
                   <h3>Menu Weeks</h3>
                   <ul>
-                    {selectedItem.menu_weeks.map((week) => (
-                      <li key={week}>{formatDate(week)}</li>
+                    {selectedItem.menu_weeks.map((week, index) => (
+                      <li key={`${week}-${index}`}>{formatDate(week)}</li>
                     ))}
                   </ul>
                 </div>

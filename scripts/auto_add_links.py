@@ -46,6 +46,42 @@ MAPPING = {
         "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
         "title": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
     },
+    "gnocchi with brussels sprouts, chicken sausage, and pesto": {
+        "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
+        "title": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
+    },
+    "gnocchi with brussuls sprouts": {
+        "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
+        "title": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
+    },
+    "slow cooker butternut squash tortellini": {
+        "url": "https://www.melskitchencafe.com/slow-cooker-butternut-squash-tortellini/",
+        "title": "Slow Cooker Butternut Squash Tortellini",
+    },
+    "turkey": {
+        "url": "https://www.seriouseats.com/herb-butter-rubbed-crisp-skinned-butterflied-spatchcock-roast-turkey-thanksgiving-recipe",
+        "title": "Herb-Butter Rubbed Crisp-Skinned Butterflied Roast Turkey",
+    },
+    "instant pot butter chicken": {
+        "url": "https://www.wellplated.com/instant-pot-butter-chicken/",
+        "title": "Instant Pot Butter Chicken",
+    },
+    "cauliflower, potato, and green pea daal": {
+        "url": "https://www.flourishingfoodie.com/blog/cauliflower-potato-and-green-pea-daal",
+        "title": "Cauliflower, Potato, and Green Pea Daal",
+    },
+    "asparagus pasta salad with honey mustard dressing": {
+        "url": "https://www.howsweeteats.com/2021/03/asparagus-pasta-salad/",
+        "title": "Asparagus Pasta Salad with Honey Mustard Dressing",
+    },
+    "leek, chard, goat cheese, and corn flatbread": {
+        "url": "https://smittenkitchen.com/2012/08/leek-chard-and-corn-flatbread/",
+        "title": "Leek, Chard, and Corn Flatbread",
+    },
+    "leek chard goat cheese and corn flatbread": {
+        "url": "https://smittenkitchen.com/2012/08/leek-chard-and-corn-flatbread/",
+        "title": "Leek, Chard, and Corn Flatbread",
+    },
     "crockpot lentil quesadillas": {
         "url": "https://pinchofyum.com/quick-and-easy-lentil-quesadillas",
         "title": "Quick and Easy Lentil Quesadillas",

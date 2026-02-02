@@ -1823,7 +1823,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Slow Cooker Butternut Squash Tortellini",
+              "url": "https://www.melskitchencafe.com/slow-cooker-butternut-squash-tortellini/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2163,7 +2169,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Slow Cooker Butternut Squash Tortellini",
+              "url": "https://www.melskitchencafe.com/slow-cooker-butternut-squash-tortellini/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2198,7 +2210,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Butter Chicken",
+              "url": "https://www.wellplated.com/instant-pot-butter-chicken/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2978,15 +2996,6 @@
               "url": "https://pinchofyum.com/chicken-with-coconut-kale"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -3980,7 +3989,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Leek, Chard, and Corn Flatbread",
+              "url": "https://smittenkitchen.com/2012/08/leek-chard-and-corn-flatbread/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -4206,7 +4221,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Herb-Butter Rubbed Crisp-Skinned Butterflied Roast Turkey",
+              "url": "https://www.seriouseats.com/herb-butter-rubbed-crisp-skinned-butterflied-spatchcock-roast-turkey-thanksgiving-recipe",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -4595,7 +4616,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Herb-Butter Rubbed Crisp-Skinned Butterflied Roast Turkey",
+              "url": "https://www.seriouseats.com/herb-butter-rubbed-crisp-skinned-butterflied-spatchcock-roast-turkey-thanksgiving-recipe",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -4914,7 +4941,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Herb-Butter Rubbed Crisp-Skinned Butterflied Roast Turkey",
+              "url": "https://www.seriouseats.com/herb-butter-rubbed-crisp-skinned-butterflied-spatchcock-roast-turkey-thanksgiving-recipe",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -6541,15 +6574,6 @@
           "urls": []
         },
         {
-          "text": "Pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "winter",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "12/30 Date day",
           "section": null,
           "meal_type": "dinner",
@@ -6581,7 +6605,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Herb-Butter Rubbed Crisp-Skinned Butterflied Roast Turkey",
+              "url": "https://www.seriouseats.com/herb-butter-rubbed-crisp-skinned-butterflied-spatchcock-roast-turkey-thanksgiving-recipe",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -9076,15 +9106,6 @@
           "urls": []
         },
         {
-          "text": "Pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Buffalo Chicken burgers with whipped feta spread and sweet potato fries",
           "section": null,
           "meal_type": "dinner",
@@ -9556,7 +9577,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Slow Cooker Butternut Squash Tortellini",
+              "url": "https://www.melskitchencafe.com/slow-cooker-butternut-squash-tortellini/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -9692,7 +9719,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Butter Chicken",
+              "url": "https://www.wellplated.com/instant-pot-butter-chicken/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -9945,7 +9978,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Herb-Butter Rubbed Crisp-Skinned Butterflied Roast Turkey",
+              "url": "https://www.seriouseats.com/herb-butter-rubbed-crisp-skinned-butterflied-spatchcock-roast-turkey-thanksgiving-recipe",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -10038,15 +10077,6 @@
               "url": "https://pinchofyum.com/sesame-apricot-tofu"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Pizza and bagged salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "spring",
-          "source_hint": null,
-          "links": [],
           "urls": []
         }
       ]
@@ -10940,7 +10970,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Slow Cooker Butternut Squash Tortellini",
+              "url": "https://www.melskitchencafe.com/slow-cooker-butternut-squash-tortellini/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -11770,7 +11806,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Butter Chicken",
+              "url": "https://www.wellplated.com/instant-pot-butter-chicken/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -13585,7 +13627,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Butter Chicken",
+              "url": "https://www.wellplated.com/instant-pot-butter-chicken/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -13618,7 +13666,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Asparagus Pasta Salad with Honey Mustard Dressing",
+              "url": "https://www.howsweeteats.com/2021/03/asparagus-pasta-salad/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -14029,7 +14083,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Herb-Butter Rubbed Crisp-Skinned Butterflied Roast Turkey",
+              "url": "https://www.seriouseats.com/herb-butter-rubbed-crisp-skinned-butterflied-spatchcock-roast-turkey-thanksgiving-recipe",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -14096,15 +14156,6 @@
       "items": [
         {
           "text": "Peruvian chicken, chips and guacamole",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
-          "text": "Pizza and (bagged) salad",
           "section": null,
           "meal_type": "dinner",
           "season": "summer",
@@ -14779,7 +14830,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Asparagus Pasta Salad with Honey Mustard Dressing",
+              "url": "https://www.howsweeteats.com/2021/03/asparagus-pasta-salad/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -15379,7 +15436,13 @@
           "meal_type": "dinner",
           "season": "unknown",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Asparagus Pasta Salad with Honey Mustard Dressing",
+              "url": "https://www.howsweeteats.com/2021/03/asparagus-pasta-salad/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -15667,15 +15730,6 @@
               "url": "https://pinchofyum.com/sesame-apricot-tofu"
             }
           ],
-          "urls": []
-        },
-        {
-          "text": "Pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "summer",
-          "source_hint": null,
-          "links": [],
           "urls": []
         },
         {
@@ -16379,7 +16433,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Instant Pot Butter Chicken",
+              "url": "https://www.wellplated.com/instant-pot-butter-chicken/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -18268,15 +18328,6 @@
           "urls": []
         },
         {
-          "text": "Pizza and salad",
-          "section": null,
-          "meal_type": "dinner",
-          "season": "fall",
-          "source_hint": null,
-          "links": [],
-          "urls": []
-        },
-        {
           "text": "Burgers, corn, watermelon",
           "section": null,
           "meal_type": "dinner",
@@ -19101,7 +19152,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Leek, Chard, and Corn Flatbread",
+              "url": "https://smittenkitchen.com/2012/08/leek-chard-and-corn-flatbread/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -19670,7 +19727,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Leek, Chard, and Corn Flatbread",
+              "url": "https://smittenkitchen.com/2012/08/leek-chard-and-corn-flatbread/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {

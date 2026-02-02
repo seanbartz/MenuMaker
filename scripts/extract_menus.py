@@ -123,6 +123,10 @@ NON_RECIPE_ITEMS = {
     "burgers and corn",
     "white people tacos",
     "kale fried rice",
+    "chicken nuggets, broccoli, sweet potato fries",
+    "pizza and bagged salad",
+    "pizza and salad",
+    "corned beef, cabbage, potatoes",
 }
 
 

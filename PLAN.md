@@ -25,6 +25,7 @@ Build an app that creates a weekly menu using seasonal timing, variety, and ingr
 - Clarify hosting costs: free GitHub Pages for static UI vs paid services for server/LLM.
 - Build a grocery list generator and export format optimized for Kroger/manual entry.
 - Add periodic recipe updates via scraping or imports to keep the library fresh.
+- Add a “Sources” view that groups menu items by website domain.
 
 ## Required Tasks
 - Define the target form factor (web-only, desktop-first web, or native wrapper).

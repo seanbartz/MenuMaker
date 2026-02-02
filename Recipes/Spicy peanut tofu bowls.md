@@ -15,12 +15,12 @@ TOFU:
 PEANUT SAUCE (edited 4/6/22 to 1.5x the sauce 😋)
 - [x] a large clove of fresh garlic, peeled
 - [x] a smallish knob of fresh ginger, peeled
-- [x] [3 tablespoons](x-apple-data-detectors://embedded-result/501) sugar, honey, or agave
-- [x] 2[ tablespoons](x-apple-data-detectors://embedded-result/306) sambal oelek or chili paste (2 is good for Alicia normally, 1 with heartburn)
-- [x] [3 tablespoons](x-apple-data-detectors://embedded-result/445) rice vinegar
-- [x] [1/2 cup](x-apple-data-detectors://embedded-result/472) low sodium soy sauce
-- [x] [3 tablespoons](x-apple-data-detectors://embedded-result/402) sesame oil (toasted or dark)
-- [x] [3/4 cup](x-apple-data-detectors://embedded-result/538) peanut butter
+- [x] 3 tablespoons sugar, honey, or agave
+- [x] 2 tablespoons sambal oelek or chili paste (2 is good for Alicia normally, 1 with heartburn)
+- [x] 3 tablespoons rice vinegar
+- [x] 1/2 cup low sodium soy sauce
+- [x] 3 tablespoons sesame oil (toasted or dark)
+- [x] 3/4 cup peanut butter
 
 INSTRUCTIONS
 * Press liquid out of the tofu. Cube tofu and toss (gently) with the cornstarch until coated.
@@ -29,5 +29,3 @@ INSTRUCTIONS
 * While the tofu and broccoli are roasting, cook the rice.
 * Also, make the sauce by blending everything in a blender or food processor.
 * Serve tofu and broccoli with rice and a good drizzle of peanut sauce. 
-[
-https://pinchofyum.com/spicy-peanut-tofu-bowls](https://pinchofyum.com/spicy-peanut-tofu-bowls)

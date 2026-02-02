@@ -20,15 +20,15 @@ CRISPY TOFU INGREDIENTS:
 * 1/2 teaspoon black pepper
 * 1 tablespoon peanut oil (or olive oil)
 SAUCE INGREDIENTS:
-* 1/2 cup <u>[hoisin sauce](http://amzn.to/2lJ6R3a)</u>1/4 cup 
-* <u>[rice vinegar](http://amzn.to/2l0RWCD)</u>2 tablespoons 
-* <u>[oyster sauce](http://amzn.to/2kZFdAa)</u>2 tablespoons low-sodium soy sauce
+* 1/2 cup hoisin sauce1/4 cup 
+* rice vinegar2 tablespoons 
+* oyster sauce2 tablespoons low-sodium soy sauce
 * 1 teaspoon 
-* <u>[toasted sesame oil](http://amzn.to/2le60DX)</u>1/4 teaspoon freshly-cracked black pepper
+* toasted sesame oil1/4 teaspoon freshly-cracked black pepper
 TO MAKE THE MOO SHU:
 * Prepare the crispy tofu (if using) and sauce.  See instructions below.
 * Meanwhile, heat 1 tablespoon oil in a large non-stick sauté pan over medium heat.  Add the whisked eggs and let then cooked undisturbed for 2-3 minutes until they are mostly set and form an omelet.  Flip the omelet and cook for 1 more minute on the second side.  Then transfer the omelet to a separate 
-* <u>[cutting board](http://amzn.to/2liTkLZ)</u>, and roughly chop it into small, thin pieces.  Set aside.
+* cutting board, and roughly chop it into small, thin pieces.  Set aside.
 * Return the pan to the stove, and increase heat to high heat.  Add 1 more tablespoon of oil and heat until shimmering.  Then add the mushrooms and sauté for 3-4 minutes, stirring occasionally, until cooked and lightly browned.  Add the coleslaw and half of the scallions.  Saute for 2-3 minutes more, or until the cabbage has softened to your liking.
 * Add in the cooked tofu, 2/3 of the sauce, half of the green onions.  Toss until combined.
 * Taste and season with additional salt and pepper if needed.

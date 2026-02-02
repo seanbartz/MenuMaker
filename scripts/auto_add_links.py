@@ -170,6 +170,10 @@ MAPPING = {
         "url": "https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl",
         "title": "15 Minute Meal Prep Egg Roll in a Bowl",
     },
+    "instant pot cilantro lime chicken and lentil rice bowls": {
+        "url": "https://pinchofyum.com/15-minute-meal-prep-cilantro-lime-chicken-and-lentils",
+        "title": "Cilantro Lime Chicken and Lentil Rice Bowls",
+    },
 }
 
 

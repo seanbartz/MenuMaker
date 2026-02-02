@@ -2243,7 +2243,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Cilantro Lime Chicken and Lentil Rice Bowls",
+              "url": "https://pinchofyum.com/15-minute-meal-prep-cilantro-lime-chicken-and-lentils",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -5027,7 +5033,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Cilantro Lime Chicken and Lentil Rice Bowls",
+              "url": "https://pinchofyum.com/15-minute-meal-prep-cilantro-lime-chicken-and-lentils",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -17918,7 +17930,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Cilantro Lime Chicken and Lentil Rice Bowls",
+              "url": "https://pinchofyum.com/15-minute-meal-prep-cilantro-lime-chicken-and-lentils",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]

@@ -734,7 +734,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Red Pepper Cashew Pasta with Roasted Cauliflower",
+              "url": "https://pinchofyum.com/red-pepper-cashew-pasta",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {

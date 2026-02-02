@@ -154,6 +154,10 @@ MAPPING = {
         "url": "https://pinchofyum.com/red-pepper-cashew-pasta",
         "title": "Red Pepper Cashew Pasta with Roasted Cauliflower",
     },
+    "roasted red pepper pasta and cauliflower": {
+        "url": "https://pinchofyum.com/red-pepper-cashew-pasta",
+        "title": "Red Pepper Cashew Pasta with Roasted Cauliflower",
+    },
     "black pepper stir fry noodles": {
         "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
         "title": "Black Pepper Stir Fried Udon",

@@ -1015,7 +1015,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -1086,7 +1092,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2192,7 +2204,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": "pinch of yum sos series - add stir fry beef",
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -3860,7 +3878,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -4228,7 +4252,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -4904,7 +4934,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": "pinch of yum sos series - add stir fry beef",
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -5153,7 +5189,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -5482,7 +5524,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "with tofu",
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -6626,7 +6674,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Red Pepper Cashew Pasta with Roasted Cauliflower",
+              "url": "https://pinchofyum.com/red-pepper-cashew-pasta",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -6960,7 +7014,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Red Pepper Cashew Pasta with Roasted Cauliflower",
+              "url": "https://pinchofyum.com/red-pepper-cashew-pasta",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -8519,7 +8579,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "sauce in freezer already",
-          "links": [],
+          "links": [
+            {
+              "text": "Red Pepper Cashew Pasta with Roasted Cauliflower",
+              "url": "https://pinchofyum.com/red-pepper-cashew-pasta",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -9603,7 +9669,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -11264,7 +11336,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -12178,7 +12256,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": "add tofu",
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -12798,7 +12882,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -12896,7 +12986,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Red Pepper Cashew Pasta with Roasted Cauliflower",
+              "url": "https://pinchofyum.com/red-pepper-cashew-pasta",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -13335,7 +13431,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -14335,7 +14437,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -15692,7 +15800,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -18356,7 +18470,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": "pinch of yum sos series - add stir fry beef",
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -18609,7 +18729,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -19030,7 +19156,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": "pinch of yum",
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -19520,7 +19652,13 @@
           "meal_type": "dinner",
           "season": "unknown",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Black Pepper Stir Fried Udon",
+              "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {

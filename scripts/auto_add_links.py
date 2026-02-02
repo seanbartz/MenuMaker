@@ -150,6 +150,22 @@ MAPPING = {
         "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
         "title": "Best Buttermilk Pancakes",
     },
+    "red pepper cashew pasta with roasted cauliflower": {
+        "url": "https://pinchofyum.com/red-pepper-cashew-pasta",
+        "title": "Red Pepper Cashew Pasta with Roasted Cauliflower",
+    },
+    "black pepper stir fry noodles": {
+        "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+        "title": "Black Pepper Stir Fried Udon",
+    },
+    "black pepper stir fry udon": {
+        "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+        "title": "Black Pepper Stir Fried Udon",
+    },
+    "gnocchi with brussels sprouts, chicken sausage and pesto": {
+        "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
+        "title": "Gnocchi with Brussels Sprouts, Chicken Sausage and Kale Pesto",
+    },
 }
 
 

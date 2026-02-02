@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import RecipesPage from './RecipesPage'
+import MenuItemsPage, { type RefactoredMenuItem } from './MenuItemsPage'
 
 type MenuItem = {
   text: string
@@ -87,31 +88,35 @@ function isUrl(str: string | null): boolean {
 function App() {
   const [menus, setMenus] = useState<Menu[]>([])
   const [recipes, setRecipes] = useState<Recipe[]>([])
+  const [menuItems, setMenuItems] = useState<RefactoredMenuItem[]>([])
   const [selectedFile, setSelectedFile] = useState<string | null>(null)
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
-  const [currentPage, setCurrentPage] = useState<'menus' | 'recipes'>('menus')
+  const [currentPage, setCurrentPage] = useState<'menus' | 'recipes' | 'items'>('menus')
 
   useEffect(() => {
     let cancelled = false
     async function load() {
       try {
         setStatus('loading')
-        const [menusRes, recipesRes] = await Promise.all([
+        const [menusRes, recipesRes, itemsRes] = await Promise.all([
           fetch(`${BASE}data/menus.json`),
           fetch(`${BASE}data/recipes.json`),
+          fetch(`${BASE}data/menu_items_refactored.json`),
         ])
 
-        if (!menusRes.ok || !recipesRes.ok) {
+        if (!menusRes.ok || !recipesRes.ok || !itemsRes.ok) {
           throw new Error('Failed to load data files')
         }
 
         const menusJson = await menusRes.json()
         const recipesJson = await recipesRes.json()
+        const itemsJson = await itemsRes.json()
 
         if (!cancelled) {
           setMenus(menusJson.menus ?? [])
           setRecipes(recipesJson.recipes ?? [])
+          setMenuItems(itemsJson.items ?? [])
           setStatus('ready')
         }
       } catch (err) {
@@ -169,6 +174,8 @@ function App() {
     <>
       {currentPage === 'recipes' ? (
         <RecipesPage recipes={recipes} onBack={() => setCurrentPage('menus')} />
+      ) : currentPage === 'items' ? (
+        <MenuItemsPage items={menuItems} onBack={() => setCurrentPage('menus')} />
       ) : (
         <div className="app-shell">
           <header className="app-header">
@@ -184,6 +191,10 @@ function App() {
               <div className="meta-card clickable" onClick={() => setCurrentPage('recipes')}>
                 <span>Recipes</span>
                 <strong>{recipes.length}</strong>
+              </div>
+              <div className="meta-card clickable" onClick={() => setCurrentPage('items')}>
+                <span>Items</span>
+                <strong>{menuItems.length}</strong>
               </div>
             </div>
           </header>

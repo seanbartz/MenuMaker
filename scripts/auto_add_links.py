@@ -178,6 +178,26 @@ MAPPING = {
         "url": "https://pinchofyum.com/15-minute-meal-prep-cilantro-lime-chicken-and-lentils",
         "title": "Cilantro Lime Chicken and Lentil Rice Bowls",
     },
+    "red chile chicken tacos with creamy corn": {
+        "url": "https://pinchofyum.com/red-chile-chicken-tacos-with-creamy-corn",
+        "title": "Red Chile Chicken Tacos with Creamy Corn",
+    },
+    "thai coconut soup with tofu and rice": {
+        "url": "https://pinchofyum.com/thai-coconut-soup-with-tofu-and-rice",
+        "title": "Thai Coconut Soup with Tofu and Rice",
+    },
+    "plantain and pinto stew with aji verde": {
+        "url": "https://pinchofyum.com/plantain-and-pinto-stew-with-aji-verde",
+        "title": "Plantain and Pinto Stew with Aji Verde",
+    },
+    "spanish chicken and potatoes": {
+        "url": "https://pinchofyum.com/one-pot-spanish-chicken-potatoes",
+        "title": "One Pot Spanish Chicken and Potatoes",
+    },
+    "everything greek pork pitas": {
+        "url": "https://pinchofyum.com/everything-greek-pork-pitas",
+        "title": "Everything Greek Pork Pitas",
+    },
     "chicken and broccoli stir fry": {
         "url": "https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/",
         "title": "Chicken and Broccoli Stir Fry",

@@ -1200,7 +1200,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "take to Haley\u2019s?",
-          "links": [],
+          "links": [
+            {
+              "text": "Everything Greek Pork Pitas",
+              "url": "https://pinchofyum.com/everything-greek-pork-pitas",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2041,7 +2047,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "Red Chile Chicken Tacos with Creamy Corn",
+              "url": "https://pinchofyum.com/red-chile-chicken-tacos-with-creamy-corn",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2050,7 +2062,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "Thai Coconut Soup with Tofu and Rice",
+              "url": "https://pinchofyum.com/thai-coconut-soup-with-tofu-and-rice",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -2100,7 +2118,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "One Pot Spanish Chicken and Potatoes",
+              "url": "https://pinchofyum.com/one-pot-spanish-chicken-potatoes",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -3398,7 +3422,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "One Pot Spanish Chicken and Potatoes",
+              "url": "https://pinchofyum.com/one-pot-spanish-chicken-potatoes",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -3553,7 +3583,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "One Pot Spanish Chicken and Potatoes",
+              "url": "https://pinchofyum.com/one-pot-spanish-chicken-potatoes",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -3772,7 +3808,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Red Chile Chicken Tacos with Creamy Corn",
+              "url": "https://pinchofyum.com/red-chile-chicken-tacos-with-creamy-corn",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -6442,7 +6484,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Plantain and Pinto Stew with Aji Verde",
+              "url": "https://pinchofyum.com/plantain-and-pinto-stew-with-aji-verde",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -7986,7 +8034,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Thai Coconut Soup with Tofu and Rice",
+              "url": "https://pinchofyum.com/thai-coconut-soup-with-tofu-and-rice",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -10431,7 +10485,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Everything Greek Pork Pitas",
+              "url": "https://pinchofyum.com/everything-greek-pork-pitas",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -10511,7 +10571,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Plantain and Pinto Stew with Aji Verde",
+              "url": "https://pinchofyum.com/plantain-and-pinto-stew-with-aji-verde",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -12588,7 +12654,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": "pinch of yum",
-          "links": [],
+          "links": [
+            {
+              "text": "Everything Greek Pork Pitas",
+              "url": "https://pinchofyum.com/everything-greek-pork-pitas",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -16372,7 +16444,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "One Pot Spanish Chicken and Potatoes",
+              "url": "https://pinchofyum.com/one-pot-spanish-chicken-potatoes",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -18419,7 +18497,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Everything Greek Pork Pitas",
+              "url": "https://pinchofyum.com/everything-greek-pork-pitas",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -18859,7 +18943,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": "Pinch of Yum",
-          "links": [],
+          "links": [
+            {
+              "text": "One Pot Spanish Chicken and Potatoes",
+              "url": "https://pinchofyum.com/one-pot-spanish-chicken-potatoes",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {

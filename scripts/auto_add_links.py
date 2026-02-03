@@ -26,6 +26,22 @@ MAPPING = {
         "url": "https://pinchofyum.com/yummy-salmon-burgers-slaw",
         "title": "Yummy Salmon Burgers with Slaw",
     },
+    "beer braised brats with apple mustard slaw": {
+        "url": "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/",
+        "title": "Beer Braised Brats with Apple Mustard Slaw",
+    },
+    "beer braised brats and apple mustard slaw": {
+        "url": "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/",
+        "title": "Beer Braised Brats with Apple Mustard Slaw",
+    },
+    "beer braised brats": {
+        "url": "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/",
+        "title": "Beer Braised Brats with Apple Mustard Slaw",
+    },
+    "beer brats with apple mustard slaw": {
+        "url": "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/",
+        "title": "Beer Braised Brats with Apple Mustard Slaw",
+    },
     "chickpea couscous bowls with tahini sauce": {
         "url": "https://www.acouplecooks.com/chickpea-couscous-bowls-tahini-sauce/",
         "title": "Chickpea Couscous Bowls with Tahini Sauce",

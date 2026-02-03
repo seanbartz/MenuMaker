@@ -274,8 +274,7 @@
         "summer"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
+        "dinner"
       ],
       "sections": [],
       "source_hints": [
@@ -291,14 +290,11 @@
         "Sesame apricot tofu with broccoli instead of green beans",
         "Sesame apricot tofu with canned green beans (double)",
         "Sesame apricot tofu and green beans:",
-        "Sesame apricot tofu and green beans: Brats",
+        "Sesame apricot tofu and green beans: Brats and some vegetable from the CSA",
         "Sesame apricot tofu (Pinch of Yum) 0 can use chicken instead and my mom\u2019s green beans. double the sauce recipe",
         "Sesame apricot tofu BLTs and Panera broccoli cheddar soup"
       ],
-      "count": 22,
-      "side_dish": [
-        "some vegetable from the CSA"
-      ]
+      "count": 22
     },
     {
       "url": "https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/",
@@ -1386,6 +1382,49 @@
         "Chicken and broccoli stir fry:",
         "Cashew chicken and broccoli stir fry (Gimme Some Oven)",
         "Chicken and Broccoli Stir fry (Damn Delicious)"
+      ],
+      "count": 5
+    },
+    {
+      "url": "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/",
+      "urls": [
+        "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/"
+      ],
+      "link_texts": [
+        "Beer Braised Brats with Apple Mustard Slaw",
+        "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/"
+      ],
+      "menu_files": [
+        "Menus/Menu week of 10-18-20.md",
+        "Menus/Menu week of 5-19-21.md",
+        "Menus/Menu week of 5-21-23.md",
+        "Menus/Menu week of 6-24-25.md",
+        "Menus/Week of 7-14-25.md"
+      ],
+      "menu_weeks": [
+        "2020-10-18",
+        "2021-05-19",
+        "2023-05-21",
+        "2025-06-24",
+        "2025-07-14"
+      ],
+      "menu_seasons": [
+        "fall",
+        "spring",
+        "summer"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [
+        "grill"
+      ],
+      "item_texts": [
+        "Beer braised brats with apple mustard slaw",
+        "Beer brats with apple mustard slaw (grill)",
+        "Beer braised brats",
+        "Beer braised brats and apple mustard slaw"
       ],
       "count": 5
     },
@@ -2862,39 +2901,6 @@
         "Olive Garden Zuppa Toscana and everyday italian salad"
       ],
       "count": 2
-    },
-    {
-      "url": "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/",
-      "urls": [
-        "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/"
-      ],
-      "link_texts": [
-        "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/"
-      ],
-      "menu_files": [
-        "Menus/Menu week of 6-24-25.md",
-        "Menus/Week of 7-14-25.md"
-      ],
-      "menu_weeks": [
-        "2025-06-24",
-        "2025-07-14"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Beer braised brats"
-      ],
-      "count": 2,
-      "side_dish": [
-        "apple mustard slaw"
-      ]
     },
     {
       "url": "https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358",
@@ -4889,20 +4895,16 @@
         "winter"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
+        "dinner"
       ],
       "sections": [],
       "source_hints": [
         "use sour kraut up"
       ],
       "item_texts": [
-        "Brats"
+        "Brats and some kind of roasted vegetable (use sour kraut up)"
       ],
-      "count": 1,
-      "side_dish": [
-        "some kind of roasted vegetable (use sour kraut up)"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -6217,15 +6219,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and bagged salad, frozen sweet potato fries"
       ],
-      "count": 1,
-      "side_dish": [
-        "bagged salad, frozen sweet potato fries"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -6594,29 +6590,6 @@
       "source_hints": [],
       "item_texts": [
         "Feel good fall salad"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-18-20.md"
-      ],
-      "menu_weeks": [
-        "2020-10-18"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Beer braised brats with apple mustard slaw"
       ],
       "count": 1
     },
@@ -7726,15 +7699,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and roasted potatoes/turnips"
       ],
-      "count": 1,
-      "side_dish": [
-        "roasted potatoes/turnips"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -7893,15 +7860,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and apple spinach salad"
       ],
-      "count": 1,
-      "side_dish": [
-        "apple spinach salad"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -8174,18 +8135,14 @@
         "fall"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
+        "dinner"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Brats"
+        "Brats and apple/mustard slaw, roasted veggies, potatoes with dill, etc"
       ],
-      "count": 1,
-      "side_dish": [
-        "apple/mustard slaw, roasted veggies, potatoes with dill, etc"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -10133,15 +10090,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and turnips"
       ],
-      "count": 1,
-      "side_dish": [
-        "turnips"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -15921,15 +15872,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and sweet potato fries"
       ],
-      "count": 1,
-      "side_dish": [
-        "sweet potato fries"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -17960,15 +17905,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and asparagus"
       ],
-      "count": 1,
-      "side_dish": [
-        "asparagus"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -18599,15 +18538,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and grilled asparagus, chips"
       ],
-      "count": 1,
-      "side_dish": [
-        "grilled asparagus, chips"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -19259,15 +19192,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and sweet potato fries"
       ],
-      "count": 1,
-      "side_dish": [
-        "sweet potato fries"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -19712,31 +19639,6 @@
         "dinner"
       ],
       "sections": [],
-      "source_hints": [
-        "grill"
-      ],
-      "item_texts": [
-        "Beer brats with apple mustard slaw (grill)"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 5-19-21.md"
-      ],
-      "menu_weeks": [
-        "2021-05-19"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
       "source_hints": [],
       "item_texts": [
         "Instant pot chicken and dumplings"
@@ -19878,29 +19780,6 @@
       "source_hints": [],
       "item_texts": [
         "Creamy Red Pepper Pasta and Blistered Tomatoes"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 5-21-23.md"
-      ],
-      "menu_weeks": [
-        "2023-05-21"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Beer braised brats"
       ],
       "count": 1
     },
@@ -21085,15 +20964,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and sweet potato fries"
       ],
-      "count": 1,
-      "side_dish": [
-        "sweet potato fries"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -22019,15 +21892,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and corn and zucchini/squash"
       ],
-      "count": 1,
-      "side_dish": [
-        "corn and zucchini/squash"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -22484,20 +22351,16 @@
         "summer"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
+        "dinner"
       ],
       "sections": [],
       "source_hints": [
         "turnips"
       ],
       "item_texts": [
-        "Grilled brats"
+        "Grilled brats and corn, roasted veggies (turnips)"
       ],
-      "count": 1,
-      "side_dish": [
-        "corn, roasted veggies (turnips)"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -22609,20 +22472,16 @@
         "summer"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
+        "dinner"
       ],
       "sections": [],
       "source_hints": [
         "whatever is left over"
       ],
       "item_texts": [
-        "Brats"
+        "Brats and roasted beets/turnips (whatever is left over)"
       ],
-      "count": 1,
-      "side_dish": [
-        "roasted beets/turnips (whatever is left over)"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -23302,20 +23161,16 @@
         "summer"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
+        "dinner"
       ],
       "sections": [
         "Dinner"
       ],
       "source_hints": [],
       "item_texts": [
-        "Brats"
+        "Brats and grilled corn"
       ],
-      "count": 1,
-      "side_dish": [
-        "grilled corn"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -23692,18 +23547,14 @@
         "unknown"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
+        "dinner"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Brats"
+        "Brats and corn on the cob"
       ],
-      "count": 1,
-      "side_dish": [
-        "corn on the cob"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -23946,15 +23797,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and sweet corn and bagged salad"
       ],
-      "count": 1,
-      "side_dish": [
-        "sweet corn and bagged salad"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -24321,18 +24166,14 @@
         "summer"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
+        "dinner"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Saturday: Cook out - \u201cskewers\u201d - caprese salad, cowboy caviar, peppers, onion, zucchini/squash, brats"
+        "Saturday: Cook out - \u201cskewers\u201d - caprese salad, cowboy caviar, peppers, onion, zucchini/squash, brats and \u201cbrats\u201d,"
       ],
-      "count": 1,
-      "side_dish": [
-        "\u201cbrats\u201d"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -24463,18 +24304,14 @@
         "summer"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
+        "dinner"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "brats"
+        "brats and corn salad"
       ],
-      "count": 1,
-      "side_dish": [
-        "corn salad"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -24829,15 +24666,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and sweet corn"
       ],
-      "count": 1,
-      "side_dish": [
-        "sweet corn"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -25748,15 +25579,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and \ud83c\udf3d"
       ],
-      "count": 1,
-      "side_dish": [
-        "\ud83c\udf3d"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -25823,15 +25648,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and pattypan squash"
       ],
-      "count": 1,
-      "side_dish": [
-        "pattypan squash"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -25967,15 +25786,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and frozen (regular) fries"
       ],
-      "count": 1,
-      "side_dish": [
-        "frozen (regular) fries"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -29243,18 +29056,14 @@
         "fall"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
+        "dinner"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Brats"
+        "Brats and apple slaw, corn, watermelon"
       ],
-      "count": 1,
-      "side_dish": [
-        "apple slaw, corn, watermelon"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -29532,15 +29341,9 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers"
+        "Burgers and sweet corn"
       ],
-      "count": 1,
-      "side_dish": [
-        "sweet corn"
-      ],
-      "attributes": [
-        "grill"
-      ]
+      "count": 1
     },
     {
       "url": null,
@@ -30784,18 +30587,14 @@
         "unknown"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
+        "dinner"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Brats"
+        "Brats and corn on the cob"
       ],
-      "count": 1,
-      "side_dish": [
-        "corn on the cob"
-      ]
+      "count": 1
     },
     {
       "url": null,

@@ -2602,7 +2602,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Beer Braised Brats with Apple Mustard Slaw",
+              "url": "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -12592,7 +12598,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": "grill",
-          "links": [],
+          "links": [
+            {
+              "text": "Beer Braised Brats with Apple Mustard Slaw",
+              "url": "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -12717,7 +12729,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Beer Braised Brats with Apple Mustard Slaw",
+              "url": "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {

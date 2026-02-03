@@ -50,12 +50,19 @@ def merge_items(items_to_merge):
         "source_hints": [],
         "item_texts": [],
     }
-    
-    # Prefer a non-null URL if available
+
+    # Select a non-null URL deterministically:
+    # - choose the most common URL among items_to_merge
+    # - if there is a tie, choose the lexicographically smallest URL
+    url_counts = {}
     for item in items_to_merge:
-        if item.get("url"):
-            merged["url"] = item["url"]
-            break
+        url = item.get("url")
+        if url:
+            url_counts[url] = url_counts.get(url, 0) + 1
+    if url_counts:
+        max_count = max(url_counts.values())
+        candidates = [u for u, count in url_counts.items() if count == max_count]
+        merged["url"] = sorted(candidates)[0]
     
     # Combine all lists
     for item in items_to_merge:

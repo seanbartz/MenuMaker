@@ -274,7 +274,8 @@
         "summer"
       ],
       "meal_types": [
-        "dinner"
+        "dinner",
+        "grill"
       ],
       "sections": [],
       "source_hints": [
@@ -290,11 +291,14 @@
         "Sesame apricot tofu with broccoli instead of green beans",
         "Sesame apricot tofu with canned green beans (double)",
         "Sesame apricot tofu and green beans:",
-        "Sesame apricot tofu and green beans: Brats and some vegetable from the CSA",
+        "Sesame apricot tofu and green beans: Brats",
         "Sesame apricot tofu (Pinch of Yum) 0 can use chicken instead and my mom\u2019s green beans. double the sauce recipe",
         "Sesame apricot tofu BLTs and Panera broccoli cheddar soup"
       ],
-      "count": 22
+      "count": 22,
+      "side_dish": [
+        "some vegetable from the CSA"
+      ]
     },
     {
       "url": "https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/",
@@ -2879,14 +2883,18 @@
         "summer"
       ],
       "meal_types": [
-        "dinner"
+        "dinner",
+        "grill"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Beer braised brats and apple mustard slaw"
+        "Beer braised brats"
       ],
-      "count": 2
+      "count": 2,
+      "side_dish": [
+        "apple mustard slaw"
+      ]
     },
     {
       "url": "https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358",
@@ -4881,16 +4889,20 @@
         "winter"
       ],
       "meal_types": [
-        "dinner"
+        "dinner",
+        "grill"
       ],
       "sections": [],
       "source_hints": [
         "use sour kraut up"
       ],
       "item_texts": [
-        "Brats and some kind of roasted vegetable (use sour kraut up)"
+        "Brats"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "some kind of roasted vegetable (use sour kraut up)"
+      ]
     },
     {
       "url": null,
@@ -8162,14 +8174,18 @@
         "fall"
       ],
       "meal_types": [
-        "dinner"
+        "dinner",
+        "grill"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Brats and apple/mustard slaw, roasted veggies, potatoes with dill, etc"
+        "Brats"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "apple/mustard slaw, roasted veggies, potatoes with dill, etc"
+      ]
     },
     {
       "url": null,
@@ -22468,16 +22484,20 @@
         "summer"
       ],
       "meal_types": [
-        "dinner"
+        "dinner",
+        "grill"
       ],
       "sections": [],
       "source_hints": [
         "turnips"
       ],
       "item_texts": [
-        "Grilled brats and corn, roasted veggies (turnips)"
+        "Grilled brats"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "corn, roasted veggies (turnips)"
+      ]
     },
     {
       "url": null,
@@ -22589,16 +22609,20 @@
         "summer"
       ],
       "meal_types": [
-        "dinner"
+        "dinner",
+        "grill"
       ],
       "sections": [],
       "source_hints": [
         "whatever is left over"
       ],
       "item_texts": [
-        "Brats and roasted beets/turnips (whatever is left over)"
+        "Brats"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "roasted beets/turnips (whatever is left over)"
+      ]
     },
     {
       "url": null,
@@ -23278,16 +23302,20 @@
         "summer"
       ],
       "meal_types": [
-        "dinner"
+        "dinner",
+        "grill"
       ],
       "sections": [
         "Dinner"
       ],
       "source_hints": [],
       "item_texts": [
-        "Brats and grilled corn"
+        "Brats"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "grilled corn"
+      ]
     },
     {
       "url": null,
@@ -23664,14 +23692,18 @@
         "unknown"
       ],
       "meal_types": [
-        "dinner"
+        "dinner",
+        "grill"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Brats and corn on the cob"
+        "Brats"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "corn on the cob"
+      ]
     },
     {
       "url": null,
@@ -24289,14 +24321,18 @@
         "summer"
       ],
       "meal_types": [
-        "dinner"
+        "dinner",
+        "grill"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Saturday: Cook out - \u201cskewers\u201d - caprese salad, cowboy caviar, peppers, onion, zucchini/squash, brats and \u201cbrats\u201d,"
+        "Saturday: Cook out - \u201cskewers\u201d - caprese salad, cowboy caviar, peppers, onion, zucchini/squash, brats"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "\u201cbrats\u201d"
+      ]
     },
     {
       "url": null,
@@ -24427,14 +24463,18 @@
         "summer"
       ],
       "meal_types": [
-        "dinner"
+        "dinner",
+        "grill"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "brats and corn salad"
+        "brats"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "corn salad"
+      ]
     },
     {
       "url": null,
@@ -29203,14 +29243,18 @@
         "fall"
       ],
       "meal_types": [
-        "dinner"
+        "dinner",
+        "grill"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Brats and apple slaw, corn, watermelon"
+        "Brats"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "apple slaw, corn, watermelon"
+      ]
     },
     {
       "url": null,
@@ -30740,14 +30784,18 @@
         "unknown"
       ],
       "meal_types": [
-        "dinner"
+        "dinner",
+        "grill"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Brats and corn on the cob"
+        "Brats"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "corn on the cob"
+      ]
     },
     {
       "url": null,

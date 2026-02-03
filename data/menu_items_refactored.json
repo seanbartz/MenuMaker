@@ -6205,9 +6205,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and bagged salad, frozen sweet potato fries"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "bagged salad, frozen sweet potato fries"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -7708,9 +7714,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and roasted potatoes/turnips"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "roasted potatoes/turnips"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -7869,9 +7881,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and apple spinach salad"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "apple spinach salad"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -10099,9 +10117,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and turnips"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "turnips"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -15881,9 +15905,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and sweet potato fries"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "sweet potato fries"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -17914,9 +17944,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and asparagus"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "asparagus"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -18547,9 +18583,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and grilled asparagus, chips"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "grilled asparagus, chips"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -19201,9 +19243,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and sweet potato fries"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "sweet potato fries"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -21021,9 +21069,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and sweet potato fries"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "sweet potato fries"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -21949,9 +22003,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and corn and zucchini/squash"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "corn and zucchini/squash"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -23854,9 +23914,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and sweet corn and bagged salad"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "sweet corn and bagged salad"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -24723,9 +24789,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and sweet corn"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "sweet corn"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -25636,9 +25708,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and \ud83c\udf3d"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "\ud83c\udf3d"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -25705,9 +25783,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and pattypan squash"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "pattypan squash"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -25843,9 +25927,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and frozen (regular) fries"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "frozen (regular) fries"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,
@@ -29398,9 +29488,15 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Burgers and sweet corn"
+        "Burgers"
       ],
-      "count": 1
+      "count": 1,
+      "side_dish": [
+        "sweet corn"
+      ],
+      "attributes": [
+        "grill"
+      ]
     },
     {
       "url": null,

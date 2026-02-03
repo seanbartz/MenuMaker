@@ -21,17 +21,19 @@ def unique_preserve(seq):
     return out
 
 
+def _get_first_non_empty_text(item, keys):
+    """Return the first non-empty, stripped text found in item for the given keys."""
+    for key in keys:
+        for text in item.get(key, []):
+            if text and text.strip():
+                return text.strip()
+    return None
+
+
 def get_primary_title(item):
     """Get the primary title from an item (first non-empty link_text or item_text)."""
-    # Try link_texts first
-    for text in item.get("link_texts", []):
-        if text and text.strip():
-            return text.strip()
-    # Then try item_texts
-    for text in item.get("item_texts", []):
-        if text and text.strip():
-            return text.strip()
-    return None
+    # Prefer link_texts, then fall back to item_texts
+    return _get_first_non_empty_text(item, ("link_texts", "item_texts"))
 
 
 def merge_items_by_title(items):

@@ -5,6 +5,7 @@ from pathlib import Path
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 APP_DATA_DIR = Path(__file__).resolve().parents[1] / "app" / "public" / "data"
 
+# Input and output are the same - we update the file in place
 IN_PATH = DATA_DIR / "menu_items_refactored.json"
 OUT_PATH = DATA_DIR / "menu_items_refactored.json"
 OUT_APP_PATH = APP_DATA_DIR / "menu_items_refactored.json"

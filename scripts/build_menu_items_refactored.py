@@ -69,11 +69,11 @@ def merge_items_by_title(items):
                 "item_texts": [],
             }
             
-            # Prefer a non-null URL if available
-            for item in items_list:
-                if item.get("url"):
-                    merged["url"] = item["url"]
-                    break
+            # Prefer a non-null URL if available, chosen deterministically
+            non_null_urls = [item.get("url") for item in items_list if item.get("url")]
+            if non_null_urls:
+                # Use lexicographically smallest URL for deterministic selection
+                merged["url"] = min(non_null_urls)
             
             # Combine all lists
             for item in items_list:

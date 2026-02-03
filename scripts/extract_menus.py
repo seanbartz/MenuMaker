@@ -74,37 +74,63 @@ def normalize_text(text: str):
 PRODUCE_SINGLETONS = {
     "apple", "apples",
     "banana", "bananas",
+    "arugula",
     "bell pepper", "bell peppers",
     "blueberry", "blueberries",
     "broccoli",
+    "brussels sprout", "brussels sprouts",
+    "bok choy",
     "carrot", "carrots",
     "cauliflower",
+    "celeriac",
     "celery",
     "cherry", "cherries",
+    "collard greens",
     "cucumber", "cucumbers",
+    "delicata squash",
     "eggplant",
+    "endive",
+    "fennel",
+    "fig", "figs",
     "garlic",
     "ginger",
     "grape", "grapes",
     "green pepper", "green peppers",
+    "habanero pepper", "habanero peppers",
+    "kohlrabi",
     "jalapeno", "jalapenos",
     "kale",
+    "leek", "leeks",
     "lemon", "lemons",
     "lime", "limes",
     "mango", "mangoes",
     "mushroom", "mushrooms",
+    "napa cabbage",
     "onion", "onions",
     "orange", "oranges",
+    "okra",
     "peach", "peaches",
     "pear", "pears",
+    "persimmon", "persimmons",
+    "pomegranate", "pomegranates",
     "pineapple",
+    "poblano pepper", "poblano peppers",
     "potato", "potatoes",
+    "parsnip", "parsnips",
+    "radicchio",
     "red onion", "red onions",
     "red pepper", "red peppers",
+    "rutabaga", "rutabagas",
+    "serrano pepper", "serrano peppers",
     "spinach",
+    "spaghetti squash",
     "strawberry", "strawberries",
     "sweet potato", "sweet potatoes",
     "tomato", "tomatoes",
+    "tomatillo", "tomatillos",
+    "turnip", "turnips",
+    "watercress",
+    "swiss chard",
     "zucchini",
 }
 
@@ -128,6 +154,9 @@ NON_RECIPE_ITEMS = {
     "pizza and salad",
     "corned beef, cabbage, potatoes",
 }
+
+# Ingredient-only notes like "2 lbs salmon" or "1.25 lb chicken thighs".
+INGREDIENT_ONLY_RE = re.compile(r"^\s*\d+(\.\d+)?\s*lbs?\b", re.IGNORECASE)
 
 
 def extract_source_hint(text: str):
@@ -234,6 +263,8 @@ def parse_menu_file(path: Path):
             clean_text = strip_urls_from_text(item_text)
             normalized = normalize_text(clean_text)
             if normalized in PRODUCE_SINGLETONS or normalized in NON_RECIPE_ITEMS:
+                continue
+            if INGREDIENT_ONLY_RE.match(clean_text):
                 continue
             items.append({
                 "text": clean_text,

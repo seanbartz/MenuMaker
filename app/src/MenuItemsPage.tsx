@@ -122,10 +122,6 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
                     <span>Occurrences</span>
                     <strong>{selectedItem.count}</strong>
                   </div>
-                  <div>
-                    <span>Menus</span>
-                    <strong>{selectedItem.menu_files.length}</strong>
-                  </div>
                 </div>
               </div>
 
@@ -157,14 +153,6 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
                       </span>
                     ))}
                   </div>
-                </div>
-                <div className="detail-card">
-                  <h3>Menu Files</h3>
-                  <ul>
-                    {selectedItem.menu_files.map((file, index) => (
-                      <li key={`${file}-${index}`}>{file}</li>
-                    ))}
-                  </ul>
                 </div>
               </div>
             </>

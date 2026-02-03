@@ -1,4 +1,5 @@
 import json
+import shutil
 from collections import defaultdict
 from pathlib import Path
 
@@ -85,7 +86,6 @@ def main():
     # Make a backup of the original file before processing
     backup_path = DATA_DIR / "menu_items_refactored.json.backup"
     if IN_PATH.exists():
-        import shutil
         shutil.copy2(IN_PATH, backup_path)
         print(f"Created backup at {backup_path}")
     
@@ -152,7 +152,6 @@ def main():
         # If an error occurs, restore from backup
         print(f"Error occurred: {e}")
         if backup_path.exists():
-            import shutil
             shutil.copy2(backup_path, IN_PATH)
             print(f"Restored from backup")
         raise

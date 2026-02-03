@@ -153,7 +153,11 @@ def main():
         print(f"Error occurred: {e}")
         if backup_path.exists():
             shutil.copy2(backup_path, IN_PATH)
-            print(f"Restored from backup")
+            print(f"Restored {IN_PATH} from backup")
+            # Keep the app data file in sync with the restored main file
+            if OUT_APP_PATH.exists():
+                shutil.copy2(backup_path, OUT_APP_PATH)
+                print(f"Restored {OUT_APP_PATH} from backup")
         raise
 
 

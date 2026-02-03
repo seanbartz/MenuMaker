@@ -175,6 +175,8 @@ def main():
     # Merge items with duplicate titles (case-insensitive)
     items = merge_items_by_title(items)
 
+    # After merging, re-rank items by their (possibly combined) count and URL.
+    # This intentionally allows merged items to change position based on updated counts.
     items.sort(key=lambda x: (-x["count"], x["url"] or "")) 
 
     output = {"items": items}

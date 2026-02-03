@@ -82,58 +82,80 @@ def merge_items(items_to_merge):
 
 
 def main():
-    # Read input file
-    data = json.loads(IN_PATH.read_text(encoding="utf-8"))
-    items = data.get("items", [])
+    # Make a backup of the original file before processing
+    backup_path = DATA_DIR / "menu_items_refactored.json.backup"
+    if IN_PATH.exists():
+        import shutil
+        shutil.copy2(IN_PATH, backup_path)
+        print(f"Created backup at {backup_path}")
     
-    print(f"Original item count: {len(items)}")
+    try:
+        # Read input file
+        data = json.loads(IN_PATH.read_text(encoding="utf-8"))
+        items = data.get("items", [])
+        
+        print(f"Original item count: {len(items)}")
+        
+        # Group items by case-insensitive title
+        grouped = defaultdict(list)
+        no_title_items = []
+        
+        for item in items:
+            title = get_primary_title(item)
+            if title:
+                # Use lowercase title as key for case-insensitive grouping
+                key = title.lower()
+                grouped[key].append(item)
+            else:
+                # Keep items with no title as-is
+                no_title_items.append(item)
+        
+        # Merge items with duplicate titles
+        merged_items = []
+        merge_count = 0
+        
+        for title_key, items_list in grouped.items():
+            if len(items_list) > 1:
+                # Multiple items with same title - merge them
+                print(f"Merging {len(items_list)} items with title: {get_primary_title(items_list[0])}")
+                merged = merge_items(items_list)
+                merged_items.append(merged)
+                merge_count += 1
+            else:
+                # Single item with this title - keep as-is
+                merged_items.append(items_list[0])
+        
+        # Add items with no title
+        merged_items.extend(no_title_items)
+        
+        # Sort by count (descending) then by url
+        merged_items.sort(key=lambda x: (-x["count"], x["url"] or ""))
+        
+        print(f"Merged item count: {len(merged_items)}")
+        print(f"Number of title groups merged: {merge_count}")
+        print(f"Items without titles: {len(no_title_items)}")
+        
+        # Write output
+        output = {"items": merged_items}
+        OUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=True), encoding="utf-8")
+        APP_DATA_DIR.mkdir(parents=True, exist_ok=True)
+        OUT_APP_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=True), encoding="utf-8")
+        
+        print(f"Output written to {OUT_PATH} and {OUT_APP_PATH}")
+        
+        # If successful, delete the backup
+        if backup_path.exists():
+            backup_path.unlink()
+            print(f"Backup deleted successfully")
     
-    # Group items by case-insensitive title
-    grouped = defaultdict(list)
-    no_title_items = []
-    
-    for item in items:
-        title = get_primary_title(item)
-        if title:
-            # Use lowercase title as key for case-insensitive grouping
-            key = title.lower()
-            grouped[key].append(item)
-        else:
-            # Keep items with no title as-is
-            no_title_items.append(item)
-    
-    # Merge items with duplicate titles
-    merged_items = []
-    merge_count = 0
-    
-    for title_key, items_list in grouped.items():
-        if len(items_list) > 1:
-            # Multiple items with same title - merge them
-            print(f"Merging {len(items_list)} items with title: {get_primary_title(items_list[0])}")
-            merged = merge_items(items_list)
-            merged_items.append(merged)
-            merge_count += 1
-        else:
-            # Single item with this title - keep as-is
-            merged_items.append(items_list[0])
-    
-    # Add items with no title
-    merged_items.extend(no_title_items)
-    
-    # Sort by count (descending) then by url
-    merged_items.sort(key=lambda x: (-x["count"], x["url"] or ""))
-    
-    print(f"Merged item count: {len(merged_items)}")
-    print(f"Number of title groups merged: {merge_count}")
-    print(f"Items without titles: {len(no_title_items)}")
-    
-    # Write output
-    output = {"items": merged_items}
-    OUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=True), encoding="utf-8")
-    APP_DATA_DIR.mkdir(parents=True, exist_ok=True)
-    OUT_APP_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=True), encoding="utf-8")
-    
-    print(f"Output written to {OUT_PATH} and {OUT_APP_PATH}")
+    except Exception as e:
+        # If an error occurs, restore from backup
+        print(f"Error occurred: {e}")
+        if backup_path.exists():
+            import shutil
+            shutil.copy2(backup_path, IN_PATH)
+            print(f"Restored from backup")
+        raise
 
 
 if __name__ == "__main__":

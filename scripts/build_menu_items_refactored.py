@@ -21,6 +21,85 @@ def unique_preserve(seq):
     return out
 
 
+def get_primary_title(item):
+    """Get the primary title from an item (first non-empty link_text or item_text)."""
+    # Try link_texts first
+    for text in item.get("link_texts", []):
+        if text and text.strip():
+            return text.strip()
+    # Then try item_texts
+    for text in item.get("item_texts", []):
+        if text and text.strip():
+            return text.strip()
+    return None
+
+
+def merge_items_by_title(items):
+    """Merge items with duplicate titles (case-insensitive)."""
+    # Group items by case-insensitive title
+    title_groups = defaultdict(list)
+    no_title_items = []
+    
+    for item in items:
+        title = get_primary_title(item)
+        if title:
+            # Use lowercase title as key for case-insensitive grouping
+            key = title.lower()
+            title_groups[key].append(item)
+        else:
+            # Keep items with no title as-is
+            no_title_items.append(item)
+    
+    # Merge items with duplicate titles
+    merged_items = []
+    
+    for title_key, items_list in title_groups.items():
+        if len(items_list) > 1:
+            # Multiple items with same title - merge them
+            merged = {
+                "url": None,
+                "urls": [],
+                "link_texts": [],
+                "menu_files": [],
+                "menu_weeks": [],
+                "menu_seasons": [],
+                "meal_types": [],
+                "sections": [],
+                "source_hints": [],
+                "item_texts": [],
+            }
+            
+            # Prefer a non-null URL if available
+            for item in items_list:
+                if item.get("url"):
+                    merged["url"] = item["url"]
+                    break
+            
+            # Combine all lists
+            for item in items_list:
+                for key in ["urls", "link_texts", "menu_files", "menu_weeks", "menu_seasons",
+                            "meal_types", "sections", "source_hints", "item_texts"]:
+                    merged[key].extend(item.get(key, []))
+            
+            # Deduplicate all lists
+            for key in ["urls", "link_texts", "menu_files", "menu_weeks", "menu_seasons",
+                        "meal_types", "sections", "source_hints", "item_texts"]:
+                merged[key] = unique_preserve([x for x in merged[key] if x])
+            
+            # Calculate count
+            merged["count"] = len(merged["menu_files"])
+            
+            merged_items.append(merged)
+        else:
+            # Single item with this title - keep as-is
+            merged_items.append(items_list[0])
+    
+    # Add items with no title
+    merged_items.extend(no_title_items)
+    
+    return merged_items
+
+
 def main():
     data = json.loads(MENUS_PATH.read_text(encoding="utf-8"))
     menus = data.get("menus", [])
@@ -92,6 +171,9 @@ def main():
             "item_texts": unique_preserve([t for t in entry["item_texts"] if t]),
             "count": len(entry["menu_files"]),
         })
+
+    # Merge items with duplicate titles (case-insensitive)
+    items = merge_items_by_title(items)
 
     items.sort(key=lambda x: (-x["count"], x["url"] or "")) 
 

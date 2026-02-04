@@ -1,6 +1,20 @@
 {
   "websites": [
     {
+      "domain": "acouplecooks.com",
+      "count": 1,
+      "items": [
+        {
+          "url": "https://www.acouplecooks.com/chickpea-couscous-bowls-tahini-sauce/",
+          "menu_file": "Menus/Menu week of 1-10-19.md",
+          "menu_date": "2019-01-10",
+          "menu_season": "winter",
+          "item_text": "Chickpea cous cous bowls with tahini sauce",
+          "meal_type": "dinner"
+        }
+      ]
+    },
+    {
       "domain": "bakerbynature.com",
       "count": 1,
       "items": [
@@ -30,7 +44,7 @@
     },
     {
       "domain": "browneyedbaker.com",
-      "count": 4,
+      "count": 5,
       "items": [
         {
           "url": "https://www.browneyedbaker.com/best-ever-potato-salad-recipe/",
@@ -38,6 +52,14 @@
           "menu_date": "2025-10-22",
           "menu_season": "fall",
           "item_text": "Potato salad:",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+          "menu_file": "Menus/Menu week of 10-25-18.md",
+          "menu_date": "2018-10-25",
+          "menu_season": "fall",
+          "item_text": "Saturday: farmer\u2019s market? pancakes and eggs, chicken enchiladas with green salsa",
           "meal_type": "dinner"
         },
         {
@@ -68,8 +90,16 @@
     },
     {
       "domain": "cookieandkate.com",
-      "count": 1,
+      "count": 2,
       "items": [
+        {
+          "url": "https://cookieandkate.com/vegetarian-italian-chopped-salad-recipe/",
+          "menu_file": "Menus/Menu week of 1-12-2021.md",
+          "menu_date": "2021-01-12",
+          "menu_season": "winter",
+          "item_text": "Lunch: Vegetarian Italian Chopped Salad",
+          "meal_type": "lunch"
+        },
         {
           "url": "https://cookieandkate.com/vegetarian-chili-recipe/",
           "menu_file": "Menus/Menu week of 2-11-25.md",
@@ -95,9 +125,39 @@
       ]
     },
     {
-      "domain": "damndelicious.net",
-      "count": 6,
+      "domain": "cravingsbychrissyteigen.com",
+      "count": 1,
       "items": [
+        {
+          "url": "https://cravingsbychrissyteigen.com/blogs/recipes/squash-and-ricotta-pizza-recipe",
+          "menu_file": "Menus/Menu week of 1-12-2021.md",
+          "menu_date": "2021-01-12",
+          "menu_season": "winter",
+          "item_text": "Garlicky roasted squash and ricotta pizza",
+          "meal_type": "dinner"
+        }
+      ]
+    },
+    {
+      "domain": "damndelicious.net",
+      "count": 7,
+      "items": [
+        {
+          "url": "https://damndelicious.net/2023/04/21/best-chicken-caesar-salad-with-homemade-croutons/",
+          "menu_file": "Menus/Menu week of 1-10-19.md",
+          "menu_date": "2019-01-10",
+          "menu_season": "winter",
+          "item_text": "Chicken Caesar salad",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/",
+          "menu_file": "Menus/Menu week of 1-13-22.md",
+          "menu_date": "2022-01-13",
+          "menu_season": "winter",
+          "item_text": "Chicken and broccoli stir fry (Damn Delicious)",
+          "meal_type": "dinner"
+        },
         {
           "url": "https://damndelicious.net/2018/03/03/instant-pot-olive-garden-zuppa-toscana-copycat/",
           "menu_file": "Menus/Menu week of 1-4-25.md",
@@ -128,14 +188,6 @@
           "menu_date": "2025-05-15",
           "menu_season": "spring",
           "item_text": "BBQ chicken salad",
-          "meal_type": "dinner"
-        },
-        {
-          "url": "https://damndelicious.net/2021/08/13/chicken-and-broccoli-stir-fry/",
-          "menu_file": "Menus/Menu week of 5-30-24.md",
-          "menu_date": "2024-05-30",
-          "menu_season": "spring",
-          "item_text": "Chicken and broccoli stir fry:",
           "meal_type": "dinner"
         },
         {
@@ -182,11 +234,11 @@
       "items": [
         {
           "url": "https://www.forkknifeswoon.com/quick-roasted-tomato-caprese-pasta-salad/",
-          "menu_file": "Menus/Menu week of 10-4-25.md",
-          "menu_date": "2025-10-04",
-          "menu_season": "fall",
-          "item_text": "Caprese pasta salad (Sean lunches)",
-          "meal_type": "lunch"
+          "menu_file": "Menus/Easy post baby recipes.md",
+          "menu_date": null,
+          "menu_season": "unknown",
+          "item_text": "Roasted tomato caprese pasta salad",
+          "meal_type": "dinner"
         }
       ]
     },
@@ -206,8 +258,32 @@
     },
     {
       "domain": "gimmesomeoven.com",
-      "count": 19,
+      "count": 21,
       "items": [
+        {
+          "url": "https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/",
+          "menu_file": "Menus/Easy post baby recipes.md",
+          "menu_date": null,
+          "menu_season": "unknown",
+          "item_text": "Roasted sweet potato tacos",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
+          "menu_file": "Menus/Easy post baby recipes.md",
+          "menu_date": null,
+          "menu_season": "unknown",
+          "item_text": "Gnocchi with Brussels Sprouts, Chicken Sausage and Pesto",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://www.gimmesomeoven.com/vegetarian-moo-shu/",
+          "menu_file": "Menus/Menu week of 1-11-20.md",
+          "menu_date": "2020-01-11",
+          "menu_season": "winter",
+          "item_text": "Vegetarian Moo Shu",
+          "meal_type": "dinner"
+        },
         {
           "url": "https://www.gimmesomeoven.com/slow-cooker-vegetarian-chili-recipe/#tasty-recipes-63953",
           "menu_file": "Menus/Menu week of 1-17-25.md",
@@ -230,14 +306,6 @@
           "menu_date": "2024-10-23",
           "menu_season": "fall",
           "item_text": "Poblano white chicken chili",
-          "meal_type": "dinner"
-        },
-        {
-          "url": "https://www.gimmesomeoven.com/roasted-sweet-potato-tacos/",
-          "menu_file": "Menus/Menu week of 10-23-24.md",
-          "menu_date": "2024-10-23",
-          "menu_season": "fall",
-          "item_text": "Roasted sweet potato tacos Chili (Halloween)",
           "meal_type": "dinner"
         },
         {
@@ -398,18 +466,26 @@
       "items": [
         {
           "url": "https://honestlyyum.com/6637/beer-braised-brats-with-apple-mustard-slaw/",
-          "menu_file": "Menus/Menu week of 6-24-25.md",
-          "menu_date": "2025-06-24",
-          "menu_season": "summer",
-          "item_text": "Beer braised brats and apple mustard slaw",
+          "menu_file": "Menus/Menu week of 10-18-20.md",
+          "menu_date": "2020-10-18",
+          "menu_season": "fall",
+          "item_text": "Beer braised brats with apple mustard slaw",
           "meal_type": "dinner"
         }
       ]
     },
     {
       "domain": "howsweeteats.com",
-      "count": 4,
+      "count": 5,
       "items": [
+        {
+          "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
+          "menu_file": "Menus/Menu week of 10-4-20.md",
+          "menu_date": "2020-10-04",
+          "menu_season": "fall",
+          "item_text": "Baja grain bowls",
+          "meal_type": "dinner"
+        },
         {
           "url": "https://www.howsweeteats.com/2021/03/asparagus-pasta-salad/",
           "menu_file": "Menus/Menu week of 3-12-25.md",
@@ -446,8 +522,16 @@
     },
     {
       "domain": "iowagirleats.com",
-      "count": 3,
+      "count": 4,
       "items": [
+        {
+          "url": "https://iowagirleats.com/crock-pot-white-chicken-chili-recipe/",
+          "menu_file": "Menus/Menu week of 1-20-24.md",
+          "menu_date": "2024-01-20",
+          "menu_season": "winter",
+          "item_text": "Crock pot white chicken chili (Iowa Girl Eats)",
+          "meal_type": "dinner"
+        },
         {
           "url": "https://iowagirleats.com/broccoli-beef-recipe/#wprm-recipe-container-146358",
           "menu_file": "Menus/Menu week of 1-4-25.md",
@@ -457,11 +541,11 @@
           "meal_type": "dinner"
         },
         {
-          "url": "https://iowagirleats.com/crock-pot-white-chicken-chili-recipe/",
-          "menu_file": "Menus/Menu week of 12-19-24.md",
-          "menu_date": "2024-12-19",
+          "url": "https://iowagirleats.com/broccoli-beef-recipe/",
+          "menu_file": "Menus/Menu week of 1-9-24.md",
+          "menu_date": "2024-01-09",
           "menu_season": "winter",
-          "item_text": "Dinner: CrockPot White Chicken Chili",
+          "item_text": "Lighter broccoli beef with brown rice (Iowa Girl Eats)",
           "meal_type": "dinner"
         },
         {
@@ -572,9 +656,9 @@
       "items": [
         {
           "url": "https://www.melskitchencafe.com/slow-cooker-butternut-squash-tortellini/",
-          "menu_file": "Menus/Menu week of 10-4-25.md",
-          "menu_date": "2025-10-04",
-          "menu_season": "fall",
+          "menu_file": "Menus/Menu week of 1-31-22.md",
+          "menu_date": "2022-01-31",
+          "menu_season": "winter",
           "item_text": "Slow cooker butternut squash tortellini",
           "meal_type": "dinner"
         }
@@ -609,8 +693,22 @@
       ]
     },
     {
+      "domain": "pbs.org",
+      "count": 1,
+      "items": [
+        {
+          "url": "https://www.pbs.org/food/recipes/bulgur-salad-with-grapes-and-feta-cheese",
+          "menu_file": "Menus/Menu week of 7-2-20 (vacation).md",
+          "menu_date": "2020-07-02",
+          "menu_season": "summer",
+          "item_text": "Bulgur salad (make ahead and bring)",
+          "meal_type": "lunch"
+        }
+      ]
+    },
+    {
       "domain": "pinchofyum.com",
-      "count": 66,
+      "count": 84,
       "items": [
         {
           "url": "https://pinchofyum.com/carrot-cake-coffee-cake?utm_source=convertkit&utm_medium=email&utm_campaign=What+I%27m+Bringing+Back+Home+for+Easter+Weekend%21+-+17310250",
@@ -618,6 +716,94 @@
           "menu_date": null,
           "menu_season": "unknown",
           "item_text": "Carrot cake coffee cake - make the night before",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/spicy-peanut-tofu-bowls",
+          "menu_file": "Menus/Easy post baby recipes.md",
+          "menu_date": null,
+          "menu_season": "unknown",
+          "item_text": "Spicy peanut tofu bowls",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/sweet-potato-peanut-soup",
+          "menu_file": "Menus/Menu week of 1-10-19.md",
+          "menu_date": "2019-01-10",
+          "menu_season": "winter",
+          "item_text": "Spicy peanut soup with sweet potato (instant pot)",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/yummy-salmon-burgers-slaw",
+          "menu_file": "Menus/Menu week of 1-10-19.md",
+          "menu_date": "2019-01-10",
+          "menu_season": "winter",
+          "item_text": "Salmon burgers with slaw",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/instant-pot-short-rib-ragu",
+          "menu_file": "Menus/Menu week of 1-10-19.md",
+          "menu_date": "2019-01-10",
+          "menu_season": "winter",
+          "item_text": "Instant pot short rib ragu",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/creamy-chicken-quinoa-broccoli-casserole",
+          "menu_file": "Menus/Menu week of 1-11-20.md",
+          "menu_date": "2020-01-11",
+          "menu_season": "winter",
+          "item_text": "Chicken Quinoa Broccoli Casserole",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/quick-and-easy-lentil-quesadillas",
+          "menu_file": "Menus/Menu week of 1-11-20.md",
+          "menu_date": "2020-01-11",
+          "menu_season": "winter",
+          "item_text": "Crockpot Lentil Quesadillas with magic green sauce",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/quinoa-crunch-salad-with-peanut-dressing",
+          "menu_file": "Menus/Menu week of 1-11-20.md",
+          "menu_date": "2020-01-11",
+          "menu_season": "winter",
+          "item_text": "Quinoa Crunch Salad with peanut dressing",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/easy-vegan-burrito-bowls",
+          "menu_file": "Menus/Menu week of 1-12-2021.md",
+          "menu_date": "2021-01-12",
+          "menu_season": "winter",
+          "item_text": "Cauliflower walnut taco meat burrito bowls",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/sesame-apricot-tofu",
+          "menu_file": "Menus/Menu week of 1-13-22.md",
+          "menu_date": "2022-01-13",
+          "menu_season": "winter",
+          "item_text": "Sesame apricot tofu (Pinch of Yum)",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/baked-salmon-with-amazing-lemon-sauce",
+          "menu_file": "Menus/Menu week of 1-13-22.md",
+          "menu_date": "2022-01-13",
+          "menu_season": "winter",
+          "item_text": "Baked Salmon with amazing lemon sauce (Pinch of Yum)",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/red-pepper-cashew-pasta",
+          "menu_file": "Menus/Menu week of 1-16-26.md",
+          "menu_date": "2026-01-16",
+          "menu_season": "winter",
+          "item_text": "Roasted red pepper pasta and cauliflower",
           "meal_type": "dinner"
         },
         {
@@ -661,27 +847,11 @@
           "meal_type": "dinner"
         },
         {
-          "url": "https://pinchofyum.com/sesame-apricot-tofu",
-          "menu_file": "Menus/Menu week of 1-17-25.md",
-          "menu_date": "2025-01-17",
-          "menu_season": "winter",
-          "item_text": "Sesame apricot tofu",
-          "meal_type": "dinner"
-        },
-        {
           "url": "https://pinchofyum.com/thai-peanut-chicken-bowls",
           "menu_file": "Menus/Menu week of 1-17-25.md",
           "menu_date": "2025-01-17",
           "menu_season": "winter",
           "item_text": "Thai peanut chicken bowls: use chicken thighs",
-          "meal_type": "dinner"
-        },
-        {
-          "url": "https://pinchofyum.com/instant-pot-short-rib-ragu",
-          "menu_file": "Menus/Menu week of 1-17-25.md",
-          "menu_date": "2025-01-17",
-          "menu_season": "winter",
-          "item_text": "Short rib ragu and fancy pasta in the freezer",
           "meal_type": "dinner"
         },
         {
@@ -693,11 +863,51 @@
           "meal_type": "dinner"
         },
         {
+          "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
+          "menu_file": "Menus/Menu week of 1-20-24.md",
+          "menu_date": "2024-01-20",
+          "menu_season": "winter",
+          "item_text": "Black pepper stir fry udon noodles with tofu (Pinch of Yum)",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/chicken-wontons-in-spicy-chili-sauce",
+          "menu_file": "Menus/Menu week of 1-20-24.md",
+          "menu_date": "2024-01-20",
+          "menu_season": "winter",
+          "item_text": "Chicken wontons with spicy sauce and roasted broccoli (Pinch of Yum)",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/the-best-chicken-tinga-tacos",
+          "menu_file": "Menus/Menu week of 1-21-19.md",
+          "menu_date": "2019-01-21",
+          "menu_season": "winter",
+          "item_text": "Chicken tinga tacos",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/everything-greek-pork-pitas",
+          "menu_file": "Menus/Menu week of 1-21-19.md",
+          "menu_date": "2019-01-21",
+          "menu_season": "winter",
+          "item_text": "Everything Greek pork pitas and Greek salad (take to Haley\u2019s?)",
+          "meal_type": "dinner"
+        },
+        {
           "url": "https://pinchofyum.com/5-ingredient-spicy-pork",
           "menu_file": "Menus/Menu week of 1-23-23.md",
           "menu_date": "2023-01-23",
           "menu_season": "winter",
           "item_text": "Five ingredient spicy pork",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/autumn-glow-salad-with-lemon-dressing",
+          "menu_file": "Menus/Menu week of 1-28-18.md",
+          "menu_date": "2018-01-28",
+          "menu_season": "winter",
+          "item_text": "Autumn glow salad",
           "meal_type": "dinner"
         },
         {
@@ -709,35 +919,11 @@
           "meal_type": "dinner"
         },
         {
-          "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
-          "menu_file": "Menus/Menu week of 1-28-25.md",
-          "menu_date": "2025-01-28",
-          "menu_season": "winter",
-          "item_text": "Black pepper stir fry udon add ground pork",
-          "meal_type": "dinner"
-        },
-        {
-          "url": "https://pinchofyum.com/autumn-glow-salad-with-lemon-dressing",
-          "menu_file": "Menus/Menu week of 1-28-25.md",
-          "menu_date": "2025-01-28",
-          "menu_season": "winter",
-          "item_text": "Autumn glow salad add chicken",
-          "meal_type": "dinner"
-        },
-        {
           "url": "https://pinchofyum.com/cauliflower-walnut-vegetarian-taco-meat",
           "menu_file": "Menus/Menu week of 1-28-25.md",
           "menu_date": "2025-01-28",
           "menu_season": "winter",
           "item_text": "Cauliflower walnut taco meat Double recipe, serve with black beans, pico, cheese, sour cream, corn, salsa, and lettuce",
-          "meal_type": "dinner"
-        },
-        {
-          "url": "https://pinchofyum.com/spicy-peanut-tofu-bowls",
-          "menu_file": "Menus/Menu week of 1-28-25.md",
-          "menu_date": "2025-01-28",
-          "menu_season": "winter",
-          "item_text": "Spicy peanut tofu bowls",
           "meal_type": "dinner"
         },
         {
@@ -757,11 +943,75 @@
           "meal_type": "dinner"
         },
         {
+          "url": "https://pinchofyum.com/red-chile-chicken-tacos-with-creamy-corn",
+          "menu_file": "Menus/Menu week of 1-9-24.md",
+          "menu_date": "2024-01-09",
+          "menu_season": "winter",
+          "item_text": "Red chile chicken tacos with creamy corn (Pinch of Yum)",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/thai-coconut-soup-with-tofu-and-rice",
+          "menu_file": "Menus/Menu week of 1-9-24.md",
+          "menu_date": "2024-01-09",
+          "menu_season": "winter",
+          "item_text": "Thai coconut soup with tofu and rice (Pinch of Yum)",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/one-pot-spanish-chicken-potatoes",
+          "menu_file": "Menus/Menu week of 10-1-23.md",
+          "menu_date": "2023-10-01",
+          "menu_season": "fall",
+          "item_text": "Spanish chicken and potatoes (Pinch of Yum)",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/15-minute-meal-prep-cilantro-lime-chicken-and-lentils",
+          "menu_file": "Menus/Menu week of 10-10-21.md",
+          "menu_date": "2021-10-10",
+          "menu_season": "fall",
+          "item_text": "Instant pot cilantro lime chicken and lentil rice bowls",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/spaghetti-with-crispy-zucchini",
+          "menu_file": "Menus/Menu week of 10-11-23.md",
+          "menu_date": "2023-10-11",
+          "menu_season": "fall",
+          "item_text": "Spaghetti with Crispy Zucchini",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/30-minute-meal-prep-roasted-vegetable-bowls-with-green-tahini",
+          "menu_file": "Menus/Menu week of 10-11-23.md",
+          "menu_date": "2023-10-11",
+          "menu_season": "fall",
+          "item_text": "Roasted vegetable bowls",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/cilantro-orange-chicken-with-rice-and-beans",
+          "menu_file": "Menus/Menu week of 10-11-23.md",
+          "menu_date": "2023-10-11",
+          "menu_season": "fall",
+          "item_text": "Cilantro Orange Chicken",
+          "meal_type": "dinner"
+        },
+        {
           "url": "https://pinchofyum.com/tofu-and-brown-rice-lettuce-wraps",
           "menu_file": "Menus/Menu week of 10-23-24.md",
           "menu_date": "2024-10-23",
           "menu_season": "fall",
           "item_text": "Tofu and Brown Lettuce Wraps with Peanut Sauce",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/instant-pot-cauliflower-curry",
+          "menu_file": "Menus/Menu week of 10-4-2019.md",
+          "menu_date": "2019-10-04",
+          "menu_season": "fall",
+          "item_text": "Instant pot cauliflower curry",
           "meal_type": "dinner"
         },
         {
@@ -805,14 +1055,6 @@
           "meal_type": "dinner"
         },
         {
-          "url": "https://pinchofyum.com/spaghetti-with-crispy-zucchini",
-          "menu_file": "Menus/Menu week of 11-8-24.md",
-          "menu_date": "2024-11-08",
-          "menu_season": "fall",
-          "item_text": "Spaghetti with crispy zucchini",
-          "meal_type": "dinner"
-        },
-        {
           "url": "https://pinchofyum.com/bang-bang-salmon-with-avocado-cucumber-salsa",
           "menu_file": "Menus/Menu week of 11-8-24.md",
           "menu_date": "2024-11-08",
@@ -826,6 +1068,22 @@
           "menu_date": "2024-12-19",
           "menu_season": "winter",
           "item_text": "Chickpea curry add bell pepper use yellow curry paste",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/plantain-and-pinto-stew-with-aji-verde",
+          "menu_file": "Menus/Menu week of 12-28-23.md",
+          "menu_date": "2023-12-28",
+          "menu_season": "winter",
+          "item_text": "Plantain and pinto stew with aji verde",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl",
+          "menu_file": "Menus/Menu week of 12-31-19.md",
+          "menu_date": "2019-12-31",
+          "menu_season": "winter",
+          "item_text": "Egg roll in a bowl",
           "meal_type": "dinner"
         },
         {
@@ -858,14 +1116,6 @@
           "menu_date": "2025-12-04",
           "menu_season": "winter",
           "item_text": "Chicken tortilla soup and quesadillas",
-          "meal_type": "dinner"
-        },
-        {
-          "url": "https://pinchofyum.com/red-pepper-cashew-pasta",
-          "menu_file": "Menus/Menu week of 12-4-25.md",
-          "menu_date": "2025-12-04",
-          "menu_season": "winter",
-          "item_text": "Red pepper cashew pasta with roasted cauliflower",
           "meal_type": "dinner"
         },
         {
@@ -925,6 +1175,14 @@
           "meal_type": "dinner"
         },
         {
+          "url": "https://pinchofyum.com/bbq-salmon-mango-salsa",
+          "menu_file": "Menus/Menu week of 3-24-24.md",
+          "menu_date": "2024-03-24",
+          "menu_season": "spring",
+          "item_text": "BBQ Salmon Bowls (Pinch of Yum)",
+          "meal_type": "dinner"
+        },
+        {
           "url": "https://pinchofyum.com/caramelized-pork-tacos-with-pineapple-salsa",
           "menu_file": "Menus/Menu week of 4-28-25.md",
           "menu_date": "2025-04-28",
@@ -941,11 +1199,11 @@
           "meal_type": "dinner"
         },
         {
-          "url": "https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl",
-          "menu_file": "Menus/Menu week of 4-28-25.md",
-          "menu_date": "2025-04-28",
+          "url": "https://pinchofyum.com/butter-chicken-meatballs",
+          "menu_file": "Menus/Menu week of 4-5-23.md",
+          "menu_date": "2023-04-05",
           "menu_season": "spring",
-          "item_text": "Egg roll in a bowl",
+          "item_text": "Butter chicken meatballs with roasted cauliflower",
           "meal_type": "dinner"
         },
         {
@@ -1037,27 +1295,11 @@
           "meal_type": "dinner"
         },
         {
-          "url": "https://pinchofyum.com/chicken-wontons-in-spicy-chili-sauce",
-          "menu_file": "Menus/Menu week of 8-13-25.md",
-          "menu_date": "2025-08-13",
-          "menu_season": "summer",
-          "item_text": "Chicken wontons in spicy chili sauce Spicy peanut tofu bowls",
-          "meal_type": "dinner"
-        },
-        {
           "url": "https://pinchofyum.com/burst-tomato-pappardelle",
           "menu_file": "Menus/Menu week of 8-13-25.md",
           "menu_date": "2025-08-13",
           "menu_season": "summer",
           "item_text": "Burst Tomato Pappardelle With Zucchini, Sweet Corn, And Pan-Fried Chicken Frozen orange chicken and broccoli xxxom/burst-tomato-pappardelle",
-          "meal_type": "dinner"
-        },
-        {
-          "url": "https://pinchofyum.com/red-chile-chicken-tacos-with-creamy-corn",
-          "menu_file": "Menus/Menu week of 8-26-25.md",
-          "menu_date": "2025-08-26",
-          "menu_season": "summer",
-          "item_text": "Red chile chicken tacos with creamy corn Red Chile Chicken Tacos with Creamy Corn Recipe - Pinch of Yum",
           "meal_type": "dinner"
         },
         {
@@ -1085,6 +1327,14 @@
           "meal_type": "dinner"
         },
         {
+          "url": "https://pinchofyum.com/napa-chicken-salad-with-sesame-dressing",
+          "menu_file": "Menus/Menu week of 9-17-23.md",
+          "menu_date": "2023-09-17",
+          "menu_season": "fall",
+          "item_text": "Napa chicken salad",
+          "meal_type": "dinner"
+        },
+        {
           "url": "https://pinchofyum.com/buffalo-chicken-burgers-with-whipped-feta-spread",
           "menu_file": "Menus/Menu week of 9-21-25.md",
           "menu_date": "2025-09-21",
@@ -1106,14 +1356,6 @@
           "menu_date": "2025-09-21",
           "menu_season": "fall",
           "item_text": "Crunchy Roll Bowls with Crispy Shallots",
-          "meal_type": "dinner"
-        },
-        {
-          "url": "https://pinchofyum.com/quick-and-easy-lentil-quesadillas",
-          "menu_file": "Menus/Week of 11-17-25.md",
-          "menu_date": "2025-11-17",
-          "menu_season": "fall",
-          "item_text": "Quick and easy lentil quesadillas",
           "meal_type": "dinner"
         },
         {
@@ -1158,7 +1400,7 @@
     },
     {
       "domain": "seriouseats.com",
-      "count": 2,
+      "count": 3,
       "items": [
         {
           "url": "https://www.seriouseats.com/black-bean-corn-red-pepper-salad-lime-cilantro-vinaigrette-recipe",
@@ -1166,6 +1408,14 @@
           "menu_date": "2024-10-06",
           "menu_season": "fall",
           "item_text": "**Black Bean, Corn, and Red Pepper Salad With Lime Cilantro Vinaigrette Recipe (add baby tomatoes)** **",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://www.seriouseats.com/herb-butter-rubbed-crisp-skinned-butterflied-spatchcock-roast-turkey-thanksgiving-recipe",
+          "menu_file": "Menus/Menu week of 11-10-17.md",
+          "menu_date": "2017-11-10",
+          "menu_season": "fall",
+          "item_text": "Turkey",
           "meal_type": "dinner"
         },
         {
@@ -1179,15 +1429,43 @@
       ]
     },
     {
+      "domain": "skinnytaste.com",
+      "count": 1,
+      "items": [
+        {
+          "url": "https://www.skinnytaste.com/butternut-squash-and-black-bean/",
+          "menu_file": "Menus/Menu week of 11-1-20.md",
+          "menu_date": "2020-11-01",
+          "menu_season": "fall",
+          "item_text": "Butternut squash and black bean enchiladas (radishes, avocado)",
+          "meal_type": "dinner"
+        }
+      ]
+    },
+    {
+      "domain": "smittenkitchen.com",
+      "count": 1,
+      "items": [
+        {
+          "url": "https://smittenkitchen.com/2012/08/leek-chard-and-corn-flatbread/",
+          "menu_file": "Menus/Menu week of 10-7-17.md",
+          "menu_date": "2017-10-07",
+          "menu_season": "fall",
+          "item_text": "Leek, chard, goat cheese, and corn flatbread",
+          "meal_type": "dinner"
+        }
+      ]
+    },
+    {
       "domain": "spendwithpennies.com",
       "count": 1,
       "items": [
         {
           "url": "https://www.spendwithpennies.com/instant-pot-chicken-noodle-soup/",
-          "menu_file": "Menus/Menu week of 10-4-25.md",
-          "menu_date": "2025-10-04",
+          "menu_file": "Menus/Menu week of 10-11-23.md",
+          "menu_date": "2023-10-11",
           "menu_season": "fall",
-          "item_text": "Instant pot chicken noodle soup",
+          "item_text": "Instant pot chicken noodle soup (Spend with Pennies)",
           "meal_type": "dinner"
         }
       ]
@@ -1233,6 +1511,14 @@
           "meal_type": "dinner"
         },
         {
+          "url": "https://www.twopeasandtheirpod.com/sheet-pan-pesto-gnocchi/",
+          "menu_file": "Menus/Menu week of 1-24-21.md",
+          "menu_date": "2021-01-24",
+          "menu_season": "winter",
+          "item_text": "Sheet pan pesto gnocchi",
+          "meal_type": "dinner"
+        },
+        {
           "url": "https://www.twopeasandtheirpod.com/sheet-pan-pesto-gnocchi/#wprm-recipe-container-44204",
           "menu_file": "Menus/Menu week of 10-22-25.md",
           "menu_date": "2025-10-22",
@@ -1246,14 +1532,6 @@
           "menu_date": "2025-10-22",
           "menu_season": "fall",
           "item_text": "Roasted delicate squash salad and baguette:",
-          "meal_type": "dinner"
-        },
-        {
-          "url": "https://www.twopeasandtheirpod.com/sheet-pan-pesto-gnocchi/",
-          "menu_file": "Menus/Menu week of 10-23-24.md",
-          "menu_date": "2024-10-23",
-          "menu_season": "fall",
-          "item_text": "Sheet pan pesto gnocchi",
           "meal_type": "dinner"
         },
         {
@@ -1276,8 +1554,32 @@
     },
     {
       "domain": "wellplated.com",
-      "count": 10,
+      "count": 12,
       "items": [
+        {
+          "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+          "menu_file": "Menus/Menu week of 1-24-20.md",
+          "menu_date": "2020-01-24",
+          "menu_season": "winter",
+          "item_text": "Instant pot cauliflower mac and cheese",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
+          "menu_file": "Menus/Menu week of 1-28-18.md",
+          "menu_date": "2018-01-28",
+          "menu_season": "winter",
+          "item_text": "Butternut squash Mac and cheese",
+          "meal_type": "dinner"
+        },
+        {
+          "url": "https://www.wellplated.com/instant-pot-butter-chicken/",
+          "menu_file": "Menus/Menu week of 10-10-21.md",
+          "menu_date": "2021-10-10",
+          "menu_season": "fall",
+          "item_text": "Instant pot butter chicken",
+          "meal_type": "dinner"
+        },
         {
           "url": "https://www.wellplated.com/butternut-squash-soup/#wprm-recipe-container-34260",
           "menu_file": "Menus/Menu week of 10-22-25.md",
@@ -1316,14 +1618,6 @@
           "menu_date": "2025-12-19",
           "menu_season": "winter",
           "item_text": "Blender waffles",
-          "meal_type": "dinner"
-        },
-        {
-          "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
-          "menu_file": "Menus/Menu week of 4-11-25.md",
-          "menu_date": "2025-04-11",
-          "menu_season": "spring",
-          "item_text": "Instant Pot Cauliflower Mac & Cheese",
           "meal_type": "dinner"
         },
         {

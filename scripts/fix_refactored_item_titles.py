@@ -33,20 +33,25 @@ def looks_like_url(text: str) -> bool:
 def clean_titles(item):
     link_texts = item.get("link_texts", [])
     url = item.get("url")
+    derived = title_from_url(url) if url else None
 
     # If link_texts are URL-like, replace with derived title
     if link_texts and all(looks_like_url(t) for t in link_texts):
-        derived = title_from_url(url) if url else None
         if derived:
             item["link_texts"] = [derived]
             return True
 
     # If no link_texts and we can derive from url
     if (not link_texts or all(not t.strip() for t in link_texts)) and url:
-        derived = title_from_url(url)
         if derived:
             item["link_texts"] = [derived]
             return True
+
+    # Replace any individual URL-like link_texts if we can derive a title
+    if derived and link_texts and any(looks_like_url(t) for t in link_texts):
+        new_texts = [derived if looks_like_url(t) else t for t in link_texts]
+        item["link_texts"] = new_texts
+        return True
 
     return False
 

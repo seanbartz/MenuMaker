@@ -102,6 +102,10 @@ MAPPING = {
         "url": "https://smittenkitchen.com/2012/08/leek-chard-and-corn-flatbread/",
         "title": "Leek, Chard, and Corn Flatbread",
     },
+    "whole wheat pasta salad with salmon": {
+        "url": "https://www.cookincanuck.com/whole-wheat-pasta-salad-recipe-with-salmon-tomatoes-herb-dressing-for-a-half-marathon/",
+        "title": "Whole Wheat Pasta Salad with Salmon, Tomatoes & Herb Dressing",
+    },
     "crockpot lentil quesadillas": {
         "url": "https://pinchofyum.com/quick-and-easy-lentil-quesadillas",
         "title": "Quick and Easy Lentil Quesadillas",

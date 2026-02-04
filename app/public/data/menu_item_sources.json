@@ -111,6 +111,20 @@
       ]
     },
     {
+      "domain": "cookincanuck.com",
+      "count": 1,
+      "items": [
+        {
+          "url": "https://www.cookincanuck.com/whole-wheat-pasta-salad-recipe-with-salmon-tomatoes-herb-dressing-for-a-half-marathon/",
+          "menu_file": "Menus/Menu week of 1-2-18.md",
+          "menu_date": "2018-01-02",
+          "menu_season": "winter",
+          "item_text": "Whole wheat pasta salad with salmon",
+          "meal_type": "dinner"
+        }
+      ]
+    },
+    {
       "domain": "cooking.nytimes.com",
       "count": 1,
       "items": [

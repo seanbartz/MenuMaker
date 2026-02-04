@@ -172,6 +172,44 @@ def extract_source_hint(text: str):
     return hint
 
 
+def strip_leading_prefixes(text: str):
+    """Remove leading weekday or meal prefixes; return (cleaned_text, meal_override)."""
+    trimmed = text.strip()
+    if not trimmed:
+        return text, None
+
+    # Weekday prefixes like "Monday:" or "Mon -"
+    weekday_re = re.compile(
+        r"^(mon(day)?|tue(sday)?|wed(nesday)?|thu(rsday)?|fri(day)?|sat(urday)?|sun(day)?)\\s*[:\\-–]\\s*",
+        re.IGNORECASE,
+    )
+    trimmed = weekday_re.sub("", trimmed, count=1)
+
+    # Meal prefixes like "Breakfast:" or "Lunch -"
+    meal_map = {
+        "breakfast": "breakfast",
+        "brunch": "breakfast",
+        "lunch": "lunch",
+        "dinner": "dinner",
+        "snack": "snack",
+        "snacks": "snack",
+        "dessert": "dessert",
+        "drinks": "drink",
+        "drink": "drink",
+    }
+    meal_re = re.compile(
+        r"^(breakfast|brunch|lunch|dinner|snack|snacks|dessert|drinks|drink)\\s*[:\\-–]\\s*",
+        re.IGNORECASE,
+    )
+    m = meal_re.match(trimmed)
+    if m:
+        meal_key = m.group(1).lower()
+        trimmed = meal_re.sub("", trimmed, count=1)
+        return trimmed.strip(), meal_map.get(meal_key)
+
+    return trimmed.strip(), None
+
+
 def parse_date_from_filename(name: str):
     for pat in DATE_PATTERNS:
         m = pat.search(name)
@@ -261,6 +299,8 @@ def parse_menu_file(path: Path):
             md_links, urls = extract_links(item_text)
             # Strip URLs from the text since they're now in clickable pills
             clean_text = strip_urls_from_text(item_text)
+            # Strip leading weekday/meal prefixes and infer meal type from prefix if present
+            clean_text, prefix_meal = strip_leading_prefixes(clean_text)
             normalized = normalize_text(clean_text)
             if normalized in PRODUCE_SINGLETONS or normalized in NON_RECIPE_ITEMS:
                 continue
@@ -269,7 +309,7 @@ def parse_menu_file(path: Path):
             items.append({
                 "text": clean_text,
                 "section": current_section,
-                "meal_type": infer_meal_type(current_section, item_text),
+                "meal_type": prefix_meal or infer_meal_type(current_section, item_text),
                 "season": season,
                 "source_hint": extract_source_hint(item_text),
                 "links": md_links,

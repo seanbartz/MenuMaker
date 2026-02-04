@@ -1028,7 +1028,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Whole Wheat Pasta Salad with Salmon, Tomatoes & Herb Dressing",
+              "url": "https://www.cookincanuck.com/whole-wheat-pasta-salad-recipe-with-salmon-tomatoes-herb-dressing-for-a-half-marathon/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         }
       ]
@@ -8236,7 +8242,13 @@
           "meal_type": "dinner",
           "season": "winter",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Whole Wheat Pasta Salad with Salmon, Tomatoes & Herb Dressing",
+              "url": "https://www.cookincanuck.com/whole-wheat-pasta-salad-recipe-with-salmon-tomatoes-herb-dressing-for-a-half-marathon/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -12598,7 +12610,13 @@
           "meal_type": "dinner",
           "season": "spring",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Whole Wheat Pasta Salad with Salmon, Tomatoes & Herb Dressing",
+              "url": "https://www.cookincanuck.com/whole-wheat-pasta-salad-recipe-with-salmon-tomatoes-herb-dressing-for-a-half-marathon/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -14074,7 +14092,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Whole Wheat Pasta Salad with Salmon, Tomatoes & Herb Dressing",
+              "url": "https://www.cookincanuck.com/whole-wheat-pasta-salad-recipe-with-salmon-tomatoes-herb-dressing-for-a-half-marathon/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -16563,7 +16587,13 @@
           "meal_type": "dinner",
           "season": "summer",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Whole Wheat Pasta Salad with Salmon, Tomatoes & Herb Dressing",
+              "url": "https://www.cookincanuck.com/whole-wheat-pasta-salad-recipe-with-salmon-tomatoes-herb-dressing-for-a-half-marathon/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {
@@ -18398,7 +18428,13 @@
           "meal_type": "dinner",
           "season": "fall",
           "source_hint": null,
-          "links": [],
+          "links": [
+            {
+              "text": "Whole Wheat Pasta Salad with Salmon, Tomatoes & Herb Dressing",
+              "url": "https://www.cookincanuck.com/whole-wheat-pasta-salad-recipe-with-salmon-tomatoes-herb-dressing-for-a-half-marathon/",
+              "auto_added": true
+            }
+          ],
           "urls": []
         },
         {

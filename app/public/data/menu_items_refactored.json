@@ -599,60 +599,6 @@
       "count": 16
     },
     {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 1-13-18.md",
-        "Menus/Menu week of 1-21-19.md",
-        "Menus/Menu week of 1-24-21.md",
-        "Menus/Menu week of 2-14-19.md",
-        "Menus/Menu week of 3-14-18.md",
-        "Menus/Menu week of 3-21-20.md",
-        "Menus/Menu week of 4-10-19.md",
-        "Menus/Menu week of 4-16-18.md",
-        "Menus/Menu week of 4-2-2020.md",
-        "Menus/Menu week of 5-22-19.md",
-        "Menus/Menu week of 7-5-19.md",
-        "Menus/Menu week of 8-12-20.md",
-        "Menus/Menu week of 8-26-20.md",
-        "Menus/Menu week of 8-5-17.md",
-        "Menus/Menu week of 9-1-19.md"
-      ],
-      "menu_weeks": [
-        "2018-01-13",
-        "2019-01-21",
-        "2021-01-24",
-        "2019-02-14",
-        "2018-03-14",
-        "2020-03-21",
-        "2019-04-10",
-        "2018-04-16",
-        "2020-04-02",
-        "2019-05-22",
-        "2019-07-05",
-        "2020-08-12",
-        "2020-08-26",
-        "2017-08-05",
-        "2019-09-01"
-      ],
-      "menu_seasons": [
-        "winter",
-        "spring",
-        "summer",
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Pizza"
-      ],
-      "count": 15
-    },
-    {
       "url": "https://www.wellplated.com/butternut-squash-mac-and-cheese/",
       "urls": [
         "https://www.wellplated.com/butternut-squash-mac-and-cheese/"
@@ -882,49 +828,6 @@
         "Baja grain bowls (veg)"
       ],
       "count": 11
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 1-21-19.md",
-        "Menus/Menu week of 1-24-20.md",
-        "Menus/Menu week of 1-24-21.md",
-        "Menus/Menu week of 1-4-25.md",
-        "Menus/Menu week of 11-3-21.md",
-        "Menus/Menu week of 2-27-25.md",
-        "Menus/Menu week of 3-31-18.md",
-        "Menus/Menu week of 4-3-21.md",
-        "Menus/Menu week of 9-17-19.md",
-        "Menus/Menu week of 9-8-17.md"
-      ],
-      "menu_weeks": [
-        "2019-01-21",
-        "2020-01-24",
-        "2021-01-24",
-        "2025-01-04",
-        "2021-11-03",
-        "2025-02-27",
-        "2018-03-31",
-        "2021-04-03",
-        "2019-09-17",
-        "2017-09-08"
-      ],
-      "menu_seasons": [
-        "winter",
-        "fall",
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Chili"
-      ],
-      "count": 10
     },
     {
       "url": "https://pinchofyum.com/yummy-salmon-burgers-slaw",
@@ -2525,33 +2428,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 11-10-17.md",
-        "Menus/Menu week of 11-19-22.md",
-        "Menus/Menu week of 11-28-19.md"
-      ],
-      "menu_weeks": [
-        "2017-11-10",
-        "2022-11-19",
-        "2019-11-28"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Gravy"
-      ],
-      "count": 3
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 11-19-22.md",
         "Menus/Menu week of 11-28-19.md",
         "Menus/Menu week of Thanksgiving.md"
@@ -2606,36 +2482,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 12-19-25.md",
-        "Menus/Menu week of 4-3-21.md",
-        "Menus/Week of 11-17-25.md"
-      ],
-      "menu_weeks": [
-        "2025-12-19",
-        "2021-04-03",
-        "2025-11-17"
-      ],
-      "menu_seasons": [
-        "winter",
-        "spring",
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "bacon",
-        "Bacon"
-      ],
-      "count": 3
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 12-27-22.md",
         "Menus/Menu week of 2-20-23.md",
         "Menus/Menu week of 5-18-22.md"
@@ -2657,34 +2503,6 @@
       "item_texts": [
         "Instant Pot Ground beef and pasta",
         "Instant pot ground beef and pasta"
-      ],
-      "count": 3
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-27-22.md",
-        "Menus/Menu week of 2-8-20.md",
-        "Menus/Week of 11-17-25.md"
-      ],
-      "menu_weeks": [
-        "2022-12-27",
-        "2020-02-08",
-        "2025-11-17"
-      ],
-      "menu_seasons": [
-        "winter",
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Fruit"
       ],
       "count": 3
     },
@@ -2773,38 +2591,6 @@
         "Cauliflower, potato, and green pea daal"
       ],
       "count": 3
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 3-19-21.md",
-        "Menus/Menu week of 5-1-21.md",
-        "Menus/Menu week of 6-1-22.md"
-      ],
-      "menu_weeks": [
-        "2021-03-19",
-        "2021-05-01",
-        "2022-06-01"
-      ],
-      "menu_seasons": [
-        "spring",
-        "summer"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 3,
-      "side_dish": [
-        "sweet potato fries"
-      ]
     },
     {
       "url": null,
@@ -2942,7 +2728,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "baby tomatoes",
@@ -4020,32 +3808,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 1-31-22.md",
-        "Menus/Menu week of 4-10-22.md"
-      ],
-      "menu_weeks": [
-        "2022-01-31",
-        "2022-04-10"
-      ],
-      "menu_seasons": [
-        "winter",
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue apron chicken"
-      ],
-      "count": 2
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 1-9-24.md",
         "Menus/Menu week of 2-16-24.md"
       ],
@@ -4096,32 +3858,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 10-18-20.md",
-        "Menus/Menu week of 6-3-2020.md"
-      ],
-      "menu_weeks": [
-        "2020-10-18",
-        "2020-06-03"
-      ],
-      "menu_seasons": [
-        "fall",
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Make granola"
-      ],
-      "count": 2
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 10-21-19.md",
         "Menus/Menu week of 10-22-25.md"
       ],
@@ -4162,7 +3898,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Butternut squash"
@@ -4253,31 +3991,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 11-19-22.md",
-        "Menus/Menu week of Thanksgiving.md"
-      ],
-      "menu_weeks": [
-        "2022-11-19"
-      ],
-      "menu_seasons": [
-        "fall",
-        "unknown"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Stuffing"
-      ],
-      "count": 2
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 11-24-23.md",
         "Menus/Menu week of 2-23-20.md"
       ],
@@ -4297,32 +4010,6 @@
       "item_texts": [
         "Instant Pot Pot Roast",
         "Instant Pot Pot roast"
-      ],
-      "count": 2
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 11-6-18.md",
-        "Menus/Menu week of 12-17-18.md"
-      ],
-      "menu_weeks": [
-        "2018-11-06",
-        "2018-12-17"
-      ],
-      "menu_seasons": [
-        "fall",
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Tuesday: pizza"
       ],
       "count": 2
     },
@@ -4450,60 +4137,8 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "bulgar salad",
         "Monday: bulgar salad"
-      ],
-      "count": 2
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-19-25.md",
-        "Menus/Week of 11-17-25.md"
-      ],
-      "menu_weeks": [
-        "2025-12-19",
-        "2025-11-17"
-      ],
-      "menu_seasons": [
-        "winter",
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "eggs",
-        "Eggs"
-      ],
-      "count": 2
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-21-20.md",
-        "Menus/Menu week of 6-10-18.md"
-      ],
-      "menu_weeks": [
-        "2020-12-21",
-        "2018-06-10"
-      ],
-      "menu_seasons": [
-        "winter",
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Monday: Pizza"
       ],
       "count": 2
     },
@@ -4580,32 +4215,6 @@
       "source_hints": [],
       "item_texts": [
         "Spaghetti squash pizza boats"
-      ],
-      "count": 2
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-31-2020.md",
-        "Menus/Menu week of 6-12-24.md"
-      ],
-      "menu_weeks": [
-        "2020-12-31",
-        "2024-06-12"
-      ],
-      "menu_seasons": [
-        "winter",
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Radishes"
       ],
       "count": 2
     },
@@ -4941,6 +4550,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "sausage and peppers with garlic aioli",
         "Grilled sausage and peppers with garlic aioli"
       ],
       "count": 2
@@ -5104,32 +4714,6 @@
       "link_texts": [],
       "menu_files": [
         "Menus/Menu week of 7-20.md",
-        "Menus/Sean Bachelor.md"
-      ],
-      "menu_weeks": [],
-      "menu_seasons": [
-        "unknown"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Brats"
-      ],
-      "count": 2,
-      "side_dish": [
-        "corn on the cob"
-      ]
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-20.md",
         "Menus/Menu week of 8-5-17.md"
       ],
       "menu_weeks": [
@@ -5168,7 +4752,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "banana peppers",
@@ -5202,36 +4788,6 @@
         "Peruvian-style grilled chicken with aji verde sauce (Serious Eats), cuban rice and black beans (Skinnytaste)"
       ],
       "count": 2
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-8-23.md",
-        "Menus/Menu week of 9-22-18.md"
-      ],
-      "menu_weeks": [
-        "2023-07-08",
-        "2018-09-22"
-      ],
-      "menu_seasons": [
-        "summer",
-        "fall"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 2,
-      "side_dish": [
-        "sweet corn"
-      ]
     },
     {
       "url": null,
@@ -5290,57 +4846,6 @@
       "link_texts": [],
       "menu_files": [
         "Menus/Menu week of 8-20-23.md",
-        "Menus/Menu week of 9-17-20.md"
-      ],
-      "menu_weeks": [
-        "2023-08-20",
-        "2020-09-17"
-      ],
-      "menu_seasons": [
-        "summer",
-        "fall"
-      ],
-      "meal_types": [
-        "lunch"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Lunch: BLTs"
-      ],
-      "count": 2
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 8-20-23.md",
-        "Menus/Week of 7-14-25.md"
-      ],
-      "menu_weeks": [
-        "2023-08-20",
-        "2025-07-14"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Corn"
-      ],
-      "count": 2
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 8-20-23.md",
         "Menus/Menu week of 8-3-23.md"
       ],
       "menu_weeks": [
@@ -5357,32 +4862,6 @@
       "source_hints": [],
       "item_texts": [
         "Pork shoulder roast"
-      ],
-      "count": 2
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 8-22-18.md",
-        "Menus/Menu week of 9-22-18.md"
-      ],
-      "menu_weeks": [
-        "2018-08-22",
-        "2018-09-22"
-      ],
-      "menu_seasons": [
-        "summer",
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Granola"
       ],
       "count": 2
     },
@@ -6346,69 +5825,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Easter brunch.md"
-      ],
-      "menu_weeks": [],
-      "menu_seasons": [
-        "unknown"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Make the night before. Sub water for milk. only add cheese to half and not in the mix."
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Easter brunch.md"
-      ],
-      "menu_weeks": [],
-      "menu_seasons": [
-        "unknown"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Use vegan butter"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Easter brunch.md"
-      ],
-      "menu_weeks": [],
-      "menu_seasons": [
-        "unknown"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "FruitMonkeys"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 1-10-19.md"
       ],
       "menu_weeks": [
@@ -6471,6 +5887,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Roasted beet, goat cheese, and candied pecan salad with amelia\u2019s bread",
         "Saturday: Roasted beet, goat cheese, and candied pecan salad with amelia\u2019s bread"
       ],
       "count": 1
@@ -6725,30 +6142,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Carrots and hummus"
+      "sections": [
+        "ingredient"
       ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 1-13-18.md"
-      ],
-      "menu_weeks": [
-        "2018-01-13"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
       "source_hints": [],
       "item_texts": [
         "Cheese and crackers (include goat cheese and port wine cranberry"
@@ -6797,76 +6193,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Blue apron: chicken"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 1-16-22.md"
-      ],
-      "menu_weeks": [
-        "2022-01-16"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
         "Smokey beans and greens tacos with aj\u00ed verde"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 1-16-22.md"
-      ],
-      "menu_weeks": [
-        "2022-01-16"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue apron: steak"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 1-16-22.md"
-      ],
-      "menu_weeks": [
-        "2022-01-16"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue apron: salmon"
       ],
       "count": 1
     },
@@ -6892,56 +6219,6 @@
         "Creamy red pepper pasta with bl\u00edsteres tomatoes"
       ],
       "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 1-16-22.md"
-      ],
-      "menu_weeks": [
-        "2022-01-16"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue Apron: wonton noodles"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 1-16-22.md"
-      ],
-      "menu_weeks": [
-        "2022-01-16"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue apron: cheese burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "potato wedges"
-      ]
     },
     {
       "url": null,
@@ -7079,6 +6356,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "French toast, bacon",
         "Breakfast: French toast, bacon"
       ],
       "count": 1
@@ -7197,35 +6475,6 @@
         "Chicken nuggets, sweet potato fries, roasted broccoli"
       ],
       "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 1-20-24.md"
-      ],
-      "menu_weeks": [
-        "2024-01-20"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [
-        "use sour kraut up"
-      ],
-      "item_texts": [
-        "Brats"
-      ],
-      "count": 1,
-      "side_dish": [
-        "some kind of roasted vegetable (use sour kraut up)"
-      ]
     },
     {
       "url": null,
@@ -7636,7 +6885,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [
         "blueberries, mangoes, apples"
       ],
@@ -7661,7 +6912,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Eggs, bacon, potatoes"
@@ -7688,29 +6941,6 @@
       "source_hints": [],
       "item_texts": [
         "Tofu peanut bowls"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 1-31-22.md"
-      ],
-      "menu_weeks": [
-        "2022-01-31"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Steaks"
       ],
       "count": 1
     },
@@ -7871,29 +7101,6 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Blue apron gnocchi"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 1-31-22.md"
-      ],
-      "menu_weeks": [
-        "2022-01-31"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
         "Instant pot wild rice soup"
       ],
       "count": 1
@@ -8011,59 +7218,10 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Zoo Boo pick up something"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-1-23.md"
-      ],
-      "menu_weeks": [
-        "2023-10-01"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "steak, roasted broccoli, potatoes",
         "Grilled steak, roasted broccoli, potatoes"
       ],
       "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-10-21.md"
-      ],
-      "menu_weeks": [
-        "2021-10-10"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "bagged salad, frozen sweet potato fries"
-      ]
     },
     {
       "url": null,
@@ -8109,76 +7267,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "BLTAs"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-10-21.md"
-      ],
-      "menu_weeks": [
-        "2021-10-10"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
         "Sheet pan sausage and peppers (serve as sandwiches with provolone and pasta sauce) - Get baguette from Amelia\u2019s"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-10-21.md"
-      ],
-      "menu_weeks": [
-        "2021-10-10"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Moe\u2019s casseroles"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-10-21.md"
-      ],
-      "menu_weeks": [
-        "2021-10-10"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Fy"
       ],
       "count": 1
     },
@@ -8271,29 +7360,6 @@
       "source_hints": [],
       "item_texts": [
         "Saucy gochujang noodles with chicken"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-13-22.md"
-      ],
-      "menu_weeks": [
-        "2022-10-13"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Steak"
       ],
       "count": 1
     },
@@ -8456,6 +7522,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Brown butter gnocchi with roasted butternut squash and kale",
         "Sunday: Brown butter gnocchi with roasted butternut squash and kale"
       ],
       "count": 1
@@ -8499,7 +7566,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Precooked brats"
@@ -8548,76 +7617,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Dice and freeze tomatoes"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-18-20.md"
-      ],
-      "menu_weeks": [
-        "2020-10-18"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Make pico with baby tomatoes"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-18-20.md"
-      ],
-      "menu_weeks": [
-        "2020-10-18"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
         "Quick-pickle banana peppers"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-18-20.md"
-      ],
-      "menu_weeks": [
-        "2020-10-18"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Harvest the green onions from garden"
       ],
       "count": 1
     },
@@ -8752,7 +7752,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [
         "lots"
       ],
@@ -8777,58 +7779,13 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
-        "Friday: Mimi Blue meatballs"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-25-18.md"
-      ],
-      "menu_weeks": [
-        "2018-10-25"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "salad and dinner rolls",
         "Monday: salad and dinner rolls"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-25-18.md"
-      ],
-      "menu_weeks": [
-        "2018-10-25"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [
-        "book club at center point"
-      ],
-      "item_texts": [
-        "Tuesday: jimmy johns or similar (book club at center point)"
       ],
       "count": 1
     },
@@ -8874,6 +7831,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "pan-seared chicken with roasted honey nut squash and apple",
         "Thursday: pan-seared chicken with roasted honey nut squash and apple"
       ],
       "count": 1
@@ -8920,6 +7878,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "pizza?",
         "Saturday: pizza?"
       ],
       "count": 1
@@ -9032,7 +7991,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Red potatoes"
@@ -9055,7 +8016,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Purple finger line potatoes"
@@ -9078,7 +8041,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Delicate squash"
@@ -9242,75 +8207,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Tuesday: Chili"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-31-17.md"
-      ],
-      "menu_weeks": [
-        "2017-10-31"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Thursday: Alicia babysit for Missy, Sean on own"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-31-17.md"
-      ],
-      "menu_weeks": [
-        "2017-10-31"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Friday: Taste of Thanksgiving"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-31-17.md"
-      ],
-      "menu_weeks": [
-        "2017-10-31"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "Turnips with Bacon and Orange (Dooley pg 209), pork chops with apples and onions",
         "Saturday: Turnips with Bacon and Orange (Dooley pg 209), pork chops with apples and onions"
       ],
       "count": 1
@@ -9334,6 +8231,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Beets and caramelized onions with feta, chicken and honey mustard?",
         "Sunday: Beets and caramelized onions with feta, chicken and honey mustard?"
       ],
       "count": 1
@@ -9357,36 +8255,10 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "balsamic roasted fingerling potatoes and Brussels sprouts, baked tilapia with pecan rosemary topping",
         "Tuesday: balsamic roasted fingerling potatoes and Brussels sprouts, baked tilapia with pecan rosemary topping"
       ],
       "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-4-20.md"
-      ],
-      "menu_weeks": [
-        "2020-10-04"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "roasted potatoes/turnips"
-      ]
     },
     {
       "url": null,
@@ -9479,33 +8351,6 @@
         "Pan-seared pork chops with roasted butternut squash and apple"
       ],
       "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 10-4-2019.md"
-      ],
-      "menu_weeks": [
-        "2019-10-04"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "apple spinach salad"
-      ]
     },
     {
       "url": null,
@@ -9617,7 +8462,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Salad and rolls"
@@ -9769,33 +8616,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 10-7-17.md"
-      ],
-      "menu_weeks": [
-        "2017-10-07"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Brats"
-      ],
-      "count": 1,
-      "side_dish": [
-        "apple/mustard slaw, roasted veggies, potatoes with dill, etc"
-      ]
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 11-1-20.md"
       ],
       "menu_weeks": [
@@ -9858,6 +8678,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "steak and fennel, roasted purple fingerling potatoes",
         "Thursday: Grilling steak and fennel, roasted purple fingerling potatoes"
       ],
       "count": 1
@@ -9904,6 +8725,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Beets and caramelized onions with feta, chicken strips and honey mustard",
         "Friday: Beets and caramelized onions with feta, chicken strips and honey mustard"
       ],
       "count": 1
@@ -9927,6 +8749,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "balsamic roasted fingerling potatoes and Brussels sprouts, steak, \ud83c\udf77",
         "Saturday: balsamic roasted fingerling potatoes and Brussels sprouts, steak, \ud83c\udf77"
       ],
       "count": 1
@@ -9950,6 +8773,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Pot roast with potatoes, carrots, onion, green beans",
         "Sunday: Pot roast with potatoes, carrots, onion, green beans"
       ],
       "count": 1
@@ -10040,29 +8864,6 @@
         "dinner"
       ],
       "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Cider"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 11-10-17.md"
-      ],
-      "menu_weeks": [
-        "2017-11-10"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
       "source_hints": [
         "make with veggie broth"
       ],
@@ -10087,7 +8888,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Apples plus caramel"
@@ -10370,6 +9173,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Feel good fall salad (sweet potatoes) and baguette",
         "Monday: Feel good fall salad (sweet potatoes) and baguette"
       ],
       "count": 1
@@ -10599,33 +9403,12 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Cranberry sauce"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 11-19-22.md"
-      ],
-      "menu_weeks": [
-        "2022-11-19"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Appetizers"
       ],
       "count": 1
     },
@@ -10671,29 +9454,6 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Rolls"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 11-19-22.md"
-      ],
-      "menu_weeks": [
-        "2022-11-19"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
         "German cucumber dill salad"
       ],
       "count": 1
@@ -10714,131 +9474,12 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Claus german sausages"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 11-19-22.md"
-      ],
-      "menu_weeks": [
-        "2022-11-19"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Kniffle"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 11-19-22.md"
-      ],
-      "menu_weeks": [
-        "2022-11-19"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Saurkraut"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 11-24-23.md"
-      ],
-      "menu_weeks": [
-        "2023-11-24"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [
-        "Cheese and crackers"
-      ],
-      "item_texts": [
-        "Appetizer (Cheese and crackers)"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 11-24-23.md"
-      ],
-      "menu_weeks": [
-        "2023-11-24"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [
-        "veggie tray"
-      ],
-      "item_texts": [
-        "Appetizer (veggie tray)"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 11-24-23.md"
-      ],
-      "menu_weeks": [
-        "2023-11-24"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [
-        "Larry"
-      ],
-      "item_texts": [
-        "Knopfle (Larry)"
       ],
       "count": 1
     },
@@ -10881,33 +9522,12 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Saur Kraut"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 11-24-23.md"
-      ],
-      "menu_weeks": [
-        "2023-11-24"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Sausages"
       ],
       "count": 1
     },
@@ -11234,56 +9854,6 @@
         "Broccoli beef"
       ],
       "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 11-6-18.md"
-      ],
-      "menu_weeks": [
-        "2018-11-06"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Colcannon"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 11-6-18.md"
-      ],
-      "menu_weeks": [
-        "2018-11-06"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "turnips"
-      ]
     },
     {
       "url": null,
@@ -11634,29 +10204,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Saturday: France 44"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-15-17.md"
-      ],
-      "menu_weeks": [
-        "2017-12-15"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "crispy potato, chorizo and green chili hash",
         "Sunday:crispy potato, chorizo and green chili hash"
       ],
       "count": 1
@@ -11680,53 +10228,8 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Tuesday: Alicia book Club"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-15-17.md"
-      ],
-      "menu_weeks": [
-        "2017-12-15"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "cauliflower potato and green pea daal, rice",
         "Wednesday: cauliflower potato and green pea daal, rice"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-15-17.md"
-      ],
-      "menu_weeks": [
-        "2017-12-15"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Thursday: leftovers"
       ],
       "count": 1
     },
@@ -11772,6 +10275,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Peanut butter blossoms and sugar cookies",
         "Friday: Peanut butter blossoms and sugar cookies"
       ],
       "count": 1
@@ -11818,29 +10322,6 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Whatever beer Sean wants"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-16-19.md"
-      ],
-      "menu_weeks": [
-        "2019-12-16"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
         "1 pan baked ham and swiss sliders"
       ],
       "count": 1
@@ -11861,30 +10342,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Hummus"
+      "sections": [
+        "ingredient"
       ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-16-19.md"
-      ],
-      "menu_weeks": [
-        "2019-12-16"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
       "source_hints": [],
       "item_texts": [
         "Pita bread"
@@ -11910,6 +10370,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Butternut squash quinoa chili",
         "Monday: Butternut squash quinoa chili"
       ],
       "count": 1
@@ -11933,6 +10394,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Quick and easy lentil quesadillas and magic green sauce",
         "Wednesday: Quick and easy lentil quesadillas and magic green sauce"
       ],
       "count": 1
@@ -11956,6 +10418,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "quinoa salad with apple, chickpeas, toasted almonds, and apple cider vinaigrette",
         "Thursday: quinoa salad with apple, chickpeas, toasted almonds, and apple cider vinaigrette"
       ],
       "count": 1
@@ -11981,30 +10444,8 @@
         "cousins night out - don\u2019t know if this included dinner"
       ],
       "item_texts": [
+        "crispy chicken bacon pesto gnocchi skillet - add asparagus (cousins night out - don\u2019t know if this included dinner)",
         "Friday: crispy chicken bacon pesto gnocchi skillet - add asparagus (cousins night out - don\u2019t know if this included dinner)"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-17-18.md"
-      ],
-      "menu_weeks": [
-        "2018-12-17"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Saturday: Christmas festivities begin \ud83c\udf84\ud83c\udf85\ud83c\udffc\ud83c\udf85\ud83c\udfff\u2603\ufe0f\ud83e\udd8c"
       ],
       "count": 1
     },
@@ -12027,30 +10468,8 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Bacon potato and egg casserole leftovers, monkey rolls, fruit",
         "Breakfast: Bacon potato and egg casserole leftovers, monkey rolls, fruit"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-19-25.md"
-      ],
-      "menu_weeks": [
-        "2025-12-19"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "breakfast"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Christmas morning breakfast:"
       ],
       "count": 1
     },
@@ -12073,6 +10492,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Daikon with Chicken in yuzu sauce",
         "Tuesday: Daikon with Chicken in yuzu sauce"
       ],
       "count": 1
@@ -12142,6 +10562,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Chicken tacos; napa cabbage slaw with honey lime dressing, avocado",
         "Wednesday: Chicken tacos; napa cabbage slaw with honey lime dressing, avocado"
       ],
       "count": 1
@@ -12237,75 +10658,6 @@
       ],
       "item_texts": [
         "Vegetarian tortellini soup (A Couple Cooks)"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-22-21.md"
-      ],
-      "menu_weeks": [
-        "2021-12-22"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue Apron meal pork"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-22-21.md"
-      ],
-      "menu_weeks": [
-        "2021-12-22"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue apron meal noodles"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-22-21.md"
-      ],
-      "menu_weeks": [
-        "2021-12-22"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue apron meal curry baked chicken and roasted veggies"
       ],
       "count": 1
     },
@@ -12440,7 +10792,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Orange juice"
@@ -12513,52 +10867,6 @@
       "source_hints": [],
       "item_texts": [
         "Gnocchi pesto brussels chicken sausage"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-28-23.md"
-      ],
-      "menu_weeks": [
-        "2023-12-28"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "New Year\u2019s Day at Haley\u2019s"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-28-23.md"
-      ],
-      "menu_weeks": [
-        "2023-12-28"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "12/30 Date day"
       ],
       "count": 1
     },
@@ -12929,29 +11237,6 @@
         "winter"
       ],
       "meal_types": [
-        "breakfast"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Make Breakfast balls"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-31-19.md"
-      ],
-      "menu_weeks": [
-        "2019-12-31"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
         "lunch"
       ],
       "sections": [],
@@ -13028,6 +11313,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Croque Madame",
         "Breakfast: Croque Madame"
       ],
       "count": 1
@@ -13071,7 +11357,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Brioche bread"
@@ -13094,76 +11382,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Yacon"
+      "sections": [
+        "ingredient"
       ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-31-2020.md"
-      ],
-      "menu_weeks": [
-        "2020-12-31"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Diakon"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-31-2020.md"
-      ],
-      "menu_weeks": [
-        "2020-12-31"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Beets"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-31-2020.md"
-      ],
-      "menu_weeks": [
-        "2020-12-31"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
       "source_hints": [],
       "item_texts": [
         "Weird ass sweet potatoes"
@@ -13189,6 +11410,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Chicken Noodle Soup",
         "Tuesday: Chicken Noodle Soup"
       ],
       "count": 1
@@ -13212,32 +11434,8 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "bulgar salad",
         "Wednesday: bulgar salad"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-4-18.md"
-      ],
-      "menu_weeks": [
-        "2018-12-04"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [
-        "make cous cous"
-      ],
-      "item_texts": [
-        "Thursday: leftover tangine (make cous cous)"
       ],
       "count": 1
     },
@@ -13445,98 +11643,6 @@
       "source_hints": [],
       "item_texts": [
         "Roasted delicata squash salad"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-8-21.md"
-      ],
-      "menu_weeks": [
-        "2021-12-08"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue Apron meal #4"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-8-21.md"
-      ],
-      "menu_weeks": [
-        "2021-12-08"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue Apron meal #3"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-8-21.md"
-      ],
-      "menu_weeks": [
-        "2021-12-08"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue Apron meal #2"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 12-8-21.md"
-      ],
-      "menu_weeks": [
-        "2021-12-08"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue Apron meal #1"
       ],
       "count": 1
     },
@@ -13768,6 +11874,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "slow cooker beef stroganoff",
         "Saturday: slow cooker beef stroganoff"
       ],
       "count": 1
@@ -13959,29 +12066,6 @@
       "source_hints": [],
       "item_texts": [
         "Cauliflower soup"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 2-20-23.md"
-      ],
-      "menu_weeks": [
-        "2023-02-20"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Order pizza one night"
       ],
       "count": 1
     },
@@ -14225,30 +12309,8 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "steaks",
         "Sunday - steaks"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 2-27-22.md"
-      ],
-      "menu_weeks": [
-        "2022-02-27"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Tuesday - Fat Tuesday order out"
       ],
       "count": 1
     },
@@ -14296,6 +12358,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Seared chicken and sherry pan sauce",
         "Thursday -Seared chicken and sherry pan sauce"
       ],
       "count": 1
@@ -14860,6 +12923,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Fettucini with preserved lemon and roasted garlic, salad",
         "Sunday: Fettucini with preserved lemon and roasted garlic, salad"
       ],
       "count": 1
@@ -14961,52 +13025,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 3-12-22.md"
-      ],
-      "menu_weeks": [
-        "2022-03-12"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Sausage pizza blue apron"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 3-12-22.md"
-      ],
-      "menu_weeks": [
-        "2022-03-12"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Vegetarian blue apron"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 3-12-24.md"
       ],
       "menu_weeks": [
@@ -15018,7 +13036,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Bacon, eggs, tomatoes, bread (amelia\u2019s?), bangers from garage freezer?"
@@ -15163,6 +13183,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Balsamic roasted veggie and white bean pasta",
         "Wednesday: Balsamic roasted veggie and white bean pasta"
       ],
       "count": 1
@@ -15186,6 +13207,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "spicy Thai chicken and quinoa, cucumber lime mint salad",
         "Thursday: spicy Thai chicken and quinoa, cucumber lime mint salad"
       ],
       "count": 1
@@ -15209,6 +13231,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "vegetarian chili, bread, maybe arugula salad",
         "Friday: vegetarian chili, bread, maybe arugula salad"
       ],
       "count": 1
@@ -15229,7 +13252,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Cheese and crackers"
@@ -15258,31 +13283,6 @@
       ],
       "item_texts": [
         "Hummus and veggies (carrots, cucumbers, celery)"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 3-14-18.md"
-      ],
-      "menu_weeks": [
-        "2018-03-14"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [
-        "Rachel bringing"
-      ],
-      "item_texts": [
-        "Cupcakes (Rachel bringing)"
       ],
       "count": 1
     },
@@ -15353,6 +13353,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Irish breakfast",
         "Sunday: Irish breakfast"
       ],
       "count": 1
@@ -15376,30 +13377,8 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "corned beef and cabbage, potatoes",
         "Sunday: corned beef and cabbage, potatoes"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 3-14-18.md"
-      ],
-      "menu_weeks": [
-        "2018-03-14"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "snack"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Tuesday: leftovers/snack Alicia book club"
       ],
       "count": 1
     },
@@ -15422,6 +13401,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "corned beef, Irish cheddar cabbage sandwiches",
         "Wednesday: corned beef, Irish cheddar cabbage sandwiches"
       ],
       "count": 1
@@ -15445,30 +13425,8 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "colcannon",
         "Thursday: colcannon"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 3-14-18.md"
-      ],
-      "menu_weeks": [
-        "2018-03-14"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Friday: Lorde concert - dinner out for fish and chips?"
       ],
       "count": 1
     },
@@ -15517,52 +13475,6 @@
       ],
       "item_texts": [
         "spicy Thai chicken and quinoa, cucumber lime mint salad (double batch)"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 3-14-18.md"
-      ],
-      "menu_weeks": [
-        "2018-03-14"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Apples and bananas for the kids"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 3-14-18.md"
-      ],
-      "menu_weeks": [
-        "2018-03-14"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Cheese for the kids"
       ],
       "count": 1
     },
@@ -16085,144 +13997,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 3-29-22.md"
-      ],
-      "menu_weeks": [
-        "2022-03-29"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue apron steak tacos"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 3-29-22.md"
-      ],
-      "menu_weeks": [
-        "2022-03-29"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue apron tilapia"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 3-29-22.md"
-      ],
-      "menu_weeks": [
-        "2022-03-29"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue apron chorizo bake"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 3-29-22.md"
-      ],
-      "menu_weeks": [
-        "2022-03-29"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue apron 3"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 3-29-22.md"
-      ],
-      "menu_weeks": [
-        "2022-03-29"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue apron 2"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 3-29-22.md"
-      ],
-      "menu_weeks": [
-        "2022-03-29"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Blue apron 1"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 3-31-18.md"
       ],
       "menu_weeks": [
@@ -16655,29 +14429,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 3-7-20.md"
-      ],
-      "menu_weeks": [
-        "2020-03-07"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "breakfast"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Meal prep breakfast sandwiches"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 3-9-21.md"
       ],
       "menu_weeks": [
@@ -16738,6 +14489,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Tandoori chicken and salad",
         "Wednesday: Tandoori chicken and salad"
       ],
       "count": 1
@@ -16832,6 +14584,7 @@
         "Andrea and Cliff\u2019s"
       ],
       "item_texts": [
+        "Panera creamy tomato soup, grilled cheese, every day italian salad, chocolate chip cookies (Andrea and Cliff\u2019s)",
         "Friday: Panera creamy tomato soup, grilled cheese, every day italian salad, chocolate chip cookies (Andrea and Cliff\u2019s)"
       ],
       "count": 1
@@ -16947,29 +14700,6 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Blue apron quiche"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 4-10-22.md"
-      ],
-      "menu_weeks": [
-        "2022-04-10"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
         "Easter dinner: lemon chicken skewers with creamy feta sauce (half baked harvest), roasted yellow potatoes, flatbread"
       ],
       "count": 1
@@ -17016,29 +14746,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Saturday: order out"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 4-10-22.md"
-      ],
-      "menu_weeks": [
-        "2022-04-10"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "mac and cheese and salad",
         "Friday: mac and cheese and salad"
       ],
       "count": 1
@@ -17062,29 +14770,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Blue apron salmon"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 4-10-22.md"
-      ],
-      "menu_weeks": [
-        "2022-04-10"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "Chicken meatballs with peppers and orzo",
         "Monday: Chicken meatballs with peppers and orzo"
       ],
       "count": 1
@@ -17282,29 +14968,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 4-16-18.md"
-      ],
-      "menu_weeks": [
-        "2018-04-16"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Fajitas"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 4-2-2020.md"
       ],
       "menu_weeks": [
@@ -17391,33 +15054,6 @@
         "Pasta with goat cheese, asparagus, mushrooms, and chicken"
       ],
       "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 4-2-2020.md"
-      ],
-      "menu_weeks": [
-        "2020-04-02"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "asparagus"
-      ]
     },
     {
       "url": null,
@@ -17940,81 +15576,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 4-28-22.md"
-      ],
-      "menu_weeks": [
-        "2022-04-28"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "grilled asparagus, chips"
-      ]
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 4-28-25.md"
-      ],
-      "menu_weeks": [
-        "2025-04-28"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Sub mango for pineapple"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 4-3-21.md"
-      ],
-      "menu_weeks": [
-        "2021-04-03"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [
-        "mom bringing"
-      ],
-      "item_texts": [
-        "Fruit (mom bringing)"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 4-3-21.md"
       ],
       "menu_weeks": [
@@ -18125,6 +15686,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Egg Salad Sandwiches",
         "Lunch: Egg Salad Sandwiches"
       ],
       "count": 1
@@ -18151,52 +15713,6 @@
       ],
       "item_texts": [
         "Red Chile tostadas with eggs (did we like this recipe?)"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 4-4-24.md"
-      ],
-      "menu_weeks": [
-        "2024-04-04"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Grilling: brats"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 4-4-24.md"
-      ],
-      "menu_weeks": [
-        "2024-04-04"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "lunch"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Lunch/snacks for eclipse day?"
       ],
       "count": 1
     },
@@ -18597,30 +16113,8 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "burgers, zucchini and squash, roasted yellow potatoes",
         "Grilled burgers, zucchini and squash, roasted yellow potatoes"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 5-17-24.md"
-      ],
-      "menu_weeks": [
-        "2024-05-17"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Can add a little quinoa"
       ],
       "count": 1
     },
@@ -19079,7 +16573,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Little potatoes"
@@ -19243,76 +16739,8 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Monday: fajitas"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 5-7-18.md"
-      ],
-      "menu_weeks": [
-        "2018-05-07"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "homemade vegetarian chili",
         "Tuesday: homemade vegetarian chili"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 5-7-18.md"
-      ],
-      "menu_weeks": [
-        "2018-05-07"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Wednesday: dinner at Fasika or Dillas"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 5-7-18.md"
-      ],
-      "menu_weeks": [
-        "2018-05-07"
-      ],
-      "menu_seasons": [
-        "spring"
-      ],
-      "meal_types": [
-        "lunch"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Thursday lunch: Matt\u2019s bar"
       ],
       "count": 1
     },
@@ -19532,7 +16960,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "1 package chicken tenders"
@@ -19673,6 +17103,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Strawberry poppyseed salad",
         "Sunday: Strawberry poppyseed salad"
       ],
       "count": 1
@@ -19719,6 +17150,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "beer brats, apple slaw, sweet potato fries",
         "Friday: beer brats, apple slaw, sweet potato fries"
       ],
       "count": 1
@@ -19785,30 +17217,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Chives"
+      "sections": [
+        "ingredient"
       ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-12-24.md"
-      ],
-      "menu_weeks": [
-        "2024-06-12"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
       "source_hints": [],
       "item_texts": [
         "Baby bok choy"
@@ -19854,34 +17265,12 @@
         "summer"
       ],
       "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Dinner: Out"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-13-25.md"
-      ],
-      "menu_weeks": [
-        "2025-06-13"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
         "breakfast"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Avocado toast and eggs",
         "Breakfast: Avocado toast and eggs"
       ],
       "count": 1
@@ -19925,7 +17314,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Romaine lettuce"
@@ -19952,75 +17343,6 @@
       "source_hints": [],
       "item_texts": [
         "Rhubarb - Cinnamon Rhubarb bread"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-13-25.md"
-      ],
-      "menu_weeks": [
-        "2025-06-13"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Focaccia"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-13-25.md"
-      ],
-      "menu_weeks": [
-        "2025-06-13"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Microgreens"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-16-22.md"
-      ],
-      "menu_weeks": [
-        "2022-06-16"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Frozen pizza or skyline and salad"
       ],
       "count": 1
     },
@@ -20361,33 +17683,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 6-23-19.md"
-      ],
-      "menu_weeks": [
-        "2019-06-23"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "corn and zucchini/squash"
-      ]
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 6-26-23.md"
       ],
       "menu_weeks": [
@@ -20447,7 +17742,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Chicken for wraps"
@@ -20473,6 +17770,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "spicy Thai chicken and quinoa, bok choy",
         "Friday: spicy Thai chicken and quinoa, bok choy"
       ],
       "count": 1
@@ -20496,6 +17794,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Surly; lunch: blts",
         "Sunday: Surly; lunch: blts"
       ],
       "count": 1
@@ -20519,6 +17818,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "red quinoa and black bean salad with avocado",
         "Monday: red quinoa and black bean salad with avocado"
       ],
       "count": 1
@@ -20542,6 +17842,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "pasta all amatriciana",
         "Tuesday: pasta all amatriciana"
       ],
       "count": 1
@@ -20590,29 +17891,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Thursday: Lynx game"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-29-18.md"
-      ],
-      "menu_weeks": [
-        "2018-06-29"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "crock pot balsamic pork roast, roasted carrots, cous cous",
         "Friday: crock pot balsamic pork roast, roasted carrots, cous cous"
       ],
       "count": 1
@@ -20633,9 +17912,12 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
+        "salad and dinner rolls",
         "Sunday: salad and dinner rolls"
       ],
       "count": 1
@@ -20659,6 +17941,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "red pepper pasta with roasted cauliflower",
         "Monday: red pepper pasta with roasted cauliflower"
       ],
       "count": 1
@@ -20682,6 +17965,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "sheet pan green Chile beef nachos",
         "Tuesday: sheet pan green Chile beef nachos"
       ],
       "count": 1
@@ -20705,107 +17989,10 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Wednesday: the newsroom"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-3-18.md"
-      ],
-      "menu_weeks": [
-        "2018-06-03"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "lemon chicken asparagus and cous cous",
         "Thursday: lemon chicken asparagus and cous cous"
       ],
       "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-3-18.md"
-      ],
-      "menu_weeks": [
-        "2018-06-03"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Friday: Pizza"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-3-18.md"
-      ],
-      "menu_weeks": [
-        "2018-06-03"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Saturday: Forepaugh\u2019s"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-3-2020.md"
-      ],
-      "menu_weeks": [
-        "2020-06-03"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [
-        "turnips"
-      ],
-      "item_texts": [
-        "Grilled brats"
-      ],
-      "count": 1,
-      "side_dish": [
-        "corn, roasted veggies (turnips)"
-      ]
     },
     {
       "url": null,
@@ -20826,6 +18013,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "bulgar salad",
         "Lunch - bulgar salad"
       ],
       "count": 1
@@ -20917,35 +18105,6 @@
         "summer"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [
-        "whatever is left over"
-      ],
-      "item_texts": [
-        "Brats"
-      ],
-      "count": 1,
-      "side_dish": [
-        "roasted beets/turnips (whatever is left over)"
-      ]
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-3-2020.md"
-      ],
-      "menu_weeks": [
-        "2020-06-03"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
         "dinner"
       ],
       "sections": [],
@@ -20974,6 +18133,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "steak salad with beets and scallions",
         "Grilled steak salad with beets and scallions"
       ],
       "count": 1
@@ -20998,52 +18158,6 @@
       "source_hints": [],
       "item_texts": [
         "Weekend breakfast: eggs, bacon"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-3-2020.md"
-      ],
-      "menu_weeks": [
-        "2020-06-03"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Make garlic scape pesto"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-3-2020.md"
-      ],
-      "menu_weeks": [
-        "2020-06-03"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Make pizza dough"
       ],
       "count": 1
     },
@@ -21132,33 +18246,12 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Chicken fingers"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-5-23.md"
-      ],
-      "menu_weeks": [
-        "2023-06-05"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Chicken thighs or other meat for udon noodles?"
       ],
       "count": 1
     },
@@ -21472,60 +18565,6 @@
         "summer"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [
-        "Dinner"
-      ],
-      "source_hints": [],
-      "item_texts": [
-        "Brats"
-      ],
-      "count": 1,
-      "side_dish": [
-        "grilled corn"
-      ]
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-2-20 (vacation).md"
-      ],
-      "menu_weeks": [
-        "2020-07-02"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "snack"
-      ],
-      "sections": [
-        "Snacks"
-      ],
-      "source_hints": [],
-      "item_texts": [
-        "Charcuterie (cheeses (3), meats (2), olives (2), crackers)"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-2-20 (vacation).md"
-      ],
-      "menu_weeks": [
-        "2020-07-02"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
         "snack"
       ],
       "sections": [
@@ -21559,131 +18598,6 @@
       "source_hints": [],
       "item_texts": [
         "Peanut butter pretzel bites"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-2-20 (vacation).md"
-      ],
-      "menu_weeks": [
-        "2020-07-02"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "drink"
-      ],
-      "sections": [
-        "Drinks"
-      ],
-      "source_hints": [],
-      "item_texts": [
-        "Coffee"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-2-20 (vacation).md"
-      ],
-      "menu_weeks": [
-        "2020-07-02"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "drink"
-      ],
-      "sections": [
-        "Drinks"
-      ],
-      "source_hints": [],
-      "item_texts": [
-        "Beer? canned cocktail?"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-2-20 (vacation).md"
-      ],
-      "menu_weeks": [
-        "2020-07-02"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "drink"
-      ],
-      "sections": [
-        "Drinks"
-      ],
-      "source_hints": [],
-      "item_texts": [
-        "Wine"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-2-20 (vacation).md"
-      ],
-      "menu_weeks": [
-        "2020-07-02"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "drink"
-      ],
-      "sections": [
-        "Drinks"
-      ],
-      "source_hints": [],
-      "item_texts": [
-        "Diet coke"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-2-20 (vacation).md"
-      ],
-      "menu_weeks": [
-        "2020-07-02"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "drink"
-      ],
-      "sections": [
-        "Drinks"
-      ],
-      "source_hints": [],
-      "item_texts": [
-        "Dr Pepper"
       ],
       "count": 1
     },
@@ -21865,27 +18779,6 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Microwave ramen"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-20.md"
-      ],
-      "menu_weeks": [],
-      "menu_seasons": [
-        "unknown"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
         "Broccoli cheese soup and grilled cheese"
       ],
       "count": 1
@@ -21909,6 +18802,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "honey mustard salmon, bagged costco salad",
         "grilled honey mustard salmon, bagged costco salad"
       ],
       "count": 1
@@ -21973,34 +18867,12 @@
         "summer"
       ],
       "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Order pizza from Greek\u2019s pizza"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-21-19.md"
-      ],
-      "menu_weeks": [
-        "2019-07-21"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
         "lunch"
       ],
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "caprese grilled cheese",
         "Lunch: caprese grilled cheese"
       ],
       "count": 1
@@ -22024,36 +18896,10 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "steel cut oats, potatoes, eggs, bacon, etc.",
         "Breakfast: steel cut oats, potatoes, eggs, bacon, etc."
       ],
       "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-23-23.md"
-      ],
-      "menu_weeks": [
-        "2023-07-23"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "sweet corn and bagged salad"
-      ]
     },
     {
       "url": null,
@@ -22167,33 +19013,12 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "12 oz precooked chicken sausage"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-25-24.md"
-      ],
-      "menu_weeks": [
-        "2024-07-25"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Order pizza"
       ],
       "count": 1
     },
@@ -22225,100 +19050,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 7-25-24.md"
-      ],
-      "menu_weeks": [
-        "2024-07-25"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "ice cream"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-25-24.md"
-      ],
-      "menu_weeks": [
-        "2024-07-25"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "appetizers?"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-5-19.md"
-      ],
-      "menu_weeks": [
-        "2019-07-05"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Friday: 10th st diner"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-5-19.md"
-      ],
-      "menu_weeks": [
-        "2019-07-05"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [
-        "sourdough bread, pie"
-      ],
-      "item_texts": [
-        "Saturday: Farmer\u2019s market? (sourdough bread, pie)"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 7-5-19.md"
       ],
       "menu_weeks": [
@@ -22334,6 +19065,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Cook out - \u201cskewers\u201d - caprese salad, cowboy caviar, peppers, onion, zucchini/squash, brats",
         "Saturday: Cook out - \u201cskewers\u201d - caprese salad, cowboy caviar, peppers, onion, zucchini/squash, brats"
       ],
       "count": 1,
@@ -22383,52 +19115,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Monday: None"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-5-19.md"
-      ],
-      "menu_weeks": [
-        "2019-07-05"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Wednesday: Carly Rae Jepson"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-5-19.md"
-      ],
-      "menu_weeks": [
-        "2019-07-05"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "Lemon chicken and green beans",
         "Thursday: Lemon chicken and green beans"
       ],
       "count": 1
@@ -22453,56 +19140,6 @@
       "source_hints": [],
       "item_texts": [
         "Stir fry noodles and tofu/spinach"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-5-19.md"
-      ],
-      "menu_weeks": [
-        "2019-07-05"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "brats"
-      ],
-      "count": 1,
-      "side_dish": [
-        "corn salad"
-      ]
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-5-25.md"
-      ],
-      "menu_weeks": [
-        "2025-07-05"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "For when steve is here on Thursday"
       ],
       "count": 1
     },
@@ -22842,6 +19479,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Pasta with meat sauce",
         "Monday: Pasta with meat sauce"
       ],
       "count": 1
@@ -22865,29 +19503,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Tuesday: Alicia out"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-9-18.md"
-      ],
-      "menu_weeks": [
-        "2018-07-09"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "crock pot balsamic pork roast, roasted carrots, quinoa",
         "Wednesday: crock pot balsamic pork roast, roasted carrots, quinoa"
       ],
       "count": 1
@@ -22911,6 +19527,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Detoux Moroccan spiced chickpea glow bowl x2 for Anna and David",
         "Thursday: Detoux Moroccan spiced chickpea glow bowl x2 for Anna and David"
       ],
       "count": 1
@@ -22934,29 +19551,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Friday: George and the Dragon"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-9-18.md"
-      ],
-      "menu_weeks": [
-        "2018-07-09"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "Bulgar salad",
         "Saturday: Bulgar salad"
       ],
       "count": 1
@@ -22981,29 +19576,6 @@
       "source_hints": [],
       "item_texts": [
         "Sunday morning: bacon, potato, egg casserole, banana bread"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 7-9-18.md"
-      ],
-      "menu_weeks": [
-        "2018-07-09"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Sunday evening: party"
       ],
       "count": 1
     },
@@ -23154,52 +19726,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 8-1-20.md"
-      ],
-      "menu_weeks": [
-        "2020-08-01"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "BLTs"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 8-1-20.md"
-      ],
-      "menu_weeks": [
-        "2020-08-01"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Make: Fridge pickles"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 8-1-22.md"
       ],
       "menu_weeks": [
@@ -23335,6 +19861,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "caprese bites",
         "Lunch: caprese bites"
       ],
       "count": 1
@@ -23399,33 +19926,6 @@
         "summer"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "\ud83c\udf3d"
-      ]
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 8-12-18.md"
-      ],
-      "menu_weeks": [
-        "2018-08-12"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
         "dinner"
       ],
       "sections": [],
@@ -23457,33 +19957,6 @@
         "Black pepper tofu and eggplant"
       ],
       "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 8-12-20.md"
-      ],
-      "menu_weeks": [
-        "2020-08-12"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "pattypan squash"
-      ]
     },
     {
       "url": null,
@@ -23545,36 +20018,11 @@
         "summer"
       ],
       "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "frozen (regular) fries"
-      ]
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 8-13-25.md"
-      ],
-      "menu_weeks": [
-        "2025-08-13"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Brioche buns"
@@ -23597,7 +20045,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "trader joes wontons"
@@ -23620,7 +20070,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Bone-in skin on chicken thighs"
@@ -23643,7 +20095,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Ground beef"
@@ -23827,7 +20281,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "shishito peppers"
@@ -23862,29 +20318,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 8-18-24.md"
-      ],
-      "menu_weeks": [
-        "2024-08-18"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Sage"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 8-20-23.md"
       ],
       "menu_weeks": [
@@ -23901,6 +20334,7 @@
         "Pinch of Yum"
       ],
       "item_texts": [
+        "chicken with pepperoncini garlic butter (Pinch of Yum)",
         "Grilled chicken with pepperoncini garlic butter (Pinch of Yum)"
       ],
       "count": 1
@@ -23950,29 +20384,6 @@
       ],
       "item_texts": [
         "Balsamic roasted veggie and white bean pasta (skinny taste)"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 8-20-23.md"
-      ],
-      "menu_weeks": [
-        "2023-08-20"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Sauerkraut"
       ],
       "count": 1
     },
@@ -24155,7 +20566,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Pickled banana peppers"
@@ -24178,7 +20591,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Hard boiled eggs"
@@ -24228,29 +20643,6 @@
       "source_hints": [],
       "item_texts": [
         "Tomatillo salsa"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 8-22-18.md"
-      ],
-      "menu_weeks": [
-        "2018-08-22"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Poblanos"
       ],
       "count": 1
     },
@@ -24488,6 +20880,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "BLTs or caprese panini",
         "Lunch: BLTs or caprese panini"
       ],
       "count": 1
@@ -24556,7 +20949,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Yellow squash"
@@ -24579,7 +20974,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Little colored peppers"
@@ -24602,7 +20999,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "1 green pepper"
@@ -24625,7 +21024,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "1 orange pepper"
@@ -24648,7 +21049,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "6 ears corn"
@@ -24671,33 +21074,12 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Chicken breast"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 8-26-25.md"
-      ],
-      "menu_weeks": [
-        "2025-08-26"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Tortellini"
       ],
       "count": 1
     },
@@ -24773,33 +21155,6 @@
         "Skillet lasagna (America\u2019s test Kitchen) and bagged salad"
       ],
       "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 8-5-17.md"
-      ],
-      "menu_weeks": [
-        "2017-08-05"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Saturday: Burgers"
-      ],
-      "count": 1,
-      "side_dish": [
-        "corn and grilled fennel"
-      ]
     },
     {
       "url": null,
@@ -25226,29 +21581,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 9-10-24.md"
-      ],
-      "menu_weeks": [
-        "2024-09-10"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Use leeks instead of an onion. Cook in bacon fat not butter."
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 9-10-25.md"
       ],
       "menu_weeks": [
@@ -25481,29 +21813,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 9-17-19.md"
-      ],
-      "menu_weeks": [
-        "2019-09-17"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "9/27 Work Potluck: Cowboy caviar and chips"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of 9-17-20.md"
       ],
       "menu_weeks": [
@@ -25635,6 +21944,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Steak, veggies",
         "Grilled Steak, veggies"
       ],
       "count": 1
@@ -25750,6 +22060,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "caprese sandwiches and BLTs",
         "Lunch: caprese sandwiches and BLTs"
       ],
       "count": 1
@@ -25819,6 +22130,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Flank steak tacos and roasted corn (use bread salad chimichurri recipe/leftovers) - Two Peas and their Pod - Grill or saute a pepper to go with",
         "Grilled Flank steak tacos and roasted corn (use bread salad chimichurri recipe/leftovers) - Two Peas and their Pod - Grill or saute a pepper to go with"
       ],
       "count": 1
@@ -25887,7 +22199,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Flank steak"
@@ -25910,7 +22224,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "1.5 las chicken breast"
@@ -25933,7 +22249,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Chicken thighs or breasts"
@@ -25956,83 +22274,12 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Nut squash"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 9-2-23.md"
-      ],
-      "menu_weeks": [
-        "2023-09-02"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Peppers"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 9-21-17.md"
-      ],
-      "menu_weeks": [
-        "2017-09-21"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner",
-        "grill"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Brats"
-      ],
-      "count": 1,
-      "side_dish": [
-        "apple slaw, corn, watermelon"
-      ]
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 9-21-17.md"
-      ],
-      "menu_weeks": [
-        "2017-09-21"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "BATs"
       ],
       "count": 1
     },
@@ -26220,29 +22467,6 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Quesadillas"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 9-22-18.md"
-      ],
-      "menu_weeks": [
-        "2018-09-22"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
         "Slow cooker apple crisp and ice cream"
       ],
       "count": 1
@@ -26358,6 +22582,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "crispy chicken, bacon, and pesto gnocchi skillet",
         "Sunday: crispy chicken, bacon, and pesto gnocchi skillet"
       ],
       "count": 1
@@ -26378,30 +22603,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Cabbage"
+      "sections": [
+        "ingredient"
       ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 9-24-24.md"
-      ],
-      "menu_weeks": [
-        "2024-09-24"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
       "source_hints": [],
       "item_texts": [
         "Yellow pepper"
@@ -26424,30 +22628,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Parsley"
+      "sections": [
+        "ingredient"
       ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 9-24-24.md"
-      ],
-      "menu_weeks": [
-        "2024-09-24"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
       "source_hints": [],
       "item_texts": [
         "Salad greens"
@@ -26636,6 +22819,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "BLTs with cucumber salad",
         "Lunch: BLTs with cucumber salad"
       ],
       "count": 1
@@ -26709,6 +22893,7 @@
         "Exodus gala"
       ],
       "item_texts": [
+        "Tea leaf salad (Exodus gala)",
         "Lunch: Tea leaf salad (Exodus gala)"
       ],
       "count": 1
@@ -26835,52 +23020,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 9-8-17.md"
-      ],
-      "menu_weeks": [
-        "2017-09-08"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Kale chips?"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 9-8-17.md"
-      ],
-      "menu_weeks": [
-        "2017-09-08"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Pickle the diakon with some carrots?"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Menu week of Thanksgiving.md"
       ],
       "menu_weeks": [],
@@ -26890,9 +23029,12 @@
       "meal_types": [
         "breakfast"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
+        "Eggs, bacon, purple fingerling potatoes",
         "Breakfast: Eggs, bacon, purple fingerling potatoes"
       ],
       "count": 1
@@ -26914,6 +23056,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "Honey mustard chicken chopped salad",
         "Monday: Honey mustard chicken chopped salad"
       ],
       "count": 1
@@ -26932,7 +23075,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Dinner rolls"
@@ -27021,6 +23166,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
+        "vegetarian chili and cornbread",
         "Friday: vegetarian chili and cornbread"
       ],
       "count": 1
@@ -27044,29 +23190,7 @@
       "sections": [],
       "source_hints": [],
       "item_texts": [
-        "Saturday: goatmeal, A very Larry Christmas"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu\u0301 week of 12-28-18.md"
-      ],
-      "menu_weeks": [
-        "2018-12-28"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "slow cooker cozy autumn wild rice soup, baguette",
         "Sunday: slow cooker cozy autumn wild rice soup, baguette"
       ],
       "count": 1
@@ -27410,7 +23534,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [
         "blackberries, mangoes, clementines"
       ],
@@ -27531,29 +23657,6 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Week of 11-17-25.md"
-      ],
-      "menu_weeks": [
-        "2025-11-17"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Monkeys"
-      ],
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
         "Menus/Week of 12-14-22.md"
       ],
       "menu_weeks": [
@@ -27659,7 +23762,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Green Beans"
@@ -27682,7 +23787,9 @@
       "meal_types": [
         "dinner"
       ],
-      "sections": [],
+      "sections": [
+        "ingredient"
+      ],
       "source_hints": [],
       "item_texts": [
         "Pickling cucumbers"
@@ -28506,6 +24613,7 @@
         "https://pinchofyum.com/grilled-chicken-with-pepperoncini-garlic-butter?"
       ],
       "link_texts": [
+        "Chicken With Pepperoncini Garlic Butter",
         "Grilled Chicken With Pepperoncini Garlic Butter"
       ],
       "menu_files": [
@@ -28535,6 +24643,7 @@
         "https://pinchofyum.com/grilled-sausage-and-peppers-with-garlic-aioli#recipe"
       ],
       "link_texts": [
+        "Sausage And Peppers With Garlic Aioli",
         "Grilled Sausage And Peppers With Garlic Aioli"
       ],
       "menu_files": [
@@ -29131,31 +25240,6 @@
       "count": 1
     },
     {
-      "url": "https://www.eatwell101.com/chicken-thighs-asparagus-recipe",
-      "urls": [
-        "https://www.eatwell101.com/chicken-thighs-asparagus-recipe"
-      ],
-      "link_texts": [
-        "Asado"
-      ],
-      "menu_files": [
-        "Menus/Sean Bachelor.md"
-      ],
-      "menu_weeks": [],
-      "menu_seasons": [
-        "unknown"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Asado"
-      ],
-      "count": 1
-    },
-    {
       "url": "https://www.flourishingfoodie.com/blog/vegetarian-enchiladas-verde",
       "urls": [
         "https://www.flourishingfoodie.com/blog/vegetarian-enchiladas-verde"
@@ -29602,33 +25686,6 @@
       "source_hints": [],
       "item_texts": [
         "Sheet pan green chile beef nachos Fridge pasta - whatever\u2019s left peppers and onions, zucchini, etc. use up random pasta"
-      ],
-      "count": 1
-    },
-    {
-      "url": "https://www.jaroflemons.com/hot-honey-chicken-bowls/",
-      "urls": [
-        "https://www.jaroflemons.com/hot-honey-chicken-bowls/"
-      ],
-      "link_texts": [
-        "recipe"
-      ],
-      "menu_files": [
-        "Menus/Menu week of 8-20-23.md"
-      ],
-      "menu_weeks": [
-        "2023-08-20"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Hot honey chicken quinoa bowl (based on this recipe with thighs instead of breasts)"
       ],
       "count": 1
     },
@@ -30185,6 +26242,372 @@
         "blender waffles"
       ],
       "count": 1
+    },
+    {
+      "url": null,
+      "urls": [],
+      "link_texts": [],
+      "menu_files": [
+        "Menus/Menu week of 8-20-23.md",
+        "Menus/Week of 7-14-25.md"
+      ],
+      "menu_weeks": [
+        "2023-08-20",
+        "2025-07-14"
+      ],
+      "menu_seasons": [
+        "summer"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [
+        "ingredient"
+      ],
+      "source_hints": [],
+      "item_texts": [
+        "Corn"
+      ],
+      "count": 2
+    },
+    {
+      "url": null,
+      "urls": [],
+      "link_texts": [],
+      "menu_files": [
+        "Menus/Menu week of 8-22-18.md",
+        "Menus/Menu week of 9-22-18.md"
+      ],
+      "menu_weeks": [
+        "2018-08-22",
+        "2018-09-22"
+      ],
+      "menu_seasons": [
+        "summer",
+        "fall"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [],
+      "item_texts": [
+        "Granola"
+      ],
+      "count": 2
+    },
+    {
+      "count": 20,
+      "menu_weeks": [
+        "2018-11-06",
+        "2018-12-17",
+        "2020-12-21",
+        "2018-06-10",
+        "2018-06-03",
+        "2018-01-13",
+        "2019-01-21",
+        "2021-01-24",
+        "2019-02-14",
+        "2018-03-14",
+        "2020-03-21",
+        "2019-04-10",
+        "2018-04-16",
+        "2020-04-02",
+        "2019-05-22",
+        "2019-07-05",
+        "2020-08-12",
+        "2020-08-26",
+        "2017-08-05",
+        "2019-09-01"
+      ],
+      "url": null,
+      "link_texts": [],
+      "meal_types": [
+        "dinner"
+      ],
+      "urls": [],
+      "source_hints": [],
+      "item_texts": [
+        "Pizza",
+        "pizza",
+        "Tuesday: pizza",
+        "Monday: Pizza",
+        "Friday: Pizza"
+      ],
+      "sections": [],
+      "menu_seasons": [
+        "fall",
+        "winter",
+        "summer",
+        "spring"
+      ],
+      "menu_files": [
+        "Menus/Menu week of 11-6-18.md",
+        "Menus/Menu week of 12-17-18.md",
+        "Menus/Menu week of 12-21-20.md",
+        "Menus/Menu week of 6-10-18.md",
+        "Menus/Menu week of 6-3-18.md",
+        "Menus/Menu week of 1-13-18.md",
+        "Menus/Menu week of 1-21-19.md",
+        "Menus/Menu week of 1-24-21.md",
+        "Menus/Menu week of 2-14-19.md",
+        "Menus/Menu week of 3-14-18.md",
+        "Menus/Menu week of 3-21-20.md",
+        "Menus/Menu week of 4-10-19.md",
+        "Menus/Menu week of 4-16-18.md",
+        "Menus/Menu week of 4-2-2020.md",
+        "Menus/Menu week of 5-22-19.md",
+        "Menus/Menu week of 7-5-19.md",
+        "Menus/Menu week of 8-12-20.md",
+        "Menus/Menu week of 8-26-20.md",
+        "Menus/Menu week of 8-5-17.md",
+        "Menus/Menu week of 9-1-19.md"
+      ]
+    },
+    {
+      "count": 5,
+      "menu_weeks": [
+        "2023-08-20",
+        "2020-09-17",
+        "2021-10-10",
+        "2020-08-01",
+        "2017-09-21"
+      ],
+      "url": null,
+      "link_texts": [],
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "urls": [],
+      "source_hints": [],
+      "item_texts": [
+        "BLTs",
+        "Lunch: BLTs",
+        "BLTAs",
+        "BATs"
+      ],
+      "sections": [],
+      "menu_seasons": [
+        "summer",
+        "fall"
+      ],
+      "menu_files": [
+        "Menus/Menu week of 8-20-23.md",
+        "Menus/Menu week of 9-17-20.md",
+        "Menus/Menu week of 10-10-21.md",
+        "Menus/Menu week of 8-1-20.md",
+        "Menus/Menu week of 9-21-17.md"
+      ]
+    },
+    {
+      "count": 11,
+      "menu_weeks": [
+        "2017-10-31",
+        "2019-01-21",
+        "2020-01-24",
+        "2021-01-24",
+        "2025-01-04",
+        "2021-11-03",
+        "2025-02-27",
+        "2018-03-31",
+        "2021-04-03",
+        "2019-09-17",
+        "2017-09-08"
+      ],
+      "url": null,
+      "link_texts": [],
+      "meal_types": [
+        "dinner"
+      ],
+      "urls": [],
+      "source_hints": [],
+      "item_texts": [
+        "Chili",
+        "Tuesday: Chili"
+      ],
+      "sections": [],
+      "menu_seasons": [
+        "fall",
+        "winter",
+        "spring"
+      ],
+      "menu_files": [
+        "Menus/Menu week of 10-31-17.md",
+        "Menus/Menu week of 1-21-19.md",
+        "Menus/Menu week of 1-24-20.md",
+        "Menus/Menu week of 1-24-21.md",
+        "Menus/Menu week of 1-4-25.md",
+        "Menus/Menu week of 11-3-21.md",
+        "Menus/Menu week of 2-27-25.md",
+        "Menus/Menu week of 3-31-18.md",
+        "Menus/Menu week of 4-3-21.md",
+        "Menus/Menu week of 9-17-19.md",
+        "Menus/Menu week of 9-8-17.md"
+      ]
+    },
+    {
+      "count": 10,
+      "menu_weeks": [
+        "2024-04-04",
+        "2020-06-03",
+        "2024-01-20",
+        "2017-10-07",
+        "2020-07-02",
+        "2019-07-05",
+        "2017-09-21"
+      ],
+      "url": null,
+      "link_texts": [],
+      "meal_types": [
+        "dinner",
+        "grill"
+      ],
+      "urls": [],
+      "source_hints": [
+        "turnips",
+        "use sour kraut up",
+        "whatever is left over"
+      ],
+      "item_texts": [
+        "Brats",
+        "brats",
+        "Grilling: brats",
+        "Grilled brats"
+      ],
+      "side_dish": [
+        "corn, roasted veggies (turnips)",
+        "corn on the cob",
+        "some kind of roasted vegetable (use sour kraut up)",
+        "apple/mustard slaw, roasted veggies, potatoes with dill, etc",
+        "roasted beets/turnips (whatever is left over)",
+        "grilled corn",
+        "corn salad",
+        "apple slaw, corn, watermelon"
+      ],
+      "sections": [
+        "Dinner"
+      ],
+      "menu_seasons": [
+        "spring",
+        "summer",
+        "unknown",
+        "winter",
+        "fall"
+      ],
+      "menu_files": [
+        "Menus/Menu week of 4-4-24.md",
+        "Menus/Menu week of 6-3-2020.md",
+        "Menus/Menu week of 7-20.md",
+        "Menus/Sean Bachelor.md",
+        "Menus/Menu week of 1-20-24.md",
+        "Menus/Menu week of 10-7-17.md",
+        "Menus/Menu week of 7-2-20 (vacation).md",
+        "Menus/Menu week of 7-5-19.md",
+        "Menus/Menu week of 9-21-17.md"
+      ]
+    },
+    {
+      "count": 2,
+      "menu_weeks": [
+        "2018-05-07",
+        "2018-04-16"
+      ],
+      "url": null,
+      "link_texts": [],
+      "meal_types": [
+        "dinner"
+      ],
+      "urls": [],
+      "source_hints": [],
+      "item_texts": [
+        "fajitas",
+        "Monday: fajitas",
+        "Fajitas"
+      ],
+      "sections": [],
+      "menu_seasons": [
+        "spring"
+      ],
+      "menu_files": [
+        "Menus/Menu week of 5-7-18.md",
+        "Menus/Menu week of 4-16-18.md"
+      ]
+    },
+    {
+      "count": 17,
+      "menu_weeks": [
+        "2017-08-05",
+        "2021-03-19",
+        "2021-05-01",
+        "2022-06-01",
+        "2023-07-08",
+        "2018-09-22",
+        "2021-10-10",
+        "2020-10-04",
+        "2019-10-04",
+        "2018-11-06",
+        "2020-04-02",
+        "2022-04-28",
+        "2019-06-23",
+        "2023-07-23",
+        "2018-08-12",
+        "2020-08-12",
+        "2025-08-13"
+      ],
+      "url": null,
+      "link_texts": [],
+      "meal_types": [
+        "dinner",
+        "grill"
+      ],
+      "urls": [],
+      "source_hints": [],
+      "item_texts": [
+        "Burgers",
+        "Saturday: Burgers"
+      ],
+      "side_dish": [
+        "corn and grilled fennel",
+        "sweet potato fries",
+        "sweet corn",
+        "bagged salad, frozen sweet potato fries",
+        "roasted potatoes/turnips",
+        "apple spinach salad",
+        "turnips",
+        "asparagus",
+        "grilled asparagus, chips",
+        "corn and zucchini/squash",
+        "sweet corn and bagged salad",
+        "\ud83c\udf3d",
+        "pattypan squash",
+        "frozen (regular) fries"
+      ],
+      "sections": [],
+      "menu_seasons": [
+        "summer",
+        "spring",
+        "fall"
+      ],
+      "menu_files": [
+        "Menus/Menu week of 8-5-17.md",
+        "Menus/Menu week of 3-19-21.md",
+        "Menus/Menu week of 5-1-21.md",
+        "Menus/Menu week of 6-1-22.md",
+        "Menus/Menu week of 7-8-23.md",
+        "Menus/Menu week of 9-22-18.md",
+        "Menus/Menu week of 10-10-21.md",
+        "Menus/Menu week of 10-4-20.md",
+        "Menus/Menu week of 10-4-2019.md",
+        "Menus/Menu week of 11-6-18.md",
+        "Menus/Menu week of 4-2-2020.md",
+        "Menus/Menu week of 4-28-22.md",
+        "Menus/Menu week of 6-23-19.md",
+        "Menus/Menu week of 7-23-23.md",
+        "Menus/Menu week of 8-12-18.md",
+        "Menus/Menu week of 8-12-20.md",
+        "Menus/Menu week of 8-13-25.md"
+      ]
     }
   ]
 }

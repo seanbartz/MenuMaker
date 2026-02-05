@@ -1,0 +1,4602 @@
+[
+  {
+    "id": 587,
+    "title": "(Lemon brown butter salmon with potatoes and parmesan asparagus skip the arugula salad in the recipe)",
+    "decision": "keep"
+  },
+  {
+    "id": 876,
+    "title": "1 green pepper",
+    "decision": "ingredient"
+  },
+  {
+    "id": 877,
+    "title": "1 orange pepper",
+    "decision": "ingredient"
+  },
+  {
+    "id": 682,
+    "title": "1 package chicken tenders",
+    "decision": "ingredient"
+  },
+  {
+    "id": 378,
+    "title": "1 pan baked ham and swiss sliders",
+    "decision": "keep"
+  },
+  {
+    "id": 930,
+    "title": "1.5 las chicken breast",
+    "decision": "ingredient"
+  },
+  {
+    "id": 786,
+    "title": "10th st diner",
+    "decision": "delete"
+  },
+  {
+    "id": 782,
+    "title": "12 oz precooked chicken sausage",
+    "decision": "ingredient"
+  },
+  {
+    "id": 405,
+    "title": "12/30 Date day",
+    "decision": "delete"
+  },
+  {
+    "id": 547,
+    "title": "30 Minute Thai Basil Beef noodles (Half Baked Harvest)",
+    "decision": "keep"
+  },
+  {
+    "id": 433,
+    "title": "4 cheese garlic spaghetti squash and chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 722,
+    "title": "4th of July: burgers, corn, fruit (also use whatever burger is in freezer)",
+    "decision": "keep"
+  },
+  {
+    "id": 451,
+    "title": "5 ingredient green curry",
+    "decision": "keep"
+  },
+  {
+    "id": 573,
+    "title": "5 ingredient green curry with tofu",
+    "decision": "keep"
+  },
+  {
+    "id": 830,
+    "title": "5 ingredient lemon chicken and green beans",
+    "decision": "keep"
+  },
+  {
+    "id": 96,
+    "title": "5 ingredient tomato soup (Pinch of Yum) and grilled cheese",
+    "decision": "keep"
+  },
+  {
+    "id": 755,
+    "title": "5-ingredient pesto pasta salad (maybe same night as charcuterie)",
+    "decision": "keep"
+  },
+  {
+    "id": 878,
+    "title": "6 ears corn",
+    "decision": "ingredient"
+  },
+  {
+    "id": 912,
+    "title": "9/27 Work Potluck: Cowboy caviar and chips",
+    "decision": "delete"
+  },
+  {
+    "id": 279,
+    "title": "Alicia babysit for Missy, Sean on own",
+    "decision": "delete"
+  },
+  {
+    "id": 371,
+    "title": "Alicia book Club",
+    "decision": "delete"
+  },
+  {
+    "id": 809,
+    "title": "Alicia out",
+    "decision": "delete"
+  },
+  {
+    "id": 398,
+    "title": "Ang’s Chicken Wraps and roasted broccoli",
+    "decision": "keep"
+  },
+  {
+    "id": 715,
+    "title": "Ang’s chicken wraps and sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 996,
+    "title": "Ang’s Creamy Tortellini soup",
+    "decision": "keep"
+  },
+  {
+    "id": 86,
+    "title": "Anytime: simple greens salad",
+    "decision": "keep"
+  },
+  {
+    "id": 336,
+    "title": "Appetizer (Cheese and crackers)",
+    "decision": "delete"
+  },
+  {
+    "id": 337,
+    "title": "Appetizer (veggie tray)",
+    "decision": "delete"
+  },
+  {
+    "id": 50,
+    "title": "Apple pie",
+    "decision": "keep"
+  },
+  {
+    "id": 525,
+    "title": "Apples and bananas for the kids",
+    "decision": "delete"
+  },
+  {
+    "id": 310,
+    "title": "Apples plus caramel",
+    "decision": "ingredient"
+  },
+  {
+    "id": 933,
+    "title": "Apricot tofu and green beans",
+    "decision": "keep"
+  },
+  {
+    "id": 465,
+    "title": "Ash Wednesday: Black bean soup (vegetarian)",
+    "decision": "keep"
+  },
+  {
+    "id": 497,
+    "title": "Ash Wednesday: tomato soup and grilled cheese",
+    "decision": "keep"
+  },
+  {
+    "id": 546,
+    "title": "Asparagus pasta with Lemon (A couple cooks) add frozen chicken tenders",
+    "decision": "keep"
+  },
+  {
+    "id": 941,
+    "title": "Autumn green salad and rolls",
+    "decision": "keep"
+  },
+  {
+    "id": 443,
+    "title": "Autumn wild rice soup (slow cooker) and spinach salad",
+    "decision": "keep"
+  },
+  {
+    "id": 205,
+    "title": "AVOCADO KALE CAESAR SALAD",
+    "decision": "keep"
+  },
+  {
+    "id": 696,
+    "title": "Avocado toast and eggs",
+    "decision": "keep"
+  },
+  {
+    "id": 712,
+    "title": "avocado toast with bacon and eggs",
+    "decision": "keep"
+  },
+  {
+    "id": 693,
+    "title": "Baby bok choy",
+    "decision": "ingredient"
+  },
+  {
+    "id": 426,
+    "title": "Baby greens salad with goat cheese, beets, and candied pecans",
+    "decision": "keep"
+  },
+  {
+    "id": 60,
+    "title": "baby tomatoes",
+    "decision": "ingredient"
+  },
+  {
+    "id": 657,
+    "title": "Bachelor chicken fajitas",
+    "decision": "keep"
+  },
+  {
+    "id": 896,
+    "title": "Bachelor chicken fajitas with peppers and onions (use peppers - Not the good bells - and tomatillos in the produce drawer)",
+    "decision": "keep"
+  },
+  {
+    "id": 857,
+    "title": "Bachelor dinner: Crispy Gnocchi with zucchini, sweet corn, and basil (Iowa girl eats)",
+    "decision": "keep"
+  },
+  {
+    "id": 855,
+    "title": "Bachelor dinner: tilapia and peas and rice",
+    "decision": "keep"
+  },
+  {
+    "id": 935,
+    "title": "Bachelor fajitas",
+    "decision": "keep"
+  },
+  {
+    "id": 1002,
+    "title": "Bachelor pasta: noodles, leftover zucchini, ground beef, sauce in fridge, ricotta in fridge",
+    "decision": "keep"
+  },
+  {
+    "id": 887,
+    "title": "Bachelor: Italian sausage, sauté banana peppers, onions, frozen or fresh tomatoes, pasta, any other leftover appropriate vegetables",
+    "decision": "keep"
+  },
+  {
+    "id": 385,
+    "title": "Bacon potato and egg casserole leftovers, monkey rolls, fruit",
+    "decision": "keep"
+  },
+  {
+    "id": 503,
+    "title": "Bacon, eggs, tomatoes, bread (amelia’s?), bangers from garage freezer?",
+    "decision": "ingredient"
+  },
+  {
+    "id": 402,
+    "title": "Bacon, potato, and egg casserole",
+    "decision": "keep"
+  },
+  {
+    "id": 659,
+    "title": "Bagel egg and cheese sandwiches",
+    "decision": "keep"
+  },
+  {
+    "id": 707,
+    "title": "Bahn mi (make pickled diakon/carrots) - grill pork",
+    "decision": "keep"
+  },
+  {
+    "id": 534,
+    "title": "Baked falafel with spicy feta dip, bagged salad",
+    "decision": "keep"
+  },
+  {
+    "id": 533,
+    "title": "baked falafel with spicy feta dip, salad",
+    "decision": "keep"
+  },
+  {
+    "id": 987,
+    "title": "Baked ham and Swiss sliders (some w porta bella mushrooms) - 350 15 mins",
+    "decision": "keep"
+  },
+  {
+    "id": 409,
+    "title": "Baked ham and Swiss sliders, salad with raspberries, spinach, goat cheese",
+    "decision": "keep"
+  },
+  {
+    "id": 649,
+    "title": "Baked oatmeal",
+    "decision": "keep"
+  },
+  {
+    "id": 870,
+    "title": "Baked quesadillas",
+    "decision": "keep"
+  },
+  {
+    "id": 277,
+    "title": "Baked shrimp with feta and grilled sourdough",
+    "decision": "keep"
+  },
+  {
+    "id": 977,
+    "title": "Balsamic roast veggie and white bean pasta",
+    "decision": "keep"
+  },
+  {
+    "id": 283,
+    "title": "balsamic roasted fingerling potatoes and Brussels sprouts, baked tilapia with pecan rosemary topping",
+    "decision": "keep"
+  },
+  {
+    "id": 304,
+    "title": "balsamic roasted fingerling potatoes and Brussels sprouts, steak, 🍷",
+    "decision": "keep"
+  },
+  {
+    "id": 509,
+    "title": "Balsamic roasted veggie and white bean pasta",
+    "decision": "keep"
+  },
+  {
+    "id": 57,
+    "title": "Balsamic roasted veggie and white bean pasta",
+    "decision": "keep"
+  },
+  {
+    "id": 850,
+    "title": "Balsamic roasted veggie and white bean pasta (skinny taste)",
+    "decision": "keep"
+  },
+  {
+    "id": 919,
+    "title": "Balsamic roasted veggies and white bean pasta",
+    "decision": "keep"
+  },
+  {
+    "id": 784,
+    "title": "banana cupcakes",
+    "decision": "keep"
+  },
+  {
+    "id": 133,
+    "title": "banana peppers",
+    "decision": "ingredient"
+  },
+  {
+    "id": 868,
+    "title": "Bandh gobhi matar and rice",
+    "decision": "keep"
+  },
+  {
+    "id": 633,
+    "title": "Basic + Awesome Chicken Quinoa salad",
+    "decision": "keep"
+  },
+  {
+    "id": 864,
+    "title": "BBQ jackfruit sandwiches and frozen sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 545,
+    "title": "BBQ jackfruit sandwiches and roasted broccoli and sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 648,
+    "title": "BBQ Jackfruit sandwiches and slaw",
+    "decision": "keep"
+  },
+  {
+    "id": 827,
+    "title": "BBQ jackfruit sandwiches and sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 508,
+    "title": "BBQ jackfruit sandwiches with roasted broccoli or sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 395,
+    "title": "BBQ jackfruit sandwiches with sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 639,
+    "title": "BBQ jackfruit sandwiches, sweet potato fries, broccoli (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 598,
+    "title": "BBQ jackfruit sandwiches, sweet potato fries, fruit",
+    "decision": "keep"
+  },
+  {
+    "id": 452,
+    "title": "BBQ Ranch Chickpea Quinoa bowls (Dishing Out Health)",
+    "decision": "keep"
+  },
+  {
+    "id": 893,
+    "title": "BBQ ribs and corn",
+    "decision": "keep"
+  },
+  {
+    "id": 906,
+    "title": "Bbq salmon with mango avocado salsa",
+    "decision": "keep"
+  },
+  {
+    "id": 605,
+    "title": "Beef ragú with spaghetti, bag salad",
+    "decision": "keep"
+  },
+  {
+    "id": 690,
+    "title": "beer brats, apple slaw, sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 760,
+    "title": "Beer? canned cocktail?",
+    "decision": "delete"
+  },
+  {
+    "id": 129,
+    "title": "Beet and goat cheese salad",
+    "decision": "keep"
+  },
+  {
+    "id": 282,
+    "title": "Beets and caramelized onions with feta, chicken and honey mustard?",
+    "decision": "keep"
+  },
+  {
+    "id": 303,
+    "title": "Beets and caramelized onions with feta, chicken strips and honey mustard",
+    "decision": "keep"
+  },
+  {
+    "id": 89,
+    "title": "Best easy fish tacos",
+    "decision": "keep"
+  },
+  {
+    "id": 220,
+    "title": "Beyond Beef mushroom rice bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 670,
+    "title": "Birthday breakfast: egg bacon bagel sandwich",
+    "decision": "keep"
+  },
+  {
+    "id": 594,
+    "title": "Black bean soup",
+    "decision": "keep"
+  },
+  {
+    "id": 506,
+    "title": "Black bean soup (Iowa girl eats) with cilantro lime rice (Iowa Girl eats) and quesadillas",
+    "decision": "keep"
+  },
+  {
+    "id": 467,
+    "title": "Black bean soup with cilantro-lime rice, avocado and quick pico",
+    "decision": "keep"
+  },
+  {
+    "id": 361,
+    "title": "Black bean tacos",
+    "decision": "keep"
+  },
+  {
+    "id": 938,
+    "title": "Black bean, corn, red pepper salad with lime cilantro vinaigrette (halve recipe)",
+    "decision": "keep"
+  },
+  {
+    "id": 735,
+    "title": "Black pepper stir fried noodles with bok choy",
+    "decision": "keep"
+  },
+  {
+    "id": 295,
+    "title": "Black pepper stir fried udon (or in our case, soba cause that’s what the store had)",
+    "decision": "keep"
+  },
+  {
+    "id": 222,
+    "title": "Black pepper stir fried udon (POY week 3)",
+    "decision": "keep"
+  },
+  {
+    "id": 869,
+    "title": "Black pepper stir fry with tofu and whatever veggies we have on hand (daikon, carrots, green pepper)",
+    "decision": "keep"
+  },
+  {
+    "id": 961,
+    "title": "Black pepper stir fry with tofu and whatever veggies we have on hand (daikon, carrots, green pepper, eggplant? Cauliflower)",
+    "decision": "keep"
+  },
+  {
+    "id": 832,
+    "title": "Black pepper tofu and eggplant",
+    "decision": "keep"
+  },
+  {
+    "id": 138,
+    "title": "Black pepper tofu and eggplant stir fry",
+    "decision": "keep"
+  },
+  {
+    "id": 705,
+    "title": "Blackberry Pie Bars",
+    "decision": "keep"
+  },
+  {
+    "id": 1092,
+    "title": "BLTs",
+    "decision": "keep"
+  },
+  {
+    "id": 959,
+    "title": "BLTs and fruit",
+    "decision": "keep"
+  },
+  {
+    "id": 903,
+    "title": "BLTs and tomato soup",
+    "decision": "keep"
+  },
+  {
+    "id": 871,
+    "title": "BLTs or caprese panini",
+    "decision": "keep"
+  },
+  {
+    "id": 852,
+    "title": "BLTs with arugula",
+    "decision": "keep"
+  },
+  {
+    "id": 955,
+    "title": "BLTs with cucumber salad",
+    "decision": "keep"
+  },
+  {
+    "id": 834,
+    "title": "Blueberry pie",
+    "decision": "keep"
+  },
+  {
+    "id": 837,
+    "title": "Bone-in skin on chicken thighs",
+    "decision": "ingredient"
+  },
+  {
+    "id": 1094,
+    "title": "Brats",
+    "decision": "keep"
+  },
+  {
+    "id": 914,
+    "title": "Brats with potatoes or some other CSA veggie",
+    "decision": "keep"
+  },
+  {
+    "id": 136,
+    "title": "Brats with sauerkraut and bagged salad",
+    "decision": "keep"
+  },
+  {
+    "id": 127,
+    "title": "Bread salad",
+    "decision": "keep"
+  },
+  {
+    "id": 928,
+    "title": "Bread salad (Wednesday or later)",
+    "decision": "keep"
+  },
+  {
+    "id": 173,
+    "title": "Breakfast balls",
+    "decision": "keep"
+  },
+  {
+    "id": 208,
+    "title": "Breakfast sandwiches",
+    "decision": "keep"
+  },
+  {
+    "id": 427,
+    "title": "Brioche bread",
+    "decision": "ingredient"
+  },
+  {
+    "id": 835,
+    "title": "Brioche buns",
+    "decision": "ingredient"
+  },
+  {
+    "id": 354,
+    "title": "Broccoli beef",
+    "decision": "keep"
+  },
+  {
+    "id": 181,
+    "title": "Broccoli cauliflower beef stir fry",
+    "decision": "keep"
+  },
+  {
+    "id": 273,
+    "title": "Broccoli cheese soup",
+    "decision": "keep"
+  },
+  {
+    "id": 771,
+    "title": "Broccoli cheese soup and grilled cheese",
+    "decision": "keep"
+  },
+  {
+    "id": 245,
+    "title": "Brown butter gnocchi with roasted butternut squash and kale",
+    "decision": "keep"
+  },
+  {
+    "id": 485,
+    "title": "Brussels sprouts tacos",
+    "decision": "keep"
+  },
+  {
+    "id": 660,
+    "title": "bucatini al la amatriciana",
+    "decision": "keep"
+  },
+  {
+    "id": 442,
+    "title": "Bucatini all’Amatriciana",
+    "decision": "keep"
+  },
+  {
+    "id": 844,
+    "title": "Bucatini Americiana",
+    "decision": "keep"
+  },
+  {
+    "id": 666,
+    "title": "Buddha bowls with chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 589,
+    "title": "Buffalo cauliflower tacos with avocado crema",
+    "decision": "keep"
+  },
+  {
+    "id": 91,
+    "title": "Buffalo Chicken wontons and apples",
+    "decision": "keep"
+  },
+  {
+    "id": 599,
+    "title": "Buffalo Ranch chopped salad kit with chicken fingers",
+    "decision": "keep"
+  },
+  {
+    "id": 523,
+    "title": "Bulgar again",
+    "decision": "keep"
+  },
+  {
+    "id": 430,
+    "title": "bulgar salad",
+    "decision": "keep"
+  },
+  {
+    "id": 731,
+    "title": "bulgar salad",
+    "decision": "keep"
+  },
+  {
+    "id": 813,
+    "title": "Bulgar salad",
+    "decision": "keep"
+  },
+  {
+    "id": 109,
+    "title": "bulgar salad",
+    "decision": "keep"
+  },
+  {
+    "id": 609,
+    "title": "Bulgar salad (veg)",
+    "decision": "keep"
+  },
+  {
+    "id": 464,
+    "title": "Bulgar salad (vegetarian)",
+    "decision": "keep"
+  },
+  {
+    "id": 686,
+    "title": "Bulger Salad",
+    "decision": "keep"
+  },
+  {
+    "id": 1096,
+    "title": "Burgers",
+    "decision": "keep"
+  },
+  {
+    "id": 774,
+    "title": "Burgers, brats, corn, zucchini, watermelon",
+    "decision": "keep"
+  },
+  {
+    "id": 665,
+    "title": "Burgers, Corn watermelon",
+    "decision": "keep"
+  },
+  {
+    "id": 867,
+    "title": "Burgers, corn, dill potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 899,
+    "title": "Burgers, corn, watermelon",
+    "decision": "keep"
+  },
+  {
+    "id": 643,
+    "title": "burgers, zucchini and squash, roasted yellow potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 607,
+    "title": "Burgers, zucchini and squash, sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 604,
+    "title": "Burrito bowls with cauliflower walnut taco meat",
+    "decision": "keep"
+  },
+  {
+    "id": 100,
+    "title": "Butternut squash",
+    "decision": "ingredient"
+  },
+  {
+    "id": 306,
+    "title": "Butternut squash apple soup with sage parm croutons",
+    "decision": "keep"
+  },
+  {
+    "id": 352,
+    "title": "Butternut squash apple soup with sage Parmesan croutons",
+    "decision": "keep"
+  },
+  {
+    "id": 317,
+    "title": "Butternut squash macaroni and cheese",
+    "decision": "keep"
+  },
+  {
+    "id": 380,
+    "title": "Butternut squash quinoa chili",
+    "decision": "keep"
+  },
+  {
+    "id": 481,
+    "title": "Butternut squash tortellini (Crockpot)",
+    "decision": "keep"
+  },
+  {
+    "id": 197,
+    "title": "Cabbage, sausage, and potato soup",
+    "decision": "keep"
+  },
+  {
+    "id": 611,
+    "title": "Caesar salad",
+    "decision": "keep"
+  },
+  {
+    "id": 915,
+    "title": "Caesar salad with chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 644,
+    "title": "Can add a little quinoa",
+    "decision": "delete"
+  },
+  {
+    "id": 828,
+    "title": "caprese bites",
+    "decision": "keep"
+  },
+  {
+    "id": 776,
+    "title": "caprese grilled cheese",
+    "decision": "keep"
+  },
+  {
+    "id": 290,
+    "title": "Caprese pasta salad",
+    "decision": "keep"
+  },
+  {
+    "id": 923,
+    "title": "caprese sandwiches and BLTs",
+    "decision": "keep"
+  },
+  {
+    "id": 886,
+    "title": "Caprese Skillet Lasagna",
+    "decision": "keep"
+  },
+  {
+    "id": 791,
+    "title": "Carly Rae Jepson",
+    "decision": "delete"
+  },
+  {
+    "id": 748,
+    "title": "Carmelized onion smash burgers, whatever vegetables are left (cucumber salad, zucchini and squash)",
+    "decision": "keep"
+  },
+  {
+    "id": 849,
+    "title": "Carnitas with red cabbage slaw",
+    "decision": "keep"
+  },
+  {
+    "id": 183,
+    "title": "Carrots and hummus",
+    "decision": "delete"
+  },
+  {
+    "id": 826,
+    "title": "Cashew chicken and broccoli (gimme some oven)",
+    "decision": "keep"
+  },
+  {
+    "id": 651,
+    "title": "Cashew Crunch Salad with chickpeas",
+    "decision": "keep"
+  },
+  {
+    "id": 701,
+    "title": "Cashew tofu and rice",
+    "decision": "keep"
+  },
+  {
+    "id": 90,
+    "title": "Cashew tofu stir fry",
+    "decision": "keep"
+  },
+  {
+    "id": 199,
+    "title": "Cauliflower and tomato coconut curry",
+    "decision": "keep"
+  },
+  {
+    "id": 176,
+    "title": "Cauliflower Gnocchi",
+    "decision": "keep"
+  },
+  {
+    "id": 778,
+    "title": "Cauliflower orange gnocchi (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 372,
+    "title": "cauliflower potato and green pea daal, rice",
+    "decision": "keep"
+  },
+  {
+    "id": 458,
+    "title": "Cauliflower soup",
+    "decision": "keep"
+  },
+  {
+    "id": 408,
+    "title": "Cauliflower walnut burrito bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 171,
+    "title": "Cauliflower Walnut burrito bowls (guac in freezer)",
+    "decision": "keep"
+  },
+  {
+    "id": 355,
+    "title": "Cauliflower walnut Burrito bowls (peppers and onions, salsa, sour cream, black beans, rice, avocado, frozen corn)",
+    "decision": "keep"
+  },
+  {
+    "id": 240,
+    "title": "Cauliflower walnut taco bowls (radishes!!!) with sautéed peppers and onions",
+    "decision": "keep"
+  },
+  {
+    "id": 692,
+    "title": "Cauliflower 🌯 bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 55,
+    "title": "Cauliflower, potato, and green pea daal",
+    "decision": "keep"
+  },
+  {
+    "id": 757,
+    "title": "Charcuterie (cheeses (3), meats (2), olives (2), crackers)",
+    "decision": "delete"
+  },
+  {
+    "id": 710,
+    "title": "Chard and eggs",
+    "decision": "keep"
+  },
+  {
+    "id": 512,
+    "title": "Cheese and crackers",
+    "decision": "ingredient"
+  },
+  {
+    "id": 184,
+    "title": "Cheese and crackers (include goat cheese and port wine cranberry",
+    "decision": "ingredient"
+  },
+  {
+    "id": 526,
+    "title": "Cheese for the kids",
+    "decision": "delete"
+  },
+  {
+    "id": 668,
+    "title": "Chicago dogs and roasted carrots",
+    "decision": "keep"
+  },
+  {
+    "id": 910,
+    "title": "Chicago dogs and sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 446,
+    "title": "Chicago hot dogs and salad",
+    "decision": "keep"
+  },
+  {
+    "id": 879,
+    "title": "Chicken breast",
+    "decision": "ingredient"
+  },
+  {
+    "id": 479,
+    "title": "Chicken broccoli alfredo (Well Plated)",
+    "decision": "keep"
+  },
+  {
+    "id": 297,
+    "title": "Chicken fajitas and roasted tomatillo salsa, black beans, radishes",
+    "decision": "keep"
+  },
+  {
+    "id": 743,
+    "title": "Chicken fingers",
+    "decision": "ingredient"
+  },
+  {
+    "id": 360,
+    "title": "Chicken fingers and roasted broccoli/potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 717,
+    "title": "Chicken for wraps",
+    "decision": "ingredient"
+  },
+  {
+    "id": 498,
+    "title": "Chicken guacamole taquitos",
+    "decision": "keep"
+  },
+  {
+    "id": 268,
+    "title": "Chicken lettuce wraps with Lime drench",
+    "decision": "keep"
+  },
+  {
+    "id": 583,
+    "title": "Chicken meatballs with peppers and orzo",
+    "decision": "keep"
+  },
+  {
+    "id": 115,
+    "title": "Chicken meatballs with peppers and orzo",
+    "decision": "keep"
+  },
+  {
+    "id": 429,
+    "title": "Chicken Noodle Soup",
+    "decision": "keep"
+  },
+  {
+    "id": 795,
+    "title": "Chicken nuggets, air fryer broccoli, sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 18,
+    "title": "Chicken nuggets, broccoli, sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 435,
+    "title": "Chicken nuggets, sweet potato fries, broccoli salad",
+    "decision": "keep"
+  },
+  {
+    "id": 191,
+    "title": "Chicken nuggets, sweet potato fries, leftover broccoli",
+    "decision": "keep"
+  },
+  {
+    "id": 198,
+    "title": "Chicken nuggets, sweet potato fries, roasted broccoli",
+    "decision": "keep"
+  },
+  {
+    "id": 779,
+    "title": "Chicken nuggets/strips (frozen) and roasted broccoli",
+    "decision": "keep"
+  },
+  {
+    "id": 275,
+    "title": "Chicken pot pie with biscuits",
+    "decision": "keep"
+  },
+  {
+    "id": 368,
+    "title": "Chicken Pot Pie with Biscuits (Pinch of Yum - contest)",
+    "decision": "keep"
+  },
+  {
+    "id": 978,
+    "title": "Chicken quinoa and broccoli casserole",
+    "decision": "keep"
+  },
+  {
+    "id": 681,
+    "title": "Chicken quinoa salad (pinch of yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 132,
+    "title": "Chicken salad",
+    "decision": "keep"
+  },
+  {
+    "id": 219,
+    "title": "Chicken stir fry",
+    "decision": "keep"
+  },
+  {
+    "id": 390,
+    "title": "Chicken tacos; napa cabbage slaw with honey lime dressing, avocado",
+    "decision": "keep"
+  },
+  {
+    "id": 447,
+    "title": "Chicken tenders, broccoli, sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 806,
+    "title": "Chicken teriyaki burgers",
+    "decision": "keep"
+  },
+  {
+    "id": 365,
+    "title": "Chicken teriyaki burgers with sesame slaw",
+    "decision": "keep"
+  },
+  {
+    "id": 931,
+    "title": "Chicken thighs or breasts",
+    "decision": "ingredient"
+  },
+  {
+    "id": 744,
+    "title": "Chicken thighs or other meat for udon noodles?",
+    "decision": "delete"
+  },
+  {
+    "id": 904,
+    "title": "Chicken tikka masala",
+    "decision": "keep"
+  },
+  {
+    "id": 413,
+    "title": "Chicken tikka masala (with leftover masala sauce)",
+    "decision": "keep"
+  },
+  {
+    "id": 741,
+    "title": "Chicken tikka masala and cauliflower",
+    "decision": "keep"
+  },
+  {
+    "id": 925,
+    "title": "Chicken Tikka masala with cauliflower",
+    "decision": "keep"
+  },
+  {
+    "id": 327,
+    "title": "Chicken Tortilla Soup",
+    "decision": "keep"
+  },
+  {
+    "id": 848,
+    "title": "chicken with pepperoncini garlic butter (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 285,
+    "title": "Chickpea curry",
+    "decision": "keep"
+  },
+  {
+    "id": 551,
+    "title": "Chickpea tikka masala with green rice (cookie and Kate p. 157)",
+    "decision": "keep"
+  },
+  {
+    "id": 641,
+    "title": "Chickpea, date, and avocado salad with za’atar vinaigrette (Gimme Some Oven) add feta",
+    "decision": "keep"
+  },
+  {
+    "id": 1093,
+    "title": "Chili",
+    "decision": "keep"
+  },
+  {
+    "id": 266,
+    "title": "Chili (Halloween) and salad",
+    "decision": "keep"
+  },
+  {
+    "id": 294,
+    "title": "Chipotle Orange Shrimp with Cilantro rice",
+    "decision": "keep"
+  },
+  {
+    "id": 175,
+    "title": "Chipotle quinoa burgers",
+    "decision": "keep"
+  },
+  {
+    "id": 331,
+    "title": "Chipotle Quinoa Burgers",
+    "decision": "keep"
+  },
+  {
+    "id": 894,
+    "title": "Chipotle tahini bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 82,
+    "title": "Chips and salsa",
+    "decision": "keep"
+  },
+  {
+    "id": 560,
+    "title": "Chopped salad pizza (maybe, or maybe just pizza and salad) (Tuesday)",
+    "decision": "keep"
+  },
+  {
+    "id": 455,
+    "title": "Chopped thai salad (Pinch of yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 407,
+    "title": "Chorizo and butternut squash lentil soup",
+    "decision": "keep"
+  },
+  {
+    "id": 391,
+    "title": "Christmas breakfast: avocado toast with bacon, egg, tomato, cinnamon rolls",
+    "decision": "keep"
+  },
+  {
+    "id": 392,
+    "title": "Christmas dinner: truffle oil cheesy pasta and bagged salad",
+    "decision": "keep"
+  },
+  {
+    "id": 389,
+    "title": "Christmas eve: Ham rounds and peanut butter cookies",
+    "decision": "keep"
+  },
+  {
+    "id": 393,
+    "title": "Christmas Eve: spinach and artichoke dip, veggie tray, cider,",
+    "decision": "keep"
+  },
+  {
+    "id": 384,
+    "title": "Christmas festivities begin 🎄🎅🏼🎅🏿☃️🦌",
+    "decision": "delete"
+  },
+  {
+    "id": 386,
+    "title": "Christmas morning breakfast:",
+    "decision": "delete"
+  },
+  {
+    "id": 388,
+    "title": "Christmas morning: Vanilla Honey French toast and bacon",
+    "decision": "keep"
+  },
+  {
+    "id": 242,
+    "title": "Cider braised pot roast with caramelized onions and cauliflower rice (takes 3-4 hours in oven)",
+    "decision": "keep"
+  },
+  {
+    "id": 92,
+    "title": "Cilantro lime chicken meatball bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 697,
+    "title": "Cinnamon Rhubarb bread",
+    "decision": "keep"
+  },
+  {
+    "id": 401,
+    "title": "Cinnamon rolls",
+    "decision": "keep"
+  },
+  {
+    "id": 621,
+    "title": "Cinnamon rolls (make Saturday and refrigerate)",
+    "decision": "keep"
+  },
+  {
+    "id": 453,
+    "title": "Classic chili",
+    "decision": "keep"
+  },
+  {
+    "id": 335,
+    "title": "Claus german sausages",
+    "decision": "ingredient"
+  },
+  {
+    "id": 538,
+    "title": "Coconut curry ramen",
+    "decision": "keep"
+  },
+  {
+    "id": 202,
+    "title": "COCONUT CURRY SALMON",
+    "decision": "keep"
+  },
+  {
+    "id": 677,
+    "title": "Coconut curry salmon (Pinch of yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 439,
+    "title": "Coconut lentil curry with rainbow chard",
+    "decision": "keep"
+  },
+  {
+    "id": 628,
+    "title": "Coconut Lime Grilled Chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 596,
+    "title": "Coconut Lime Grilled Chicken (pinch of yum) with zucchini and squash",
+    "decision": "keep"
+  },
+  {
+    "id": 521,
+    "title": "colcannon",
+    "decision": "keep"
+  },
+  {
+    "id": 788,
+    "title": "Cook out - “skewers” - caprese salad, cowboy caviar, peppers, onion, zucchini/squash, brats",
+    "decision": "keep"
+  },
+  {
+    "id": 942,
+    "title": "Cookie and Kate favorite quinoa salad",
+    "decision": "keep"
+  },
+  {
+    "id": 1089,
+    "title": "Corn",
+    "decision": "ingredient"
+  },
+  {
+    "id": 891,
+    "title": "Corn, avocado, and quinoa salad",
+    "decision": "keep"
+  },
+  {
+    "id": 505,
+    "title": "Corned beef and cabbage grilled cheese and sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 194,
+    "title": "Corned beef and cabbage, potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 518,
+    "title": "corned beef and cabbage, potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 564,
+    "title": "Corned beef and cabbagePizza (need to make dough)",
+    "decision": "keep"
+  },
+  {
+    "id": 118,
+    "title": "Corned beef, cabbage, and potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 53,
+    "title": "Corned beef, cabbage, potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 520,
+    "title": "corned beef, Irish cheddar cabbage sandwiches",
+    "decision": "keep"
+  },
+  {
+    "id": 907,
+    "title": "Couscous salad with lime basil vinaigrette",
+    "decision": "keep"
+  },
+  {
+    "id": 410,
+    "title": "Cozy veggie korma",
+    "decision": "keep"
+  },
+  {
+    "id": 312,
+    "title": "Crackers, goat cheese, Katy’s port wine cranberry sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 332,
+    "title": "Cranberry sauce",
+    "decision": "ingredient"
+  },
+  {
+    "id": 329,
+    "title": "Creamy Kale pasta",
+    "decision": "keep"
+  },
+  {
+    "id": 344,
+    "title": "Creamy Mushroom Soup",
+    "decision": "keep"
+  },
+  {
+    "id": 487,
+    "title": "Creamy red pepper pasta",
+    "decision": "keep"
+  },
+  {
+    "id": 652,
+    "title": "Creamy Red Pepper Pasta and Blistered Tomatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 578,
+    "title": "Creamy red pepper pasta with blistered tomatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 600,
+    "title": "Creamy red pepper pasta with blistered tomatoes (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 187,
+    "title": "Creamy red pepper pasta with blísteres tomatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 364,
+    "title": "Creamy Tortellini Soup",
+    "decision": "keep"
+  },
+  {
+    "id": 374,
+    "title": "Creamy tortellini soup and bread, spinach, goat cheese pear salad",
+    "decision": "keep"
+  },
+  {
+    "id": 489,
+    "title": "Crispy autumn veg burgers with apple cider slaw, sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 267,
+    "title": "Crispy Black bean tacos",
+    "decision": "keep"
+  },
+  {
+    "id": 590,
+    "title": "Crispy chicken bacon and pesto gnocchi skillet with cherry tomatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 383,
+    "title": "crispy chicken bacon pesto gnocchi skillet - add asparagus (cousins night out - don’t know if this included dinner)",
+    "decision": "keep"
+  },
+  {
+    "id": 110,
+    "title": "Crispy chicken tikka bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 601,
+    "title": "Crispy chicken tikka bowls (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 411,
+    "title": "Crispy chicken tikka bowls (use the butcher box chicken nuggets)",
+    "decision": "keep"
+  },
+  {
+    "id": 927,
+    "title": "Crispy Chicken Tikka Bowls with mint sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 945,
+    "title": "crispy chicken, bacon, and pesto gnocchi skillet",
+    "decision": "keep"
+  },
+  {
+    "id": 572,
+    "title": "Crispy chicken, bacon, pesto gnocchi skillet",
+    "decision": "keep"
+  },
+  {
+    "id": 702,
+    "title": "Crispy gnocchi with zucchini, sweet corn, and basil",
+    "decision": "keep"
+  },
+  {
+    "id": 370,
+    "title": "crispy potato, chorizo and green chili hash",
+    "decision": "keep"
+  },
+  {
+    "id": 724,
+    "title": "crock pot balsamic pork roast, roasted carrots, cous cous",
+    "decision": "keep"
+  },
+  {
+    "id": 810,
+    "title": "crock pot balsamic pork roast, roasted carrots, quinoa",
+    "decision": "keep"
+  },
+  {
+    "id": 934,
+    "title": "Crock pot chili",
+    "decision": "keep"
+  },
+  {
+    "id": 356,
+    "title": "Crock pot Irish stew",
+    "decision": "keep"
+  },
+  {
+    "id": 237,
+    "title": "Crockpot chicken gnocchi soup",
+    "decision": "keep"
+  },
+  {
+    "id": 486,
+    "title": "Crockpot chili",
+    "decision": "keep"
+  },
+  {
+    "id": 950,
+    "title": "Crockpot Italian beef sandwiches, roasted broccoli",
+    "decision": "keep"
+  },
+  {
+    "id": 119,
+    "title": "Crockpot quinoa chicken primavera",
+    "decision": "keep"
+  },
+  {
+    "id": 507,
+    "title": "Crockpot Thai Yellow Curry Chicken with Garlic Rice (Half baked harvest)",
+    "decision": "keep"
+  },
+  {
+    "id": 425,
+    "title": "Croque Madame",
+    "decision": "keep"
+  },
+  {
+    "id": 236,
+    "title": "Crunchwrap Supreme",
+    "decision": "keep"
+  },
+  {
+    "id": 278,
+    "title": "Crunchy roll bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 514,
+    "title": "Cupcakes (Rachel bringing)",
+    "decision": "delete"
+  },
+  {
+    "id": 588,
+    "title": "Curried satay veggie bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 563,
+    "title": "Curried tomato tortellini soup (Vegetarian)",
+    "decision": "keep"
+  },
+  {
+    "id": 213,
+    "title": "Curry chicken salad",
+    "decision": "keep"
+  },
+  {
+    "id": 387,
+    "title": "Daikon with Chicken in yuzu sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 437,
+    "title": "Daikon with Chicken in yuzu sauce x2",
+    "decision": "keep"
+  },
+  {
+    "id": 81,
+    "title": "Dark chocolate almond joy bites",
+    "decision": "keep"
+  },
+  {
+    "id": 558,
+    "title": "Date night rigatoni",
+    "decision": "keep"
+  },
+  {
+    "id": 274,
+    "title": "Date night rigatoni with sausage and kale",
+    "decision": "keep"
+  },
+  {
+    "id": 272,
+    "title": "Delicate squash",
+    "decision": "ingredient"
+  },
+  {
+    "id": 811,
+    "title": "Detoux Moroccan spiced chickpea glow bowl x2 for Anna and David",
+    "decision": "keep"
+  },
+  {
+    "id": 541,
+    "title": "Detox lentil soup (freeze)",
+    "decision": "keep"
+  },
+  {
+    "id": 358,
+    "title": "Detox lentil soup and bread (from frozen - instant pot)",
+    "decision": "keep"
+  },
+  {
+    "id": 249,
+    "title": "Dice and freeze tomatoes",
+    "decision": "delete"
+  },
+  {
+    "id": 761,
+    "title": "Diet coke",
+    "decision": "delete"
+  },
+  {
+    "id": 672,
+    "title": "dinner at Fasika or Dillas",
+    "decision": "delete"
+  },
+  {
+    "id": 968,
+    "title": "Dinner rolls",
+    "decision": "ingredient"
+  },
+  {
+    "id": 515,
+    "title": "Double fudge Irish cream cookies",
+    "decision": "keep"
+  },
+  {
+    "id": 256,
+    "title": "Double recipes to bring to Jill Tuesday 10/28:",
+    "decision": "keep"
+  },
+  {
+    "id": 762,
+    "title": "Dr Pepper",
+    "decision": "delete"
+  },
+  {
+    "id": 922,
+    "title": "Drink: Cucumber agua fresca",
+    "decision": "keep"
+  },
+  {
+    "id": 549,
+    "title": "Easter breakfast: eggs, bacon, potatoes, blackberries",
+    "decision": "keep"
+  },
+  {
+    "id": 580,
+    "title": "Easter breakfast: monkeys, eggs, moms fancy bacon, fruit",
+    "decision": "keep"
+  },
+  {
+    "id": 622,
+    "title": "Easter dinner: Grilled Sausage and Peppers with Garlic Aioli, Everyday Italian salad",
+    "decision": "keep"
+  },
+  {
+    "id": 550,
+    "title": "Easter dinner: lemon asparagus truffle pasta, salad (skinnytaste house salad), dessert: ice cream",
+    "decision": "keep"
+  },
+  {
+    "id": 579,
+    "title": "Easter dinner: lemon chicken skewers with creamy feta sauce (half baked harvest), roasted yellow potatoes, flatbread",
+    "decision": "keep"
+  },
+  {
+    "id": 602,
+    "title": "Easter Sunday: ham, mustard sauce, asparagus, sean family sweet potatoes, green bean casserole, dinner rolls",
+    "decision": "keep"
+  },
+  {
+    "id": 593,
+    "title": "Easter: ham, mustard sauce, sweet potatoes, green bean casserole, carrot cake cheesecake",
+    "decision": "keep"
+  },
+  {
+    "id": 584,
+    "title": "Easy chicken enchilada casserole (make chicken in instant pot)",
+    "decision": "keep"
+  },
+  {
+    "id": 454,
+    "title": "Easy Chicken Enchilada Casserole (Mel’s kitchen cafe)",
+    "decision": "keep"
+  },
+  {
+    "id": 108,
+    "title": "Easy crockpot carnitas",
+    "decision": "keep"
+  },
+  {
+    "id": 495,
+    "title": "Easy green curry with tofu, red bell pepper, mushrooms, and leftover other veggies",
+    "decision": "keep"
+  },
+  {
+    "id": 535,
+    "title": "Easy pepper steak and rice",
+    "decision": "keep"
+  },
+  {
+    "id": 565,
+    "title": "Easy weeknight peanut noodles with roasted broccoli (double) (Vegetarian)",
+    "decision": "keep"
+  },
+  {
+    "id": 445,
+    "title": "Egg roll bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 123,
+    "title": "Egg sal san",
+    "decision": "keep"
+  },
+  {
+    "id": 606,
+    "title": "Egg salad and dill roasted potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 624,
+    "title": "Egg Salad Sandwiches",
+    "decision": "keep"
+  },
+  {
+    "id": 342,
+    "title": "Egg Waffles with Romesco and Goat Cheese",
+    "decision": "keep"
+  },
+  {
+    "id": 217,
+    "title": "Eggs, bacon, potatoes",
+    "decision": "ingredient"
+  },
+  {
+    "id": 966,
+    "title": "Eggs, bacon, purple fingerling potatoes",
+    "decision": "ingredient"
+  },
+  {
+    "id": 909,
+    "title": "Enchiladas with poblano peppers and leftover pork",
+    "decision": "keep"
+  },
+  {
+    "id": 1095,
+    "title": "fajitas",
+    "decision": "keep"
+  },
+  {
+    "id": 854,
+    "title": "Fajitas with skirt steak",
+    "decision": "keep"
+  },
+  {
+    "id": 787,
+    "title": "Farmer’s market? (sourdough bread, pie)",
+    "decision": "delete"
+  },
+  {
+    "id": 470,
+    "title": "Fat Tuesday order out",
+    "decision": "delete"
+  },
+  {
+    "id": 704,
+    "title": "Father’s Day breakfast: Open-faced breakfast sandwiches with runny eggs",
+    "decision": "keep"
+  },
+  {
+    "id": 703,
+    "title": "Father’s Day Dinner: Instant Pot Italian Beef sandwiches, bagged salad",
+    "decision": "keep"
+  },
+  {
+    "id": 243,
+    "title": "Feel good fall salad",
+    "decision": "keep"
+  },
+  {
+    "id": 322,
+    "title": "Feel good fall salad (sweet potatoes) and baguette",
+    "decision": "keep"
+  },
+  {
+    "id": 863,
+    "title": "Feelin’ fancy: Brown Butter Scallops with Parmesan Risotto (sub roasted broccoli for kale because ew) (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 93,
+    "title": "feta stuffed buffalo chicken meatballs",
+    "decision": "keep"
+  },
+  {
+    "id": 988,
+    "title": "Feta stuffed buffalo chicken meatballs - 16-18 mins at 400",
+    "decision": "keep"
+  },
+  {
+    "id": 496,
+    "title": "Fettucini with preserved lemon and roasted garlic, salad",
+    "decision": "keep"
+  },
+  {
+    "id": 586,
+    "title": "Filipino bbq on grill, grilled peppers and zucchini/squash",
+    "decision": "keep"
+  },
+  {
+    "id": 929,
+    "title": "Flank steak",
+    "decision": "ingredient"
+  },
+  {
+    "id": 347,
+    "title": "Flank steak and roasted Brussels sprouts",
+    "decision": "keep"
+  },
+  {
+    "id": 926,
+    "title": "Flank steak tacos and roasted corn (use bread salad chimichurri recipe/leftovers) - Two Peas and their Pod - Grill or saute a pepper to go with",
+    "decision": "keep"
+  },
+  {
+    "id": 683,
+    "title": "Floating taco bowls with quick pico",
+    "decision": "keep"
+  },
+  {
+    "id": 794,
+    "title": "For when steve is here on Thursday",
+    "decision": "delete"
+  },
+  {
+    "id": 730,
+    "title": "Forepaugh’s",
+    "decision": "delete"
+  },
+  {
+    "id": 369,
+    "title": "France 44",
+    "decision": "delete"
+  },
+  {
+    "id": 553,
+    "title": "French onion soup",
+    "decision": "keep"
+  },
+  {
+    "id": 193,
+    "title": "French toast, bacon",
+    "decision": "keep"
+  },
+  {
+    "id": 468,
+    "title": "Friday (Lent) - sweet potato tacos",
+    "decision": "keep"
+  },
+  {
+    "id": 264,
+    "title": "Friday weenie roast: garlic Spaghetti squash with herbs",
+    "decision": "keep"
+  },
+  {
+    "id": 178,
+    "title": "Fried chicken, cornbread, green beans",
+    "decision": "keep"
+  },
+  {
+    "id": 555,
+    "title": "Frozen chicken nuggets, bagged salad, sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 663,
+    "title": "Frozen gyros and cucumber and hummus",
+    "decision": "keep"
+  },
+  {
+    "id": 888,
+    "title": "Frozen Lasagna and bagged salad",
+    "decision": "keep"
+  },
+  {
+    "id": 999,
+    "title": "Frozen orange chicken and broccoli (can also add green beans if extra)",
+    "decision": "keep"
+  },
+  {
+    "id": 900,
+    "title": "Frozen Orange chicken, broccoli, and rice",
+    "decision": "keep"
+  },
+  {
+    "id": 700,
+    "title": "Frozen pizza or skyline and salad",
+    "decision": "delete"
+  },
+  {
+    "id": 990,
+    "title": "Fruit (blackberries, mangoes, clementines )",
+    "decision": "ingredient"
+  },
+  {
+    "id": 216,
+    "title": "Fruit (blueberries, mangoes, apples)",
+    "decision": "ingredient"
+  },
+  {
+    "id": 619,
+    "title": "Fruit (mom bringing)",
+    "decision": "delete"
+  },
+  {
+    "id": 880,
+    "title": "Garlic butter chicken breasts with zucchini and corn (Julia’s album)",
+    "decision": "keep"
+  },
+  {
+    "id": 224,
+    "title": "Garlic caper chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 799,
+    "title": "Garlic scape beef satay with grilled zucchini",
+    "decision": "keep"
+  },
+  {
+    "id": 768,
+    "title": "Garlic scape pesto and gnocchi (and zucchini if any leftover)",
+    "decision": "keep"
+  },
+  {
+    "id": 732,
+    "title": "Garlic scape pesto pasta salad",
+    "decision": "keep"
+  },
+  {
+    "id": 898,
+    "title": "General Taos chicken and broccoli",
+    "decision": "keep"
+  },
+  {
+    "id": 766,
+    "title": "General Tsos chicken and broccoli",
+    "decision": "keep"
+  },
+  {
+    "id": 812,
+    "title": "George and the Dragon",
+    "decision": "delete"
+  },
+  {
+    "id": 334,
+    "title": "German cucumber dill salad",
+    "decision": "keep"
+  },
+  {
+    "id": 561,
+    "title": "Ginger chicken meatball sandos (Monday)",
+    "decision": "keep"
+  },
+  {
+    "id": 107,
+    "title": "Ginger peanut chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 341,
+    "title": "Ginger Peanut Chicken with coconut rice (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 833,
+    "title": "Gnocchi and summer squash and peppers",
+    "decision": "keep"
+  },
+  {
+    "id": 982,
+    "title": "Gnocchi and summer squash/zucchini",
+    "decision": "keep"
+  },
+  {
+    "id": 436,
+    "title": "Gnocchi and zucchini and squash",
+    "decision": "keep"
+  },
+  {
+    "id": 979,
+    "title": "Gnocchi peppers and onions",
+    "decision": "keep"
+  },
+  {
+    "id": 403,
+    "title": "Gnocchi pesto brussels chicken sausage",
+    "decision": "keep"
+  },
+  {
+    "id": 228,
+    "title": "Gnocchi with Brussels, Chicken sausage, and pesto (gimme some oven)",
+    "decision": "keep"
+  },
+  {
+    "id": 669,
+    "title": "gnocchi with pesto and zucchini and squash",
+    "decision": "keep"
+  },
+  {
+    "id": 749,
+    "title": "Gnocchi, pasta sauce, and zucchini/squash",
+    "decision": "keep"
+  },
+  {
+    "id": 634,
+    "title": "Gnocchi, peppers and onions, sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 769,
+    "title": "Gnocchi, sauce, zucchini",
+    "decision": "keep"
+  },
+  {
+    "id": 349,
+    "title": "Gnocchi, sautéed peppers and onions",
+    "decision": "keep"
+  },
+  {
+    "id": 885,
+    "title": "gnocchi, zucchini, sauce made with tomatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 353,
+    "title": "Goat cheese, beets, pecan salad and bread",
+    "decision": "keep"
+  },
+  {
+    "id": 973,
+    "title": "goatmeal, A very Larry Christmas",
+    "decision": "delete"
+  },
+  {
+    "id": 195,
+    "title": "Golden soup and spinach salad",
+    "decision": "keep"
+  },
+  {
+    "id": 1090,
+    "title": "Granola",
+    "decision": "keep"
+  },
+  {
+    "id": 752,
+    "title": "Granola, yogurt, berries",
+    "decision": "keep"
+  },
+  {
+    "id": 366,
+    "title": "Greek Baked Orzo",
+    "decision": "keep"
+  },
+  {
+    "id": 856,
+    "title": "Greek chicken sheet pan dinner (skinnytaste f&s p.158) with house salad",
+    "decision": "keep"
+  },
+  {
+    "id": 797,
+    "title": "Greek pork pitas (and tzatziki)",
+    "decision": "keep"
+  },
+  {
+    "id": 54,
+    "title": "Greek quinoa salad",
+    "decision": "keep"
+  },
+  {
+    "id": 853,
+    "title": "Greek quinoa salad with chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 51,
+    "title": "Green bean casserole",
+    "decision": "keep"
+  },
+  {
+    "id": 1000,
+    "title": "Green Beans",
+    "decision": "ingredient"
+  },
+  {
+    "id": 684,
+    "title": "Green pepper, onion, gnocchi",
+    "decision": "keep"
+  },
+  {
+    "id": 816,
+    "title": "Green tofu curry",
+    "decision": "keep"
+  },
+  {
+    "id": 838,
+    "title": "Ground beef",
+    "decision": "ingredient"
+  },
+  {
+    "id": 694,
+    "title": "Ground beef bowls (cous cous, ground beef with greek spices, tzatziki, feta, cucumber, tomato, hummus, etc.)",
+    "decision": "keep"
+  },
+  {
+    "id": 99,
+    "title": "Halloween: chili and cornbread",
+    "decision": "keep"
+  },
+  {
+    "id": 276,
+    "title": "Halloween: “Sunday” chili",
+    "decision": "keep"
+  },
+  {
+    "id": 348,
+    "title": "Ham and Swiss sliders",
+    "decision": "keep"
+  },
+  {
+    "id": 859,
+    "title": "Hard boiled eggs",
+    "decision": "ingredient"
+  },
+  {
+    "id": 632,
+    "title": "Harissa meatballs with whipped feta",
+    "decision": "keep"
+  },
+  {
+    "id": 252,
+    "title": "Harvest the green onions from garden",
+    "decision": "delete"
+  },
+  {
+    "id": 544,
+    "title": "Healthy Chicken tortilla soup (Aggie’s Kitchen)",
+    "decision": "keep"
+  },
+  {
+    "id": 562,
+    "title": "Healthy Orange chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 345,
+    "title": "Herb and Garlic Marinated Olives",
+    "decision": "keep"
+  },
+  {
+    "id": 936,
+    "title": "Homemade spaghetti sauce and pasta",
+    "decision": "keep"
+  },
+  {
+    "id": 480,
+    "title": "Homemade vegetarian chili",
+    "decision": "keep"
+  },
+  {
+    "id": 671,
+    "title": "homemade vegetarian chili",
+    "decision": "keep"
+  },
+  {
+    "id": 952,
+    "title": "Honey glazed pork tenderloin with roasted grapes (seriously delish p.206), house salad",
+    "decision": "keep"
+  },
+  {
+    "id": 967,
+    "title": "Honey mustard chicken chopped salad",
+    "decision": "keep"
+  },
+  {
+    "id": 656,
+    "title": "honey mustard grilled salmon with avocado basil sauce, summer cous cous salad",
+    "decision": "keep"
+  },
+  {
+    "id": 772,
+    "title": "honey mustard salmon, bagged costco salad",
+    "decision": "keep"
+  },
+  {
+    "id": 343,
+    "title": "Hot Honey Salmon",
+    "decision": "keep"
+  },
+  {
+    "id": 311,
+    "title": "Hummus and carrots",
+    "decision": "keep"
+  },
+  {
+    "id": 513,
+    "title": "Hummus and veggies (carrots, cucumbers, celery)",
+    "decision": "keep"
+  },
+  {
+    "id": 785,
+    "title": "ice cream",
+    "decision": "delete"
+  },
+  {
+    "id": 614,
+    "title": "Instant pot bbq pulled pork (Damn Delicious), slaw, and sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 210,
+    "title": "Instant pot beef stew (can freeze ahead)",
+    "decision": "keep"
+  },
+  {
+    "id": 627,
+    "title": "Instant pot carnitas",
+    "decision": "keep"
+  },
+  {
+    "id": 824,
+    "title": "Instant Pot carnitas (Gimme some oven)",
+    "decision": "keep"
+  },
+  {
+    "id": 48,
+    "title": "Instant Pot Chicken and dumplings",
+    "decision": "keep"
+  },
+  {
+    "id": 475,
+    "title": "Instant pot Chicken and Dumplings (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 170,
+    "title": "Instant pot chicken chili verde",
+    "decision": "keep"
+  },
+  {
+    "id": 645,
+    "title": "Instant Pot chicken tacos (Damn Delicious)",
+    "decision": "keep"
+  },
+  {
+    "id": 113,
+    "title": "Instant pot chicken tikka masala",
+    "decision": "keep"
+  },
+  {
+    "id": 52,
+    "title": "Instant Pot Ground beef and pasta",
+    "decision": "keep"
+  },
+  {
+    "id": 114,
+    "title": "Instant pot ground beef and pasta (damn delicious)",
+    "decision": "keep"
+  },
+  {
+    "id": 716,
+    "title": "Instant Pot ground beef and pasta (double)",
+    "decision": "keep"
+  },
+  {
+    "id": 865,
+    "title": "Instant Pot Ground Beef and Pasta (red wine) (Damn Delicious)",
+    "decision": "keep"
+  },
+  {
+    "id": 80,
+    "title": "Instant pot Italian Beef sandwiches",
+    "decision": "keep"
+  },
+  {
+    "id": 478,
+    "title": "Instant pot Italian beef sandwiches (Pinch of Yum) and Veggie chips",
+    "decision": "keep"
+  },
+  {
+    "id": 608,
+    "title": "Instant Pot Italian beef sandwiches, bagged side salad",
+    "decision": "keep"
+  },
+  {
+    "id": 412,
+    "title": "Instant pot korean beef tacos",
+    "decision": "keep"
+  },
+  {
+    "id": 83,
+    "title": "Instant Pot Korean beef tacos (marinade in freezer)",
+    "decision": "keep"
+  },
+  {
+    "id": 676,
+    "title": "Instant Pot Korean beef tacos (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 296,
+    "title": "Instant Pot Pasta with meatballs",
+    "decision": "keep"
+  },
+  {
+    "id": 104,
+    "title": "Instant Pot Pot Roast",
+    "decision": "keep"
+  },
+  {
+    "id": 314,
+    "title": "Instant Pot Pot Roast (Pinch of yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 417,
+    "title": "Instant Pot red curry lentils",
+    "decision": "keep"
+  },
+  {
+    "id": 330,
+    "title": "Instant Pot Tandoori-Inspired Chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 225,
+    "title": "Instant pot wild rice soup",
+    "decision": "keep"
+  },
+  {
+    "id": 517,
+    "title": "Irish breakfast",
+    "decision": "keep"
+  },
+  {
+    "id": 637,
+    "title": "Irish breakfast",
+    "decision": "keep"
+  },
+  {
+    "id": 78,
+    "title": "Irish potato soup",
+    "decision": "keep"
+  },
+  {
+    "id": 516,
+    "title": "Irish soda bread muffins (Maggie)",
+    "decision": "keep"
+  },
+  {
+    "id": 843,
+    "title": "Israeli cous cous salad",
+    "decision": "keep"
+  },
+  {
+    "id": 232,
+    "title": "Italian beef and salad (with $$ dear mom greens)",
+    "decision": "keep"
+  },
+  {
+    "id": 49,
+    "title": "Italian drunken noodles",
+    "decision": "keep"
+  },
+  {
+    "id": 130,
+    "title": "Italian sausage and peppers (italian sweet green peppers), baguette",
+    "decision": "keep"
+  },
+  {
+    "id": 351,
+    "title": "Jalapeño poppers",
+    "decision": "keep"
+  },
+  {
+    "id": 261,
+    "title": "jimmy johns or similar (book club at center point)",
+    "decision": "delete"
+  },
+  {
+    "id": 964,
+    "title": "Kale chips?",
+    "decision": "delete"
+  },
+  {
+    "id": 316,
+    "title": "Kale fried rice (add pan-fried daikon)",
+    "decision": "keep"
+  },
+  {
+    "id": 734,
+    "title": "Kale fried rice (double - make with white rice)",
+    "decision": "keep"
+  },
+  {
+    "id": 800,
+    "title": "Kale fried rice (lunch)",
+    "decision": "keep"
+  },
+  {
+    "id": 457,
+    "title": "Kimchi grilled cheese",
+    "decision": "keep"
+  },
+  {
+    "id": 338,
+    "title": "Knopfle (Larry)",
+    "decision": "delete"
+  },
+  {
+    "id": 630,
+    "title": "Korean BBQ Rice bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 207,
+    "title": "Korean bbq steak bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 566,
+    "title": "Korean beef bowls (serve with quinoa)",
+    "decision": "keep"
+  },
+  {
+    "id": 131,
+    "title": "Kung pao chicken zoodles",
+    "decision": "keep"
+  },
+  {
+    "id": 709,
+    "title": "Leek, chard, and corn flatbread (Sunday)",
+    "decision": "keep"
+  },
+  {
+    "id": 750,
+    "title": "Leek, chard, and corn flatbread add beets (Sunday)",
+    "decision": "keep"
+  },
+  {
+    "id": 767,
+    "title": "Leek, corn, and chard flatbread",
+    "decision": "keep"
+  },
+  {
+    "id": 397,
+    "title": "Leftover corned beef sandwiches and bagged salad",
+    "decision": "keep"
+  },
+  {
+    "id": 536,
+    "title": "Leftover corned beef sandwiches and sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 431,
+    "title": "leftover tangine (make cous cous)",
+    "decision": "delete"
+  },
+  {
+    "id": 373,
+    "title": "leftovers",
+    "decision": "delete"
+  },
+  {
+    "id": 519,
+    "title": "leftovers/snack Alicia book club",
+    "decision": "delete"
+  },
+  {
+    "id": 531,
+    "title": "Leftovers: Corned beef sandwiches",
+    "decision": "keep"
+  },
+  {
+    "id": 592,
+    "title": "Lemon asparagus chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 298,
+    "title": "Lemon braised chicken and beans with mint pesto and arugula salad",
+    "decision": "keep"
+  },
+  {
+    "id": 477,
+    "title": "Lemon Brown Butter Salmon (Half Baked Harvest)",
+    "decision": "keep"
+  },
+  {
+    "id": 792,
+    "title": "Lemon chicken and green beans",
+    "decision": "keep"
+  },
+  {
+    "id": 59,
+    "title": "Lemon chicken and green beans",
+    "decision": "keep"
+  },
+  {
+    "id": 733,
+    "title": "Lemon Chicken and rice soup - Taste of home (crock pot)",
+    "decision": "keep"
+  },
+  {
+    "id": 729,
+    "title": "lemon chicken asparagus and cous cous",
+    "decision": "keep"
+  },
+  {
+    "id": 983,
+    "title": "Lemon chicken thighs and asparagus",
+    "decision": "keep"
+  },
+  {
+    "id": 139,
+    "title": "Lemon chicken with green beans",
+    "decision": "keep"
+  },
+  {
+    "id": 631,
+    "title": "Lemon Herb Pasta Salad",
+    "decision": "keep"
+  },
+  {
+    "id": 313,
+    "title": "Lemon pepper noodles with zucchini and squash and some butter sauce we make up. Maybe chicken if we have our shit together.",
+    "decision": "keep"
+  },
+  {
+    "id": 890,
+    "title": "Lemongrass chicken with zucchini",
+    "decision": "keep"
+  },
+  {
+    "id": 269,
+    "title": "Lemongrass meatball bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 995,
+    "title": "Lentil quesadillas and magic green sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 415,
+    "title": "Life changing beef stew (pinch of yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 875,
+    "title": "Little colored peppers",
+    "decision": "ingredient"
+  },
+  {
+    "id": 664,
+    "title": "Little potatoes",
+    "decision": "ingredient"
+  },
+  {
+    "id": 540,
+    "title": "Loaded BBQ Baked potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 522,
+    "title": "Lorde concert - dinner out for fish and chips?",
+    "decision": "delete"
+  },
+  {
+    "id": 422,
+    "title": "Lunch prep: Greek orzo salad in a jar",
+    "decision": "keep"
+  },
+  {
+    "id": 626,
+    "title": "Lunch/snacks for eclipse day?",
+    "decision": "delete"
+  },
+  {
+    "id": 542,
+    "title": "Lunch? Winter rainbow quinoa salad",
+    "decision": "keep"
+  },
+  {
+    "id": 953,
+    "title": "Lunches: chicken enchilada casserole",
+    "decision": "keep"
+  },
+  {
+    "id": 754,
+    "title": "Lunchmeat sandwiches, chips, cherries",
+    "decision": "keep"
+  },
+  {
+    "id": 723,
+    "title": "Lynx game",
+    "decision": "delete"
+  },
+  {
+    "id": 582,
+    "title": "mac and cheese and salad",
+    "decision": "keep"
+  },
+  {
+    "id": 421,
+    "title": "Make Breakfast balls",
+    "decision": "delete"
+  },
+  {
+    "id": 738,
+    "title": "Make garlic scape pesto",
+    "decision": "delete"
+  },
+  {
+    "id": 98,
+    "title": "Make granola",
+    "decision": "delete"
+  },
+  {
+    "id": 250,
+    "title": "Make pico with baby tomatoes",
+    "decision": "delete"
+  },
+  {
+    "id": 739,
+    "title": "Make pizza dough",
+    "decision": "delete"
+  },
+  {
+    "id": 168,
+    "title": "Make the night before. Sub water for milk. only add cheese to half and not in the mix.",
+    "decision": "delete"
+  },
+  {
+    "id": 822,
+    "title": "Make: Fridge pickles",
+    "decision": "delete"
+  },
+  {
+    "id": 253,
+    "title": "Maple roasted chicken thighs and winter squashSalmon cakes and slaw",
+    "decision": "keep"
+  },
+  {
+    "id": 548,
+    "title": "Marry Me Chicken (Pinch of Yum) with mashed potatoes, bagged salad. Use frozen chicken tenders",
+    "decision": "keep"
+  },
+  {
+    "id": 640,
+    "title": "Marry me chicken with mashed potatoes and a side salad (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 103,
+    "title": "Mashed potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 970,
+    "title": "Mashed potatoes (add butter-cooked leeks) & gravy",
+    "decision": "keep"
+  },
+  {
+    "id": 567,
+    "title": "Meal prep breakfast sandwiches",
+    "decision": "delete"
+  },
+  {
+    "id": 462,
+    "title": "Mediterranean cous cous bowls (vegetarian)",
+    "decision": "keep"
+  },
+  {
+    "id": 491,
+    "title": "Mels Buddha bowls (chicken) with peanut sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 889,
+    "title": "Mexican casserole",
+    "decision": "keep"
+  },
+  {
+    "id": 951,
+    "title": "Mexican quinoa with lazy guac (double for lunches)",
+    "decision": "keep"
+  },
+  {
+    "id": 770,
+    "title": "Microwave ramen",
+    "decision": "delete"
+  },
+  {
+    "id": 328,
+    "title": "Millionaire Gnocchi with Red Sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 259,
+    "title": "Mimi Blue meatballs",
+    "decision": "delete"
+  },
+  {
+    "id": 474,
+    "title": "Miso butter steaks and rice",
+    "decision": "keep"
+  },
+  {
+    "id": 234,
+    "title": "Moe’s casseroles",
+    "decision": "delete"
+  },
+  {
+    "id": 500,
+    "title": "Monday work: breakfast balls",
+    "decision": "keep"
+  },
+  {
+    "id": 323,
+    "title": "Moroccan chickpeas (from frozen - instant pot) and cous cous, cucumber",
+    "decision": "keep"
+  },
+  {
+    "id": 293,
+    "title": "Morracan stew packet",
+    "decision": "keep"
+  },
+  {
+    "id": 897,
+    "title": "Moussaka (Christine’s recipe)",
+    "decision": "keep"
+  },
+  {
+    "id": 937,
+    "title": "Moussaka (see recipe book)",
+    "decision": "keep"
+  },
+  {
+    "id": 362,
+    "title": "Mushroom Penne with Walnut pesto",
+    "decision": "keep"
+  },
+  {
+    "id": 939,
+    "title": "Mushroom poblano posole verde",
+    "decision": "keep"
+  },
+  {
+    "id": 976,
+    "title": "New Years Day dinner: fried chicken, slow cooker hoppin John",
+    "decision": "keep"
+  },
+  {
+    "id": 975,
+    "title": "New Years Eve: buffalo cauliflower tacos with avocado crema",
+    "decision": "keep"
+  },
+  {
+    "id": 420,
+    "title": "New years: Corned beef and cabbage, roasted yellow potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 404,
+    "title": "New Year’s Day at Haley’s",
+    "decision": "delete"
+  },
+  {
+    "id": 790,
+    "title": "None",
+    "decision": "delete"
+  },
+  {
+    "id": 932,
+    "title": "Nut squash",
+    "decision": "ingredient"
+  },
+  {
+    "id": 449,
+    "title": "One pan broccoli quinoa skillet",
+    "decision": "keep"
+  },
+  {
+    "id": 504,
+    "title": "One pot broccoli cheese pesto pasta (half baked harvest)",
+    "decision": "keep"
+  },
+  {
+    "id": 543,
+    "title": "One Pot Creamy Asparagus and Bacon Pasta",
+    "decision": "keep"
+  },
+  {
+    "id": 192,
+    "title": "Orange chicken (freezer) and broccoli",
+    "decision": "keep"
+  },
+  {
+    "id": 190,
+    "title": "Orange chicken, broccoli, and rice",
+    "decision": "keep"
+  },
+  {
+    "id": 400,
+    "title": "Orange juice",
+    "decision": "ingredient"
+  },
+  {
+    "id": 226,
+    "title": "Orange salmon and fried rice",
+    "decision": "keep"
+  },
+  {
+    "id": 581,
+    "title": "order out",
+    "decision": "delete"
+  },
+  {
+    "id": 783,
+    "title": "Order pizza",
+    "decision": "delete"
+  },
+  {
+    "id": 775,
+    "title": "Order pizza from Greek’s pizza",
+    "decision": "delete"
+  },
+  {
+    "id": 459,
+    "title": "Order pizza one night",
+    "decision": "delete"
+  },
+  {
+    "id": 241,
+    "title": "Orzo with feta, tomatoes, and dill",
+    "decision": "keep"
+  },
+  {
+    "id": 695,
+    "title": "Out",
+    "decision": "delete"
+  },
+  {
+    "id": 307,
+    "title": "Pan burgers, roasted parsnips",
+    "decision": "keep"
+  },
+  {
+    "id": 263,
+    "title": "pan-seared chicken with roasted honey nut squash and apple",
+    "decision": "keep"
+  },
+  {
+    "id": 287,
+    "title": "Pan-seared pork chops with roasted butternut squash and apple",
+    "decision": "keep"
+  },
+  {
+    "id": 646,
+    "title": "Panang chicken curry and rice",
+    "decision": "keep"
+  },
+  {
+    "id": 399,
+    "title": "Panang Curry",
+    "decision": "keep"
+  },
+  {
+    "id": 585,
+    "title": "Panera Creamy Tomato Soup and grilled cheese",
+    "decision": "keep"
+  },
+  {
+    "id": 574,
+    "title": "Panera creamy tomato soup, grilled cheese, every day italian salad, chocolate chip cookies (Andrea and Cliff’s)",
+    "decision": "keep"
+  },
+  {
+    "id": 221,
+    "title": "Panko chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 917,
+    "title": "Panzanella salad",
+    "decision": "keep"
+  },
+  {
+    "id": 913,
+    "title": "Panzanella salad (again)",
+    "decision": "keep"
+  },
+  {
+    "id": 635,
+    "title": "Panzanella salad with marinated chickpeas",
+    "decision": "keep"
+  },
+  {
+    "id": 647,
+    "title": "Panzanella salad with marinated chickpeas and chimichurri",
+    "decision": "keep"
+  },
+  {
+    "id": 58,
+    "title": "Panzanella with Marinated Chickpeas and chimichurri",
+    "decision": "keep"
+  },
+  {
+    "id": 881,
+    "title": "Panzanella with Marinated chickpeas and chimichurri (How Sweet Eats)",
+    "decision": "keep"
+  },
+  {
+    "id": 610,
+    "title": "Panzanella with marinated chickpeas and chimichurri (veg)",
+    "decision": "keep"
+  },
+  {
+    "id": 708,
+    "title": "Panzanilla salad (Monday)",
+    "decision": "keep"
+  },
+  {
+    "id": 126,
+    "title": "Panzanilla salad with marinated chickpeas",
+    "decision": "keep"
+  },
+  {
+    "id": 721,
+    "title": "pasta all amatriciana",
+    "decision": "keep"
+  },
+  {
+    "id": 662,
+    "title": "Pasta with goat cheese, asparagus, mushrooms",
+    "decision": "keep"
+  },
+  {
+    "id": 595,
+    "title": "Pasta with goat cheese, asparagus, mushrooms, and chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 56,
+    "title": "Pasta with goat cheese, chicken, asparagus, and mushrooms",
+    "decision": "keep"
+  },
+  {
+    "id": 808,
+    "title": "Pasta with meat sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 796,
+    "title": "Peach cobbler",
+    "decision": "keep"
+  },
+  {
+    "id": 212,
+    "title": "Peach smoothie or green smoothie",
+    "decision": "keep"
+  },
+  {
+    "id": 375,
+    "title": "Peanut butter blossoms and sugar cookies",
+    "decision": "keep"
+  },
+  {
+    "id": 759,
+    "title": "Peanut butter pretzel bites",
+    "decision": "keep"
+  },
+  {
+    "id": 466,
+    "title": "Peanut noodles with roasted broccoli (vegetarian)",
+    "decision": "keep"
+  },
+  {
+    "id": 920,
+    "title": "Peanut soba noodles",
+    "decision": "keep"
+  },
+  {
+    "id": 921,
+    "title": "Pearl cous cous skillet",
+    "decision": "keep"
+  },
+  {
+    "id": 969,
+    "title": "Pecan sweet potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 444,
+    "title": "Pepperoncini chicken noodle soup",
+    "decision": "keep"
+  },
+  {
+    "id": 189,
+    "title": "Perogies with bacon, sour cream, cheese, chives, and salad",
+    "decision": "keep"
+  },
+  {
+    "id": 820,
+    "title": "Peruvian chicken, beans or summer squash",
+    "decision": "keep"
+  },
+  {
+    "id": 706,
+    "title": "Peruvian chicken, chips and guacamole",
+    "decision": "keep"
+  },
+  {
+    "id": 817,
+    "title": "Peruvian-style green chicken with green sauce, corn salad with chili and lime (halve recipe)",
+    "decision": "keep"
+  },
+  {
+    "id": 134,
+    "title": "Peruvian-style grilled chicken with aji verde sauce (Serious Eats), cuban rice and black beans (Skinnytaste)",
+    "decision": "keep"
+  },
+  {
+    "id": 350,
+    "title": "Peruvian-Style Grilled Chicken with Green Sauce and grilled cauliflower",
+    "decision": "keep"
+  },
+  {
+    "id": 949,
+    "title": "Peruvian-style grilled chicken with green sauce, sweet potato fries",
+    "decision": "keep"
+  },
+  {
+    "id": 866,
+    "title": "Pesto caprese pasta salad",
+    "decision": "keep"
+  },
+  {
+    "id": 984,
+    "title": "Pesto Gnocchi chicken sausage Brussels sprouts",
+    "decision": "keep"
+  },
+  {
+    "id": 691,
+    "title": "Pesto pasta salad",
+    "decision": "keep"
+  },
+  {
+    "id": 954,
+    "title": "Pesto Pasta with summer squash, peppers, baby tomatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 965,
+    "title": "Pickle the diakon with some carrots?",
+    "decision": "delete"
+  },
+  {
+    "id": 858,
+    "title": "Pickled banana peppers",
+    "decision": "ingredient"
+  },
+  {
+    "id": 1001,
+    "title": "Pickling cucumbers",
+    "decision": "ingredient"
+  },
+  {
+    "id": 339,
+    "title": "Pinch of Yum House Favorite Roasted Brussels Sprouts",
+    "decision": "keep"
+  },
+  {
+    "id": 379,
+    "title": "Pita bread",
+    "decision": "ingredient"
+  },
+  {
+    "id": 223,
+    "title": "Pita sandwiches",
+    "decision": "keep"
+  },
+  {
+    "id": 1091,
+    "title": "Pizza",
+    "decision": "keep"
+  },
+  {
+    "id": 957,
+    "title": "Pizza (make sauce)",
+    "decision": "keep"
+  },
+  {
+    "id": 94,
+    "title": "Pizza bites",
+    "decision": "keep"
+  },
+  {
+    "id": 989,
+    "title": "Pizza bites - 20 mins at 400",
+    "decision": "keep"
+  },
+  {
+    "id": 265,
+    "title": "pizza?",
+    "decision": "keep"
+  },
+  {
+    "id": 188,
+    "title": "Plantain and pinto stew with ají verde (make rice)",
+    "decision": "keep"
+  },
+  {
+    "id": 847,
+    "title": "poblano and banana peppers",
+    "decision": "keep"
+  },
+  {
+    "id": 258,
+    "title": "Poblanos (lots)",
+    "decision": "ingredient"
+  },
+  {
+    "id": 473,
+    "title": "Pork chorizo and fig bake",
+    "decision": "keep"
+  },
+  {
+    "id": 653,
+    "title": "Pork shoulder",
+    "decision": "keep"
+  },
+  {
+    "id": 137,
+    "title": "Pork shoulder roast",
+    "decision": "keep"
+  },
+  {
+    "id": 962,
+    "title": "Pot roast and potatoes/carrots/green beans",
+    "decision": "keep"
+  },
+  {
+    "id": 305,
+    "title": "Pot roast with potatoes, carrots, onion, green beans",
+    "decision": "keep"
+  },
+  {
+    "id": 321,
+    "title": "Potato leek soup",
+    "decision": "keep"
+  },
+  {
+    "id": 763,
+    "title": "Potato salmon cakes with garlic and chive Greek yogurt sauce and side salad with beets and goat cheese",
+    "decision": "keep"
+  },
+  {
+    "id": 291,
+    "title": "Potato soup and dinner rolls",
+    "decision": "keep"
+  },
+  {
+    "id": 324,
+    "title": "Potato soup and salad",
+    "decision": "keep"
+  },
+  {
+    "id": 247,
+    "title": "Precooked brats",
+    "decision": "ingredient"
+  },
+  {
+    "id": 993,
+    "title": "Pumpkin chocolate chip bread",
+    "decision": "keep"
+  },
+  {
+    "id": 333,
+    "title": "Pumpkin pie",
+    "decision": "keep"
+  },
+  {
+    "id": 492,
+    "title": "Puppy chow",
+    "decision": "keep"
+  },
+  {
+    "id": 992,
+    "title": "Puppy chow - Haley",
+    "decision": "keep"
+  },
+  {
+    "id": 271,
+    "title": "Purple finger line potatoes",
+    "decision": "ingredient"
+  },
+  {
+    "id": 711,
+    "title": "Quesadillas (use avocados!)",
+    "decision": "keep"
+  },
+  {
+    "id": 246,
+    "title": "Quesadillas and pico",
+    "decision": "keep"
+  },
+  {
+    "id": 483,
+    "title": "Quick and easy lentil quesadillas (crockpot) and magic green sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 381,
+    "title": "Quick and easy lentil quesadillas and magic green sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 460,
+    "title": "Quick and easy lentil quesadillas with Magic green sauce (Thursday)",
+    "decision": "keep"
+  },
+  {
+    "id": 998,
+    "title": "Quick and easy spiced chickpea bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 180,
+    "title": "Quick dal makhani",
+    "decision": "keep"
+  },
+  {
+    "id": 251,
+    "title": "Quick-pickle banana peppers",
+    "decision": "keep"
+  },
+  {
+    "id": 713,
+    "title": "quinoa salad with apple chickpeas toasted almonds, apple cider vinaigrette",
+    "decision": "keep"
+  },
+  {
+    "id": 382,
+    "title": "quinoa salad with apple, chickpeas, toasted almonds, and apple cider vinaigrette",
+    "decision": "keep"
+  },
+  {
+    "id": 121,
+    "title": "Quinoa salad with apple, chickpeas, toasted almonds, and apple cider vinaigrette",
+    "decision": "keep"
+  },
+  {
+    "id": 200,
+    "title": "Quinoa salad with apple, chickpeas, toasted almonds, apple cider vinaigrette",
+    "decision": "keep"
+  },
+  {
+    "id": 575,
+    "title": "Quinoa stuffed peppers",
+    "decision": "keep"
+  },
+  {
+    "id": 122,
+    "title": "Quinoa Stuffed peppers (freeze)",
+    "decision": "keep"
+  },
+  {
+    "id": 745,
+    "title": "Radish Bean salad",
+    "decision": "keep"
+  },
+  {
+    "id": 980,
+    "title": "Random pasta/pasta sauce/green pepper/onion",
+    "decision": "keep"
+  },
+  {
+    "id": 254,
+    "title": "Ratatouille and crusty bread",
+    "decision": "keep"
+  },
+  {
+    "id": 916,
+    "title": "Ratatouille Baked Chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 642,
+    "title": "Red chile toastadas with eggs (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 679,
+    "title": "Red Chile tostadas with eggs",
+    "decision": "keep"
+  },
+  {
+    "id": 625,
+    "title": "Red Chile tostadas with eggs (did we like this recipe?)",
+    "decision": "keep"
+  },
+  {
+    "id": 102,
+    "title": "Red Curry Lentils",
+    "decision": "keep"
+  },
+  {
+    "id": 419,
+    "title": "Red pepper cashew pasta",
+    "decision": "keep"
+  },
+  {
+    "id": 87,
+    "title": "Red pepper cashew pasta with cauliflower",
+    "decision": "keep"
+  },
+  {
+    "id": 214,
+    "title": "Red pepper pasta with roasted cauliflower",
+    "decision": "keep"
+  },
+  {
+    "id": 726,
+    "title": "red pepper pasta with roasted cauliflower",
+    "decision": "keep"
+  },
+  {
+    "id": 414,
+    "title": "Red pepper pasta with roasted cauliflower (pinch of yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 994,
+    "title": "Red pepper pasta with roasted cauliflower (sauce in freezer)",
+    "decision": "keep"
+  },
+  {
+    "id": 270,
+    "title": "Red potatoes",
+    "decision": "ingredient"
+  },
+  {
+    "id": 720,
+    "title": "red quinoa and black bean salad with avocado",
+    "decision": "keep"
+  },
+  {
+    "id": 699,
+    "title": "Rhubarb - Cinnamon Rhubarb bread",
+    "decision": "keep"
+  },
+  {
+    "id": 557,
+    "title": "Ribeye steaks, asparagus, sweet potato fries (use up frozen)",
+    "decision": "keep"
+  },
+  {
+    "id": 434,
+    "title": "Ribeye steaks, purple potatoes, and green beans",
+    "decision": "keep"
+  },
+  {
+    "id": 289,
+    "title": "Ribs and coleslaw and green beans",
+    "decision": "keep"
+  },
+  {
+    "id": 963,
+    "title": "Ribs with arugula salad and broccoli salad",
+    "decision": "keep"
+  },
+  {
+    "id": 924,
+    "title": "Ribs, corn, and broccoli salad",
+    "decision": "keep"
+  },
+  {
+    "id": 675,
+    "title": "Ribs, corn, cilantro lime cucumber salad",
+    "decision": "keep"
+  },
+  {
+    "id": 956,
+    "title": "Ribs, fresh green bean salad with balsamic dressing, sauteed summer squash",
+    "decision": "keep"
+  },
+  {
+    "id": 884,
+    "title": "Ribs, green beans, Corn",
+    "decision": "keep"
+  },
+  {
+    "id": 248,
+    "title": "Roast and/or chop one of the butternut squash",
+    "decision": "keep"
+  },
+  {
+    "id": 172,
+    "title": "Roasted beet, goat cheese, and candied pecan salad with amelia’s bread",
+    "decision": "keep"
+  },
+  {
+    "id": 687,
+    "title": "Roasted cauliflower burrito bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 88,
+    "title": "ROASTED CAULIFLOWER HUMMUS BOWLS",
+    "decision": "keep"
+  },
+  {
+    "id": 971,
+    "title": "Roasted chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 97,
+    "title": "Roasted chicken thighs with delicata squash",
+    "decision": "keep"
+  },
+  {
+    "id": 440,
+    "title": "Roasted delicata squash salad",
+    "decision": "keep"
+  },
+  {
+    "id": 764,
+    "title": "Roasted dill potato wedges and chicken salad",
+    "decision": "keep"
+  },
+  {
+    "id": 831,
+    "title": "Roasted eggplant lasagna (pg 163 Love Real Food)",
+    "decision": "keep"
+  },
+  {
+    "id": 747,
+    "title": "Roasted garlic pasta with burst cherry tomatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 229,
+    "title": "Roasted honey nut squash and chickpeas with hot honey (NYT cooking) - make with cous cous",
+    "decision": "keep"
+  },
+  {
+    "id": 571,
+    "title": "Roasted red pepper cauliflower pasta",
+    "decision": "keep"
+  },
+  {
+    "id": 615,
+    "title": "Roasted red pepper pasta with cauliflower (Pinch of Yum) - pasta sauce in freezer",
+    "decision": "keep"
+  },
+  {
+    "id": 807,
+    "title": "Roasted sweet potato and black bean bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 613,
+    "title": "Roasted sweet potato black bean bowls (Skinnytaste)",
+    "decision": "keep"
+  },
+  {
+    "id": 948,
+    "title": "Roasted tomato caprese saladx2",
+    "decision": "keep"
+  },
+  {
+    "id": 235,
+    "title": "Roasted veggie pitas with avocado dip",
+    "decision": "keep"
+  },
+  {
+    "id": 698,
+    "title": "Romaine lettuce",
+    "decision": "ingredient"
+  },
+  {
+    "id": 174,
+    "title": "Root vegetable soup (freezer) and salad",
+    "decision": "keep"
+  },
+  {
+    "id": 424,
+    "title": "Root vegetable stew and bread",
+    "decision": "keep"
+  },
+  {
+    "id": 255,
+    "title": "Rosemary Chicken noodle soup, salad",
+    "decision": "keep"
+  },
+  {
+    "id": 418,
+    "title": "Rosemary Chicken Thighs with Apples and Brussels Sprouts",
+    "decision": "keep"
+  },
+  {
+    "id": 463,
+    "title": "Rosemary chicken thighs with apples and brussels sprouts (use red potatoes also)",
+    "decision": "keep"
+  },
+  {
+    "id": 908,
+    "title": "Sage lemon butter chicken piccata with mashed cauliflower",
+    "decision": "keep"
+  },
+  {
+    "id": 530,
+    "title": "Salad (feta, cranberries, apple, walnuts) and dinner rolls",
+    "decision": "keep"
+  },
+  {
+    "id": 325,
+    "title": "Salad (pear and goat cheese)",
+    "decision": "keep"
+  },
+  {
+    "id": 260,
+    "title": "salad and dinner rolls",
+    "decision": "ingredient"
+  },
+  {
+    "id": 725,
+    "title": "salad and dinner rolls",
+    "decision": "ingredient"
+  },
+  {
+    "id": 292,
+    "title": "Salad and rolls",
+    "decision": "ingredient"
+  },
+  {
+    "id": 947,
+    "title": "Salad greens",
+    "decision": "ingredient"
+  },
+  {
+    "id": 714,
+    "title": "salmon burgers",
+    "decision": "keep"
+  },
+  {
+    "id": 985,
+    "title": "Salmon Pasta salad",
+    "decision": "keep"
+  },
+  {
+    "id": 803,
+    "title": "Salmon with Basil sauce and tomato salad (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 740,
+    "title": "Salmon, asparagus potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 494,
+    "title": "Saturday breakfast: avocado toast with over-easy eggs and bacon",
+    "decision": "keep"
+  },
+  {
+    "id": 781,
+    "title": "Saturday party: Chopped salad kits, order pizza, angel food cake cupcakes, berries",
+    "decision": "keep"
+  },
+  {
+    "id": 456,
+    "title": "Saucy gochujang noodles",
+    "decision": "keep"
+  },
+  {
+    "id": 238,
+    "title": "Saucy gochujang noodles with chicken",
+    "decision": "keep"
+  },
+  {
+    "id": 340,
+    "title": "Saur Kraut",
+    "decision": "ingredient"
+  },
+  {
+    "id": 125,
+    "title": "sausage and peppers with garlic aioli",
+    "decision": "keep"
+  },
+  {
+    "id": 501,
+    "title": "Sausage pizza blue apron",
+    "decision": "delete"
+  },
+  {
+    "id": 203,
+    "title": "SAUSAGE, KALE, AND WHITE BEAN SOUP",
+    "decision": "keep"
+  },
+  {
+    "id": 829,
+    "title": "Sean bday: blackberry pie",
+    "decision": "keep"
+  },
+  {
+    "id": 472,
+    "title": "Seared chicken and sherry pan sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 308,
+    "title": "Senegalese soup",
+    "decision": "keep"
+  },
+  {
+    "id": 484,
+    "title": "Sesame beef and broccoli",
+    "decision": "keep"
+  },
+  {
+    "id": 661,
+    "title": "Sesame chicken salad",
+    "decision": "keep"
+  },
+  {
+    "id": 862,
+    "title": "Sesame chicken salad (Gimme Some Oven)",
+    "decision": "keep"
+  },
+  {
+    "id": 532,
+    "title": "Sesame noodle bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 527,
+    "title": "Sheet pan baked salmon and asparagus",
+    "decision": "keep"
+  },
+  {
+    "id": 617,
+    "title": "Sheet pan chicken pitas",
+    "decision": "keep"
+  },
+  {
+    "id": 746,
+    "title": "Sheet pan chicken pitas with tzatiki",
+    "decision": "keep"
+  },
+  {
+    "id": 116,
+    "title": "Sheet pan chicken pitas with tzatziki",
+    "decision": "keep"
+  },
+  {
+    "id": 106,
+    "title": "Sheet pan chicken tikka",
+    "decision": "keep"
+  },
+  {
+    "id": 448,
+    "title": "Sheet Pan Chicken Tzatziki and sweet potatoes (Half Baked Harvest)",
+    "decision": "keep"
+  },
+  {
+    "id": 727,
+    "title": "sheet pan green Chile beef nachos",
+    "decision": "keep"
+  },
+  {
+    "id": 128,
+    "title": "sheet pan green chile beef nachos",
+    "decision": "keep"
+  },
+  {
+    "id": 552,
+    "title": "Sheet pan green chili beef nachos",
+    "decision": "keep"
+  },
+  {
+    "id": 802,
+    "title": "Sheet Pan Lemon Brown Butter Salmon and Potatoes with Parmesan Asparagus (Half-baked Harvest)",
+    "decision": "keep"
+  },
+  {
+    "id": 892,
+    "title": "Sheet pan meatballs with tomato salad",
+    "decision": "keep"
+  },
+  {
+    "id": 363,
+    "title": "Sheet pan meatballs with tomato salad and green sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 284,
+    "title": "Sheet pan salmon with bok choy",
+    "decision": "keep"
+  },
+  {
+    "id": 233,
+    "title": "Sheet pan sausage and peppers (serve as sandwiches with provolone and pasta sauce) - Get baguette from Amelia’s",
+    "decision": "keep"
+  },
+  {
+    "id": 780,
+    "title": "Sheet pan sausage and peppers (Well Plated)",
+    "decision": "keep"
+  },
+  {
+    "id": 846,
+    "title": "shishito peppers",
+    "decision": "ingredient"
+  },
+  {
+    "id": 244,
+    "title": "Short rib tacos with pepper mustard slaw (slow cooker)",
+    "decision": "keep"
+  },
+  {
+    "id": 320,
+    "title": "Side 1: Napa cabbage salad with mandarins and yacon",
+    "decision": "keep"
+  },
+  {
+    "id": 318,
+    "title": "Side 2: Roasted purple top turnips",
+    "decision": "keep"
+  },
+  {
+    "id": 299,
+    "title": "Simmered daikon radish with chicken in yuzu sauce",
+    "decision": "keep"
+  },
+  {
+    "id": 882,
+    "title": "Skillet lasagna (America’s test Kitchen) and bagged salad",
+    "decision": "keep"
+  },
+  {
+    "id": 182,
+    "title": "Skillet-charred fish tacos (cravings p209)",
+    "decision": "keep"
+  },
+  {
+    "id": 823,
+    "title": "Skirt steak and poblano tacos",
+    "decision": "keep"
+  },
+  {
+    "id": 124,
+    "title": "Skyline and bagged salad",
+    "decision": "keep"
+  },
+  {
+    "id": 554,
+    "title": "Skyline and salad",
+    "decision": "keep"
+  },
+  {
+    "id": 319,
+    "title": "Slow cooker apple cider pulled pork",
+    "decision": "keep"
+  },
+  {
+    "id": 940,
+    "title": "Slow cooker apple crisp and ice cream",
+    "decision": "keep"
+  },
+  {
+    "id": 556,
+    "title": "Slow cooker beef stew (Damn Delicious) (Wednesday)",
+    "decision": "keep"
+  },
+  {
+    "id": 450,
+    "title": "slow cooker beef stroganoff",
+    "decision": "keep"
+  },
+  {
+    "id": 302,
+    "title": "Slow cooker butternut squash with tortellini",
+    "decision": "keep"
+  },
+  {
+    "id": 821,
+    "title": "Slow cooker carnitas and red cabbage slaw",
+    "decision": "keep"
+  },
+  {
+    "id": 773,
+    "title": "Slow cooker carnitas, red cabbage slaw, guac",
+    "decision": "keep"
+  },
+  {
+    "id": 974,
+    "title": "slow cooker cozy autumn wild rice soup, baguette",
+    "decision": "keep"
+  },
+  {
+    "id": 209,
+    "title": "Slow cooker Olive Garden pasta e fagioli soup",
+    "decision": "keep"
+  },
+  {
+    "id": 576,
+    "title": "slow cooker vegetarian chili (gimme some oven) and quesadillas",
+    "decision": "keep"
+  },
+  {
+    "id": 678,
+    "title": "Smash burgers",
+    "decision": "keep"
+  },
+  {
+    "id": 650,
+    "title": "Smash burgers, sweet potato fries, bagged salad",
+    "decision": "keep"
+  },
+  {
+    "id": 944,
+    "title": "Smoked salmon arugula bagel sandwiches",
+    "decision": "keep"
+  },
+  {
+    "id": 960,
+    "title": "Smoked salmon bagels and cream cheese",
+    "decision": "keep"
+  },
+  {
+    "id": 577,
+    "title": "Smokey beans and greens tacos with aji verde",
+    "decision": "keep"
+  },
+  {
+    "id": 186,
+    "title": "Smokey beans and greens tacos with ají verde",
+    "decision": "keep"
+  },
+  {
+    "id": 101,
+    "title": "Smoky Beans and Greens Tacos",
+    "decision": "keep"
+  },
+  {
+    "id": 818,
+    "title": "Smoky short rib tacos with pepper mustard slaw (slow cooker)",
+    "decision": "keep"
+  },
+  {
+    "id": 211,
+    "title": "Snack: breakfast balls",
+    "decision": "keep"
+  },
+  {
+    "id": 85,
+    "title": "Snack: cookie dough energy bites",
+    "decision": "keep"
+  },
+  {
+    "id": 315,
+    "title": "Snack: Hummus and radishes, yacon",
+    "decision": "keep"
+  },
+  {
+    "id": 872,
+    "title": "Socca with Whipped Feta and Tomato Salad",
+    "decision": "keep"
+  },
+  {
+    "id": 636,
+    "title": "Soy-honey glazed Salmon sushi bowl (star tribune recipe)",
+    "decision": "keep"
+  },
+  {
+    "id": 206,
+    "title": "Spaghetti squash burrito boats",
+    "decision": "keep"
+  },
+  {
+    "id": 105,
+    "title": "Spaghetti squash casserole",
+    "decision": "keep"
+  },
+  {
+    "id": 112,
+    "title": "Spaghetti squash pizza boats",
+    "decision": "keep"
+  },
+  {
+    "id": 943,
+    "title": "Spaghetti squash, pasta sauce, italiana sausage",
+    "decision": "keep"
+  },
+  {
+    "id": 591,
+    "title": "Spicy peanut chicken soba noodle salad",
+    "decision": "keep"
+  },
+  {
+    "id": 227,
+    "title": "Spicy shrimp tacos with garlic cilantro lime slaw",
+    "decision": "keep"
+  },
+  {
+    "id": 559,
+    "title": "Spicy shrimp veracruz (Friday)",
+    "decision": "keep"
+  },
+  {
+    "id": 997,
+    "title": "Spicy Thai chicken and quinoa and roasted broccoli",
+    "decision": "keep"
+  },
+  {
+    "id": 416,
+    "title": "Spicy Thai chicken and quinoa, bagged salad",
+    "decision": "keep"
+  },
+  {
+    "id": 718,
+    "title": "spicy Thai chicken and quinoa, bok choy",
+    "decision": "keep"
+  },
+  {
+    "id": 510,
+    "title": "spicy Thai chicken and quinoa, cucumber lime mint salad",
+    "decision": "keep"
+  },
+  {
+    "id": 524,
+    "title": "spicy Thai chicken and quinoa, cucumber lime mint salad (double batch)",
+    "decision": "keep"
+  },
+  {
+    "id": 499,
+    "title": "Spicy thai chicken and quinoa, roasted broccoli",
+    "decision": "keep"
+  },
+  {
+    "id": 841,
+    "title": "Spicy thai chicken and quinoa, thai cucumber salad, napa cabbage salad?",
+    "decision": "keep"
+  },
+  {
+    "id": 667,
+    "title": "Spinach strawberry salad with poppyseed dressing",
+    "decision": "keep"
+  },
+  {
+    "id": 406,
+    "title": "Spring detox cauliflower salad",
+    "decision": "keep"
+  },
+  {
+    "id": 623,
+    "title": "Spring pasta salad with honey mustard dressing",
+    "decision": "keep"
+  },
+  {
+    "id": 765,
+    "title": "Spring roll bowls with tofu",
+    "decision": "keep"
+  },
+  {
+    "id": 620,
+    "title": "Spring vegetable egg casserole (make Saturday and refrigerate)",
+    "decision": "keep"
+  },
+  {
+    "id": 179,
+    "title": "Squid ink pasta with shrimp and scallops",
+    "decision": "keep"
+  },
+  {
+    "id": 568,
+    "title": "St Patrick’s Day: Corned beef, cabbage, and potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 689,
+    "title": "Steak and asparagus and bread",
+    "decision": "keep"
+  },
+  {
+    "id": 301,
+    "title": "steak and fennel, roasted purple fingerling potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 79,
+    "title": "Steak and roasted parsnips and beets",
+    "decision": "keep"
+  },
+  {
+    "id": 441,
+    "title": "Steak and roasted root vegetables",
+    "decision": "keep"
+  },
+  {
+    "id": 736,
+    "title": "steak salad with beets and scallions",
+    "decision": "keep"
+  },
+  {
+    "id": 135,
+    "title": "Steak tacos and elote",
+    "decision": "keep"
+  },
+  {
+    "id": 616,
+    "title": "Steak, asparagus, potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 654,
+    "title": "Steak, asparagus, roasted potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 840,
+    "title": "Steak, green beans, burst tomato spread and bread",
+    "decision": "keep"
+  },
+  {
+    "id": 742,
+    "title": "Steak, grilled asparagus, roasted potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 756,
+    "title": "Steak, rest of the italian chop salad",
+    "decision": "keep"
+  },
+  {
+    "id": 438,
+    "title": "Steak, roasted beets, purple potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 231,
+    "title": "steak, roasted broccoli, potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 359,
+    "title": "Steak, roasted carrots and purple fingerling potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 490,
+    "title": "Steak, roasted parsnips, strawberry balsamic goat cheese saladChicago dogs and sweet potato fries or make a red cabbage slaw",
+    "decision": "keep"
+  },
+  {
+    "id": 918,
+    "title": "Steak, veggies",
+    "decision": "keep"
+  },
+  {
+    "id": 469,
+    "title": "steaks",
+    "decision": "keep"
+  },
+  {
+    "id": 777,
+    "title": "steel cut oats, potatoes, eggs, bacon, etc.",
+    "decision": "keep"
+  },
+  {
+    "id": 804,
+    "title": "Steph’s Chickpea curry with spinach and rice",
+    "decision": "keep"
+  },
+  {
+    "id": 873,
+    "title": "Stir fry noodles and chicken (okra, cabbage, red pepper, squash)",
+    "decision": "keep"
+  },
+  {
+    "id": 793,
+    "title": "Stir fry noodles and tofu/spinach",
+    "decision": "keep"
+  },
+  {
+    "id": 300,
+    "title": "Stir fry with tofu, bell peppers, onions radishes, a little cauliflower (Use Pinch of Yum back pocket stir fry sauce recipe)",
+    "decision": "keep"
+  },
+  {
+    "id": 801,
+    "title": "Strawberry and gorgonzola salad with poppy seed dressing (Skinnytaste) and Amelia’s bread",
+    "decision": "keep"
+  },
+  {
+    "id": 685,
+    "title": "Strawberry crunch salad and baguette",
+    "decision": "keep"
+  },
+  {
+    "id": 603,
+    "title": "Strawberry faro salad with avocado and feta",
+    "decision": "keep"
+  },
+  {
+    "id": 688,
+    "title": "Strawberry poppyseed salad",
+    "decision": "keep"
+  },
+  {
+    "id": 655,
+    "title": "strawberry spinach salad",
+    "decision": "keep"
+  },
+  {
+    "id": 309,
+    "title": "Stuffing (make with veggie broth)",
+    "decision": "keep"
+  },
+  {
+    "id": 618,
+    "title": "Sub mango for pineapple",
+    "decision": "delete"
+  },
+  {
+    "id": 825,
+    "title": "Summer skillet gnocchi (how sweet eats)",
+    "decision": "keep"
+  },
+  {
+    "id": 789,
+    "title": "Sunday AM: Instant pot steel cut oats,",
+    "decision": "keep"
+  },
+  {
+    "id": 819,
+    "title": "Sunday breakfast: eggs, potatoes, bacon",
+    "decision": "keep"
+  },
+  {
+    "id": 815,
+    "title": "Sunday evening: party",
+    "decision": "delete"
+  },
+  {
+    "id": 814,
+    "title": "Sunday morning: bacon, potato, egg casserole, banana bread",
+    "decision": "keep"
+  },
+  {
+    "id": 239,
+    "title": "Sunday morning: eggs and chard, bacon, potatoes?",
+    "decision": "keep"
+  },
+  {
+    "id": 883,
+    "title": "Sunday SJW brunch: easy cinnamon rolls, spring vegetable egg casserole",
+    "decision": "keep"
+  },
+  {
+    "id": 719,
+    "title": "Surly; lunch: blts",
+    "decision": "keep"
+  },
+  {
+    "id": 201,
+    "title": "Sweet potato and black bean toastadas",
+    "decision": "keep"
+  },
+  {
+    "id": 120,
+    "title": "Sweet potato and black bean tostadas",
+    "decision": "keep"
+  },
+  {
+    "id": 84,
+    "title": "Sweet potato black bean bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 423,
+    "title": "Sweet potato black bean quesadillas (slice radishes)",
+    "decision": "keep"
+  },
+  {
+    "id": 461,
+    "title": "Sweet potato black bean quesadillas (vegetarian)",
+    "decision": "keep"
+  },
+  {
+    "id": 895,
+    "title": "Sweet potato black bean quesadillas (Well Plated)",
+    "decision": "keep"
+  },
+  {
+    "id": 288,
+    "title": "Sweet potato salad (use spinach instead of kale)",
+    "decision": "keep"
+  },
+  {
+    "id": 95,
+    "title": "Sweet potato tacos",
+    "decision": "keep"
+  },
+  {
+    "id": 638,
+    "title": "Sweet potato tacos (Gimme some oven)",
+    "decision": "keep"
+  },
+  {
+    "id": 432,
+    "title": "Tamales rice and beans",
+    "decision": "keep"
+  },
+  {
+    "id": 357,
+    "title": "Tandoori chicken (from frozen - instant pot), add roasted cauliflower and potatoes",
+    "decision": "keep"
+  },
+  {
+    "id": 570,
+    "title": "Tandoori chicken and salad",
+    "decision": "keep"
+  },
+  {
+    "id": 280,
+    "title": "Taste of Thanksgiving",
+    "decision": "delete"
+  },
+  {
+    "id": 958,
+    "title": "Tea leaf salad (Exodus gala)",
+    "decision": "keep"
+  },
+  {
+    "id": 839,
+    "title": "Thai peanut chicken sweet potato noodles",
+    "decision": "keep"
+  },
+  {
+    "id": 488,
+    "title": "Thai summer rolls with peanut sauce (use red cabbage)",
+    "decision": "keep"
+  },
+  {
+    "id": 185,
+    "title": "The best Detox crockpot lentil soup (Pinch of Yum) and bread",
+    "decision": "keep"
+  },
+  {
+    "id": 805,
+    "title": "The Best Easy Pasta Salad (Pinch of Yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 728,
+    "title": "the newsroom",
+    "decision": "delete"
+  },
+  {
+    "id": 537,
+    "title": "The Olivers Salad",
+    "decision": "keep"
+  },
+  {
+    "id": 539,
+    "title": "Three cheese baked Gnocchi",
+    "decision": "keep"
+  },
+  {
+    "id": 674,
+    "title": "Thursday dinner: Greek quinoa salad (with chicken?)",
+    "decision": "keep"
+  },
+  {
+    "id": 673,
+    "title": "Thursday lunch: Matt’s bar",
+    "decision": "delete"
+  },
+  {
+    "id": 981,
+    "title": "Tilapia bachelor style",
+    "decision": "keep"
+  },
+  {
+    "id": 905,
+    "title": "Tofu and brown rice lettuce wraps",
+    "decision": "keep"
+  },
+  {
+    "id": 680,
+    "title": "Tofu brown rice lettuce wraps (Pinch of yum)",
+    "decision": "keep"
+  },
+  {
+    "id": 196,
+    "title": "Tofu green curry and brown rice",
+    "decision": "keep"
+  },
+  {
+    "id": 218,
+    "title": "Tofu peanut bowls",
+    "decision": "keep"
+  },
+  {
+    "id": 861,
+    "title": "Tomatillo salsa",
+    "decision": "keep"
+  },
+  {
+    "id": 396,
+    "title": "Tomato soup and fancy bread",
+    "decision": "keep"
+  },
+  {
+    "id": 597,
+    "title": "Tomato soup and grilled cheese",
+    "decision": "keep"
+  },
+  {
+    "id": 326,
+    "title": "Tortellini and pesto",
+    "decision": "keep"
+  },
+  {
+    "id": 658,
+    "title": "Tortellini soup and grilled cheese?",
+    "decision": "keep"
+  },
+  {
+    "id": 751,
+    "title": "Tortellini, zucchini, corn, pesto (bachelor style)",
+    "decision": "keep"
+  },
+  {
+    "id": 836,
+    "title": "trader joes wontons",
+    "decision": "ingredient"
+  },
+  {
+    "id": 902,
+    "title": "Trader Joe’s pizzas (dough will be in freezer)",
+    "decision": "keep"
+  },
+  {
+    "id": 758,
+    "title": "Trail mix",
+    "decision": "keep"
+  },
+  {
+    "id": 281,
+    "title": "Turnips with Bacon and Orange (Dooley pg 209), pork chops with apples and onions",
+    "decision": "keep"
+  },
+  {
+    "id": 901,
+    "title": "Use leeks instead of an onion. Cook in bacon fat not butter.",
+    "decision": "delete"
+  },
+  {
+    "id": 169,
+    "title": "Use vegan butter",
+    "decision": "delete"
+  },
+  {
+    "id": 482,
+    "title": "Valentine’s Day: Sage Lemon Butter Chicken Piccata with Mashed Cauliflower",
+    "decision": "keep"
+  },
+  {
+    "id": 629,
+    "title": "Vegan mega burritos",
+    "decision": "keep"
+  },
+  {
+    "id": 986,
+    "title": "Vegan queso and chips",
+    "decision": "keep"
+  },
+  {
+    "id": 177,
+    "title": "Vegan sheet pan fajitas with chipotle queso",
+    "decision": "keep"
+  },
+  {
+    "id": 842,
+    "title": "Vegan Sheet Pan fajitas with queso, mango",
+    "decision": "keep"
+  },
+  {
+    "id": 376,
+    "title": "Vegetable soup and bread",
+    "decision": "keep"
+  },
+  {
+    "id": 502,
+    "title": "Vegetarian blue apron",
+    "decision": "delete"
+  },
+  {
+    "id": 111,
+    "title": "Vegetarian chili",
+    "decision": "keep"
+  },
+  {
+    "id": 476,
+    "title": "Vegetarian Chili (Cookie and Kate)",
+    "decision": "keep"
+  },
+  {
+    "id": 972,
+    "title": "vegetarian chili and cornbread",
+    "decision": "keep"
+  },
+  {
+    "id": 511,
+    "title": "vegetarian chili, bread, maybe arugula salad",
+    "decision": "keep"
+  },
+  {
+    "id": 35,
+    "title": "Vegetarian enchiladas verde",
+    "decision": "keep"
+  },
+  {
+    "id": 798,
+    "title": "Vegetarian enchiladas verde (w lots of radish)",
+    "decision": "keep"
+  },
+  {
+    "id": 753,
+    "title": "Vegetarian Italian chop salad (make ahead and bring - keep dressing separate)",
+    "decision": "keep"
+  },
+  {
+    "id": 367,
+    "title": "Vegetarian shepherd’s Pie (Pinch of Yum - contest)",
+    "decision": "keep"
+  },
+  {
+    "id": 394,
+    "title": "Vegetarian tortellini soup (A Couple Cooks)",
+    "decision": "keep"
+  },
+  {
+    "id": 991,
+    "title": "Veggies (bell pepper, cucumber, baby carrots) and homemade hummus and yogurt ranch",
+    "decision": "keep"
+  },
+  {
+    "id": 346,
+    "title": "Verde chicken enchilada casserole",
+    "decision": "keep"
+  },
+  {
+    "id": 204,
+    "title": "WALNUT CHORIZO TACOS",
+    "decision": "keep"
+  },
+  {
+    "id": 493,
+    "title": "Warm black bean dip",
+    "decision": "keep"
+  },
+  {
+    "id": 262,
+    "title": "Wed spooky season: chili, cornbread muffins",
+    "decision": "keep"
+  },
+  {
+    "id": 471,
+    "title": "Wednesday (Ash) - vegetarian chili, salad, bread (use frozen tomatoes)",
+    "decision": "keep"
+  },
+  {
+    "id": 737,
+    "title": "Weekend breakfast: eggs, bacon",
+    "decision": "keep"
+  },
+  {
+    "id": 612,
+    "title": "Weekend breakfast: Instant Pot steel cut oats",
+    "decision": "keep"
+  },
+  {
+    "id": 528,
+    "title": "Weekend: Corned beef and cabbage",
+    "decision": "keep"
+  },
+  {
+    "id": 529,
+    "title": "Weekend: Irish breakfast (make soda bread muffins)",
+    "decision": "keep"
+  },
+  {
+    "id": 569,
+    "title": "Weekend: Irish breakfast, soda bread muffins",
+    "decision": "keep"
+  },
+  {
+    "id": 911,
+    "title": "Weekend: Make pesto",
+    "decision": "keep"
+  },
+  {
+    "id": 286,
+    "title": "Weekend: Pumpkin cinnamon rolls",
+    "decision": "keep"
+  },
+  {
+    "id": 428,
+    "title": "Weird ass sweet potatoes",
+    "decision": "ingredient"
+  },
+  {
+    "id": 377,
+    "title": "Whatever beer Sean wants",
+    "decision": "delete"
+  },
+  {
+    "id": 845,
+    "title": "White people tacos add some random ass peppers from csa",
+    "decision": "keep"
+  },
+  {
+    "id": 257,
+    "title": "Yellow curry",
+    "decision": "keep"
+  },
+  {
+    "id": 946,
+    "title": "Yellow pepper",
+    "decision": "ingredient"
+  },
+  {
+    "id": 874,
+    "title": "Yellow squash",
+    "decision": "ingredient"
+  },
+  {
+    "id": 215,
+    "title": "Zesty like shrimp and avocado salad",
+    "decision": "keep"
+  },
+  {
+    "id": 117,
+    "title": "Zesty Lime Shrimp and Avocado salad",
+    "decision": "keep"
+  },
+  {
+    "id": 230,
+    "title": "Zoo Boo pick up something",
+    "decision": "delete"
+  },
+  {
+    "id": 851,
+    "title": "Zucchini and squash",
+    "decision": "keep"
+  },
+  {
+    "id": 860,
+    "title": "Zucchini applesauce muffins",
+    "decision": "keep"
+  }
+]

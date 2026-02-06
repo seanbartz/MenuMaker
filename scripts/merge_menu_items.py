@@ -462,13 +462,25 @@ def regenerate_merge_tool(data_path, tool_path):
 
     items.sort(key=lambda x: (x['title'].lower(), x['count']))
 
-    rows = '\n'.join(
-        (
-            f"""
-    <div class=\"row\" data-id=\"{it['id']}\">\n      <label class=\"row-main\">\n        <input type=\"checkbox\" class=\"item-check\" data-id=\"{it['id']}\">\n        <span class=\"title\">{html.escape(it['title'])}</span>\n      </label>\n      <div class=\"meta\">Occurrences: {it['count']} {'' if it['has_url'] else '<span class=\"tag\">no link</span>'}</div>\n    </div>\n    """.strip()
+    rows_parts = []
+    for it in items:
+        no_link_tag = '' if it['has_url'] else '<span class="tag">no link</span>'
+        row = (
+            '<div class="row" data-id="{id}">\n'
+            '  <label class="row-main">\n'
+            '    <input type="checkbox" class="item-check" data-id="{id}">\n'
+            '    <span class="title">{title}</span>\n'
+            '  </label>\n'
+            '  <div class="meta">Occurrences: {count} {no_link}</div>\n'
+            '</div>'
+        ).format(
+            id=it['id'],
+            title=html.escape(it['title']),
+            count=it['count'],
+            no_link=no_link_tag,
         )
-        for it in items
-    )
+        rows_parts.append(row)
+    rows = '\n'.join(rows_parts)
 
     html_doc = TEMPLATE.replace('__COUNT__', str(len(items))).replace('__ROWS__', rows)
     Path(tool_path).write_text(html_doc, encoding='utf-8')

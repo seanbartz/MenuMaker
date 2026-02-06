@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-02-06T03:56:51.079Z",
+  "groups": [
+    {
+      "id": 1,
+      "title": "Lemon Brown Butter Salmon (Half Baked Harvest)",
+      "itemIds": [
+        517,
+        158,
+        690
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bulgur salad",
+      "itemIds": [
+        458,
+        379,
+        638,
+        699,
+        104,
+        537,
+        410,
+        604,
+        160
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bachelor chicken fajitas",
+      "itemIds": [
+        580,
+        766,
+        796,
+        941
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Vegan sheet pan fajitas with chipotle queso",
+      "itemIds": [
+        168,
+        722
+      ]
+    }
+  ]
+}

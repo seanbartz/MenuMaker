@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-02-06T03:46:46.758Z",
+  "groups": [
+    {
+      "id": 2,
+      "title": "Burgers",
+      "itemIds": [
+        649,
+        967,
+        688,
+        600,
+        761,
+        787,
+        580,
+        547
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Brats",
+      "itemIds": [
+        25,
+        622,
+        965,
+        800,
+        132,
+        688
+      ]
+    },
+    {
+      "id": 4,
+      "title": "5-ingredient curry",
+      "itemIds": [
+        404,
+        514
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Sesame Apricot tofu",
+      "itemIds": [
+        815,
+        2
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Black Bean Soup - Iowa Girl Eats",
+      "itemIds": [
+        417,
+        534,
+        454,
+        882,
+        419
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bacon Potato And Egg Casserole",
+      "itemIds": [
+        948,
+        949,
+        346,
+        361
+      ]
+    }
+  ]
+}

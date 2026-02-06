@@ -15893,86 +15893,6 @@
     },
     {
       "menu_weeks": [
-        "2018-01-28",
-        "2020-02-08",
-        "2018-10-25",
-        "2018-11-06",
-        "2018-12-17",
-        "2020-12-21",
-        "2018-06-10",
-        "2018-06-03",
-        "2018-01-13",
-        "2019-01-21",
-        "2021-01-24",
-        "2019-02-14",
-        "2018-03-14",
-        "2020-03-21",
-        "2019-04-10",
-        "2018-04-16",
-        "2020-04-02",
-        "2019-05-22",
-        "2019-07-05",
-        "2020-08-12",
-        "2020-08-26",
-        "2017-08-05",
-        "2019-09-01"
-      ],
-      "sections": [],
-      "menu_files": [
-        "Menus/Menu week of 1-28-18.md",
-        "Menus/Menu week of 2-8-20.md",
-        "Menus/Super Bowl menu.md",
-        "Menus/Menu week of 10-25-18.md",
-        "Menus/Menu week of 11-6-18.md",
-        "Menus/Menu week of 12-17-18.md",
-        "Menus/Menu week of 12-21-20.md",
-        "Menus/Menu week of 6-10-18.md",
-        "Menus/Menu week of 6-3-18.md",
-        "Menus/Menu week of 1-13-18.md",
-        "Menus/Menu week of 1-21-19.md",
-        "Menus/Menu week of 1-24-21.md",
-        "Menus/Menu week of 2-14-19.md",
-        "Menus/Menu week of 3-14-18.md",
-        "Menus/Menu week of 3-21-20.md",
-        "Menus/Menu week of 4-10-19.md",
-        "Menus/Menu week of 4-16-18.md",
-        "Menus/Menu week of 4-2-2020.md",
-        "Menus/Menu week of 5-22-19.md",
-        "Menus/Menu week of 7-5-19.md",
-        "Menus/Menu week of 8-12-20.md",
-        "Menus/Menu week of 8-26-20.md",
-        "Menus/Menu week of 8-5-17.md",
-        "Menus/Menu week of 9-1-19.md"
-      ],
-      "count": 24,
-      "menu_seasons": [
-        "winter",
-        "unknown",
-        "fall",
-        "summer",
-        "spring"
-      ],
-      "source_hints": [],
-      "url": null,
-      "meal_types": [
-        "dinner"
-      ],
-      "urls": [],
-      "link_texts": [],
-      "item_texts": [
-        "Pizza bites",
-        "Pizza bites - 20 mins at 400",
-        "pizza?",
-        "Saturday: pizza?",
-        "Pizza",
-        "pizza",
-        "Tuesday: pizza",
-        "Monday: Pizza",
-        "Friday: Pizza"
-      ]
-    },
-    {
-      "menu_weeks": [
         "2023-12-28",
         "2022-04-10",
         "2022-01-16"
@@ -17876,6 +17796,31 @@
       "urls": [
         "https://pinchofyum.com/spicy-peanut-tofu-bowls"
       ]
+    },
+    {
+      "url": null,
+      "urls": [],
+      "link_texts": [],
+      "menu_files": [
+        "Menus/Menu week of 1-28-18.md",
+        "Menus/Menu week of 2-8-20.md"
+      ],
+      "menu_weeks": [
+        "2018-01-28",
+        "2020-02-08"
+      ],
+      "menu_seasons": [
+        "winter"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [],
+      "item_texts": [
+        "Pizza bites"
+      ],
+      "count": 2
     }
   ]
 }

@@ -1,78 +1,6 @@
 {
   "items": [
     {
-      "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
-      "urls": [
-        "https://www.browneyedbaker.com/best-buttermilk-pancakes/"
-      ],
-      "link_texts": [
-        "Best Buttermilk Pancakes"
-      ],
-      "menu_files": [
-        "Menus/Menu week of 10-25-18.md",
-        "Menus/Menu week of 11-3-21.md",
-        "Menus/Menu week of 3-21-20.md",
-        "Menus/Menu week of 3-7-20.md",
-        "Menus/Menu week of 4-2-2020.md",
-        "Menus/Menu week of 4-22-20.md",
-        "Menus/Menu week of 5-1-21.md",
-        "Menus/Menu week of 5-1-24.md",
-        "Menus/Menu week of 6-12-24.md",
-        "Menus/Menu week of 7-2-20 (vacation).md",
-        "Menus/Menu week of 7-5-19.md",
-        "Menus/Menu week of 8-12-18.md",
-        "Menus/Menu week of 8-22-18.md",
-        "Menus/Menu week of 9-21-17.md",
-        "Menus/Menu week of Thanksgiving.md",
-        "Menus/Menu\u0301 week of 12-28-18.md"
-      ],
-      "menu_weeks": [
-        "2018-10-25",
-        "2021-11-03",
-        "2020-03-21",
-        "2020-03-07",
-        "2020-04-02",
-        "2020-04-22",
-        "2021-05-01",
-        "2024-05-01",
-        "2024-06-12",
-        "2020-07-02",
-        "2019-07-05",
-        "2018-08-12",
-        "2018-08-22",
-        "2017-09-21",
-        "2018-12-28"
-      ],
-      "menu_seasons": [
-        "fall",
-        "spring",
-        "summer",
-        "unknown",
-        "winter"
-      ],
-      "meal_types": [
-        "dinner",
-        "breakfast"
-      ],
-      "sections": [
-        "Breakfast"
-      ],
-      "source_hints": [],
-      "item_texts": [
-        "Saturday: farmer\u2019s market? pancakes and eggs, chicken enchiladas with green salsa",
-        "Pancakes",
-        "Breakfast: pancakes",
-        "Breakfast: Pancakes and bacon",
-        "Breakfast: Pancakes or waffles, eggs, bacon",
-        "Pancakes and eggs",
-        "Breakfast for dinner: eggs, pancakes, bacon",
-        "Sean bday morning: pancakes",
-        "Breakfast for dinner: pancakes, eggs, bacon",
-        "New Year\u2019s Day breakfast: pancakes, eggs"
-      ],
-      "count": 16
-    },
-    {
       "url": "https://www.howsweeteats.com/2020/04/baja-grain-bowls/",
       "urls": [
         "https://www.howsweeteats.com/2020/04/baja-grain-bowls/"
@@ -12481,78 +12409,6 @@
     },
     {
       "item_texts": [
-        "Homemade vegetarian chili",
-        "homemade vegetarian chili",
-        "Tuesday: homemade vegetarian chili",
-        "slow cooker vegetarian chili (gimme some oven) and quesadillas",
-        "Slow cooker vegetarian chili",
-        "Slow cooker vegetarian chili (cook the onions first) and corn bread muffins",
-        "Vegetarian chili",
-        "Vegetarian Chili (Cookie and Kate)",
-        "vegetarian chili and cornbread",
-        "Friday: vegetarian chili and cornbread",
-        "Stovetop vegetarian chili",
-        "vegetarian chili, bread, maybe arugula salad",
-        "Friday: vegetarian chili, bread, maybe arugula salad",
-        "Wednesday (Ash) - vegetarian chili, salad, bread (use frozen tomatoes)"
-      ],
-      "menu_weeks": [
-        "2021-02-06",
-        "2018-05-07",
-        "2022-04-10",
-        "2024-10-06",
-        "2025-01-17",
-        "2023-12-28",
-        "2019-12-07",
-        "2024-02-29",
-        "2018-12-28",
-        "2025-02-11",
-        "2018-03-14",
-        "2022-02-27"
-      ],
-      "menu_files": [
-        "Menus/Menu week of 2-6-21.md",
-        "Menus/Menu week of 5-7-18.md",
-        "Menus/Menu week of 4-10-22.md",
-        "Menus/Menu week of 10-6-24.md",
-        "Menus/Menu week of 1-17-25.md",
-        "Menus/Menu week of 12-28-23.md",
-        "Menus/Menu week of 12-7-19.md",
-        "Menus/Menu week of 2-29-24.md",
-        "Menus/Menu\u0301 week of 12-28-18.md",
-        "Menus/Menu week of 2-11-25.md",
-        "Menus/Menu week of 3-14-18.md",
-        "Menus/Menu week of 2-27-22.md"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "menu_seasons": [
-        "winter",
-        "spring",
-        "fall"
-      ],
-      "count": 12,
-      "url": null,
-      "source_hints": [
-        "Cookie and Kate",
-        "https://cookieandkate.com/vegetarian-chili-recipe/",
-        "use frozen tomatoes"
-      ],
-      "urls": [
-        "https://www.gimmesomeoven.com/slow-cooker-vegetarian-chili-recipe/#more-35175",
-        "https://www.gimmesomeoven.com/slow-cooker-vegetarian-chili-recipe/#tasty-recipes-63953",
-        "https://cookieandkate.com/vegetarian-chili-recipe/"
-      ],
-      "link_texts": [
-        "Vegetarian Chili (Cookie and Kate or Gimme Some oven)",
-        "Slow Cooker Vegetarian Chili Recipe",
-        "Vegetarian Chili Recipe"
-      ]
-    },
-    {
-      "item_texts": [
         "Black pepper tofu and eggplant stir fry",
         "Black pepper tofu and eggplant"
       ],
@@ -12663,81 +12519,6 @@
       "link_texts": [
         "Cauliflower Orange Gnocchi",
         "Pinch of Yum"
-      ]
-    },
-    {
-      "item_texts": [
-        "Cauliflower mac and cheese, add chicken nuggets White people tacos",
-        "Instant pot cauliflower mac & cheese (add buffalo sauce chicken fingers)",
-        "Instant pot cauliflower mac and cheese",
-        "Instant pot cauliflower mac & cheese (add buffalo sauce chicken fingers) Trader Joe\u2019s pizzas and tossed greens",
-        "Instant pot cauliflower Mac and cheese",
-        "Instant Pot Cauliflower Mac & Cheese",
-        "Instant Pot cauliflower mac and cheese",
-        "Instant Pot Cauliflower Mac and cheese",
-        "Instant pot cauliflower mac and cheese (Well Plated)",
-        "Instant pot cauliflower mac and cheese, everyday italian salad",
-        "Instant Pot Cauliflower Mac and Cheese (Well Plated)"
-      ],
-      "menu_weeks": [
-        "2025-12-19",
-        "2025-06-24",
-        "2025-09-21",
-        "2025-07-27",
-        "2020-01-24",
-        "2021-11-03",
-        "2022-03-12",
-        "2025-04-11",
-        "2021-04-13",
-        "2021-04-03",
-        "2020-05-07",
-        "2023-05-08",
-        "2021-06-01",
-        "2019-07-21",
-        "2022-07-08",
-        "2021-09-19"
-      ],
-      "menu_files": [
-        "Menus/Menu week of 12-19-25.md",
-        "Menus/Menu week of 6-24-25.md",
-        "Menus/Menu week of 9-21-25.md",
-        "Menus/Week of 7-27-25.md",
-        "Menus/Menu week of 1-24-20.md",
-        "Menus/Menu week of 11-3-21.md",
-        "Menus/Menu week of 3-12-22.md",
-        "Menus/Menu week of 4-11-25.md",
-        "Menus/Menu week of 4-13-21.md",
-        "Menus/Menu week of 4-3-21.md",
-        "Menus/Menu week of 5-7-20.md",
-        "Menus/Menu week of 5-8-23.md",
-        "Menus/Menu week of 6-1-21.md",
-        "Menus/Menu week of 7-21-19.md",
-        "Menus/Menu week of 7-8-22.md",
-        "Menus/Menu week of 9-19-21.md"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "menu_seasons": [
-        "winter",
-        "summer",
-        "fall",
-        "spring"
-      ],
-      "count": 16,
-      "url": null,
-      "source_hints": [
-        "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
-        "Well Plated"
-      ],
-      "urls": [
-        "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211",
-        "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/"
-      ],
-      "link_texts": [
-        "Instant Pot Cauliflower Mac and Cheese",
-        "Instant Pot Cauliflower Mac And Cheese"
       ]
     },
     {
@@ -13991,66 +13772,6 @@
       "sections": [],
       "urls": [
         "https://www.loveandlemons.com/lemony-swiss-chard-pasta/"
-      ]
-    },
-    {
-      "meal_types": [
-        "dinner",
-        "breakfast"
-      ],
-      "count": 9,
-      "url": "https://iowagirleats.com/black-bean-soup-recipe/",
-      "menu_files": [
-        "Menus/Menu week of 2-23-20.md",
-        "Menus/Menu week of 4-2-2020.md",
-        "Menus/Menu week of 3-12-24.md",
-        "Menus/Menu week of 8-18-24.md",
-        "Menus/Menu week of 2-23-21.md",
-        "Menus/Menu week of 12-19-24.md",
-        "Menus/Easter brunch.md",
-        "Menus/Menu week of 12-27-22.md"
-      ],
-      "menu_seasons": [
-        "winter",
-        "spring",
-        "summer",
-        "unknown"
-      ],
-      "source_hints": [
-        "vegetarian",
-        "https://iowagirleats.com/black-bean-soup-recipe/",
-        "https://www.twopeasandtheirpod.com/bacon-potato-and-egg-casserole/"
-      ],
-      "item_texts": [
-        "Ash Wednesday: Black bean soup (vegetarian)",
-        "Black bean soup",
-        "Black bean soup (Iowa girl eats) with cilantro lime rice (Iowa Girl eats) and quesadillas",
-        "Black bean soup Gnocchi with pesto, zucchini, squash, frozen corn Black Bean Soup - Iowa Girl Eats",
-        "Black bean soup with cilantro-lime rice, avocado and quick pico",
-        "Breakfast: Bacon, Potato, and Egg casserole,",
-        "Bacon potato and egg casserole leftovers, monkey rolls, fruit",
-        "Breakfast: Bacon potato and egg casserole leftovers, monkey rolls, fruit",
-        "Bacon, potato, and egg casserole"
-      ],
-      "link_texts": [
-        "Slow Cooker Honey Garlic Chicken And Veggies",
-        "Black Bean Soup - Iowa Girl Eats",
-        "Bacon Potato And Egg Casserole"
-      ],
-      "menu_weeks": [
-        "2020-02-23",
-        "2020-04-02",
-        "2024-03-12",
-        "2024-08-18",
-        "2021-02-23",
-        "2024-12-19",
-        "2022-12-27"
-      ],
-      "sections": [],
-      "urls": [
-        "https://iowagirleats.com/black-bean-soup-recipe/",
-        "https://www.twopeasandtheirpod.com/bacon-potato-and-egg-casserole/",
-        "https://www.twopeasandtheirpod.com/bacon-potato-and-egg-casserole/#wprm-recipe-container-39516"
       ]
     },
     {
@@ -16591,68 +16312,6 @@
       "menu_seasons": [
         "winter",
         "fall",
-        "summer",
-        "spring"
-      ],
-      "count": 10,
-      "menu_weeks": [
-        "2022-12-03",
-        "2022-09-15",
-        "2023-06-05",
-        "2023-09-02",
-        "2018-12-28",
-        "2020-04-22",
-        "2020-05-07",
-        "2020-08-01",
-        "2020-08-12",
-        "2024-09-01"
-      ],
-      "sections": [],
-      "item_texts": [
-        "Chicken tikka masala (with leftover masala sauce)",
-        "Chicken tikka masala",
-        "Chicken tikka masala and cauliflower",
-        "Chicken Tikka masala with cauliflower",
-        "New Years Day dinner: fried chicken, slow cooker hoppin John",
-        "Panzanella with marinated chickpeas and chimichurri (veg)",
-        "Panzanella with Marinated Chickpeas and chimichurri",
-        "Panzanella with Marinated chickpeas and chimichurri",
-        "Bread salad:"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "link_texts": [
-        "Chicken tikka masala",
-        "Panzanella with marinated chickpeas and chimichurri",
-        "Panzanella with Marinated Chickpeas and chimichurri",
-        "Panzanella With Marinated Chickpeas And Chimichurri"
-      ],
-      "url": "https://www.howsweeteats.com/2016/05/panzanella-with-marinated-chickpeas-and-chimichurri/",
-      "menu_files": [
-        "Menus/Menu week of 12-3-22.md",
-        "Menus/Menu week of 9-15-22.md",
-        "Menus/Menu week of 6-5-23.md",
-        "Menus/Menu week of 9-2-23.md",
-        "Menus/Menu\u0301 week of 12-28-18.md",
-        "Menus/Menu week of 4-22-20.md",
-        "Menus/Menu week of 5-7-20.md",
-        "Menus/Menu week of 8-1-20.md",
-        "Menus/Menu week of 8-12-20.md",
-        "Menus/Menu week of 9-1-24.md"
-      ],
-      "source_hints": [
-        "with leftover masala sauce",
-        "veg"
-      ],
-      "urls": [
-        "https://www.howsweeteats.com/2016/05/panzanella-with-marinated-chickpeas-and-chimichurri/"
-      ]
-    },
-    {
-      "menu_seasons": [
-        "winter",
-        "fall",
         "spring"
       ],
       "menu_weeks": [
@@ -17188,60 +16847,6 @@
     },
     {
       "menu_seasons": [
-        "spring",
-        "winter",
-        "summer",
-        "fall"
-      ],
-      "count": 9,
-      "menu_weeks": [
-        "2018-05-07",
-        "2019-02-14",
-        "2020-04-02",
-        "2019-06-23",
-        "2018-08-22",
-        "2021-10-10",
-        "2021-11-03",
-        "2021-09-01",
-        "2023-09-17"
-      ],
-      "sections": [],
-      "item_texts": [
-        "Thursday dinner: Greek quinoa salad (with chicken?)",
-        "Greek quinoa salad",
-        "greek quinoa salad",
-        "Greek quinoa salad with chicken",
-        "Instant pot cilantro lime chicken and lentil rice bowls",
-        "Pearl cous cous skillet"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "link_texts": [
-        "Greek quinoa salad",
-        "Cilantro Lime Chicken and Lentil Rice Bowls"
-      ],
-      "url": "https://pinchofyum.com/15-minute-meal-prep-cilantro-lime-chicken-and-lentils",
-      "menu_files": [
-        "Menus/Menu week of 5-7-18.md",
-        "Menus/Menu week of 2-14-19.md",
-        "Menus/Menu week of 4-2-2020.md",
-        "Menus/Menu week of 6-23-19.md",
-        "Menus/Menu week of 8-22-18.md",
-        "Menus/Menu week of 10-10-21.md",
-        "Menus/Menu week of 11-3-21.md",
-        "Menus/Menu week of 9-1-21.md",
-        "Menus/Menu week of 9-17-23.md"
-      ],
-      "source_hints": [
-        "with chicken?"
-      ],
-      "urls": [
-        "https://pinchofyum.com/15-minute-meal-prep-cilantro-lime-chicken-and-lentils"
-      ]
-    },
-    {
-      "menu_seasons": [
         "spring"
       ],
       "count": 3,
@@ -17754,6 +17359,364 @@
         "Menus/Menu week of 9-17-23.md"
       ],
       "sections": []
+    },
+    {
+      "meal_types": [
+        "dinner",
+        "breakfast"
+      ],
+      "source_hints": [],
+      "menu_files": [
+        "Menus/Menu week of 10-25-18.md",
+        "Menus/Menu week of 11-3-21.md",
+        "Menus/Menu week of 3-21-20.md",
+        "Menus/Menu week of 3-7-20.md",
+        "Menus/Menu week of 4-2-2020.md",
+        "Menus/Menu week of 4-22-20.md",
+        "Menus/Menu week of 5-1-21.md",
+        "Menus/Menu week of 5-1-24.md",
+        "Menus/Menu week of 6-12-24.md",
+        "Menus/Menu week of 7-2-20 (vacation).md",
+        "Menus/Menu week of 7-5-19.md",
+        "Menus/Menu week of 8-12-18.md",
+        "Menus/Menu week of 8-22-18.md",
+        "Menus/Menu week of 9-21-17.md",
+        "Menus/Menu week of Thanksgiving.md",
+        "Menus/Menu\u0301 week of 12-28-18.md"
+      ],
+      "item_texts": [
+        "Saturday: farmer\u2019s market? pancakes and eggs, chicken enchiladas with green salsa",
+        "Pancakes",
+        "Breakfast: pancakes",
+        "Breakfast: Pancakes and bacon",
+        "Breakfast: Pancakes or waffles, eggs, bacon",
+        "Pancakes and eggs",
+        "Breakfast for dinner: eggs, pancakes, bacon",
+        "Sean bday morning: pancakes",
+        "Breakfast for dinner: pancakes, eggs, bacon",
+        "New Year\u2019s Day breakfast: pancakes, eggs"
+      ],
+      "menu_seasons": [
+        "fall",
+        "spring",
+        "summer",
+        "unknown",
+        "winter"
+      ],
+      "menu_weeks": [
+        "2018-10-25",
+        "2021-11-03",
+        "2020-03-21",
+        "2020-03-07",
+        "2020-04-02",
+        "2020-04-22",
+        "2021-05-01",
+        "2024-05-01",
+        "2024-06-12",
+        "2020-07-02",
+        "2019-07-05",
+        "2018-08-12",
+        "2018-08-22",
+        "2017-09-21",
+        "2018-12-28"
+      ],
+      "link_texts": [
+        "Best Buttermilk Pancakes"
+      ],
+      "sections": [
+        "Breakfast"
+      ],
+      "count": 16,
+      "urls": [
+        "https://www.browneyedbaker.com/best-buttermilk-pancakes/"
+      ],
+      "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/"
+    },
+    {
+      "meal_types": [
+        "dinner"
+      ],
+      "source_hints": [
+        "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+        "Well Plated"
+      ],
+      "menu_files": [
+        "Menus/Menu week of 1-24-20.md",
+        "Menus/Menu week of 11-3-21.md",
+        "Menus/Menu week of 3-12-22.md",
+        "Menus/Menu week of 4-11-25.md",
+        "Menus/Menu week of 4-13-21.md",
+        "Menus/Menu week of 4-3-21.md",
+        "Menus/Menu week of 5-7-20.md",
+        "Menus/Menu week of 5-8-23.md",
+        "Menus/Menu week of 6-1-21.md",
+        "Menus/Menu week of 7-21-19.md",
+        "Menus/Menu week of 7-8-22.md",
+        "Menus/Menu week of 9-19-21.md",
+        "Menus/Menu week of 12-19-25.md",
+        "Menus/Menu week of 6-24-25.md",
+        "Menus/Menu week of 9-21-25.md",
+        "Menus/Week of 7-27-25.md"
+      ],
+      "item_texts": [
+        "Instant pot cauliflower mac and cheese",
+        "Instant pot cauliflower Mac and cheese",
+        "Instant Pot Cauliflower Mac & Cheese",
+        "Instant Pot cauliflower mac and cheese",
+        "Instant Pot Cauliflower Mac and cheese",
+        "Instant pot cauliflower mac and cheese (Well Plated)",
+        "Instant pot cauliflower mac and cheese, everyday italian salad",
+        "Instant Pot Cauliflower Mac and Cheese (Well Plated)",
+        "Cauliflower mac and cheese, add chicken nuggets White people tacos",
+        "Instant pot cauliflower mac & cheese (add buffalo sauce chicken fingers)",
+        "Instant pot cauliflower mac & cheese (add buffalo sauce chicken fingers) Trader Joe\u2019s pizzas and tossed greens"
+      ],
+      "menu_seasons": [
+        "winter",
+        "fall",
+        "spring",
+        "summer"
+      ],
+      "menu_weeks": [
+        "2020-01-24",
+        "2021-11-03",
+        "2022-03-12",
+        "2025-04-11",
+        "2021-04-13",
+        "2021-04-03",
+        "2020-05-07",
+        "2023-05-08",
+        "2021-06-01",
+        "2019-07-21",
+        "2022-07-08",
+        "2021-09-19",
+        "2025-12-19",
+        "2025-06-24",
+        "2025-09-21",
+        "2025-07-27"
+      ],
+      "link_texts": [
+        "Instant Pot Cauliflower Mac and Cheese",
+        "Instant Pot Cauliflower Mac And Cheese"
+      ],
+      "sections": [],
+      "count": 16,
+      "urls": [
+        "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
+        "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211"
+      ],
+      "url": null
+    },
+    {
+      "meal_types": [
+        "dinner"
+      ],
+      "source_hints": [],
+      "menu_files": [
+        "Menus/Menu week of 2-14-19.md",
+        "Menus/Menu week of 4-2-2020.md",
+        "Menus/Menu week of 6-23-19.md"
+      ],
+      "item_texts": [
+        "Greek quinoa salad",
+        "greek quinoa salad"
+      ],
+      "menu_seasons": [
+        "winter",
+        "spring",
+        "summer"
+      ],
+      "menu_weeks": [
+        "2019-02-14",
+        "2020-04-02",
+        "2019-06-23"
+      ],
+      "link_texts": [],
+      "sections": [],
+      "count": 3,
+      "urls": [],
+      "url": null
+    },
+    {
+      "meal_types": [
+        "dinner"
+      ],
+      "source_hints": [],
+      "menu_files": [
+        "Menus/Menu week of 9-15-22.md"
+      ],
+      "item_texts": [
+        "Chicken tikka masala"
+      ],
+      "menu_seasons": [
+        "fall"
+      ],
+      "menu_weeks": [
+        "2022-09-15"
+      ],
+      "link_texts": [],
+      "sections": [],
+      "count": 1,
+      "urls": [],
+      "url": null
+    },
+    {
+      "meal_types": [
+        "dinner"
+      ],
+      "source_hints": [],
+      "menu_files": [
+        "Menus/Menu week of 8-13-25.md"
+      ],
+      "item_texts": [
+        "Slow cooker honey garlic chicken and veggies"
+      ],
+      "menu_seasons": [
+        "summer"
+      ],
+      "menu_weeks": [
+        "2025-08-13"
+      ],
+      "link_texts": [
+        "Slow Cooker Honey Garlic Chicken And Veggies"
+      ],
+      "sections": [],
+      "count": 1,
+      "urls": [
+        "https://damndelicious.net/2015/06/05/slow-cooker-honey-garlic-chicken-and-veggies/"
+      ],
+      "url": "https://damndelicious.net/2015/06/05/slow-cooker-honey-garlic-chicken-and-veggies/"
+    },
+    {
+      "item_texts": [
+        "Homemade vegetarian chili",
+        "homemade vegetarian chili",
+        "Tuesday: homemade vegetarian chili",
+        "Vegetarian chili",
+        "Vegetarian Chili (Cookie and Kate)",
+        "vegetarian chili and cornbread",
+        "Friday: vegetarian chili and cornbread",
+        "Stovetop vegetarian chili",
+        "vegetarian chili, bread, maybe arugula salad",
+        "Friday: vegetarian chili, bread, maybe arugula salad",
+        "Wednesday (Ash) - vegetarian chili, salad, bread (use frozen tomatoes)"
+      ],
+      "menu_weeks": [
+        "2021-02-06",
+        "2018-05-07",
+        "2022-04-10",
+        "2024-10-06",
+        "2025-01-17",
+        "2023-12-28",
+        "2019-12-07",
+        "2024-02-29",
+        "2018-12-28",
+        "2025-02-11",
+        "2018-03-14",
+        "2022-02-27"
+      ],
+      "menu_files": [
+        "Menus/Menu week of 2-6-21.md",
+        "Menus/Menu week of 5-7-18.md",
+        "Menus/Menu week of 4-10-22.md",
+        "Menus/Menu week of 10-6-24.md",
+        "Menus/Menu week of 1-17-25.md",
+        "Menus/Menu week of 12-28-23.md",
+        "Menus/Menu week of 12-7-19.md",
+        "Menus/Menu week of 2-29-24.md",
+        "Menus/Menu\u0301 week of 12-28-18.md",
+        "Menus/Menu week of 2-11-25.md",
+        "Menus/Menu week of 3-14-18.md",
+        "Menus/Menu week of 2-27-22.md"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "menu_seasons": [
+        "winter",
+        "spring",
+        "fall"
+      ],
+      "count": 9,
+      "url": null,
+      "source_hints": [
+        "Cookie and Kate",
+        "https://cookieandkate.com/vegetarian-chili-recipe/",
+        "use frozen tomatoes"
+      ],
+      "urls": [
+        "https://www.gimmesomeoven.com/slow-cooker-vegetarian-chili-recipe/#more-35175",
+        "https://www.gimmesomeoven.com/slow-cooker-vegetarian-chili-recipe/#tasty-recipes-63953",
+        "https://cookieandkate.com/vegetarian-chili-recipe/"
+      ],
+      "link_texts": [
+        "Vegetarian Chili (Cookie and Kate or Gimme Some oven)",
+        "Slow Cooker Vegetarian Chili Recipe",
+        "Vegetarian Chili Recipe"
+      ]
+    },
+    {
+      "item_texts": [
+        "slow cooker vegetarian chili (gimme some oven) and quesadillas",
+        "Slow cooker vegetarian chili",
+        "Slow cooker vegetarian chili (cook the onions first) and corn bread muffins"
+      ],
+      "menu_weeks": [
+        "2021-02-06",
+        "2018-05-07",
+        "2022-04-10",
+        "2024-10-06",
+        "2025-01-17",
+        "2023-12-28",
+        "2019-12-07",
+        "2024-02-29",
+        "2018-12-28",
+        "2025-02-11",
+        "2018-03-14",
+        "2022-02-27"
+      ],
+      "menu_files": [
+        "Menus/Menu week of 2-6-21.md",
+        "Menus/Menu week of 5-7-18.md",
+        "Menus/Menu week of 4-10-22.md",
+        "Menus/Menu week of 10-6-24.md",
+        "Menus/Menu week of 1-17-25.md",
+        "Menus/Menu week of 12-28-23.md",
+        "Menus/Menu week of 12-7-19.md",
+        "Menus/Menu week of 2-29-24.md",
+        "Menus/Menu\u0301 week of 12-28-18.md",
+        "Menus/Menu week of 2-11-25.md",
+        "Menus/Menu week of 3-14-18.md",
+        "Menus/Menu week of 2-27-22.md"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "menu_seasons": [
+        "winter",
+        "spring",
+        "fall"
+      ],
+      "count": 3,
+      "url": null,
+      "source_hints": [
+        "Cookie and Kate",
+        "https://cookieandkate.com/vegetarian-chili-recipe/",
+        "use frozen tomatoes"
+      ],
+      "urls": [
+        "https://www.gimmesomeoven.com/slow-cooker-vegetarian-chili-recipe/#more-35175",
+        "https://www.gimmesomeoven.com/slow-cooker-vegetarian-chili-recipe/#tasty-recipes-63953",
+        "https://cookieandkate.com/vegetarian-chili-recipe/"
+      ],
+      "link_texts": [
+        "Slow Cooker Vegetarian Chili",
+        "Vegetarian Chili (Cookie and Kate or Gimme Some oven)",
+        "Slow Cooker Vegetarian Chili Recipe",
+        "Vegetarian Chili Recipe"
+      ]
     }
   ]
 }

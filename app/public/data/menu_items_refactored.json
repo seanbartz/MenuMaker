@@ -14706,11 +14706,31 @@
         "winter"
       ],
       "count": 3,
-      "url": null,
+      "url": "https://www.skinnytaste.com/zesty-lime-shrimp-and-avocado-salad/",
       "source_hints": [],
-      "urls": [],
-      "link_texts": [],
-      "main_protein": "unknown"
+      "urls": [
+        "https://www.skinnytaste.com/zesty-lime-shrimp-and-avocado-salad/"
+      ],
+      "link_texts": [
+        "Zesty Lime Shrimp and Avocado Salad"
+      ],
+      "main_protein": "unknown",
+      "ingredients": [
+        "1/4 cup red onion, diced",
+        "3 tbsp fresh lime juice",
+        "2 tbsp olive oil",
+        "1/4 cup chopped cilantro",
+        "1/2 tsp kosher salt",
+        "1/8 tsp black pepper",
+        "1/2 tsp cumin",
+        "16 oz cooked shrimp, peeled and chopped (preferably large or extra large)",
+        "2 medium tomatoes, chopped (about 2 cups)",
+        "3 avocados, chopped",
+        "2 scallions, chopped",
+        "2 ears of corn, cooked and cut from the cob (2 cups) (optional)",
+        "4 lettuce leaves"
+      ],
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -17935,18 +17955,40 @@
         "winter"
       ],
       "source_hints": [],
-      "url": null,
+      "url": "https://iowagirleats.com/feta-stuffed-buffalo-chicken-meatballs-2/",
       "meal_types": [
         "dinner"
       ],
-      "urls": [],
-      "link_texts": [],
+      "urls": [
+        "https://iowagirleats.com/feta-stuffed-buffalo-chicken-meatballs-2/"
+      ],
+      "link_texts": [
+        "Feta Stuffed Buffalo Chicken Meatballs"
+      ],
       "item_texts": [
         "feta stuffed buffalo chicken meatballs",
         "Feta stuffed buffalo chicken meatballs",
         "Feta stuffed buffalo chicken meatballs - 16-18 mins at 400"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1 lb ground chicken",
+        "1/2 cup ground gluten free pretzels or gluten free panko breadcrumbs",
+        "1/4 cup chopped fresh parsley",
+        "2 teaspoons dried parsley",
+        "1/2 teaspoon garlic powder",
+        "1/2 teaspoon onion powder",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon black pepper",
+        "2oz feta cheese, cut into 1/4-inch pieces",
+        "1/4 cup buffalo sauce",
+        "2 Tablespoons butter"
+      ],
+      "recipe_tags": [
+        "Gluten Free",
+        "Dairy Free",
+        "Egg Free"
+      ]
     },
     {
       "menu_weeks": [

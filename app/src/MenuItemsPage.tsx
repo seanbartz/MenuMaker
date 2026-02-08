@@ -12,6 +12,7 @@ export type RefactoredMenuItem = {
   sections: string[]
   source_hints: string[]
   item_texts: string[]
+  ingredients: string[]
   count: number
 }
 
@@ -23,16 +24,6 @@ function getSiteName(url: string | null): string {
   } catch {
     return url
   }
-}
-
-function formatDate(iso: string): string {
-  const date = new Date(`${iso}T00:00:00`)
-  if (Number.isNaN(date.getTime())) return iso
-  return date.toLocaleDateString('en-US', {
-    month: 'short',
-    day: 'numeric',
-    year: 'numeric',
-  })
 }
 
 interface MenuItemsPageProps {
@@ -127,12 +118,16 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
 
               <div className="detail-grid">
                 <div className="detail-card">
-                  <h3>Menu Weeks</h3>
-                  <ul>
-                    {selectedItem.menu_weeks.map((week, index) => (
-                      <li key={`${week}-${index}`}>{formatDate(week)}</li>
-                    ))}
-                  </ul>
+                  <h3>Ingredients</h3>
+                  {selectedItem.ingredients?.length ? (
+                    <ul className="ingredient-list">
+                      {selectedItem.ingredients.map((ingredient, index) => (
+                        <li key={`${ingredient}-${index}`}>{ingredient}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="detail-empty">No ingredients listed.</p>
+                  )}
                 </div>
                 <div className="detail-card">
                   <h3>Seasons</h3>

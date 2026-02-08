@@ -128,11 +128,17 @@
 }
 
 .detail-card ul {
-  list-style: none;
+  list-style: disc;
   margin: 0;
-  padding: 0;
+  padding-left: 1.1rem;
   display: grid;
   gap: 0.45rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.detail-empty {
+  margin: 0;
   color: var(--muted);
   font-size: 0.9rem;
 }

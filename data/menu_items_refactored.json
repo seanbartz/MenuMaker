@@ -14577,7 +14577,29 @@
         "Black Pepper Stir Fried Udon",
         "Black Pepper Stir Fried Noodles"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "3 tablespoons dark soy sauce",
+        "2 tablespoons oyster sauce",
+        "1 1/2 tablespoons brown sugar",
+        "1 tablespoon rice vinegar",
+        "a little bit of neutral oil",
+        "2 cups of stir fry veggies",
+        "two 7-ounce packages of udon noodles",
+        "1\u20132 cloves fresh garlic, minced",
+        "a ton of freshly ground black pepper"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dinner",
+        "Main Dishes",
+        "Pasta",
+        "Quick and Easy",
+        "SOS Series",
+        "Spring",
+        "Stovetop",
+        "Vegetarian"
+      ]
     },
     {
       "item_texts": [
@@ -15751,7 +15773,31 @@
         "summer"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1/2 cup olive oil",
+        "1 large yellow onion, sliced (about 1 cup)",
+        "3 cloves garlic",
+        "5 ripe tomatoes, cut in half",
+        "1/2 of a large eggplant, skin removed and diced (2\u20133 cups)",
+        "1 1/2 teaspoon salt",
+        "1 1/2 lbs. chicken breast meat",
+        "1 large Russet potato, sliced",
+        "salt and pepper to taste",
+        "1 teaspoon all purpose seasoning (poultry seasoning)",
+        "1/2 cup fresh parsley leaves",
+        "crusty bread or rice for serving"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dinner",
+        "Fall",
+        "Gluten-Free",
+        "Main Dishes",
+        "Meat and Chicken",
+        "Sugar-Free",
+        "Tomato"
+      ]
     },
     {
       "meal_types": [
@@ -16192,7 +16238,22 @@
         "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#recipe"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1 batch Kale Basil Pesto",
+        "1 pound dry gnocchi",
+        "1 pound chicken sausage",
+        "1 Tablespoon olive oil",
+        "1 pound brussels sprouts, trimmed and halved",
+        "grated Parmesan cheese, for topping",
+        "2 cups packed chopped kale leaves, stems removed",
+        "1 cup packed basil leaves",
+        "1/2 cup chopped walnuts, toasted",
+        "1/2 cup grated Parmesan cheese",
+        "1 teaspoon sea salt",
+        "4 cloves garlic",
+        "1/2 cup olive oil"
+      ]
     },
     {
       "count": 4,
@@ -16303,7 +16364,35 @@
         "winter"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "one 28 ounce can diced tomatoes",
+        "half a yellow onion",
+        "2 cloves garlic",
+        "1 1/2 teaspoons cumin",
+        "2 teaspoons chili powder",
+        "1 teaspoon salt",
+        "1 tablespoon oil",
+        "1 cup uncooked brown or green lentils, rinsed",
+        "1 cup uncooked brown rice, rinsed",
+        "2 1/2 cups vegetable broth",
+        "16 flour tortillas",
+        "3\u20134 cups shredded Pepperjack cheese",
+        "a few tablespoons butter (optional)"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dinner",
+        "Kid-Friendly",
+        "Legume",
+        "Main Dishes",
+        "Quick and Easy",
+        "Recipes",
+        "Slow Cooker",
+        "Spring",
+        "Tomato",
+        "Vegetarian"
+      ]
     },
     {
       "count": 5,
@@ -16381,7 +16470,25 @@
         "summer"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "2 cups de-stemmed and chopped kale",
+        "2 teaspoons extra-virgin olive oil",
+        "1/8 teaspoon kosher salt",
+        "4 medium sweet potatoes, peeled and quartered lengthwise",
+        "2 tablespoons extra-virgin olive oil",
+        "1 teaspoon kosher salt",
+        "1 teaspoon chili powder",
+        "1 teaspoon chipotle powder",
+        "1 teaspoon ground cumin",
+        "1/2 teaspoon ground coriander",
+        "1/2 teaspoon garlic powder",
+        "1 cup plain 0% Greek yogurt",
+        "1 chipotle pepper in adobo sauce",
+        "2 tablespoons lime juice",
+        "2 cloves garlic, peeled",
+        "Kosher salt"
+      ]
     },
     {
       "count": 3,
@@ -16677,7 +16784,23 @@
         "balsamic roasted veggie and white bean pasta",
         "Balsamic roasted veggies and white bean pasta"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "Cooking spray",
+        "1 tablespoon balsamic vinegar",
+        "1 teaspoon Dijon mustard",
+        "2 garlic cloves, crushed",
+        "1 teaspoon dried Italian herbs",
+        "1 teaspoon kosher salt",
+        "2 tablespoons olive oil",
+        "2 cups broccoli florets",
+        "8 ounces sliced mushrooms",
+        "1 red bell pepper, seeded and cut into 1\u201d pieces",
+        "1 medium zucchini, cut into 1/4\u201d thick rounds",
+        "1 medium yellow squash, cut into 1/4\u201d thick rounds",
+        "1 dry pint cherry tomatoes, halved",
+        "1 red onion, cut into 1\u201d pieces"
+      ]
     },
     {
       "menu_weeks": [
@@ -17417,7 +17540,27 @@
         "Slow cooker honey garlic chicken and veggies",
         "Slow cooker creamy garlic chicken and veggies"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "4 slices bacon, chopped",
+        "2 chicken breasts, chopped into bite-sized pieces",
+        "seasoned salt and pepper",
+        "1\u20132 Tablespoons extra virgin olive oil",
+        "12 oz package shelf-stable gluten free gnocchi",
+        "1/4 cup prepared pesto",
+        "1 cup packed fresh basil leaves, torn",
+        "1 Tablespoon walnuts",
+        "1/4 cup freshly grated parmesan cheese",
+        "1 clove garlic, roughly chopped",
+        "big pinch salt",
+        "1/4 cup extra virgin olive oil",
+        "squeeze fresh lemon juice"
+      ],
+      "recipe_tags": [
+        "Gluten Free",
+        "Dairy Free",
+        "Egg Free"
+      ]
     },
     {
       "menu_weeks": [
@@ -17594,7 +17737,30 @@
         "Crockpot White Chicken chili",
         "Poblano white chicken chili"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1 lb chicken breasts",
+        "15 oz can great northern beans, drained and rinsed",
+        "4 oz can diced green chiles",
+        "1 \u2013 2 jalapenos, seeded then minced",
+        "1 onion or shallot, chopped",
+        "2 cloves garlic, minced",
+        "1-1/2 teaspoons cumin",
+        "1 teaspoon salt",
+        "1/4 teaspoon pepper",
+        "big pinch dried oregano",
+        "2 cups chicken broth",
+        "1/2 small lime",
+        "1/4 cup milk",
+        "1 Tablespoon flour",
+        "Toppings: green Tabasco sauce, verde sauce, lime wedges, tortilla chips, shredded cheese, chopped cilantro, sour cream"
+      ],
+      "recipe_tags": [
+        "Gluten Free",
+        "Dairy Free",
+        "Egg Free",
+        "Low Fat"
+      ]
     },
     {
       "menu_weeks": [
@@ -17891,7 +18057,42 @@
         "Valentine\u2019s Day: Sage Lemon Butter Chicken Piccata with Mashed Cauliflower",
         "Sage lemon butter chicken piccata with mashed cauliflower"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "2 cloves garlic",
+        "1 serrano pepper, stem removed",
+        "one 1-inch piece of ginger, peeled",
+        "a bunch of fresh cilantro",
+        "3 teaspoons fish sauce",
+        "1 1/2 tablespoons brown sugar",
+        "1 tablespoon cornstarch",
+        "1 pound ground chicken",
+        "2 tablespoons olive oil",
+        "pinch of salt",
+        "4 pieces soft bread \u2013 either soft French bread or flatbread like pita or naan",
+        "1/2 cup mayo or kewpie",
+        "1 cucumber, sliced",
+        "1 sliced shallot or red onion",
+        "2 tablespoons cilantro",
+        "1/4 cup mint leaves",
+        "2 tablespoons chili crisp or sriracha"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dairy-Free",
+        "Dinner",
+        "Fall",
+        "Healthy",
+        "Lunch",
+        "Main Dishes",
+        "Meat and Chicken",
+        "Quick and Easy",
+        "Recipes",
+        "Sandwiches",
+        "Spring",
+        "Stovetop",
+        "Winter"
+      ]
     },
     {
       "menu_weeks": [
@@ -18179,7 +18380,20 @@
         "Egg sal san",
         "Moussaka (see recipe book)"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1 tablespoon olive oil",
+        "1 pound lean ground beef",
+        "1 small onion, diced",
+        "3 cloves garlic, minced",
+        "1/4 cup dry red wine",
+        "1 (25-ounce) jar marinara sauce",
+        "1 3/4 cups beef stock",
+        "8 ounces campanelle pasta",
+        "Kosher salt and freshly ground black pepper, to taste",
+        "1/3 cup freshly grated Parmesan",
+        "1/4 cup chopped fresh basil leaves"
+      ]
     },
     {
       "menu_weeks": [
@@ -18222,7 +18436,33 @@
         "Instant Pot Italian beef sandwiches, bagged side salad",
         "Father\u2019s Day Dinner: Instant Pot Italian Beef sandwiches, bagged salad"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "3 pounds beef chuck roast, trimmed and cut into chunks",
+        "3 cloves garlic, minced",
+        "half an onion, diced",
+        "2 teaspoons dried oregano",
+        "1 teaspoon dried basil",
+        "1 teaspoon onion powder",
+        "1 teaspoon paprika",
+        "1/2 teaspoon garlic powder",
+        "1/2 teaspoon red pepper flakes",
+        "1 teaspoon salt",
+        "1/2 teaspoon black pepper",
+        "3 cups beef broth",
+        "1/4 cup brine from the giardiniera (optional)"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dairy-Free",
+        "Dinner",
+        "Instant Pot",
+        "Main Dishes",
+        "Meat and Chicken",
+        "Recipes",
+        "Sandwiches",
+        "Sugar-Free"
+      ]
     },
     {
       "menu_weeks": [
@@ -18654,7 +18894,20 @@
         "/ Roasted Tomato Caprese Pasta Salad",
         "**Pasta salad:"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1 lb cherry or grape tomatoes",
+        "8 oz uncooked macaroni pasta",
+        "2 Tbsp balsamic vinegar",
+        "3 Tbsp olive oil",
+        "1 tsp pure cane sugar",
+        "1 shallot, minced",
+        "1 garlic clove, finely-minced",
+        "1 Tbsp minced fresh oregano (or 1 tsp dried oregano)",
+        "8 oz fresh mozzarella pearls",
+        "2 Tbsp fresh basil leaves, minced",
+        "kosher salt and freshly-ground black pepper, to taste"
+      ]
     },
     {
       "menu_weeks": [
@@ -19026,7 +19279,30 @@
         "Spicy thai chicken and quinoa, roasted broccoli",
         "Spicy Thai chicken and quinoa and roasted broccoli"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1/2 cup Thai style chili sauce",
+        "1/2 cup water or chicken broth",
+        "1/4 cup agave or honey",
+        "1/4 cup soy sauce",
+        "2 tablespoons rice vinegar",
+        "2 tablespoons lime juice",
+        "2 tablespoons light brown sugar",
+        "1 clove garlic, minced",
+        "2 lbs. boneless skinless chicken thighs",
+        "2 cups uncooked quinoa",
+        "chopped peanuts, cilantro, and chili flakes for topping"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dairy-Free",
+        "Lime",
+        "Main Dishes",
+        "Meat and Chicken",
+        "Quinoa",
+        "Spring",
+        "Stovetop"
+      ]
     },
     {
       "menu_weeks": [
@@ -19218,7 +19494,43 @@
         "Chicken tacos with green sauce and a makeshift black bean salad",
         "Chicken tacos with green sauce Ridiculously Good Chicken Tacos with Green Sauce Recipe - Pinch of Yum"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1 tablespoon olive oil",
+        "1 cup roughly chopped sweet onion",
+        "2 cloves garlic, minced",
+        "1\u20132 chipotle peppers in adobo sauce, chopped",
+        "1 teaspoon dried oregano",
+        "1/2 teaspoon ground cumin",
+        "3/4 cup canned crushed fire-roasted tomatoes",
+        "1/4 cup chicken stock",
+        "1/2 teaspoon kosher salt",
+        "3 cups shredded cooked chicken",
+        "10 (6-inch) corn tortillas",
+        "2 ripe avocados, sliced",
+        "1/4 cup chopped fresh cilantro",
+        "1/2 cup diced red onion",
+        "1/4 cup crumbled cotija",
+        "1 lime, cut into wedges"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Avocado",
+        "Dairy-Free",
+        "Dinner",
+        "Instant Pot",
+        "Kid-Friendly",
+        "Lime",
+        "Main Dishes",
+        "Meat and Chicken",
+        "Most Popular",
+        "Quick and Easy",
+        "Recipes",
+        "Spring",
+        "Sugar-Free",
+        "Tacos",
+        "Tomato"
+      ]
     },
     {
       "menu_weeks": [
@@ -19801,7 +20113,35 @@
         "https://pinchofyum.com/sheet-pan-meatballs-with-tomato-salad-and-green-sauce"
       ],
       "count": 10,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1 lb. rigatoni",
+        "2\u20133 cups cherry tomatoes",
+        "a quick swish of olive oil",
+        "salt and pepper",
+        "1 1/4 cup cashews",
+        "1/4 cup olive oil",
+        "1 1/2 cups water",
+        "1 large roasted red pepper",
+        "1 clove garlic",
+        "2 tablespoons nutritional yeast (optional)",
+        "1 1/2 teaspoons salt",
+        "chives and basil for topping"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dairy-Free",
+        "Dinner",
+        "Fall",
+        "Kid-Friendly",
+        "Main Dishes",
+        "Pasta",
+        "Recipes",
+        "Stovetop",
+        "Sugar-Free",
+        "Tomato",
+        "Vegan"
+      ]
     },
     {
       "menu_seasons": [
@@ -19979,7 +20319,34 @@
       "urls": [
         "https://pinchofyum.com/instant-pot-korean-beef-tacos"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "one 14-ounce can pears, drained (fresh pears work, too)",
+        "one two-inch knob of fresh ginger",
+        "4 cloves garlic",
+        "1/2 cup soy sauce",
+        "1/2 cup brown sugar",
+        "1 tbsp sesame oil",
+        "2 lbs. top sirloin",
+        "chopped cilantro",
+        "chopped peanuts",
+        "kimchi or slaw of some sort",
+        "sriracha mayo or yum yum sauce",
+        "flour tortillas"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dairy-Free",
+        "Dinner",
+        "Fall",
+        "Instant Pot",
+        "Main Dishes",
+        "Meat and Chicken",
+        "Quick and Easy",
+        "Recipes",
+        "Slow Cooker",
+        "Tacos"
+      ]
     },
     {
       "menu_seasons": [
@@ -21159,7 +21526,18 @@
         "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211"
       ],
       "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1 medium/large head cauliflower",
+        "16 ounces whole wheat pasta elbows, shells, rotini, or similar",
+        "1 tablespoon unsalted butter",
+        "1 teaspoon kosher salt",
+        "2 ounces reduced-fat cream cheese",
+        "2 cups freshly grated melty flavorful cheese such as cheddar, gruyere, provolone, fontina, gouda, or a mix, divided",
+        "8 to 12 ounces 2% evaporated milk",
+        "1/2 teaspoon garlic powder",
+        "1/4 teaspoon ground black pepper"
+      ]
     },
     {
       "meal_types": [
@@ -21329,7 +21707,28 @@
         "Vegetarian Chili Recipe",
         "Homemade Vegetarian Chili"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "2 tablespoons extra-virgin olive oil",
+        "1 medium red onion, chopped",
+        "1 large red bell pepper, chopped",
+        "2 medium carrots, chopped",
+        "2 ribs celery, chopped",
+        "1/2 teaspoon salt, divided",
+        "4 cloves garlic, pressed or minced",
+        "2 tablespoons chili powder",
+        "2 teaspoons ground cumin",
+        "1 1/2 teaspoons smoked paprika",
+        "1 teaspoon dried oregano",
+        "1 large can (28 ounces) or 2 small cans (15 ounces each) diced tomatoes, with their juices",
+        "2 cans (15 ounces each) black beans, rinsed and drained",
+        "1 can (15 ounces) pinto beans, rinsed and drained",
+        "2 cups vegetable broth or water",
+        "1 bay leaf",
+        "2 tablespoons chopped fresh cilantro, plus more for garnishing",
+        "1 to 2 teaspoons sherry vinegar or red wine vinegar or lime juice, to taste",
+        "Garnishes: chopped cilantro, sliced avocado, tortilla chips, sour cream or cr\u00e8me fra\u00eeche, grated cheddar cheese, etc."
+      ]
     },
     {
       "item_texts": [

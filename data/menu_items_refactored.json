@@ -50,7 +50,34 @@
         "Baja grain bowls",
         "Baja grain bowls (veg)"
       ],
-      "count": 11
+      "count": 11,
+      "ingredients": [
+        "3 tablespoons freshly squeezed lime juice",
+        "1 1/2 tablespoons honey",
+        "1/4 cup fresh cilantro",
+        "2 garlic cloves, minced or pressed",
+        "1/4 teaspoon salt",
+        "1/4 teaspoon pepper",
+        "pinch crushed red pepper flakes",
+        "1/3 cup extra virgin olive oil",
+        "1 cup cooked rice",
+        "1 cup cooked quinoa",
+        "1 14-ounce can black beans, drained and rinsed",
+        "1 avocado, thinly sliced",
+        "3/4 cup diced tomatoes",
+        "2/3 cup corn",
+        "1/2 cup crumbled feta cheese",
+        "2 tablespoons chopped fresh cilantro",
+        "plain greek yogurt or sour cream, for serving",
+        "lime wedges for spritzing",
+        "salt and pepper"
+      ],
+      "recipe_tags": [
+        "Bowls",
+        "Recipes",
+        "Vegetarian",
+        "Weeknight Meals"
+      ]
     },
     {
       "url": "https://pinchofyum.com/chicken-with-coconut-kale",
@@ -11655,7 +11682,22 @@
         "grilled corn",
         "corn salad",
         "apple slaw, corn, watermelon"
-      ]
+      ],
+      "ingredients": [
+        "4 bratwursts",
+        "3/4 cup of beer",
+        "1 onion, sliced thinly",
+        "1 head of cabbage, shredded",
+        "2 green apples, cut into matchsticks",
+        "8 green onions, thinly sliced",
+        "1 cup of flat leaf parsley, roughly chopped",
+        "1/4 cup of apple cider vinegar",
+        "juice of 1/2 a lemon",
+        "1/4 cup of extra virgin olive oil",
+        "2 tablespoons of whole grain mustard",
+        "sea or kosher salt and freshly ground black pepper"
+      ],
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -11774,6 +11816,35 @@
       ],
       "side_dish": [
         "some vegetable from the CSA"
+      ],
+      "ingredients": [
+        "1 block of extra firm tofu",
+        "2 tablespoons cornstarch",
+        "1 tablespoon soy sauce",
+        "2 tablespoons olive oil",
+        "1/3 cup apricot preserves",
+        "1 tablespoons soy sauce",
+        "1\u20132 tablespoons rice vinegar",
+        "1/2 teaspoon each cumin, paprika, and onion powder",
+        "1\u20132 cloves garlic, grated",
+        "1/4 teaspoon salt (more to taste)",
+        "1 cup rice",
+        "12 ounces steamed green beans",
+        "1\u20132 tablespoons toasted sesame oil to taste",
+        "1/4 cup chives and/or cilantro for topping"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dairy-Free",
+        "Dinner",
+        "Gluten-Free",
+        "Healthy",
+        "Quick and Easy",
+        "Recipes",
+        "SOS Series",
+        "Tofu",
+        "Vegan",
+        "Vegetarian"
       ]
     },
     {
@@ -13944,7 +14015,31 @@
         "Chicken salad",
         "Caesar salad",
         "Caesar salad with chicken"
-      ]
+      ],
+      "ingredients": [
+        "3 tablespoons extra-virgin olive oil",
+        "2 tablespoons chopped fresh parsley leaves",
+        "1 clove garlic, grated",
+        "Kosher salt and freshly ground black pepper, to taste",
+        "4 cups ciabatta bread cubes",
+        "3 tablespoons extra-virgin olive oil",
+        "2 tablespoons freshly squeezed lemon juice",
+        "2 teaspoons lemon zest",
+        "1 clove garlic, grated",
+        "Kosher salt and freshly ground black pepper, to taste",
+        "1 1/2 pounds boneless, skinless chicken breasts",
+        "1/4 cup mayonnaise",
+        "1/4 cup buttermilk",
+        "3 tablespoons freshly grated Parmesan",
+        "1 clove garlic, grated",
+        "1 tablespoon freshly squeezed lemon juice",
+        "1 1/2 teaspoons Dijon mustard",
+        "1/2 teaspoon Worcestershire sauce",
+        "Kosher salt and freshly ground black pepper, to taste",
+        "2 heads romaine, roughly chopped",
+        "1/4 cup freshly grated Parmesan"
+      ],
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -14224,7 +14319,27 @@
         "Butternut squash mac and cheese",
         "Butternut squash Mac and cheeseNew year\u2019s eve: Brown Butter scallops with parmesan risotto",
         "Butternut squash macaroni and cheese"
-      ]
+      ],
+      "ingredients": [
+        "1 pound frozen cubed butternut squash or fresh squash cut into 3/4-inch cubes, about 1 small squash",
+        "4 strips bacon or pancetta, cut into bite-sized pieces (optional)",
+        "1/4 cup finely chopped shallot or yellow onion",
+        "1 cup nonfat milk",
+        "1 cup low-sodium chicken broth or vegetable broth",
+        "16 ounces whole wheat pasta (chunky shape such as cavatappi, rigatoni or penne)",
+        "1 teaspoon dry mustard",
+        "3/4 teaspoon kosher salt",
+        "1/8 teaspoon ground nutmeg",
+        "1/8 teaspoon cayenne pepper",
+        "1 cup freshly shredded sharp cheddar cheese (about 4 ounces)",
+        "1/4 cup grated Parmesan cheese (about 3/4 ounce)",
+        "2/3 cup whole plain Greek yogurt",
+        "chopped fresh chives, optional, for serving",
+        "1/4 cup grated Parmesan cheese (topping)",
+        "1/4 cup Panko breadcrumbs (topping)",
+        "1 1/2 teaspoons extra-virgin olive oil (topping)"
+      ],
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -15651,6 +15766,30 @@
         "Monday: red pepper pasta with roasted cauliflower",
         "Red pepper pasta with roasted cauliflower (pinch of yum)",
         "Red pepper pasta with roasted cauliflower (sauce in freezer)"
+      ],
+      "ingredients": [
+        "2 heads of cauliflower, cut into florets",
+        "2 tablespoons olive oil + pinch of salt",
+        "3/4 cup cashews",
+        "3/4 cup water",
+        "1 teaspoon salt",
+        "1 jar (25 oz) pasta sauce",
+        "1 16\u2013ounce jar roasted red peppers, drained",
+        "1 pound whole wheat penne pasta",
+        "greens for garnishing"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Cauliflower",
+        "Dairy-Free",
+        "Fall",
+        "Pasta",
+        "Quick and Easy",
+        "Sugar Free January",
+        "Sugar-Free",
+        "Vegan",
+        "Vegetarian",
+        "Winter"
       ]
     },
     {
@@ -17059,6 +17198,42 @@
       ],
       "urls": [
         "https://pinchofyum.com/spicy-peanut-tofu-bowls"
+      ],
+      "ingredients": [
+        "2 blocks of extra firm tofu",
+        "1\u20132 tablespoons cornstarch",
+        "2 tablespoons olive oil",
+        "1 teaspoon salt",
+        "2 small (or 1 large) head of broccoli, cut into florets",
+        "2 red bell peppers, cut into strips",
+        "1 1/2 cups uncooked white rice",
+        "1/2 cup peanut butter",
+        "1/3 cup low-sodium soy sauce",
+        "2 tablespoons sesame oil (toasted or dark)",
+        "2 tablespoons rice vinegar",
+        "2 tablespoons sambal oelek or chili paste",
+        "2 tablespoons sugar, honey, or agave",
+        "1-inch piece of fresh ginger, peeled",
+        "1 clove fresh garlic, peeled",
+        "1/4 cup water"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Bowls",
+        "Dairy-Free",
+        "Dinner",
+        "Fall",
+        "Gluten-Free",
+        "Healthy",
+        "Main Dishes",
+        "Meal Prep",
+        "Peanut Butter",
+        "Quick and Easy",
+        "Recipes",
+        "Rice",
+        "Tofu",
+        "Vegan",
+        "Vegetarian"
       ]
     },
     {
@@ -17287,7 +17462,21 @@
         "Menus/Menu week of 7-8-23.md",
         "Menus/Menu week of 9-1-21.md"
       ],
-      "sections": []
+      "sections": [],
+      "ingredients": [
+        "1 batch refried beans (made with pinto or black beans)",
+        "1 pound sweet potatoes, diced into 1/2-inch cubes",
+        "1 tablespoon avocado oil (or olive oil)",
+        "2 teaspoons taco seasoning (homemade or store-bought)",
+        "fine sea salt and ground black pepper",
+        "12 small corn tortillas or flour tortillas",
+        "1 avocado, peeled, pitted and thinly sliced",
+        "toppings: chopped white or red onion, chopped fresh cilantro, lime wedges and/or lime crema"
+      ],
+      "recipe_tags": [
+        "Dinners",
+        "Mexican-Inspired"
+      ]
     },
     {
       "item_texts": [
@@ -17358,7 +17547,30 @@
         "Menus/Menu week of 8-3-23.md",
         "Menus/Menu week of 9-17-23.md"
       ],
-      "sections": []
+      "sections": [],
+      "ingredients": [
+        "16 ounces uncooked potato gnocchi",
+        "1 pint grape tomatoes",
+        "1 small zucchini, chopped",
+        "1 red bell pepper, chopped",
+        "1 yellow bell pepper, chopped",
+        "1/2 red onion, chopped",
+        "1/2 cup basil pesto, plus 2 tablespoons (divided)",
+        "1/4 cup freshly shaved parmesan cheese, for topping",
+        "Crushed red pepper flakes, optional",
+        "Fresh basil leaves, for garnish, optional"
+      ],
+      "recipe_tags": [
+        "Dinner",
+        "Easy",
+        "Sheet Pan",
+        "Main Dishes",
+        "Vegetarian",
+        "Summer",
+        "Fall",
+        "Winter",
+        "Spring"
+      ]
     },
     {
       "meal_types": [
@@ -17430,7 +17642,20 @@
       "urls": [
         "https://www.browneyedbaker.com/best-buttermilk-pancakes/"
       ],
-      "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/"
+      "url": "https://www.browneyedbaker.com/best-buttermilk-pancakes/",
+      "ingredients": [
+        "2 cups (283 g) all-purpose flour",
+        "3 tablespoons granulated sugar",
+        "1 1/2 teaspoons baking powder",
+        "1 1/2 teaspoons baking soda",
+        "1 teaspoon salt",
+        "2 1/4 cups (540 ml) buttermilk",
+        "2 eggs",
+        "3 tablespoons unsalted butter, melted and cooled slightly",
+        "1/2 teaspoon vanilla extract",
+        "1 tablespoon vegetable oil, for greasing the pan"
+      ],
+      "recipe_tags": []
     },
     {
       "meal_types": [

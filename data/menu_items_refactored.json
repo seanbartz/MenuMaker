@@ -14556,7 +14556,7 @@
         "spring"
       ],
       "count": 32,
-      "url": null,
+      "url": "https://pinchofyum.com/black-pepper-stir-fried-udon",
       "source_hints": [
         "https://pinchofyum.com/black-pepper-stir-fried-noodles",
         "Pinch of Yum",
@@ -14917,13 +14917,17 @@
         "summer"
       ],
       "count": 5,
-      "url": null,
+      "url": "https://pinchofyum.com/easy-vegan-burrito-bowls",
       "source_hints": [
         "guac in freezer",
         "peppers and onions, salsa, sour cream, black beans, rice, avocado, frozen corn"
       ],
-      "urls": [],
-      "link_texts": [],
+      "urls": [
+        "https://pinchofyum.com/easy-vegan-burrito-bowls"
+      ],
+      "link_texts": [
+        "Easy Vegan Burrito Bowls"
+      ],
       "main_protein": "unknown"
     },
     {
@@ -15708,7 +15712,7 @@
         "https://pinchofyum.com/one-pot-spanish-chicken-potatoes",
         "https://pinchofyum.com/one-pot-spanish-chicken-potatoes#recipe"
       ],
-      "url": null,
+      "url": "https://pinchofyum.com/one-pot-spanish-chicken-potatoes",
       "menu_weeks": [
         "2023-10-01",
         "2020-10-04",
@@ -16135,7 +16139,7 @@
       "meal_types": [
         "dinner"
       ],
-      "url": null,
+      "url": "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
       "urls": [
         "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/",
         "https://www.gimmesomeoven.com/gnocchi-with-brussels-sprouts-chicken-sausage-and-kale-pesto/#tasty-recipes-64011",
@@ -16264,15 +16268,19 @@
     },
     {
       "count": 4,
-      "link_texts": [],
+      "link_texts": [
+        "Quick and Easy Lentil Quesadillas"
+      ],
       "meal_types": [
         "dinner"
       ],
-      "url": null,
+      "url": "https://pinchofyum.com/quick-and-easy-lentil-quesadillas",
       "source_hints": [
         "Thursday"
       ],
-      "urls": [],
+      "urls": [
+        "https://pinchofyum.com/quick-and-easy-lentil-quesadillas"
+      ],
       "item_texts": [
         "Lentil quesadillas and magic green sauce",
         "Quick and easy lentil quesadillas and magic green sauce",
@@ -16337,15 +16345,19 @@
     },
     {
       "count": 4,
-      "link_texts": [],
+      "link_texts": [
+        "Roasted Sweet Potato Black Bean Bowls"
+      ],
       "meal_types": [
         "dinner"
       ],
-      "url": null,
+      "url": "https://www.skinnytaste.com/sweet-potato-black-bean-bowls/",
       "source_hints": [
         "Skinnytaste"
       ],
-      "urls": [],
+      "urls": [
+        "https://www.skinnytaste.com/sweet-potato-black-bean-bowls/"
+      ],
       "item_texts": [
         "Roasted sweet potato black bean bowls (Skinnytaste)",
         "Sweet potato black bean bowls",
@@ -16647,12 +16659,16 @@
       "source_hints": [
         "skinny taste"
       ],
-      "url": null,
+      "url": "https://www.skinnytaste.com/balsamic-roasted-veggie-and-white-bean-pasta/",
       "meal_types": [
         "dinner"
       ],
-      "urls": [],
-      "link_texts": [],
+      "urls": [
+        "https://www.skinnytaste.com/balsamic-roasted-veggie-and-white-bean-pasta/"
+      ],
+      "link_texts": [
+        "Balsamic Roasted Veggie and White Bean Pasta"
+      ],
       "item_texts": [
         "Balsamic roast veggie and white bean pasta",
         "Balsamic roasted veggie and white bean pasta (skinny taste)",
@@ -16833,10 +16849,14 @@
         "fall",
         "summer"
       ],
-      "url": null,
+      "url": "https://iowagirleats.com/perfect-broccoli-cheese-soup/",
       "source_hints": [],
-      "urls": [],
-      "link_texts": [],
+      "urls": [
+        "https://iowagirleats.com/perfect-broccoli-cheese-soup/"
+      ],
+      "link_texts": [
+        "Perfect Broccoli Cheddar Soup"
+      ],
       "item_texts": [
         "Broccoli cheese soup",
         "Broccoli cheese soup and grilled cheese",
@@ -17375,16 +17395,18 @@
         "summer",
         "winter"
       ],
-      "url": null,
+      "url": "https://iowagirleats.com/crispy-chicken-bacon-pesto-gnocchi-skillet/",
       "source_hints": [],
       "urls": [
         "https://damndelicious.net/2015/06/05/slow-cooker-honey-garlic-chicken-and-veggies/",
-        "https://damndelicious.net/2017/10/17/slow-cooker-creamy-garlic-chicken-and-veggies/"
+        "https://damndelicious.net/2017/10/17/slow-cooker-creamy-garlic-chicken-and-veggies/",
+        "https://iowagirleats.com/crispy-chicken-bacon-pesto-gnocchi-skillet/"
       ],
       "link_texts": [
         "Crispy chicken bacon and pesto gnocchi skillet with cherry tomatoes",
         "Slow Cooker Honey Garlic Chicken And Veggies",
-        "Slow Cooker Creamy Garlic Chicken And Veggies"
+        "Slow Cooker Creamy Garlic Chicken And Veggies",
+        "Crispy Chicken, Bacon and Pesto Gnocchi Skillet"
       ],
       "item_texts": [
         "Crispy chicken bacon and pesto gnocchi skillet with cherry tomatoes",
@@ -17551,7 +17573,7 @@
         "https://iowagirleats.com/crock-pot-white-chicken-chili-recipe/",
         "https://www.gimmesomeoven.com/poblano-white-chicken-chili/"
       ],
-      "url": null,
+      "url": "https://iowagirleats.com/crock-pot-white-chicken-chili-recipe/",
       "meal_types": [
         "dinner"
       ],
@@ -17847,7 +17869,7 @@
         "summer",
         "fall"
       ],
-      "url": null,
+      "url": "https://pinchofyum.com/ginger-chicken-meatball-sandos",
       "source_hints": [
         "Monday",
         "https://pinchofyum.com/ginger-chicken-meatball-sandos"
@@ -18133,7 +18155,7 @@
         "summer",
         "fall"
       ],
-      "url": null,
+      "url": "https://damndelicious.net/2019/05/31/instant-pot-ground-beef-and-pasta/",
       "source_hints": [
         "damn delicious",
         "Damn delicious",
@@ -18141,8 +18163,12 @@
         "double",
         "see recipe book"
       ],
-      "urls": [],
-      "link_texts": [],
+      "urls": [
+        "https://damndelicious.net/2019/05/31/instant-pot-ground-beef-and-pasta/"
+      ],
+      "link_texts": [
+        "Instant Pot Ground Beef and Pasta"
+      ],
       "item_texts": [
         "Instant pot ground beef and pasta (damn delicious)",
         "Instant Pot Ground Beef and pasta (Damn delicious)",
@@ -18179,12 +18205,16 @@
         "summer"
       ],
       "source_hints": [],
-      "url": null,
+      "url": "https://pinchofyum.com/instant-pot-italian-beef",
       "meal_types": [
         "dinner"
       ],
-      "urls": [],
-      "link_texts": [],
+      "urls": [
+        "https://pinchofyum.com/instant-pot-italian-beef"
+      ],
+      "link_texts": [
+        "Instant Pot Italian Beef Sandwiches"
+      ],
       "item_texts": [
         "Instant pot Italian Beef sandwiches",
         "Instant pot Italian beef sandwiches",
@@ -18602,7 +18632,7 @@
         "https://www.forkknifeswoon.com/quick-roasted-tomato-caprese-pasta-salad/",
         "https://pinchofyum.com/pasta-salad"
       ],
-      "url": null,
+      "url": "https://www.forkknifeswoon.com/quick-roasted-tomato-caprese-pasta-salad/",
       "meal_types": [
         "dinner",
         "lunch"
@@ -18974,12 +19004,16 @@
       "source_hints": [
         "double batch"
       ],
-      "url": null,
+      "url": "https://pinchofyum.com/spicy-thai-chicken-and-quinoa",
       "meal_types": [
         "dinner"
       ],
-      "urls": [],
-      "link_texts": [],
+      "urls": [
+        "https://pinchofyum.com/spicy-thai-chicken-and-quinoa"
+      ],
+      "link_texts": [
+        "Spicy Thai Chicken and Quinoa"
+      ],
       "item_texts": [
         "Spicy Thai chicken and quinoa",
         "Spicy Thai chicken and quinoa, bagged salad",
@@ -19165,7 +19199,7 @@
       "source_hints": [
         "https://pinchofyum.com/chicken-tacos"
       ],
-      "url": null,
+      "url": "https://pinchofyum.com/the-best-chicken-tinga-tacos",
       "meal_types": [
         "dinner"
       ],
@@ -19740,9 +19774,10 @@
         "Creamy Red Pepper Pasta Blistered Tomatoes",
         "Sheet pan meatballs with tomato salad",
         "Sheet pan meatballs with tomato salad and green sauce",
-        "Sheet Pan Meatballs With Tomato Salad And Green Sauce"
+        "Sheet Pan Meatballs With Tomato Salad And Green Sauce",
+        "Creamy Red Pepper Pasta with Blistered Tomatoes"
       ],
-      "url": null,
+      "url": "https://pinchofyum.com/creamy-red-pepper-pasta-blistered-tomatoes",
       "menu_files": [
         "Menus/Menu week of 4-20-24.md",
         "Menus/Menu week of 4-10-22.md",
@@ -19925,8 +19960,10 @@
       "meal_types": [
         "dinner"
       ],
-      "link_texts": [],
-      "url": null,
+      "link_texts": [
+        "Instant Pot Korean Beef Tacos"
+      ],
+      "url": "https://pinchofyum.com/instant-pot-korean-beef-tacos",
       "menu_files": [
         "Menus/Menu week of 1-13-22.md",
         "Menus/Menu week of 12-27-22.md",
@@ -19939,7 +19976,9 @@
         "marinade in freezer",
         "Pinch of Yum"
       ],
-      "urls": [],
+      "urls": [
+        "https://pinchofyum.com/instant-pot-korean-beef-tacos"
+      ],
       "main_protein": "unknown"
     },
     {
@@ -21119,7 +21158,7 @@
         "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
         "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/#wprm-recipe-container-33211"
       ],
-      "url": null,
+      "url": "https://www.wellplated.com/instant-pot-cauliflower-mac-and-cheese/",
       "main_protein": "unknown"
     },
     {
@@ -21273,7 +21312,7 @@
         "fall"
       ],
       "count": 9,
-      "url": null,
+      "url": "https://cookieandkate.com/vegetarian-chili-recipe/",
       "source_hints": [
         "Cookie and Kate",
         "https://cookieandkate.com/vegetarian-chili-recipe/",
@@ -21287,7 +21326,8 @@
       "link_texts": [
         "Vegetarian Chili (Cookie and Kate or Gimme Some oven)",
         "Slow Cooker Vegetarian Chili Recipe",
-        "Vegetarian Chili Recipe"
+        "Vegetarian Chili Recipe",
+        "Homemade Vegetarian Chili"
       ],
       "main_protein": "unknown"
     },

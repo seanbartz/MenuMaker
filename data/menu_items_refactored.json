@@ -439,7 +439,7 @@
         "1 medium shallot, thinly sliced",
         "1 stick butter, cut into 1/4-inch slices",
         "Kosher salt and freshly ground black pepper",
-        "1 whole turkey (10 - 15 pounds total), butterflied and brined (reserve backbone and neck if making stock for gravy, see note)",
+        "1 whole turkey (10 - 15 pounds total), butterflied and brined",
         "Gravy, for serving"
       ],
       "recipe_tags": []
@@ -676,7 +676,38 @@
         "Instant pot cauliflower curry",
         "Instant Pot Cauliflower curry"
       ],
-      "count": 5
+      "count": 5,
+      "ingredients": [
+        "half of an onion, diced",
+        "3 cloves garlic, minced",
+        "2 cups cauliflower, cut into florets",
+        "2 cups squash, cut into cubes",
+        "1/2 cup red lentils",
+        "2 tablespoons red curry paste",
+        "1 teaspoon turmeric (optional)",
+        "1 14\u2013ounce can diced tomatoes",
+        "1 can coconut milk",
+        "1 cup water",
+        "1 1/2 teaspoons kosher salt"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Cauliflower",
+        "Dairy-Free",
+        "Dinner",
+        "Fall",
+        "Instant Pot",
+        "Legume",
+        "Main Dishes",
+        "Most Popular",
+        "Quick and Easy",
+        "Recipes",
+        "Rice",
+        "Sugar-Free",
+        "Tomato",
+        "Vegan",
+        "Vegetarian"
+      ]
     },
     {
       "url": "https://www.howsweeteats.com/2021/03/asparagus-pasta-salad/",
@@ -713,7 +744,31 @@
         "Spring pasta salad with honey mustard dressing",
         "Asparagus pasta salad with honey mustard dressing"
       ],
-      "count": 5
+      "count": 5,
+      "ingredients": [
+        "1 pound pasta, cooked",
+        "kosher salt and pepper",
+        "1 pound asparagus, woody stems removed and cut into thirds",
+        "1 pint cherry tomatoes, quartered",
+        "4 green onions, thinly sliced",
+        "8 ounces white cheddar or fontina cheese, cubed",
+        "1/4 cup chopped fresh herbs, like basil and parsley",
+        "1/4 cup apple cider vinegar",
+        "2 tablespoons honey",
+        "2 tablespoons dijon mustard",
+        "2 garlic cloves, finely minced or pressed",
+        "kosher salt and pepper",
+        "1/2 cup extra virgin olive oil"
+      ],
+      "recipe_tags": [
+        "Pasta",
+        "Recipes",
+        "Salads",
+        "Side Dishes",
+        "Spring",
+        "Summer",
+        "Vegetarian"
+      ]
     },
     {
       "url": "https://www.wellplated.com/instant-pot-butter-chicken/",
@@ -751,7 +806,26 @@
         "Instant pot butter chicken",
         "Instant Pot butter chicken"
       ],
-      "count": 5
+      "count": 5,
+      "ingredients": [
+        "1 tablespoon coconut oil",
+        "1 small yellow onion diced (about 1 cup)",
+        "4 cloves minced garlic about 4 teaspoons",
+        "1 tablespoon minced fresh ginger",
+        "1 1/2 tablespoons curry powder",
+        "2 teaspoons garam masala",
+        "1 teaspoon chili powder",
+        "3/4 teaspoon kosher salt",
+        "Splash of water or low sodium chicken broth",
+        "1 (28-ounce) can tomato sauce",
+        "1 small cauliflower or 1/2 large head, cut into florets (about 4 1/2 cups)",
+        "2 pounds boneless, skinless chicken breasts",
+        "2 tablespoons unsalted butter cut into small pieces",
+        "1/2 cup half-and-half or full-fat coconut milk",
+        "1/2 cup plain nonfat Greek yogurt or non-dairy yogurt",
+        "Prepared brown rice or turmeric rice, quinoa, or homemade naan, for serving",
+        "Chopped fresh cilantro for serving"
+      ]
     },
     {
       "url": "https://iowagirleats.com/broccoli-beef-recipe/",
@@ -789,7 +863,28 @@
         "Lighter Broccoli Beef",
         "Lighter broccoli beef"
       ],
-      "count": 4
+      "count": 4,
+      "ingredients": [
+        "1-1/4 lb flank or sirloin steak, cut very thin against the grain",
+        "1/2 cup + 2 Tablespoons reduced-sodium gluten free Tamari, divided, or soy sauce if not GF",
+        "2-1/2 Tablespoons gluten free flour OR cornstarch, divided",
+        "3/4 cup gluten free low-sodium chicken broth",
+        "1/4 cup brown sugar",
+        "1 Tablespoon rice vinegar",
+        "1 teaspoon sesame oil",
+        "3 cloves garlic, minced",
+        "1/2 teaspoon ground ginger OR 1 teaspoon ginger paste",
+        "1/4 teaspoon red chili pepper flakes, or more or less",
+        "1/4 cup + 2 Tablespoons water, divided",
+        "4 cups broccoli florets",
+        "2 Tablespoon vegetable oil, divided",
+        "cooked rice, for serving"
+      ],
+      "recipe_tags": [
+        "Gluten Free",
+        "Dairy Free",
+        "Egg Free"
+      ]
     },
     {
       "url": "https://pinchofyum.com/gnocchi-with-creamy-mushroom-sauce",
@@ -13504,7 +13599,22 @@
         "spring",
         "summer"
       ],
-      "sections": []
+      "sections": [],
+      "ingredients": [
+        "1 pound baby potatoes, halved",
+        "4 tablespoons extra virgin olive oil",
+        "kosher salt and black pepper",
+        "1 \u2013 1 1/2 pounds salmon filet",
+        "2 tablespoons cajun seasoning",
+        "1 tablespoon lemon zest plus 2 tablespoons lemon juice",
+        "2 teaspoons red wine vinegar",
+        "1 cup arugula",
+        "1/2 cup fresh basil leaves, roughly torn",
+        "1/4 cup fresh dill, roughly torn",
+        "1 bunch asparagus, ends trimmed",
+        "1/2 cup grated parmesan",
+        "4 tablespoons salted butter"
+      ]
     },
     {
       "meal_types": [
@@ -14664,11 +14774,11 @@
       ],
       "ingredients": [
         "1 pound frozen cubed butternut squash or fresh squash cut into 3/4-inch cubes, about 1 small squash",
-        "4 strips bacon or pancetta, cut into bite-sized pieces, optional",
+        "4 strips bacon or pancetta* cut into bite-sized pieces, optional",
         "1/4 cup finely chopped shallot or yellow onion",
         "1 cup nonfat milk",
         "1 cup low-sodium chicken broth or vegetable broth",
-        "16 ounces whole wheat pasta, use any chunky shape, such as cavatappi (pictured), rigatoni or penne",
+        "16 ounces whole wheat pasta use any chunky shape, such as cavatappi (pictured), rigatoni or penne",
         "1 teaspoon dry mustard",
         "3/4 teaspoon kosher salt",
         "1/8 teaspoon ground nutmeg",
@@ -14742,7 +14852,7 @@
         "3 cups low-sodium chicken broth",
         "4 to 8 ounces cream cheese, light or regular (depending on how creamy you want it), cubed",
         "1/2 cup freshly grated Parmesan cheese plus more for serving, if desired",
-        "1 1/2 pound refrigerated tortellini (see note)"
+        "1 1/2 pound refrigerated tortellini"
       ],
       "recipe_tags": []
     },
@@ -15201,6 +15311,33 @@
         "Everything Greek Pork pitas (pinch of yum)",
         "Everything Greek pork pitas, cucumber and tomato salad",
         "Greek pork pitas (and tzatziki)"
+      ],
+      "ingredients": [
+        "3 pounds pork shoulder, fat trimmed",
+        "1 onion, chopped",
+        "3 cloves garlic, minced",
+        "1 tablespoon oregano",
+        "1 teaspoon salt",
+        "1 teaspoon onion powder",
+        "1 teaspoon black pepper",
+        "pitas",
+        "tzatziki",
+        "toppings of choice! like lettuce, tomatoes, red onion, feta, lemon, etc."
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dairy-Free",
+        "Dinner",
+        "Feeding a Broken Heart",
+        "Instant Pot",
+        "Main Dishes",
+        "Meat and Chicken",
+        "Quick and Easy",
+        "Sandwiches",
+        "Slow Cooker",
+        "Spring",
+        "Sugar-Free",
+        "Tomato"
       ]
     },
     {
@@ -16720,7 +16857,19 @@
         "7 small-med corn tortillas",
         "queso fresco or mozzarella"
       ],
-      "recipe_tags": []
+      "recipe_tags": [
+        "avocado",
+        "dinner",
+        "gluten free",
+        "mexican",
+        "salsa verde",
+        "spicy",
+        "taco",
+        "tomatillos",
+        "tortillas",
+        "vegetarian",
+        "tacos"
+      ]
     },
     {
       "menu_weeks": [
@@ -17407,9 +17556,9 @@
         "https://www.gimmesomeoven.com/easy-pepper-steak-recipe/#tasty-recipes-65683"
       ],
       "ingredients": [
-        "3 whole jalape\u00f1o chiles, roughly chopped (see notes)",
-        "1 tablespoon aj\u00ed amarillo pepper paste (see notes)",
-        "1 cup fresh cilantro leaves (1 ounce; 28 g)",
+        "3 whole jalape\u00f1o chiles, roughly chopped",
+        "1 tablespoon aj\u00ed amarillo pepper paste",
+        "1 cup fresh cilantro leaves",
         "2 medium cloves garlic",
         "1/2 cup mayonnaise",
         "1/4 cup sour cream",
@@ -17417,12 +17566,12 @@
         "1 teaspoon distilled white vinegar",
         "2 tablespoons extra-virgin olive oil",
         "Kosher salt and freshly ground black pepper",
-        "1 whole chicken, 3 1/2 to 4 pounds (1.6 to 1.8 kg)",
+        "1 whole chicken, 3 1/2 to 4 pounds",
         "4 teaspoons kosher salt",
         "2 tablespoons ground cumin",
         "2 tablespoons paprika",
         "1 teaspoon freshly ground black pepper",
-        "3 medium cloves garlic, minced (about 1 tablespoon)",
+        "3 medium cloves garlic, minced",
         "2 tablespoons white vinegar",
         "2 tablespoons vegetable or canola oil"
       ],

@@ -127,7 +127,33 @@
         "Chicken with coconut spinach (add red pepper)",
         "Chicken with Coconut Kale add some bell pepper"
       ],
-      "count": 8
+      "count": 8,
+      "ingredients": [
+        "1 lb. boneless skinless chicken breasts, cut or pounded into thin pieces",
+        "2\u20133 tablespoons all-purpose chicken seasoning (I use the McCormick Rotisserie Chicken Seasoning)",
+        "1 1/2 tablespoons avocado oil (divided)",
+        "1 shallot, thinly sliced",
+        "2\u20133 cups finely shredded curly kale, stems removed (about 3-4 stalks)",
+        "1 tablespoon yellow curry paste (see notes for subs)",
+        "1 can full-fat coconut milk",
+        "1 tablespoon soy sauce",
+        "1 tablespoon brown sugar",
+        "rice (optional, for serving)",
+        "chili crisp or cilantro for garnish (optional)"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dairy-Free",
+        "Dinner",
+        "Gluten-Free",
+        "Kale",
+        "Main Dishes",
+        "Meat and Chicken",
+        "Quick and Easy",
+        "Recipes",
+        "SOS Series",
+        "Stovetop"
+      ]
     },
     {
       "url": "https://pinchofyum.com/15-minute-meal-prep-egg-roll-in-a-bowl",
@@ -174,7 +200,32 @@
         "egg roll in a bowl",
         "15 min Egg roll in a bowl"
       ],
-      "count": 7
+      "count": 7,
+      "ingredients": [
+        "1 tablespoon olive oil",
+        "3 cloves garlic, minced",
+        "1 knob of ginger, grated",
+        "1 teaspoon Chinese five-spice",
+        "2 tablespoons soy sauce",
+        "chili paste to taste",
+        "1 pound ground pork",
+        "5\u20136 cups shredded cabbage or coleslaw mix",
+        "3 large carrots, diagonally sliced",
+        "Rice and green onions for serving"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Bowls",
+        "Dairy-Free",
+        "Healthy",
+        "Kid-Friendly",
+        "Lunch",
+        "Meal Prep",
+        "Recipes",
+        "Rice",
+        "Sugar-Free",
+        "Winter"
+      ]
     },
     {
       "url": "https://pinchofyum.com/spaghetti-with-crispy-zucchini",
@@ -224,7 +275,35 @@
         "Spaghetti with crispy zucchini (Pinch of Yum) or zucchini and squash can be grilled with steaks, add potatoes if do steaks",
         "Spaghetti with crispy zucchini (Pinch of Yum)"
       ],
-      "count": 7
+      "count": 7,
+      "ingredients": [
+        "1/2 pound of uncooked spaghetti",
+        "one 24-oz. jar of your favorite store-bought spaghetti sauce (I usually use about 2/3rds of a jar)",
+        "1 zucchini, cut into 1/4 inch-thick rounds (about 2\u20133 cups)",
+        "1 egg",
+        "1 cup panko breadcrumbs",
+        "1/2 cup grated Parmesan cheese (optional)",
+        "1 tablespoon lemon zest (optional)",
+        "1 teaspoon salt and pepper to taste",
+        "1 teaspoon Italian seasoning",
+        "1/2 teaspoon garlic powder",
+        "1/2 cup of some kind of cheese \u2013 I like shredded mozzarella and provolone, but fresh mozzarella slices are great and goat cheese is also amazing",
+        "1/4 cup fresh basil leaves for topping"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dinner",
+        "Kid-Friendly",
+        "Main Dishes",
+        "Pasta",
+        "Quick and Easy",
+        "Recipes",
+        "SOS Series",
+        "Stovetop",
+        "Summer",
+        "Vegetarian",
+        "Zucchini"
+      ]
     },
     {
       "url": "https://cookieandkate.com/vegetarian-italian-chopped-salad-recipe/",
@@ -12051,6 +12130,29 @@
       "link_texts": [
         "5 ingredient tomato soup (Pinch of Yum)",
         "5 Ingredient Tomato Soup"
+      ],
+      "ingredients": [
+        "two 28-ounce cans San Marzano tomatoes (whole or crushed will work \u2013 I usually use whole tomatoes, and we use the DeLallo brand!)",
+        "1 stick (8 tablespoons) salted butter",
+        "1 yellow onion, peel removed and cut into 4 chunks",
+        "3\u20134 cloves smashed garlic (optional)",
+        "1 1/2 teaspoons salt"
+      ],
+      "recipe_tags": [
+        "5 Ingredients",
+        "All Recipes",
+        "Dinner",
+        "Dutch Oven",
+        "Instant Pot",
+        "Kid-Friendly",
+        "Lunch",
+        "Quick and Easy",
+        "Recipes",
+        "SOS Series",
+        "Soups",
+        "Stovetop",
+        "Tomato",
+        "Vegetarian"
       ]
     },
     {
@@ -12178,6 +12280,34 @@
         "BBQ Jackfruit Sandwiches Recipe (Pinch of Yum)",
         "BBQ Jackfruit Sandwiches Recipe - Pinch of Yum",
         "Bbq Jackfruit Sandwiches"
+      ],
+      "ingredients": [
+        "1/4 cup olive oil",
+        "14-ounce can young jackfruit in brine, drained and rinsed",
+        "1/2 cup canned chickpeas, drained and rinsed",
+        "2 cloves garlic",
+        "1 tablespoon brown sugar",
+        "several good shakes of paprika, chili powder, and onion powder",
+        "a pinch of salt",
+        "1/4 cup barbecue sauce",
+        "ideally, a pre-made slaw bag mix!",
+        "otherwise: thinly sliced cabbage + mayo, lemon juice or vinegar, sugar and salt",
+        "toasted buns (I like brioche buns)",
+        "any other toppings you like \u2013 I\u2019d recommend avocado, pepperoncini, pickles, hot sauce, etc."
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dinner",
+        "Gluten-Free",
+        "Lunch",
+        "Main Dishes",
+        "Quick and Easy",
+        "Sandwiches",
+        "SOS Series",
+        "Spring",
+        "Stovetop",
+        "Vegan",
+        "Vegetarian"
       ]
     },
     {
@@ -12707,7 +12837,42 @@
         "summer",
         "fall"
       ],
-      "sections": []
+      "sections": [],
+      "ingredients": [
+        "1\u20132 lbs. fresh salmon",
+        "2 tablespoons brown sugar",
+        "2 teaspoons smoked paprika",
+        "2 teaspoons onion powder",
+        "1 teaspoon garlic powder",
+        "1/2 teaspoon chili powder",
+        "1/2 teaspoon kosher salt (more for a larger filet)",
+        "2 tablespoons olive oil",
+        "2 mangoes, diced",
+        "1 avocado, diced",
+        "1/4 cup minced cilantro",
+        "1/4 cup minced red onion",
+        "1/2 jalape\u00f1o, minced (optional, to taste)",
+        "1 teaspoon honey",
+        "2 tablespoons lime juice + 1 teaspoon lime zest",
+        "salt to taste",
+        "1 1/2 cups of rice"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Avocado",
+        "Bowls",
+        "Dairy-Free",
+        "Dinner",
+        "Fish and Seafood",
+        "Healthy",
+        "Lime",
+        "Main Dishes",
+        "Most Popular",
+        "Recipes",
+        "Rice",
+        "Salmon",
+        "Summer"
+      ]
     },
     {
       "meal_types": [
@@ -16226,6 +16391,40 @@
         "Curried tomato tortellini soup (Vegetarian)",
         "Tortellini soup and grilled cheese?",
         "Ang\u2019s Creamy Tortellini soup"
+      ],
+      "ingredients": [
+        "1 lb. ground mild Italian sausage",
+        "1 small yellow onion, diced",
+        "2 celery stalks, diced",
+        "2 large carrots, peeled and diced",
+        "3 garlic cloves, minced",
+        "1 teaspoon kosher sea salt",
+        "1/2 teaspoon ground black pepper",
+        "1/2 teaspoon Italian seasoning",
+        "1 teaspoon fennel seed, crushed or chopped",
+        "one 6-oz. can tomato paste",
+        "1/2 cup dry white wine",
+        "1/2 cup all-purpose flour",
+        "6\u20137 cups chicken broth",
+        "14 oz. refrigerated cheese tortellini",
+        "2 cups half and half or heavy cream",
+        "1 handful chopped fresh spinach",
+        "Parmesan and fresh parsley for serving"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Carrot",
+        "Dinner",
+        "Dutch Oven",
+        "Kid-Friendly",
+        "Main Dishes",
+        "Meat and Chicken",
+        "Pasta",
+        "Recipes",
+        "Soups",
+        "Spinach",
+        "Tomato",
+        "Winter"
       ]
     },
     {
@@ -16403,6 +16602,37 @@
         "Salmon Burgers with Slaw",
         "Saturday: salmon burgers with slaw",
         "salmon burgers"
+      ],
+      "ingredients": [
+        "12\u201314 ounces cooked salmon (canned is great! \u2013 see notes)",
+        "2 eggs",
+        "1/2 cup breadcrumbs",
+        "1 teaspoon salt",
+        "1/2 teaspoon garlic powder",
+        "1/4 cup chopped fresh herbs, like chives, parsley, or dill",
+        "a squeeze of lemon juice",
+        "olive oil for pan-frying",
+        "1 head green cabbage, finely shredded",
+        "1 cup plain Greek yogurt",
+        "2\u20133 tablespoons white distilled vinegar (more to taste)",
+        "1 teaspoon salt",
+        "1/2 teaspoon garlic powder",
+        "1/2 cup chopped fresh herbs like chives, parsley, and dill",
+        "a drizzle of olive oil"
+      ],
+      "recipe_tags": [
+        "5 Ingredients",
+        "All Recipes",
+        "Fish and Seafood",
+        "Healthy",
+        "Kid-Friendly",
+        "Most Popular",
+        "Quick and Easy",
+        "Recipes",
+        "Salmon",
+        "Sugar Free January",
+        "Sugar-Free",
+        "Winter"
       ]
     },
     {
@@ -16625,7 +16855,26 @@
       "urls": [
         "https://www.halfbakedharvest.com/sage-lemon-butter-chicken-piccata/"
       ],
-      "count": 8
+      "count": 8,
+      "ingredients": [
+        "4 chicken cutlets, or 2 boneless chicken breasts, sliced in half horizontally",
+        "kosher salt and black pepper",
+        "1/3 cup all-purpose flour (can use GF flour too)",
+        "1/4 cup grated parmesan",
+        "3 tablespoons extra virgin olive oil",
+        "1/2 cup dry white wine, such as Pinot Grigio or Sauvignon Blanc",
+        "1/3 cup fresh lemon juice + 1 addition lemon, sliced",
+        "12 fresh sage leaves",
+        "4 tablespoons salted butter",
+        "1 1/2 cups cherry tomatoes",
+        "2 tablespoons fresh thyme leaves",
+        "2 tablespoons capers",
+        "1 large head cauliflower, cut into florets",
+        "3 cloves garlic, smashed",
+        "2-3 ounces cream cheese, at room temperature",
+        "4 tablespoons salted butter"
+      ],
+      "recipe_tags": []
     },
     {
       "menu_seasons": [

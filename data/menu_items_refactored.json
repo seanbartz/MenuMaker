@@ -15124,7 +15124,7 @@
         "https://pinchofyum.com/buffalo-chicken-burgers-with-whipped-feta-spread",
         "https://pinchofyum.com/buffalo-chicken-burgers-with-whipped-feta-spread?"
       ],
-      "url": null,
+      "url": "https://pinchofyum.com/buffalo-chicken-burgers-with-whipped-feta-spread",
       "menu_weeks": [
         "2025-09-21",
         "2025-07-27",
@@ -15147,7 +15147,8 @@
       ],
       "link_texts": [
         "Buffalo Chicken Burgers With Whipped Feta Spread",
-        "Buffalo Chicken Burgers with Whipped Feta Spread Recipe - Pinch of Yum"
+        "Buffalo Chicken Burgers with Whipped Feta Spread Recipe - Pinch of Yum",
+        "Buffalo Chicken Burgers with Whipped Feta Spread"
       ],
       "menu_seasons": [
         "fall",
@@ -15155,7 +15156,33 @@
         "spring"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1 lb. ground chicken",
+        "1/2 cup panko breadcrumbs",
+        "1/3 cup hot sauce (I used Frank\u2019s Red Hot)",
+        "1/2 teaspoon garlic powder",
+        "1/2 teaspoon salt",
+        "6 ounces feta cheese (block or crumbles)",
+        "4 ounces cream cheese",
+        "1/4 cup Greek yogurt",
+        "2 tablespoons olive oil",
+        "2 tablespoons water",
+        "2 tablespoons melted butter + 2 tablespoons hot sauce for brushing",
+        "Buns",
+        "Lettuce"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dinner",
+        "Kid-Friendly",
+        "Meat and Chicken",
+        "Quick and Easy",
+        "Recipes",
+        "Sandwiches",
+        "SOS Series",
+        "Stovetop"
+      ]
     },
     {
       "meal_types": [
@@ -19189,17 +19216,47 @@
         "winter",
         "spring"
       ],
-      "url": null,
+      "url": "https://pinchofyum.com/saucy-gochujang-noodles-with-chicken",
       "source_hints": [],
-      "urls": [],
-      "link_texts": [],
+      "urls": [
+        "https://pinchofyum.com/saucy-gochujang-noodles-with-chicken"
+      ],
+      "link_texts": [
+        "Saucy Gochujang Noodles with Chicken"
+      ],
       "item_texts": [
         "Saucy gochujang noodles",
         "Saucy gochujang noodles with chicken",
         "Ratatouille and crusty bread",
         "Saturday breakfast: avocado toast with over-easy eggs and bacon"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "2 tablespoons avocado oil",
+        "1 lb. ground chicken",
+        "1/2 teaspoon salt",
+        "1/2 cup gochujang",
+        "2 tablespoons soy sauce",
+        "1 tablespoon brown sugar",
+        "2 tablespoons rice vinegar",
+        "1 tablespoon sesame oil",
+        "2\u20133 cups chicken broth",
+        "8 ounces noodles",
+        "1/2 cup full fat coconut milk",
+        "2\u20133 cups baby spinach"
+      ],
+      "recipe_tags": [
+        "All Recipes",
+        "Dinner",
+        "Dairy-Free",
+        "Main Dishes",
+        "Meat and Chicken",
+        "Quick and Easy",
+        "Recipes",
+        "Stovetop",
+        "Sugar-Free",
+        "Winter"
+      ]
     },
     {
       "menu_weeks": [
@@ -20479,8 +20536,10 @@
       "meal_types": [
         "dinner"
       ],
-      "link_texts": [],
-      "url": null,
+      "link_texts": [
+        "Panzanella with Marinated Chickpeas and Chimichurri"
+      ],
+      "url": "https://www.howsweeteats.com/2016/05/panzanella-with-marinated-chickpeas-and-chimichurri/",
       "source_hints": [
         "again"
       ],
@@ -20491,9 +20550,46 @@
         "Menus/Menu week of 5-1-21.md",
         "Menus/Menu week of 5-18-22.md"
       ],
-      "urls": [],
+      "urls": [
+        "https://www.howsweeteats.com/2016/05/panzanella-with-marinated-chickpeas-and-chimichurri/"
+      ],
       "count": 6,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1 (15 ounce) can chickpeas, drained and rinsed",
+        "3 tablespoons olive oil",
+        "2 tablespoon red wine vinegar",
+        "2 tablespoons chopped fresh basil",
+        "2 teaspoons honey",
+        "2 garlic cloves, minced",
+        "1/4 teaspoon dried oregano",
+        "1/4 teaspoon salt",
+        "1/4 teaspoon pepper",
+        "1/4 teaspoon crushed red pepper flakes",
+        "1 cup fresh cilantro",
+        "2/3 cup fresh parsley",
+        "1/4 cup fresh oregano",
+        "2 garlic cloves, minced",
+        "1/4 cup red wine vinegar",
+        "2/3 cup olive oil",
+        "1/2 teaspoon salt",
+        "1/2 teaspoon pepper",
+        "1/4 teaspoon crushed red pepper flakes",
+        "2 cups thick italian bread cubes",
+        "3 cups torn butter lettuce",
+        "1 pint cherry tomatoes, halved or quartered",
+        "4 ounces feta cheese, crumbled"
+      ],
+      "recipe_tags": [
+        "4th of July",
+        "Beans",
+        "Memorial Day",
+        "Recipes",
+        "Salads",
+        "Summer",
+        "Vegetarian",
+        "Weeknight Meals"
+      ]
     },
     {
       "menu_seasons": [

@@ -420,8 +420,7 @@
         "fall",
         "winter",
         "spring",
-        "summer",
-        "unknown"
+        "summer"
       ],
       "meal_types": [
         "dinner"
@@ -461,7 +460,6 @@
       "menu_seasons": [
         "winter",
         "spring",
-        "unknown",
         "summer"
       ],
       "meal_types": [
@@ -580,8 +578,7 @@
       ],
       "menu_seasons": [
         "spring",
-        "summer",
-        "unknown"
+        "summer"
       ],
       "meal_types": [
         "dinner"
@@ -809,8 +806,7 @@
       ],
       "menu_seasons": [
         "winter",
-        "spring",
-        "unknown"
+        "spring"
       ],
       "meal_types": [
         "dinner"
@@ -869,8 +865,7 @@
         "2019-11-28"
       ],
       "menu_seasons": [
-        "fall",
-        "unknown"
+        "fall"
       ],
       "meal_types": [
         "dinner"
@@ -896,8 +891,7 @@
         "2019-11-28"
       ],
       "menu_seasons": [
-        "fall",
-        "unknown"
+        "fall"
       ],
       "meal_types": [
         "dinner"
@@ -963,8 +957,7 @@
       ],
       "menu_seasons": [
         "summer",
-        "fall",
-        "unknown"
+        "fall"
       ],
       "meal_types": [
         "dinner"
@@ -11690,7 +11683,6 @@
         "fall",
         "spring",
         "summer",
-        "unknown",
         "winter"
       ],
       "source_hints": [
@@ -12439,8 +12431,7 @@
         "summer",
         "winter",
         "fall",
-        "spring",
-        "unknown"
+        "spring"
       ],
       "count": 32,
       "url": null,
@@ -12566,8 +12557,7 @@
       ],
       "sections": [],
       "menu_seasons": [
-        "winter",
-        "unknown"
+        "winter"
       ],
       "count": 3,
       "url": null,
@@ -13694,7 +13684,6 @@
       ],
       "menu_seasons": [
         "winter",
-        "unknown",
         "spring",
         "fall",
         "summer"
@@ -13817,7 +13806,6 @@
         "2021-02-06"
       ],
       "menu_seasons": [
-        "unknown",
         "winter"
       ],
       "sections": []
@@ -14021,8 +14009,7 @@
         "Menus/Sean Bachelor.md"
       ],
       "menu_seasons": [
-        "spring",
-        "unknown"
+        "spring"
       ],
       "source_hints": [],
       "link_texts": [],
@@ -14158,8 +14145,7 @@
         "winter",
         "fall",
         "spring",
-        "summer",
-        "unknown"
+        "summer"
       ],
       "source_hints": [],
       "url": "https://damndelicious.net/2023/04/21/best-chicken-caesar-salad-with-homemade-croutons/",
@@ -14282,7 +14268,6 @@
       "count": 4,
       "menu_seasons": [
         "fall",
-        "unknown",
         "summer"
       ],
       "url": null,
@@ -14460,8 +14445,7 @@
       "count": 15,
       "menu_seasons": [
         "winter",
-        "fall",
-        "unknown"
+        "fall"
       ],
       "source_hints": [
         "Pinch of Yum"
@@ -15016,8 +15000,7 @@
       ],
       "count": 3,
       "menu_seasons": [
-        "winter",
-        "unknown"
+        "winter"
       ],
       "source_hints": [],
       "url": null,
@@ -15212,8 +15195,7 @@
       "count": 3,
       "menu_seasons": [
         "fall",
-        "winter",
-        "unknown"
+        "winter"
       ],
       "source_hints": [],
       "url": null,
@@ -15280,8 +15262,7 @@
       "count": 3,
       "menu_seasons": [
         "fall",
-        "spring",
-        "unknown"
+        "spring"
       ],
       "source_hints": [
         "carrots, cucumbers, celery"
@@ -15715,8 +15696,7 @@
       ],
       "count": 2,
       "menu_seasons": [
-        "winter",
-        "unknown"
+        "winter"
       ],
       "source_hints": [],
       "url": null,
@@ -15755,7 +15735,6 @@
       ],
       "count": 9,
       "menu_seasons": [
-        "unknown",
         "fall",
         "summer"
       ],
@@ -15896,8 +15875,7 @@
       "menu_seasons": [
         "winter",
         "spring",
-        "summer",
-        "unknown"
+        "summer"
       ],
       "source_hints": [
         "https://pinchofyum.com/red-pepper-cashew-pasta",
@@ -16524,8 +16502,7 @@
         "winter",
         "spring",
         "summer",
-        "fall",
-        "unknown"
+        "fall"
       ],
       "source_hints": [],
       "url": "https://www.cookincanuck.com/whole-wheat-pasta-salad-recipe-with-salmon-tomatoes-herb-dressing-for-a-half-marathon/",
@@ -16808,7 +16785,6 @@
       "menu_seasons": [
         "winter",
         "spring",
-        "unknown",
         "summer"
       ],
       "menu_weeks": [
@@ -17432,7 +17408,6 @@
         "dinner"
       ],
       "menu_seasons": [
-        "unknown",
         "winter",
         "fall",
         "spring",
@@ -17673,7 +17648,6 @@
         "2021-09-01"
       ],
       "menu_seasons": [
-        "unknown",
         "fall",
         "winter",
         "spring",
@@ -17861,7 +17835,6 @@
         "fall",
         "spring",
         "summer",
-        "unknown",
         "winter"
       ],
       "menu_weeks": [

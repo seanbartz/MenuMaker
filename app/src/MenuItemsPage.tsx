@@ -35,23 +35,37 @@ interface MenuItemsPageProps {
 export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [proteinFilter, setProteinFilter] = useState('all')
+  const [searchQuery, setSearchQuery] = useState('')
 
   function normalizeProtein(value?: string) {
     return (value ?? 'unknown').trim().toLowerCase()
   }
 
   const sortedItems = useMemo(() => {
-    const filtered =
-      proteinFilter === 'all'
-        ? items
-        : items.filter((item) => normalizeProtein(item.main_protein) === proteinFilter)
+    const normalizedQuery = searchQuery.trim().toLowerCase()
+    const filtered = items.filter((item) => {
+      if (proteinFilter !== 'all') {
+        if (normalizeProtein(item.main_protein) !== proteinFilter) return false
+      }
+      if (!normalizedQuery) return true
+      const haystack = [
+        item.link_texts?.[0],
+        item.item_texts?.[0],
+        ...(item.link_texts ?? []),
+        ...(item.item_texts ?? []),
+      ]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase()
+      return haystack.includes(normalizedQuery)
+    })
     return [...filtered].sort((a, b) => {
       if (a.count !== b.count) return b.count - a.count
       return (a.link_texts[0] ?? a.item_texts[0] ?? '').localeCompare(
         b.link_texts[0] ?? b.item_texts[0] ?? ''
       )
     })
-  }, [items, proteinFilter])
+  }, [items, proteinFilter, searchQuery])
 
   const proteinOptions = useMemo(() => {
     const counts = new Map<string, number>()
@@ -68,6 +82,11 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
 
   function handleFilterChange(value: string) {
     setProteinFilter(value)
+    setSelectedIndex(0)
+  }
+
+  function handleSearchChange(value: string) {
+    setSearchQuery(value)
     setSelectedIndex(0)
   }
 
@@ -95,6 +114,15 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
                 </option>
               ))}
             </select>
+          </label>
+          <label className="filter-control">
+            <span>Search items</span>
+            <input
+              type="search"
+              placeholder="Type to filter..."
+              value={searchQuery}
+              onChange={(event) => handleSearchChange(event.target.value)}
+            />
           </label>
           <div className="meta-card">
             <span>Total Items</span>

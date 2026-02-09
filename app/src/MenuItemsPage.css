@@ -41,6 +41,16 @@
   font-size: 0.9rem;
 }
 
+.filter-control input[type='search'] {
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card-strong);
+  color: var(--ink);
+  padding: 0.5rem 0.9rem;
+  font-size: 0.9rem;
+  min-width: 220px;
+}
+
 .items-main {
   display: grid;
   grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);

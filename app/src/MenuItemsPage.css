@@ -53,7 +53,7 @@
 
 .items-main {
   display: grid;
-  grid-template-columns: minmax(260px, 360px) minmax(0, 1fr) minmax(240px, 320px);
+  grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
   gap: 2rem;
   align-items: start;
 }
@@ -138,13 +138,6 @@
   margin-bottom: 2rem;
 }
 
-.detail-stats {
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-  align-items: flex-end;
-}
-
 .detail-header h2 {
   font-size: clamp(1.7rem, 2.2vw, 2.3rem);
 }
@@ -195,84 +188,6 @@
   margin-bottom: 0.35rem;
 }
 
-.primary-button {
-  border: none;
-  border-radius: 999px;
-  padding: 0.5rem 0.9rem;
-  background: var(--accent-2);
-  color: #fff;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.ghost-button {
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 0.4rem 0.8rem;
-  background: transparent;
-  color: var(--accent-2);
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.menu-builder {
-  background: var(--card-strong);
-  border-radius: 24px;
-  padding: 1.5rem;
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow);
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  min-height: 520px;
-}
-
-.builder-header {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: flex-start;
-}
-
-.builder-header h2 {
-  margin: 0;
-}
-
-.builder-header p {
-  margin: 0.25rem 0 0;
-  color: var(--muted);
-  font-size: 0.85rem;
-}
-
-.builder-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: 0.6rem;
-}
-
-.builder-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 0.75rem;
-  align-items: center;
-  padding: 0.65rem 0.85rem;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.7);
-}
-
-.builder-empty {
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-.builder-actions {
-  display: grid;
-  gap: 0.6rem;
-  margin-top: auto;
-}
-
 .back-button {
   background: none;
   border: none;
@@ -291,9 +206,5 @@
 @media (max-width: 960px) {
   .items-main {
     grid-template-columns: 1fr;
-  }
-
-  .detail-stats {
-    align-items: flex-start;
   }
 }

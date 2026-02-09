@@ -41,7 +41,6 @@ export default function MenuItemsPage({
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [proteinFilter, setProteinFilter] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
-  const [menuSelections, setMenuSelections] = useState<RefactoredMenuItem[]>([])
 
   function normalizeProtein(value?: string) {
     return (value ?? 'unknown').trim().toLowerCase()
@@ -85,7 +84,6 @@ export default function MenuItemsPage({
   }, [items])
 
   const selectedItem = sortedItems[selectedIndex] ?? null
-  const selectedTitle = selectedItem?.link_texts?.[0] ?? selectedItem?.item_texts?.[0]
 
   function handleFilterChange(value: string) {
     setProteinFilter(value)
@@ -95,69 +93,6 @@ export default function MenuItemsPage({
   function handleSearchChange(value: string) {
     setSearchQuery(value)
     setSelectedIndex(0)
-  }
-
-  function handleAddToMenu() {
-    if (!selectedItem) return
-    setMenuSelections((prev) => [...prev, selectedItem])
-  }
-
-  function handleRemoveFromMenu(index: number) {
-    setMenuSelections((prev) => prev.filter((_, i) => i !== index))
-  }
-
-  function handleClearMenu() {
-    setMenuSelections([])
-  }
-
-  function formatDateStamp(date = new Date()) {
-    const formatted = date.toLocaleDateString('en-US', {
-      month: 'long',
-      day: 'numeric',
-      year: 'numeric',
-    })
-    return formatted.replace(',', '')
-  }
-
-  function buildMenuMarkdown() {
-    const dateStamp = formatDateStamp()
-    const lines = menuSelections.map((item) => {
-      const title = item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
-      return `- ${title}`
-    })
-    return `# Menu - ${dateStamp}\n\n${lines.join('\n')}\n`
-  }
-
-  function buildIngredientsMarkdown() {
-    const dateStamp = formatDateStamp()
-    const ingredientSet = new Set<string>()
-    menuSelections.forEach((item) => {
-      item.ingredients?.forEach((ingredient) => {
-        if (ingredient) ingredientSet.add(ingredient)
-      })
-    })
-    const lines = Array.from(ingredientSet).map((ingredient) => `- ${ingredient}`)
-    return `# Ingredients - ${dateStamp}\n\n${lines.join('\n')}\n`
-  }
-
-  function downloadMarkdown(filename: string, content: string) {
-    const blob = new Blob([content], { type: 'text/markdown;charset=utf-8' })
-    const url = URL.createObjectURL(blob)
-    const link = document.createElement('a')
-    link.href = url
-    link.download = filename
-    document.body.appendChild(link)
-    link.click()
-    link.remove()
-    URL.revokeObjectURL(url)
-  }
-
-  function handleExportMenu() {
-    downloadMarkdown('menu.md', buildMenuMarkdown())
-  }
-
-  function handleExportIngredients() {
-    downloadMarkdown('ingredients.md', buildIngredientsMarkdown())
   }
 
   return (
@@ -238,7 +173,7 @@ export default function MenuItemsPage({
             <>
               <div className="detail-header">
                 <div>
-                  <h2>{selectedTitle}</h2>
+                  <h2>{selectedItem.link_texts[0] ?? selectedItem.item_texts[0]}</h2>
                   {selectedItem.url && (
                     <a
                       href={selectedItem.url}
@@ -255,9 +190,6 @@ export default function MenuItemsPage({
                     <span>Occurrences</span>
                     <strong>{selectedItem.count}</strong>
                   </div>
-                  <button className="primary-button" onClick={handleAddToMenu}>
-                    Add to menu
-                  </button>
                 </div>
               </div>
 
@@ -280,46 +212,6 @@ export default function MenuItemsPage({
             <div className="empty">Select an item to view details.</div>
           )}
         </section>
-
-        <aside className="menu-builder">
-          <div className="builder-header">
-            <div>
-              <h2>Menu Builder</h2>
-              <p>{menuSelections.length} items selected</p>
-            </div>
-            <button className="ghost-button" onClick={handleClearMenu}>
-              Clear
-            </button>
-          </div>
-          {menuSelections.length ? (
-            <ul className="builder-list">
-              {menuSelections.map((item, index) => {
-                const title = item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
-                return (
-                  <li key={`${title}-${index}`} className="builder-row">
-                    <span>{title}</span>
-                    <button
-                      className="ghost-button"
-                      onClick={() => handleRemoveFromMenu(index)}
-                    >
-                      Remove
-                    </button>
-                  </li>
-                )
-              })}
-            </ul>
-          ) : (
-            <div className="builder-empty">Select items to start building a menu.</div>
-          )}
-          <div className="builder-actions">
-            <button className="primary-button" onClick={handleExportMenu}>
-              Export menu
-            </button>
-            <button className="primary-button" onClick={handleExportIngredients}>
-              Export ingredients
-            </button>
-          </div>
-        </aside>
       </main>
     </div>
   )

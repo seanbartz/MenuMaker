@@ -13,6 +13,7 @@ export type RefactoredMenuItem = {
   source_hints: string[]
   item_texts: string[]
   ingredients: string[]
+  main_protein?: string
   count: number
 }
 
@@ -33,17 +34,38 @@ interface MenuItemsPageProps {
 
 export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
   const [selectedIndex, setSelectedIndex] = useState(0)
+  const [proteinFilter, setProteinFilter] = useState('all')
 
   const sortedItems = useMemo(() => {
-    return [...items].sort((a, b) => {
+    const filtered =
+      proteinFilter === 'all'
+        ? items
+        : items.filter((item) => item.main_protein === proteinFilter)
+    return [...filtered].sort((a, b) => {
       if (a.count !== b.count) return b.count - a.count
       return (a.link_texts[0] ?? a.item_texts[0] ?? '').localeCompare(
         b.link_texts[0] ?? b.item_texts[0] ?? ''
       )
     })
+  }, [items, proteinFilter])
+
+  const proteinOptions = useMemo(() => {
+    const counts = new Map<string, number>()
+    items.forEach((item) => {
+      const protein = item.main_protein ?? 'unknown'
+      counts.set(protein, (counts.get(protein) ?? 0) + 1)
+    })
+    return Array.from(counts.entries())
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([protein, count]) => ({ protein, count }))
   }, [items])
 
   const selectedItem = sortedItems[selectedIndex] ?? null
+
+  function handleFilterChange(value: string) {
+    setProteinFilter(value)
+    setSelectedIndex(0)
+  }
 
   return (
     <div className="items-shell">
@@ -56,6 +78,20 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
           <h1>Menu items grouped by URL</h1>
         </div>
         <div className="header-meta">
+          <label className="filter-control">
+            <span>Filter by protein</span>
+            <select
+              value={proteinFilter}
+              onChange={(event) => handleFilterChange(event.target.value)}
+            >
+              <option value="all">All proteins</option>
+              {proteinOptions.map(({ protein, count }) => (
+                <option key={protein} value={protein}>
+                  {protein} ({count})
+                </option>
+              ))}
+            </select>
+          </label>
           <div className="meta-card">
             <span>Total Items</span>
             <strong>{sortedItems.length}</strong>

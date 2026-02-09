@@ -586,30 +586,49 @@
         "Menus/Menu week of 10-4-2019.md",
         "Menus/Menu week of 11-6-18.md",
         "Menus/Menu week of 3-15-19.md",
-        "Menus/Menu week of 4-2-2020.md"
+        "Menus/Menu week of 4-2-2020.md",
+        "Menus/Menu week of 12-3-17.md",
+        "Menus/Menu week of 1-11-20.md",
+        "Menus/Menu week of 11-6-19.md",
+        "Menus/Menu week of 10-15-17.md",
+        "Menus/Menu week of 6-10-18.md"
       ],
       "menu_weeks": [
         "2021-01-12",
         "2019-10-04",
         "2018-11-06",
         "2019-03-15",
-        "2020-04-02"
+        "2020-04-02",
+        "2017-12-03",
+        "2020-01-11",
+        "2019-11-06",
+        "2017-10-15",
+        "2018-06-10"
       ],
       "menu_seasons": [
         "winter",
         "fall",
-        "spring"
+        "spring",
+        "summer"
       ],
       "meal_types": [
         "dinner"
       ],
       "sections": [],
-      "source_hints": [],
+      "source_hints": [
+        "guac in freezer",
+        "peppers and onions, salsa, sour cream, black beans, rice, avocado, frozen corn"
+      ],
       "item_texts": [
         "Cauliflower walnut taco meat burrito bowls",
-        "Cauliflower walnut taco meat burrito bowls, make pico and guac, black beans and corn, saute peppers"
+        "Cauliflower walnut taco meat burrito bowls, make pico and guac, black beans and corn, saute peppers",
+        "Cauliflower walnut burrito bowls",
+        "Cauliflower Walnut burrito bowls (guac in freezer)",
+        "Cauliflower walnut Burrito bowls (peppers and onions, salsa, sour cream, black beans, rice, avocado, frozen corn)",
+        "Cauliflower walnut taco bowls (radishes!!!) with saut\u00e9ed peppers and onions",
+        "Cauliflower \ud83c\udf2f bowls"
       ],
-      "count": 5,
+      "count": 10,
       "ingredients": [
         "3 cups cauliflower florets",
         "2 cups whole walnuts",
@@ -2940,11 +2959,18 @@
       ],
       "menu_files": [
         "Menus/Menu week of 1-11-20.md",
-        "Menus/Week of 11-17-25.md"
+        "Menus/Week of 11-17-25.md",
+        "Menus/Super Bowl menu.md",
+        "Menus/Menu week of 12-17-18.md",
+        "Menus/Menu week of 2-20-23.md",
+        "Menus/Menu week of 2-6-21.md"
       ],
       "menu_weeks": [
         "2020-01-11",
-        "2025-11-17"
+        "2025-11-17",
+        "2018-12-17",
+        "2023-02-20",
+        "2021-02-06"
       ],
       "menu_seasons": [
         "winter",
@@ -2955,13 +2981,19 @@
       ],
       "sections": [],
       "source_hints": [
-        "https://pinchofyum.com/quick-and-easy-lentil-quesadillas"
+        "https://pinchofyum.com/quick-and-easy-lentil-quesadillas",
+        "Thursday"
       ],
       "item_texts": [
         "Crockpot Lentil Quesadillas with magic green sauce",
-        "Quick and easy lentil quesadillas"
+        "Quick and easy lentil quesadillas",
+        "Lentil quesadillas and magic green sauce",
+        "Quick and easy lentil quesadillas and magic green sauce",
+        "Wednesday: Quick and easy lentil quesadillas and magic green sauce",
+        "Quick and easy lentil quesadillas with Magic green sauce (Thursday)",
+        "Quick and easy lentil quesadillas (crockpot) and magic green sauce"
       ],
-      "count": 2,
+      "count": 6,
       "ingredients": [
         "one 28 ounce can diced tomatoes",
         "half a yellow onion",
@@ -14928,51 +14960,6 @@
       "main_protein": "vegetarian"
     },
     {
-      "item_texts": [
-        "Cauliflower walnut burrito bowls",
-        "Cauliflower Walnut burrito bowls (guac in freezer)",
-        "Cauliflower walnut Burrito bowls (peppers and onions, salsa, sour cream, black beans, rice, avocado, frozen corn)",
-        "Cauliflower walnut taco bowls (radishes!!!) with saut\u00e9ed peppers and onions",
-        "Cauliflower \ud83c\udf2f bowls"
-      ],
-      "menu_weeks": [
-        "2017-12-03",
-        "2020-01-11",
-        "2019-11-06",
-        "2017-10-15",
-        "2018-06-10"
-      ],
-      "menu_files": [
-        "Menus/Menu week of 12-3-17.md",
-        "Menus/Menu week of 1-11-20.md",
-        "Menus/Menu week of 11-6-19.md",
-        "Menus/Menu week of 10-15-17.md",
-        "Menus/Menu week of 6-10-18.md"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "menu_seasons": [
-        "winter",
-        "fall",
-        "summer"
-      ],
-      "count": 5,
-      "url": "https://pinchofyum.com/easy-vegan-burrito-bowls",
-      "source_hints": [
-        "guac in freezer",
-        "peppers and onions, salsa, sour cream, black beans, rice, avocado, frozen corn"
-      ],
-      "urls": [
-        "https://pinchofyum.com/easy-vegan-burrito-bowls"
-      ],
-      "link_texts": [
-        "Easy Vegan Burrito Bowls"
-      ],
-      "main_protein": "unknown"
-    },
-    {
       "meal_types": [
         "dinner"
       ],
@@ -16373,73 +16360,6 @@
       ],
       "sections": [],
       "main_protein": "unknown"
-    },
-    {
-      "count": 4,
-      "link_texts": [
-        "Quick and Easy Lentil Quesadillas"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "url": "https://pinchofyum.com/quick-and-easy-lentil-quesadillas",
-      "source_hints": [
-        "Thursday"
-      ],
-      "urls": [
-        "https://pinchofyum.com/quick-and-easy-lentil-quesadillas"
-      ],
-      "item_texts": [
-        "Lentil quesadillas and magic green sauce",
-        "Quick and easy lentil quesadillas and magic green sauce",
-        "Wednesday: Quick and easy lentil quesadillas and magic green sauce",
-        "Quick and easy lentil quesadillas with Magic green sauce (Thursday)",
-        "Quick and easy lentil quesadillas (crockpot) and magic green sauce"
-      ],
-      "menu_files": [
-        "Menus/Super Bowl menu.md",
-        "Menus/Menu week of 12-17-18.md",
-        "Menus/Menu week of 2-20-23.md",
-        "Menus/Menu week of 2-6-21.md"
-      ],
-      "menu_weeks": [
-        "2018-12-17",
-        "2023-02-20",
-        "2021-02-06"
-      ],
-      "menu_seasons": [
-        "winter"
-      ],
-      "sections": [],
-      "main_protein": "vegetarian",
-      "ingredients": [
-        "one 28 ounce can diced tomatoes",
-        "half a yellow onion",
-        "2 cloves garlic",
-        "1 1/2 teaspoons cumin",
-        "2 teaspoons chili powder",
-        "1 teaspoon salt",
-        "1 tablespoon oil",
-        "1 cup uncooked brown or green lentils, rinsed",
-        "1 cup uncooked brown rice, rinsed",
-        "2 1/2 cups vegetable broth",
-        "16 flour tortillas",
-        "3\u20134 cups shredded Pepperjack cheese",
-        "a few tablespoons butter (optional)"
-      ],
-      "recipe_tags": [
-        "All Recipes",
-        "Dinner",
-        "Kid-Friendly",
-        "Legume",
-        "Main Dishes",
-        "Quick and Easy",
-        "Recipes",
-        "Slow Cooker",
-        "Spring",
-        "Tomato",
-        "Vegetarian"
-      ]
     },
     {
       "count": 5,

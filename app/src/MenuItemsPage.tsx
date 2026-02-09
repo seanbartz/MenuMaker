@@ -36,11 +36,15 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [proteinFilter, setProteinFilter] = useState('all')
 
+  function normalizeProtein(value?: string) {
+    return (value ?? 'unknown').trim().toLowerCase()
+  }
+
   const sortedItems = useMemo(() => {
     const filtered =
       proteinFilter === 'all'
         ? items
-        : items.filter((item) => item.main_protein === proteinFilter)
+        : items.filter((item) => normalizeProtein(item.main_protein) === proteinFilter)
     return [...filtered].sort((a, b) => {
       if (a.count !== b.count) return b.count - a.count
       return (a.link_texts[0] ?? a.item_texts[0] ?? '').localeCompare(
@@ -52,7 +56,7 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
   const proteinOptions = useMemo(() => {
     const counts = new Map<string, number>()
     items.forEach((item) => {
-      const protein = item.main_protein ?? 'unknown'
+      const protein = normalizeProtein(item.main_protein)
       counts.set(protein, (counts.get(protein) ?? 0) + 1)
     })
     return Array.from(counts.entries())

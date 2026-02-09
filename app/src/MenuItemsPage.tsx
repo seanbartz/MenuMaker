@@ -29,10 +29,15 @@ function getSiteName(url: string | null): string {
 
 interface MenuItemsPageProps {
   items: RefactoredMenuItem[]
-  onBack: () => void
+  onViewMenus: () => void
+  onViewRecipes: () => void
 }
 
-export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
+export default function MenuItemsPage({
+  items,
+  onViewMenus,
+  onViewRecipes,
+}: MenuItemsPageProps) {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [proteinFilter, setProteinFilter] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
@@ -94,11 +99,15 @@ export default function MenuItemsPage({ items, onBack }: MenuItemsPageProps) {
     <div className="items-shell">
       <header className="items-header">
         <div>
-          <button onClick={onBack} className="back-button">
-            ← Back to Menus
-          </button>
-          <p className="eyebrow">Refactored Items</p>
-          <h1>Menu items grouped by URL</h1>
+          <div className="page-actions">
+            <button onClick={onViewMenus} className="back-button">
+              Menus
+            </button>
+            <button onClick={onViewRecipes} className="back-button">
+              Recipes
+            </button>
+          </div>
+          <h1>Menu Items</h1>
         </div>
         <div className="header-meta">
           <label className="filter-control">

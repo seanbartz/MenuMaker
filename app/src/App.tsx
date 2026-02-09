@@ -92,7 +92,7 @@ function App() {
   const [selectedFile, setSelectedFile] = useState<string | null>(null)
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
-  const [currentPage, setCurrentPage] = useState<'menus' | 'recipes' | 'items'>('menus')
+  const [currentPage, setCurrentPage] = useState<'menus' | 'recipes' | 'items'>('items')
 
   useEffect(() => {
     let cancelled = false
@@ -173,9 +173,13 @@ function App() {
   return (
     <>
       {currentPage === 'recipes' ? (
-        <RecipesPage recipes={recipes} onBack={() => setCurrentPage('menus')} />
+        <RecipesPage recipes={recipes} onBack={() => setCurrentPage('items')} />
       ) : currentPage === 'items' ? (
-        <MenuItemsPage items={menuItems} onBack={() => setCurrentPage('menus')} />
+        <MenuItemsPage
+          items={menuItems}
+          onViewMenus={() => setCurrentPage('menus')}
+          onViewRecipes={() => setCurrentPage('recipes')}
+        />
       ) : (
         <div className="app-shell">
           <header className="app-header">

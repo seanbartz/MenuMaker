@@ -206,26 +206,6 @@ export default function MenuItemsPage({
                     <p className="detail-empty">No ingredients listed.</p>
                   )}
                 </div>
-                <div className="detail-card">
-                  <h3>Seasons</h3>
-                  <div className="pill-row">
-                    {selectedItem.menu_seasons.map((season, index) => (
-                      <span key={`${season}-${index}`} className="pill">
-                        {season}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                <div className="detail-card">
-                  <h3>Meal Types</h3>
-                  <div className="pill-row">
-                    {selectedItem.meal_types.map((meal, index) => (
-                      <span key={`${meal}-${index}`} className="pill">
-                        {meal}
-                      </span>
-                    ))}
-                  </div>
-                </div>
               </div>
             </>
           ) : (

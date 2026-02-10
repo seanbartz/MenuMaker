@@ -92,7 +92,7 @@ function App() {
   const [selectedFile, setSelectedFile] = useState<string | null>(null)
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
-  const [currentPage, setCurrentPage] = useState<'menus' | 'recipes' | 'items'>('menus')
+  const [currentPage, setCurrentPage] = useState<'menus' | 'recipes' | 'items'>('items')
 
   useEffect(() => {
     let cancelled = false
@@ -170,12 +170,36 @@ function App() {
     return { total, linked }
   }, [selectedMenu])
 
+  if (status === 'loading') {
+    return (
+      <div className="app-shell">
+        <main className="app-main">
+          <div className="loading">Loading data…</div>
+        </main>
+      </div>
+    )
+  }
+
+  if (status === 'error') {
+    return (
+      <div className="app-shell">
+        <main className="app-main">
+          <div className="error">Failed to load menus: {errorMessage}</div>
+        </main>
+      </div>
+    )
+  }
+
   return (
     <>
       {currentPage === 'recipes' ? (
         <RecipesPage recipes={recipes} onBack={() => setCurrentPage('menus')} />
       ) : currentPage === 'items' ? (
-        <MenuItemsPage items={menuItems} onBack={() => setCurrentPage('menus')} />
+        <MenuItemsPage
+          items={menuItems}
+          onViewMenus={() => setCurrentPage('menus')}
+          onViewRecipes={() => setCurrentPage('recipes')}
+        />
       ) : (
         <div className="app-shell">
           <header className="app-header">

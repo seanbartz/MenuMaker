@@ -20197,7 +20197,6 @@
         "2019-12-07",
         "2019-05-06",
         "2022-02-27",
-        "2020-06-03",
         "2020-07-12"
       ],
       "sections": [],
@@ -20205,9 +20204,6 @@
         "Gnocchi and zucchini and squash",
         "gnocchi with pesto and zucchini and squash",
         "Gnocchi and summer squash/zucchini",
-        "Miso butter steaks and rice",
-        "steak salad with beets and scallions",
-        "Grilled steak salad with beets and scallions",
         "Gnocchi, pasta sauce, and zucchini/squash",
         "Gnocchi, sauce, zucchini"
       ],
@@ -20221,15 +20217,13 @@
       "menu_files": [
         "Menus/Menu week of 12-7-19.md",
         "Menus/Menu week of 5-6-19.md",
-        "Menus/Sean Bachelor.md",
         "Menus/Menu week of 2-27-22.md",
-        "Menus/Menu week of 6-3-2020.md",
         "Menus/Menu week of 7-12-20.md",
         "Menus/Menu week of 7-20.md"
       ],
       "source_hints": [],
       "urls": [],
-      "count": 7,
+      "count": 5,
       "ingredients": null,
       "recipe_tags": [],
       "main_protein": "unknown"
@@ -21892,6 +21886,77 @@
       "source_hints": [],
       "item_texts": [
         "Random pasta/pasta sauce/green pepper/onion"
+      ],
+      "ingredients": null,
+      "main_protein": "unknown",
+      "count": 1
+    },
+    {
+      "url": null,
+      "urls": [],
+      "link_texts": [],
+      "menu_files": [
+        "Menus/Sean Bachelor.md"
+      ],
+      "menu_weeks": [],
+      "menu_seasons": [],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [],
+      "item_texts": [
+        "Miso butter steaks and rice"
+      ],
+      "ingredients": null,
+      "main_protein": "unknown",
+      "count": 1
+    },
+    {
+      "url": null,
+      "urls": [],
+      "link_texts": [],
+      "menu_files": [
+        "Menus/Menu week of 6-3-2020.md"
+      ],
+      "menu_weeks": [
+        "2020-06-03"
+      ],
+      "menu_seasons": [
+        "summer"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [],
+      "item_texts": [
+        "steak salad with beets and scallions"
+      ],
+      "ingredients": null,
+      "main_protein": "unknown",
+      "count": 1
+    },
+    {
+      "url": null,
+      "urls": [],
+      "link_texts": [],
+      "menu_files": [
+        "Menus/Menu week of 6-3-2020.md"
+      ],
+      "menu_weeks": [
+        "2020-06-03"
+      ],
+      "menu_seasons": [
+        "summer"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [],
+      "item_texts": [
+        "Grilled steak salad with beets and scallions"
       ],
       "ingredients": null,
       "main_protein": "unknown",

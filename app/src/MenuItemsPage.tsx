@@ -565,7 +565,15 @@ export default function MenuItemsPage({
                 {menus.slice(0, 8).map((menu) => (
                   <li key={menu.file} className="builder-row">
                     <span>{menu.title ?? menu.file}</span>
-                    <button className="ghost-button" onClick={() => onDeleteMenu(menu)}>
+                    <button
+                      className="ghost-button"
+                      onClick={() => {
+                        const label = menu.title ?? menu.file
+                        if (window.confirm(`Delete \"${label}\"? This cannot be undone.`)) {
+                          onDeleteMenu(menu)
+                        }
+                      }}
+                    >
                       Delete
                     </button>
                   </li>

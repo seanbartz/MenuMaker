@@ -140,10 +140,14 @@ export default function MenuItemsPage({
 
   function buildIngredientsMarkdown() {
     const dateStamp = formatDateStamp()
-    const ingredientSet = new Set<string>()
+    const ingredientMap = new Map<string, string>()
     menuSelections.forEach((item) => {
       item.ingredients?.forEach((ingredient) => {
-        if (ingredient) ingredientSet.add(ingredient)
+        if (!ingredient) return
+        const key = normalizeIngredientKey(ingredient)
+        if (!ingredientMap.has(key)) {
+          ingredientMap.set(key, ingredient)
+        }
       })
     })
     const sections: Record<string, string[]> = {
@@ -270,7 +274,7 @@ export default function MenuItemsPage({
       return 'Staples'
     }
 
-    Array.from(ingredientSet).forEach((ingredient) => {
+    Array.from(ingredientMap.values()).forEach((ingredient) => {
       const section = classifyIngredient(ingredient)
       sections[section].push(ingredient)
     })
@@ -287,6 +291,17 @@ export default function MenuItemsPage({
       .join('\n\n')
 
     return `# Ingredients - ${dateStamp}\n\n${content}\n`
+  }
+
+  function normalizeIngredientKey(value: string) {
+    return value
+      .trim()
+      .toLowerCase()
+      .replace(/[–—]/g, '-')
+      .replace(/\s+/g, ' ')
+      .replace(/\b(tablespoons?)\b/g, 'tablespoon')
+      .replace(/\b(teaspoons?)\b/g, 'teaspoon')
+      .replace(/\s+/, ' ')
   }
 
   function downloadMarkdown(filename: string, content: string) {

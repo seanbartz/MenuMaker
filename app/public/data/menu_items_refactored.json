@@ -10827,10 +10827,12 @@
       "urls": [],
       "link_texts": [],
       "menu_files": [
-        "Menus/Menu week of 9-10-25.md"
+        "Menus/Menu week of 9-10-25.md",
+        "Menus/Menu week of 9-6-20.md"
       ],
       "menu_weeks": [
-        "2025-09-10"
+        "2025-09-10",
+        "2020-09-06"
       ],
       "menu_seasons": [
         "fall"
@@ -10840,12 +10842,15 @@
       ],
       "sections": [],
       "source_hints": [
-        "dough will be in freezer"
+        "dough will be in freezer",
+        "make sauce"
       ],
       "item_texts": [
-        "Trader Joe\u2019s pizzas (dough will be in freezer)"
+        "Pizza",
+        "Trader Joe\u2019s pizzas (dough will be in freezer)",
+        "Pizza (make sauce)"
       ],
-      "count": 1,
+      "count": 2,
       "main_protein": "unknown"
     },
     {
@@ -11475,32 +11480,6 @@
       "source_hints": [],
       "item_texts": [
         "Ribs, fresh green bean salad with balsamic dressing, sauteed summer squash"
-      ],
-      "count": 1,
-      "main_protein": "unknown"
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 9-6-20.md"
-      ],
-      "menu_weeks": [
-        "2020-09-06"
-      ],
-      "menu_seasons": [
-        "fall"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [
-        "make sauce"
-      ],
-      "item_texts": [
-        "Pizza (make sauce)"
       ],
       "count": 1,
       "main_protein": "unknown"
@@ -22065,31 +22044,6 @@
       "source_hints": [],
       "item_texts": [
         "Chicken enchiladas with green salsa"
-      ],
-      "ingredients": null,
-      "main_protein": "unknown",
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Week of 7-27-25.md"
-      ],
-      "menu_weeks": [
-        "2025-07-27"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
-        "Pizza"
       ],
       "ingredients": null,
       "main_protein": "unknown",

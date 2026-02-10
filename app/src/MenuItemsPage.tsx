@@ -151,8 +151,10 @@ export default function MenuItemsPage({
     link.download = filename
     document.body.appendChild(link)
     link.click()
-    link.remove()
-    URL.revokeObjectURL(url)
+    setTimeout(() => {
+      link.remove()
+      URL.revokeObjectURL(url)
+    }, 0)
   }
 
   function handleExportMenu() {

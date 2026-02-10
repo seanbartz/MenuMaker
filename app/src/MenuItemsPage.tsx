@@ -297,11 +297,13 @@ export default function MenuItemsPage({
   }
 
   function handleExportMenu() {
-    downloadMarkdown('menu.md', buildMenuMarkdown())
+    const dateStamp = formatDateStamp().replace(/\s+/g, '-')
+    downloadMarkdown(`menu-${dateStamp}.md`, buildMenuMarkdown())
   }
 
   function handleExportIngredients() {
-    downloadMarkdown('ingredients.md', buildIngredientsMarkdown())
+    const dateStamp = formatDateStamp().replace(/\s+/g, '-')
+    downloadMarkdown(`ingredients-${dateStamp}.md`, buildIngredientsMarkdown())
   }
 
   return (

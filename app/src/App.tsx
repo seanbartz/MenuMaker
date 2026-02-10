@@ -157,6 +157,55 @@ function App() {
     })()
   }
 
+  function handleDeleteMenu(menu: Menu) {
+    const nextMenus = menus.filter((entry) => entry.file !== menu.file)
+    const targetWeek = menu.week_of_date
+    const nextItems = menuItems.map((item) => {
+      const menuFiles = (item.menu_files ?? []).filter((file) => file !== menu.file)
+      const menuWeeks = targetWeek
+        ? (item.menu_weeks ?? []).filter((week) => week !== targetWeek)
+        : item.menu_weeks ?? []
+      const menuSeasons = Array.from(
+        new Set(
+          (menuWeeks ?? [])
+            .map((week) => seasonLabel(week))
+            .filter((season) => season && season !== 'Anytime')
+            .map((season) => season.toLowerCase())
+        )
+      )
+      return {
+        ...item,
+        menu_files: menuFiles,
+        menu_weeks: menuWeeks,
+        menu_seasons: menuSeasons,
+        count: menuFiles.length || menuWeeks.length || 0,
+      }
+    })
+
+    setMenus(nextMenus)
+    setMenuItems(nextItems)
+
+    void (async () => {
+      const invoke = await (async () => {
+        try {
+          const mod = await import('@tauri-apps/api/core')
+          return mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
+        } catch {
+          return null
+        }
+      })()
+      if (!invoke) return
+      try {
+        await invoke('save_data', {
+          menus: { menus: nextMenus },
+          items: { items: nextItems },
+        })
+      } catch {
+        // ignore persistence errors
+      }
+    })()
+  }
+
   const sortedMenus = useMemo(() => {
     return [...menus].sort((a, b) => {
       if (a.week_of_date && b.week_of_date) {
@@ -225,6 +274,7 @@ function App() {
           onViewRecipes={() => setCurrentPage('recipes')}
           menus={menus}
           onSaveMenu={handleSaveMenu}
+          onDeleteMenu={handleDeleteMenu}
         />
       ) : (
         <div className="app-shell">

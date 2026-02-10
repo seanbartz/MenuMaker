@@ -274,7 +274,6 @@
       "item_texts": [
         "Spaghetti with Crispy Zucchini",
         "Spaghetti with crispy zucchini",
-        "Spaghetti with crispy zucchini Chicken nuggets, salad, sweet potato fries",
         "Spaghetti with crispy zucchini (Pinch of Yum) or zucchini and squash can be grilled with steaks, add potatoes if do steaks",
         "Spaghetti with crispy zucchini (Pinch of Yum)"
       ],
@@ -979,7 +978,10 @@
         "Vegetarian",
         "Winter"
       ],
-      "main_protein": "chicken"
+      "main_protein": "chicken",
+      "side_dishes": [
+        "air fryer chicken breast"
+      ]
     },
     {
       "url": "https://pinchofyum.com/red-chile-chicken-tacos-with-creamy-corn",
@@ -1134,7 +1136,10 @@
         "Vegan",
         "Winter"
       ],
-      "main_protein": "vegetarian"
+      "main_protein": "vegetarian",
+      "side_dishes": [
+        "salad"
+      ]
     },
     {
       "url": "https://www.gimmesomeoven.com/vegetarian-moo-shu/",
@@ -1374,7 +1379,6 @@
         "https://pinchofyum.com/burst-tomato-pappardelle"
       ],
       "item_texts": [
-        "Burst Tomato Pappardelle With Zucchini, Sweet Corn, And Pan-Fried Chicken Frozen orange chicken and broccoli xxxom/burst-tomato-pappardelle",
         "Burst tomato pappardelle",
         "Burst Tomato Pappardelle with Zucchini, Sweet Corn, and Pan-Fried Chicken"
       ],
@@ -1671,7 +1675,11 @@
         "Tomato",
         "Winter"
       ],
-      "main_protein": "turkey"
+      "main_protein": "turkey",
+      "side_dishes": [
+        "garlic bread or baguette",
+        "zucchini and squash"
+      ]
     },
     {
       "url": "https://pinchofyum.com/thai-peanut-chicken-bowls",
@@ -2560,7 +2568,10 @@
         "Peruvian-style grilled chicken with aji verde sauce (Serious Eats), cuban rice and black beans (Skinnytaste)"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "side_dishes": [
+        "cuban rice and black beans"
+      ]
     },
     {
       "url": null,
@@ -2946,7 +2957,10 @@
         "Spring",
         "Sugar-Free"
       ],
-      "main_protein": "vegetarian"
+      "main_protein": "vegetarian",
+      "side_dishes": [
+        "fancy pasta in the freezer"
+      ]
     },
     {
       "url": "https://pinchofyum.com/quick-and-easy-lentil-quesadillas",
@@ -22047,6 +22061,31 @@
       "source_hints": [],
       "item_texts": [
         "Chicken enchiladas with green salsa"
+      ],
+      "ingredients": null,
+      "main_protein": "unknown",
+      "count": 1
+    },
+    {
+      "url": null,
+      "urls": [],
+      "link_texts": [],
+      "menu_files": [
+        "Menus/Menu week of 5-17-24.md"
+      ],
+      "menu_weeks": [
+        "2024-05-17"
+      ],
+      "menu_seasons": [
+        "spring"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [],
+      "item_texts": [
+        "Chicken nuggets, salad, sweet potato fries"
       ],
       "ingredients": null,
       "main_protein": "unknown",

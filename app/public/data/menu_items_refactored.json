@@ -19069,7 +19069,6 @@
         "Red pepper cashew pasta with cauliflower",
         "Roasted red pepper pasta and cauliflower",
         "Red pepper cashew pasta with roasted cauliflower",
-        "Red pepper cashew pasta with roasted cauliflower Chicken nuggets, broccoli, sweet potato fries",
         "Red pepper cashew pasta with roasted cauliflower (sauce in freezer)",
         "Red pepper cashew pasta with roasted cauliflower (sauce in freezer already)",
         "Red pepper pasta with roasted cauliflower",
@@ -20940,9 +20939,7 @@
         "Spicy peanut tofu bowls:",
         "Spicy Peanut Tofu Bowls",
         "Monday - spicy peanut tofu bowls",
-        "Spicy peanut tofu bowls White people tacos",
         "Spicy Peanut tofu bowls",
-        "Spicy peanut tofu bowls Skillet lasagna (anita to make - see phone of recipe she texted)",
         "Tofu peanut bowls"
       ],
       "link_texts": [
@@ -21214,14 +21211,16 @@
         "dinner"
       ],
       "url": null,
-      "count": 6,
+      "count": 8,
       "menu_weeks": [
         "2025-01-17",
         "2025-01-28",
         "2024-12-19",
         "2025-02-27",
         "2025-04-28",
-        "2024-05-30"
+        "2024-05-30",
+        "2024-12-06",
+        "2025-02-11"
       ],
       "menu_seasons": [
         "winter",
@@ -21235,7 +21234,9 @@
         "Menus/Menu week of 12-19-24.md",
         "Menus/Menu week of 2-27-25.md",
         "Menus/Menu week of 4-28-25.md",
-        "Menus/Menu week of 5-30-24.md"
+        "Menus/Menu week of 5-30-24.md",
+        "Menus/Menu week of 12-6-24.md",
+        "Menus/Menu week of 2-11-25.md"
       ],
       "sections": [],
       "main_protein": "unknown"
@@ -21244,7 +21245,6 @@
       "item_texts": [
         "Roasted sweet potato tacos",
         "Roasted sweet potato tacos (radish on top)",
-        "Roasted sweet potato tacos: Chicken nuggets, broccoli, sweet potato fries",
         "Roasted Sweet Potato Tacos",
         "Roasted sweet potato tacos (Gimme some Oven)",
         "PizzaRoasted Sweet Potato Tacos",
@@ -21455,7 +21455,6 @@
         "Menus/Menu\u0301 week of 12-28-18.md"
       ],
       "item_texts": [
-        "Saturday: farmer\u2019s market? pancakes and eggs, chicken enchiladas with green salsa",
         "Pancakes",
         "Breakfast: pancakes",
         "Breakfast: Pancakes and bacon",
@@ -21549,9 +21548,7 @@
         "Instant Pot Cauliflower Mac and cheese",
         "Instant pot cauliflower mac and cheese (Well Plated)",
         "Instant Pot Cauliflower Mac and Cheese (Well Plated)",
-        "Cauliflower mac and cheese, add chicken nuggets White people tacos",
-        "Instant pot cauliflower mac & cheese (add buffalo sauce chicken fingers)",
-        "Instant pot cauliflower mac & cheese (add buffalo sauce chicken fingers) Trader Joe\u2019s pizzas and tossed greens"
+        "Instant pot cauliflower mac & cheese (add buffalo sauce chicken fingers)"
       ],
       "menu_seasons": [
         "winter",
@@ -21994,6 +21991,109 @@
       "ingredients": null,
       "main_protein": "unknown",
       "count": 11
+    },
+    {
+      "url": null,
+      "urls": [],
+      "link_texts": [],
+      "menu_files": [
+        "Menus/Menu week of 3-12-25.md",
+        "Menus/Menu week of 12-19-25.md"
+      ],
+      "menu_weeks": [
+        "2025-03-12",
+        "2025-12-19"
+      ],
+      "menu_seasons": [
+        "spring",
+        "winter"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [],
+      "item_texts": [
+        "White people tacos"
+      ],
+      "ingredients": null,
+      "main_protein": "unknown",
+      "count": 2
+    },
+    {
+      "url": null,
+      "urls": [],
+      "link_texts": [],
+      "menu_files": [
+        "Menus/Menu week of 5-15-25.md"
+      ],
+      "menu_weeks": [
+        "2025-05-15"
+      ],
+      "menu_seasons": [
+        "spring"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [],
+      "item_texts": [
+        "Skillet lasagna"
+      ],
+      "ingredients": null,
+      "main_protein": "unknown",
+      "count": 1
+    },
+    {
+      "url": null,
+      "urls": [],
+      "link_texts": [],
+      "menu_files": [
+        "Menus/Menu week of 10-25-18.md"
+      ],
+      "menu_weeks": [
+        "2018-10-25"
+      ],
+      "menu_seasons": [
+        "fall"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [],
+      "item_texts": [
+        "Chicken enchiladas with green salsa"
+      ],
+      "ingredients": null,
+      "main_protein": "unknown",
+      "count": 1
+    },
+    {
+      "url": null,
+      "urls": [],
+      "link_texts": [],
+      "menu_files": [
+        "Menus/Week of 7-27-25.md"
+      ],
+      "menu_weeks": [
+        "2025-07-27"
+      ],
+      "menu_seasons": [
+        "summer"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [],
+      "item_texts": [
+        "Pizza"
+      ],
+      "ingredients": null,
+      "main_protein": "unknown",
+      "count": 1
     }
   ]
 }

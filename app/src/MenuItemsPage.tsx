@@ -1,21 +1,6 @@
 import { useMemo, useState } from 'react'
 import './MenuItemsPage.css'
-
-export type RefactoredMenuItem = {
-  url: string | null
-  urls: string[]
-  link_texts: string[]
-  menu_files: string[]
-  menu_weeks: string[]
-  menu_seasons: string[]
-  meal_types: string[]
-  sections: string[]
-  source_hints: string[]
-  item_texts: string[]
-  ingredients: string[]
-  main_protein?: string
-  count: number
-}
+import type { Menu, MenuItem, RefactoredMenuItem } from './types'
 
 function getSiteName(url: string | null): string {
   if (!url) return 'No link'
@@ -31,12 +16,16 @@ interface MenuItemsPageProps {
   items: RefactoredMenuItem[]
   onViewMenus: () => void
   onViewRecipes: () => void
+  menus: Menu[]
+  onSaveMenu: (menu: Menu, items: RefactoredMenuItem[]) => void
 }
 
 export default function MenuItemsPage({
   items,
   onViewMenus,
   onViewRecipes,
+  menus,
+  onSaveMenu,
 }: MenuItemsPageProps) {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [proteinFilter, setProteinFilter] = useState('all')
@@ -318,9 +307,89 @@ export default function MenuItemsPage({
     }, 0)
   }
 
+  function buildMenuFile(date: Date) {
+    const month = date.getMonth() + 1
+    const day = date.getDate()
+    const year = String(date.getFullYear()).slice(-2)
+    const base = `Menus/Menu week of ${month}-${day}-${year}.md`
+    if (!menus.some((menu) => menu.file === base)) {
+      return base
+    }
+    let counter = 2
+    while (menus.some((menu) => menu.file === base.replace('.md', `-${counter}.md`))) {
+      counter += 1
+    }
+    return base.replace('.md', `-${counter}.md`)
+  }
+
+  function toMenuItem(item: RefactoredMenuItem): MenuItem {
+    const title = item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
+    const url = item.url ?? null
+    return {
+      text: title,
+      section: null,
+      meal_type: 'dinner',
+      source_hint: url,
+      links: url ? [{ text: title, url }] : [],
+      urls: url ? [url] : [],
+    }
+  }
+
+  function buildNewMenu(date: Date): Menu {
+    const file = buildMenuFile(date)
+    const weekOf = date.toISOString().slice(0, 10)
+    const month = date.getMonth() + 1
+    const day = date.getDate()
+    const year = String(date.getFullYear()).slice(-2)
+    return {
+      file,
+      title: `Menu week of ${month}-${day}-${year}`,
+      week_of_date: weekOf,
+      items: menuSelections.map(toMenuItem),
+    }
+  }
+
+  function seasonFromWeek(iso: string | null) {
+    if (!iso) return null
+    const date = new Date(`${iso}T00:00:00`)
+    if (Number.isNaN(date.getTime())) return null
+    const month = date.getMonth() + 1
+    if (month <= 2 || month === 12) return 'winter'
+    if (month >= 3 && month <= 5) return 'spring'
+    if (month >= 6 && month <= 8) return 'summer'
+    return 'fall'
+  }
+
+  function handlePersistMenu() {
+    if (!menuSelections.length) return
+    const newMenu = buildNewMenu(new Date())
+    const selected = new Set(menuSelections)
+    const updatedItems = items.map((item) => {
+      if (!selected.has(item)) return item
+      const menuFiles = Array.from(new Set([...(item.menu_files ?? []), newMenu.file]))
+      const menuWeeks = newMenu.week_of_date
+        ? Array.from(new Set([...(item.menu_weeks ?? []), newMenu.week_of_date]))
+        : item.menu_weeks ?? []
+      const season = seasonFromWeek(newMenu.week_of_date)
+      const menuSeasons =
+        season && season !== ''
+          ? Array.from(new Set([...(item.menu_seasons ?? []), season]))
+          : item.menu_seasons ?? []
+      return {
+        ...item,
+        menu_files: menuFiles,
+        menu_weeks: menuWeeks,
+        menu_seasons: menuSeasons,
+        count: menuFiles.length || menuWeeks.length || item.count,
+      }
+    })
+    onSaveMenu(newMenu, updatedItems)
+  }
+
   function handleExportMenu() {
     const dateStamp = formatDateStamp().replace(/\s+/g, '-')
     downloadMarkdown(`menu-${dateStamp}.md`, buildMenuMarkdown())
+    handlePersistMenu()
   }
 
   function handleExportIngredients() {

@@ -1,32 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import RecipesPage from './RecipesPage'
-import MenuItemsPage, { type RefactoredMenuItem } from './MenuItemsPage'
-
-type MenuItem = {
-  text: string
-  section: string | null
-  meal_type: string
-  source_hint: string | null
-  links: { text: string; url: string; auto_added?: boolean }[]
-  urls: string[]
-}
-
-type Menu = {
-  file: string
-  title: string | null
-  week_of_date: string | null
-  items: MenuItem[]
-}
-
-type Recipe = {
-  file: string
-  title: string | null
-  links: { text: string; url: string }[]
-  urls: string[]
-  attachments: { text: string; url: string }[]
-  text: string
-}
+import MenuItemsPage from './MenuItemsPage'
+import type { Menu, MenuItem, Recipe, RefactoredMenuItem } from './types'
 
 const BASE = import.meta.env.BASE_URL
 const UNSECTIONED_SECTION = 'Unsectioned'
@@ -96,22 +72,50 @@ function App() {
 
   useEffect(() => {
     let cancelled = false
+    async function getInvoke() {
+      try {
+        const mod = await import('@tauri-apps/api/core')
+        return mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
+      } catch {
+        try {
+          const mod = await import('@tauri-apps/api/tauri')
+          return mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
+        } catch {
+          return null
+        }
+      }
+    }
+
+    async function loadDesktopData() {
+      const invoke = await getInvoke()
+      if (!invoke) return null
+      try {
+        return await invoke<{
+          menus?: { menus?: Menu[] } | null
+          items?: { items?: RefactoredMenuItem[] } | null
+        }>('load_data')
+      } catch {
+        return null
+      }
+    }
+
     async function load() {
       try {
         setStatus('loading')
+        const desktopData = await loadDesktopData()
         const [menusRes, recipesRes, itemsRes] = await Promise.all([
-          fetch(`${BASE}data/menus.json`),
+          desktopData ? Promise.resolve(null) : fetch(`${BASE}data/menus.json`),
           fetch(`${BASE}data/recipes.json`),
-          fetch(`${BASE}data/menu_items_refactored.json`),
+          desktopData ? Promise.resolve(null) : fetch(`${BASE}data/menu_items_refactored.json`),
         ])
 
-        if (!menusRes.ok || !recipesRes.ok || !itemsRes.ok) {
+        if ((!desktopData && (!menusRes?.ok || !itemsRes?.ok)) || !recipesRes.ok) {
           throw new Error('Failed to load data files')
         }
 
-        const menusJson = await menusRes.json()
+        const menusJson = desktopData?.menus ?? (await menusRes?.json())
         const recipesJson = await recipesRes.json()
-        const itemsJson = await itemsRes.json()
+        const itemsJson = desktopData?.items ?? (await itemsRes?.json())
 
         if (!cancelled) {
           setMenus(menusJson.menus ?? [])
@@ -132,6 +136,36 @@ function App() {
       cancelled = true
     }
   }, [])
+
+  function handleSaveMenu(menu: Menu, updatedItems: RefactoredMenuItem[]) {
+    const nextMenus = [menu, ...menus]
+    setMenus(nextMenus)
+    setMenuItems(updatedItems)
+    void (async () => {
+      const invoke = await (async () => {
+        try {
+          const mod = await import('@tauri-apps/api/core')
+          return mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
+        } catch {
+          try {
+            const mod = await import('@tauri-apps/api/tauri')
+            return mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
+          } catch {
+            return null
+          }
+        }
+      })()
+      if (!invoke) return
+      try {
+        await invoke('save_data', {
+          menus: { menus: nextMenus },
+          items: { items: updatedItems },
+        })
+      } catch {
+        // ignore persistence errors
+      }
+    })()
+  }
 
   const sortedMenus = useMemo(() => {
     return [...menus].sort((a, b) => {
@@ -199,6 +233,8 @@ function App() {
           items={menuItems}
           onViewMenus={() => setCurrentPage('menus')}
           onViewRecipes={() => setCurrentPage('recipes')}
+          menus={menus}
+          onSaveMenu={handleSaveMenu}
         />
       ) : (
         <div className="app-shell">

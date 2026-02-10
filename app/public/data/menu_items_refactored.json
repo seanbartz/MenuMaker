@@ -13787,7 +13787,8 @@
         "2020-09-17",
         "2023-08-20",
         "2023-09-02",
-        "2019-07-21"
+        "2019-07-21",
+        "2024-07-25"
       ],
       "menu_seasons": [
         "fall",
@@ -13851,7 +13852,8 @@
         "Menus/Menu week of 9-17-20.md",
         "Menus/Menu week of 8-20-23.md",
         "Menus/Menu week of 9-2-23.md",
-        "Menus/Menu week of 7-21-19.md"
+        "Menus/Menu week of 7-21-19.md",
+        "Menus/Menu week of 7-25-24.md"
       ],
       "side_dish": [
         "apple mustard slaw",
@@ -13974,9 +13976,7 @@
         "Sesame apricot tofu with broccoli instead of green beans",
         "Sesame apricot tofu with canned green beans (double)",
         "Sesame apricot tofu and green beans:",
-        "Sesame apricot tofu and green beans: Brats",
-        "Sesame apricot tofu (Pinch of Yum) 0 can use chicken instead and my mom\u2019s green beans. double the sauce recipe",
-        "Sesame apricot tofu BLTs and Panera broccoli cheddar soup"
+        "Sesame apricot tofu (Pinch of Yum) 0 can use chicken instead and my mom\u2019s green beans. double the sauce recipe"
       ],
       "link_texts": [
         "Sesame Apricot tofu",
@@ -15527,9 +15527,10 @@
       "menu_weeks": [
         "2024-12-19",
         "2024-09-24",
-        "2025-11-17"
+        "2025-11-17",
+        "2019-07-21"
       ],
-      "count": 3,
+      "count": 4,
       "source_hints": [
         "https://www.gimmesomeoven.com/everyday-italian-salad/and",
         "https://www.gimmesomeoven.com/everyday-italian-salad/"
@@ -15542,14 +15543,16 @@
       "menu_files": [
         "Menus/Menu week of 12-19-24.md",
         "Menus/Menu week of 9-24-24.md",
-        "Menus/Week of 11-17-25.md"
+        "Menus/Week of 11-17-25.md",
+        "Menus/Menu week of 7-21-19.md"
       ],
       "link_texts": [
         "Everyday Italian Salad"
       ],
       "menu_seasons": [
         "winter",
-        "fall"
+        "fall",
+        "summer"
       ],
       "sections": [],
       "main_protein": "unknown"
@@ -19996,7 +19999,7 @@
         "fall",
         "summer"
       ],
-      "count": 7,
+      "count": 8,
       "menu_weeks": [
         "2017-09-08",
         "2018-08-22",
@@ -20004,7 +20007,8 @@
         "2020-09-17",
         "2021-10-10",
         "2020-08-01",
-        "2017-09-21"
+        "2017-09-21",
+        "2025-07-14"
       ],
       "sections": [],
       "item_texts": [
@@ -20028,7 +20032,8 @@
         "Menus/Menu week of 9-17-20.md",
         "Menus/Menu week of 10-10-21.md",
         "Menus/Menu week of 8-1-20.md",
-        "Menus/Menu week of 9-21-17.md"
+        "Menus/Menu week of 9-21-17.md",
+        "Menus/Week of 7-14-25.md"
       ],
       "source_hints": [],
       "urls": [],
@@ -20056,7 +20061,8 @@
         "2019-10-21",
         "2025-10-22",
         "2023-10-26",
-        "2022-10-27"
+        "2022-10-27",
+        "2024-10-23"
       ],
       "sections": [],
       "item_texts": [
@@ -20090,10 +20096,11 @@
         "Menus/Menu week of 10-21-19.md",
         "Menus/Menu week of 10-22-25.md",
         "Menus/Menu week of 10-26-23.md",
-        "Menus/Menu week of 10-27-22.md"
+        "Menus/Menu week of 10-27-22.md",
+        "Menus/Menu week of 10-23-24.md"
       ],
       "urls": [],
-      "count": 16,
+      "count": 17,
       "main_protein": "unknown"
     },
     {
@@ -21236,7 +21243,6 @@
     {
       "item_texts": [
         "Roasted sweet potato tacos",
-        "Roasted sweet potato tacos Chili (Halloween)",
         "Roasted sweet potato tacos (radish on top)",
         "Roasted sweet potato tacos: Chicken nuggets, broccoli, sweet potato fries",
         "Roasted Sweet Potato Tacos",
@@ -21542,7 +21548,6 @@
         "Instant Pot cauliflower mac and cheese",
         "Instant Pot Cauliflower Mac and cheese",
         "Instant pot cauliflower mac and cheese (Well Plated)",
-        "Instant pot cauliflower mac and cheese, everyday italian salad",
         "Instant Pot Cauliflower Mac and Cheese (Well Plated)",
         "Cauliflower mac and cheese, add chicken nuggets White people tacos",
         "Instant pot cauliflower mac & cheese (add buffalo sauce chicken fingers)",

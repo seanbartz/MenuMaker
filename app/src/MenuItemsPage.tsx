@@ -122,13 +122,20 @@ export default function MenuItemsPage({
     return formatted.replace(',', '')
   }
 
+  function formatShortDate(date = new Date()) {
+    const month = date.getMonth() + 1
+    const day = date.getDate()
+    const year = String(date.getFullYear()).slice(-2)
+    return `${month}/${day}/${year}`
+  }
+
   function buildMenuMarkdown() {
-    const dateStamp = formatDateStamp()
+    const dateStamp = formatShortDate()
     const lines = menuSelections.map((item) => {
       const title = item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
-      return `- ${title}`
+      return `- [ ] ${title}`
     })
-    return `# Menu - ${dateStamp}\n\n${lines.join('\n')}\n`
+    return `# Menu week of ${dateStamp}\n\n${lines.join('\n')}\n`
   }
 
   function buildIngredientsMarkdown() {
@@ -274,7 +281,7 @@ export default function MenuItemsPage({
       .map((section) => {
         const lines = sections[section]
           .sort((a, b) => a.localeCompare(b))
-          .map((ingredient) => `- ${ingredient}`)
+          .map((ingredient) => `- [ ] ${ingredient}`)
         return `## ${section}\n${lines.join('\n')}`
       })
       .join('\n\n')

@@ -332,7 +332,8 @@ function App() {
                     {isActive && (
                       <button
                         className="ghost-button"
-                        onClick={() => {
+                        onClick={(event) => {
+                          event.stopPropagation()
                           const label = menu.title ?? menu.file
                           if (window.confirm(`Delete \"${label}\"? This cannot be undone.`)) {
                             handleDeleteMenu(menu)

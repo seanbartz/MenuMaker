@@ -139,8 +139,147 @@ export default function MenuItemsPage({
         if (ingredient) ingredientSet.add(ingredient)
       })
     })
-    const lines = Array.from(ingredientSet).map((ingredient) => `- ${ingredient}`)
-    return `# Ingredients - ${dateStamp}\n\n${lines.join('\n')}\n`
+    const sections: Record<string, string[]> = {
+      Produce: [],
+      Proteins: [],
+      Grains: [],
+      'Packaged Items': [],
+      Staples: [],
+    }
+
+    function classifyIngredient(ingredient: string): keyof typeof sections {
+      const text = ingredient.toLowerCase()
+      const includesAny = (terms: string[]) => terms.some((term) => text.includes(term))
+
+      if (
+        includesAny([
+          'apple',
+          'avocado',
+          'banana',
+          'basil',
+          'berry',
+          'broccoli',
+          'cabbage',
+          'carrot',
+          'celery',
+          'cilantro',
+          'corn',
+          'cucumber',
+          'eggplant',
+          'garlic',
+          'ginger',
+          'jalapeno',
+          'kale',
+          'lemon',
+          'lime',
+          'lettuce',
+          'mushroom',
+          'onion',
+          'orange',
+          'parsley',
+          'pepper',
+          'potato',
+          'shallot',
+          'spinach',
+          'squash',
+          'tomato',
+          'zucchini',
+        ])
+      ) {
+        return 'Produce'
+      }
+
+      if (
+        includesAny([
+          'beef',
+          'bacon',
+          'chicken',
+          'pork',
+          'ham',
+          'turkey',
+          'sausage',
+          'steak',
+          'salmon',
+          'tuna',
+          'shrimp',
+          'scallop',
+          'crab',
+          'fish',
+          'tofu',
+          'tempeh',
+          'egg',
+          'lentil',
+          'bean',
+          'chickpea',
+        ])
+      ) {
+        return 'Proteins'
+      }
+
+      if (
+        includesAny([
+          'rice',
+          'pasta',
+          'noodle',
+          'quinoa',
+          'couscous',
+          'barley',
+          'bulgur',
+          'farro',
+          'oat',
+          'orzo',
+          'polenta',
+        ])
+      ) {
+        return 'Grains'
+      }
+
+      if (
+        includesAny([
+          'cheese',
+          'yogurt',
+          'cream',
+          'milk',
+          'butter',
+          'broth',
+          'stock',
+          'salsa',
+          'pesto',
+          'tortilla',
+          'bread',
+          'bun',
+          'wrap',
+          'pita',
+          'chips',
+          'crouton',
+          'canned',
+          'jar',
+          'frozen',
+        ])
+      ) {
+        return 'Packaged Items'
+      }
+
+      return 'Staples'
+    }
+
+    Array.from(ingredientSet).forEach((ingredient) => {
+      const section = classifyIngredient(ingredient)
+      sections[section].push(ingredient)
+    })
+
+    const sectionOrder = Object.keys(sections) as (keyof typeof sections)[]
+    const content = sectionOrder
+      .filter((section) => sections[section].length)
+      .map((section) => {
+        const lines = sections[section]
+          .sort((a, b) => a.localeCompare(b))
+          .map((ingredient) => `- ${ingredient}`)
+        return `## ${section}\n${lines.join('\n')}`
+      })
+      .join('\n\n')
+
+    return `# Ingredients - ${dateStamp}\n\n${content}\n`
   }
 
   function downloadMarkdown(filename: string, content: string) {

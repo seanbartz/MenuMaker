@@ -13882,7 +13882,13 @@
         "Food",
         "Recipes"
       ],
-      "main_protein": "vegetarian"
+      "main_protein": "vegetarian",
+      "side_dishes": [
+        "Burgers",
+        "corn",
+        "zucchini",
+        "watermelon"
+      ]
     },
     {
       "menu_weeks": [
@@ -16854,7 +16860,6 @@
         "Chicken caesar salad",
         "Chicken Caesar Salad",
         "Tuesday: Chicken caesar salad",
-        "Chicken salad",
         "Caesar salad",
         "Caesar salad with chicken"
       ],
@@ -21937,6 +21942,53 @@
       "ingredients": null,
       "main_protein": "unknown",
       "count": 1
+    },
+    {
+      "url": null,
+      "urls": [],
+      "link_texts": [],
+      "menu_files": [
+        "Menus/Menu week of 1-28-18.md",
+        "Menus/Menu week of 12-6-24.md",
+        "Menus/Menu week of 5-15-25.md",
+        "Menus/Menu week of 5-22-20.md",
+        "Menus/Menu week of 7-1-24.md",
+        "Menus/Menu week of 7-14-24.md",
+        "Menus/Menu week of 7-20-17.md",
+        "Menus/Menu week of 7-20.md",
+        "Menus/Menu week of 8-22-22.md",
+        "Menus/Menu week of 8-5-17.md",
+        "Menus/Menu week of 9-17-23.md"
+      ],
+      "menu_weeks": [
+        "2018-01-28",
+        "2024-12-06",
+        "2025-05-15",
+        "2020-05-22",
+        "2024-07-01",
+        "2024-07-14",
+        "2017-07-20",
+        "2022-08-22",
+        "2017-08-05",
+        "2023-09-17"
+      ],
+      "menu_seasons": [
+        "summer",
+        "fall",
+        "spring",
+        "winter"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [],
+      "item_texts": [
+        "Chicken salad"
+      ],
+      "ingredients": null,
+      "main_protein": "unknown",
+      "count": 11
     }
   ]
 }

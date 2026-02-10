@@ -7479,9 +7479,7 @@
       "source_hints": [
         "need to make dough"
       ],
-      "item_texts": [
-        "Corned beef and cabbagePizza (need to make dough)"
-      ],
+      "item_texts": [],
       "count": 1,
       "main_protein": "unknown"
     },
@@ -10828,14 +10826,17 @@
       "link_texts": [],
       "menu_files": [
         "Menus/Menu week of 9-10-25.md",
-        "Menus/Menu week of 9-6-20.md"
+        "Menus/Menu week of 9-6-20.md",
+        "Menus/Menu week of 3-7-20.md"
       ],
       "menu_weeks": [
         "2025-09-10",
-        "2020-09-06"
+        "2020-09-06",
+        "2020-03-07"
       ],
       "menu_seasons": [
-        "fall"
+        "fall",
+        "spring"
       ],
       "meal_types": [
         "dinner"
@@ -10850,7 +10851,7 @@
         "Trader Joe\u2019s pizzas (dough will be in freezer)",
         "Pizza (make sauce)"
       ],
-      "count": 2,
+      "count": 3,
       "main_protein": "unknown"
     },
     {
@@ -20769,11 +20770,12 @@
       "menu_seasons": [
         "spring"
       ],
-      "count": 3,
+      "count": 4,
       "menu_weeks": [
         "2019-03-15",
         "2024-03-12",
-        "2023-03-20"
+        "2023-03-20",
+        "2020-03-07"
       ],
       "sections": [],
       "item_texts": [
@@ -20791,7 +20793,8 @@
       "menu_files": [
         "Menus/Menu week of 3-15-19.md",
         "Menus/Menu week of 3-12-24.md",
-        "Menus/Menu week of 3-20-23.md"
+        "Menus/Menu week of 3-20-23.md",
+        "Menus/Menu week of 3-7-20.md"
       ],
       "source_hints": [],
       "urls": [],

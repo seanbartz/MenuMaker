@@ -14,3 +14,7 @@ yarn-error.log*
 
 # Backup files
 *.backup
+
+# Tauri
+app/src-tauri/target/
+app/src-tauri/gen/

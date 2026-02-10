@@ -1,0 +1,24 @@
+{
+  "productName": "MenuMaker Desktop",
+  "version": "0.1.0",
+  "identifier": "com.seanbartz.menumakerdesktop",
+  "build": {
+    "beforeDevCommand": "npm run dev -- --host 127.0.0.1 --port 5173",
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://127.0.0.1:5173",
+    "distDir": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "MenuMaker Desktop",
+        "width": 1280,
+        "height": 800,
+        "resizable": true
+      }
+    ]
+  },
+  "bundle": {
+    "active": false
+  }
+}

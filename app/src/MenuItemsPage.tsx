@@ -18,7 +18,6 @@ interface MenuItemsPageProps {
   onViewRecipes: () => void
   menus: Menu[]
   onSaveMenu: (menu: Menu, items: RefactoredMenuItem[]) => void
-  onDeleteMenu: (menu: Menu) => void
 }
 
 export default function MenuItemsPage({
@@ -27,7 +26,6 @@ export default function MenuItemsPage({
   onViewRecipes,
   menus,
   onSaveMenu,
-  onDeleteMenu,
 }: MenuItemsPageProps) {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [proteinFilter, setProteinFilter] = useState('all')
@@ -557,31 +555,6 @@ export default function MenuItemsPage({
             <button className="primary-button" onClick={handleExportIngredients}>
               Export ingredients
             </button>
-          </div>
-          <div className="builder-saved">
-            <h3>Saved menus</h3>
-            {menus.length ? (
-              <ul className="builder-list">
-                {menus.slice(0, 8).map((menu) => (
-                  <li key={menu.file} className="builder-row">
-                    <span>{menu.title ?? menu.file}</span>
-                    <button
-                      className="ghost-button"
-                      onClick={() => {
-                        const label = menu.title ?? menu.file
-                        if (window.confirm(`Delete \"${label}\"? This cannot be undone.`)) {
-                          onDeleteMenu(menu)
-                        }
-                      }}
-                    >
-                      Delete
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <div className="builder-empty">No saved menus yet.</div>
-            )}
           </div>
         </aside>
       </main>

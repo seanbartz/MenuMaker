@@ -274,7 +274,6 @@ function App() {
           onViewRecipes={() => setCurrentPage('recipes')}
           menus={menus}
           onSaveMenu={handleSaveMenu}
-          onDeleteMenu={handleDeleteMenu}
         />
       ) : (
         <div className="app-shell">
@@ -330,6 +329,19 @@ function App() {
                       </div>
                       <span className="menu-season">{seasonLabel(menu.week_of_date)}</span>
                     </button>
+                    {isActive && (
+                      <button
+                        className="ghost-button"
+                        onClick={() => {
+                          const label = menu.title ?? menu.file
+                          if (window.confirm(`Delete \"${label}\"? This cannot be undone.`)) {
+                            handleDeleteMenu(menu)
+                          }
+                        }}
+                      >
+                        Delete menu
+                      </button>
+                    )}
                   </li>
                 )
               })}

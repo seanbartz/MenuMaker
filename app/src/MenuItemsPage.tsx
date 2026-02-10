@@ -85,7 +85,10 @@ export default function MenuItemsPage({
   }, [items])
 
   const selectedItem = sortedItems[selectedIndex] ?? null
-  const selectedTitle = selectedItem?.link_texts?.[0] ?? selectedItem?.item_texts?.[0]
+  const selectedTitle =
+    selectedItem?.link_texts?.[0] ??
+    selectedItem?.item_texts?.[0] ??
+    'Untitled item'
 
   function handleFilterChange(value: string) {
     setProteinFilter(value)

@@ -170,6 +170,26 @@ function App() {
     return { total, linked }
   }, [selectedMenu])
 
+  if (status === 'loading') {
+    return (
+      <div className="app-shell">
+        <main className="app-main">
+          <div className="loading">Loading data…</div>
+        </main>
+      </div>
+    )
+  }
+
+  if (status === 'error') {
+    return (
+      <div className="app-shell">
+        <main className="app-main">
+          <div className="error">Failed to load menus: {errorMessage}</div>
+        </main>
+      </div>
+    )
+  }
+
   return (
     <>
       {currentPage === 'recipes' ? (

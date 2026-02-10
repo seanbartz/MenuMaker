@@ -21916,48 +21916,24 @@
       "url": null,
       "urls": [],
       "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-3-2020.md"
-      ],
-      "menu_weeks": [
-        "2020-06-03"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
       "item_texts": [
-        "steak salad with beets and scallions"
-      ],
-      "ingredients": null,
-      "main_protein": "unknown",
-      "count": 1
-    },
-    {
-      "url": null,
-      "urls": [],
-      "link_texts": [],
-      "menu_files": [
-        "Menus/Menu week of 6-3-2020.md"
-      ],
-      "menu_weeks": [
-        "2020-06-03"
-      ],
-      "menu_seasons": [
-        "summer"
-      ],
-      "meal_types": [
-        "dinner"
-      ],
-      "sections": [],
-      "source_hints": [],
-      "item_texts": [
+        "steak salad with beets and scallions",
         "Grilled steak salad with beets and scallions"
       ],
+      "menu_files": [
+        "Menus/Menu week of 6-3-2020.md"
+      ],
+      "menu_weeks": [
+        "2020-06-03"
+      ],
+      "menu_seasons": [
+        "summer"
+      ],
+      "meal_types": [
+        "dinner"
+      ],
+      "sections": [],
+      "source_hints": [],
       "ingredients": null,
       "main_protein": "unknown",
       "count": 1

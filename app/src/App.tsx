@@ -77,12 +77,7 @@ function App() {
         const mod = await import('@tauri-apps/api/core')
         return mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
       } catch {
-        try {
-          const mod = await import('@tauri-apps/api/tauri')
-          return mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
-        } catch {
-          return null
-        }
+        return null
       }
     }
 
@@ -147,12 +142,7 @@ function App() {
           const mod = await import('@tauri-apps/api/core')
           return mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
         } catch {
-          try {
-            const mod = await import('@tauri-apps/api/tauri')
-            return mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
-          } catch {
-            return null
-          }
+          return null
         }
       })()
       if (!invoke) return

@@ -173,7 +173,7 @@ function App() {
   return (
     <>
       {currentPage === 'recipes' ? (
-        <RecipesPage recipes={recipes} onBack={() => setCurrentPage('items')} />
+        <RecipesPage recipes={recipes} onBack={() => setCurrentPage('menus')} />
       ) : currentPage === 'items' ? (
         <MenuItemsPage
           items={menuItems}

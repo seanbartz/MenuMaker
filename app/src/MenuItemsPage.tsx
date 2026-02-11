@@ -506,7 +506,6 @@ export default function MenuItemsPage({
         <aside className="items-list">
           <div className="list-header">
             <h2>All Items</h2>
-            <p>Choose an item to see every occurrence</p>
           </div>
           <div className="add-item-card">
             <label>

@@ -318,7 +318,7 @@ function App() {
           <header className="app-header">
             <div>
               <p className="eyebrow">MenuMaker</p>
-              <h1>Seasonal, low-waste weekly menus.</h1>
+              <h1>Menus</h1>
             </div>
             <div className="header-meta">
               <div className="meta-card">
@@ -328,12 +328,10 @@ function App() {
               <div className="meta-card clickable" onClick={() => setCurrentPage('recipes')}>
                 <span>Recipes</span>
                 <strong>{recipes.length}</strong>
-                <span className="meta-action">View →</span>
               </div>
               <div className="meta-card clickable" onClick={() => setCurrentPage('items')}>
                 <span>Items</span>
                 <strong>{menuItems.length}</strong>
-                <span className="meta-action">View →</span>
               </div>
             </div>
           </header>

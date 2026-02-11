@@ -577,8 +577,8 @@ export default function MenuItemsPage({
                 </div>
                 <div className="detail-stats">
                   <div>
-                    <span>Occurrences</span>
-                    <strong>{selectedItem.count}</strong>
+                    <span>Appears on</span>
+                    <strong>{selectedItem.count} menus</strong>
                   </div>
                   <button className="primary-button" onClick={handleAddToMenu}>
                     Add to menu

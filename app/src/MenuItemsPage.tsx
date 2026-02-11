@@ -719,48 +719,52 @@ export default function MenuItemsPage({
           </div>
         </section>
       ) : (
-      <header className="items-header">
-        <div>
-          <div className="page-actions">
-            <button onClick={onViewMenus} className="back-button">
-              Menus
-            </button>
-            <button onClick={onViewRecipes} className="back-button">
-              Recipes
-            </button>
-          </div>
-          <h1>Menu Items</h1>
-        </div>
-        <div className="header-meta">
-          <label className="filter-control">
-            <select
-              value={proteinFilter}
-              onChange={(event) => handleFilterChange(event.target.value)}
-            >
-              <option value="all">All proteins</option>
-              {proteinOptions.map(({ protein, count }) => (
-                <option key={protein} value={protein}>
-                  {protein} ({count})
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="filter-control">
-            <input
-              type="search"
-              placeholder="Type to filter..."
-              value={searchQuery}
-              onChange={(event) => handleSearchChange(event.target.value)}
-            />
-          </label>
-          <div className="meta-card meta-inline">
-            <span>Total Items</span>
-            <strong>{sortedItems.length}</strong>
-          </div>
-        </div>
-      </header>
+        <>
+          <header className="items-header">
+            <div>
+              <div className="page-actions">
+                <button onClick={onViewMenus} className="back-button">
+                  Menus
+                </button>
+                <button onClick={onViewRecipes} className="back-button">
+                  Recipes
+                </button>
+                <button onClick={() => setShowShoppingList(true)} className="back-button">
+                  Shopping List
+                </button>
+              </div>
+              <h1>Menu Items</h1>
+            </div>
+            <div className="header-meta">
+              <label className="filter-control">
+                <select
+                  value={proteinFilter}
+                  onChange={(event) => handleFilterChange(event.target.value)}
+                >
+                  <option value="all">All proteins</option>
+                  {proteinOptions.map(({ protein, count }) => (
+                    <option key={protein} value={protein}>
+                      {protein} ({count})
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="filter-control">
+                <input
+                  type="search"
+                  placeholder="Type to filter..."
+                  value={searchQuery}
+                  onChange={(event) => handleSearchChange(event.target.value)}
+                />
+              </label>
+              <div className="meta-card meta-inline">
+                <span>Total Items</span>
+                <strong>{sortedItems.length}</strong>
+              </div>
+            </div>
+          </header>
 
-      <main className="items-main">
+          <main className="items-main">
         <aside className="items-list">
           <div className="list-header">
             <h2>All Items</h2>
@@ -983,7 +987,8 @@ export default function MenuItemsPage({
             )}
           </div>
         </aside>
-      </main>
+          </main>
+        </>
       )}
     </div>
   )

@@ -20,5 +20,6 @@
   },
   "bundle": {
     "active": false
-  }
+  },
+  "permissions": ["shell:allow-open"]
 }

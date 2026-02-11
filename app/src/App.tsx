@@ -61,6 +61,17 @@ function isUrl(str: string | null): boolean {
   return str.startsWith('http://') || str.startsWith('https://')
 }
 
+async function openExternal(url: string) {
+  try {
+    const mod = await import('@tauri-apps/api/shell')
+    await mod.open(url)
+    return
+  } catch {
+    // fall back to browser
+  }
+  window.open(url, '_blank', 'noopener,noreferrer')
+}
+
 function App() {
   const [menus, setMenus] = useState<Menu[]>([])
   const [recipes, setRecipes] = useState<Recipe[]>([])
@@ -428,6 +439,10 @@ function App() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className={`item-link${link.auto_added ? ' auto-added' : ''}`}
+                                        onClick={(event) => {
+                                          event.preventDefault()
+                                          void openExternal(link.url)
+                                        }}
                                       >
                                         {getSiteName(link.url)}
                                       </a>
@@ -439,6 +454,10 @@ function App() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="item-link"
+                                        onClick={(event) => {
+                                          event.preventDefault()
+                                          void openExternal(url)
+                                        }}
                                       >
                                         {getSiteName(url)}
                                       </a>

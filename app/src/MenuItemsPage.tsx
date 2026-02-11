@@ -495,7 +495,7 @@ export default function MenuItemsPage({
               onChange={(event) => handleSearchChange(event.target.value)}
             />
           </label>
-          <div className="meta-card">
+          <div className="meta-card meta-inline">
             <span>Total Items</span>
             <strong>{sortedItems.length}</strong>
           </div>

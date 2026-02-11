@@ -113,10 +113,11 @@ function getSiteName(url: string): string {
 
 interface RecipesPageProps {
   recipes: Recipe[]
-  onBack: () => void
+  onViewMenus: () => void
+  onViewItems: () => void
 }
 
-export default function RecipesPage({ recipes, onBack }: RecipesPageProps) {
+export default function RecipesPage({ recipes, onViewMenus, onViewItems }: RecipesPageProps) {
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null)
 
   const sortedRecipes = useMemo(() => {
@@ -149,13 +150,18 @@ export default function RecipesPage({ recipes, onBack }: RecipesPageProps) {
     <div className="recipes-shell">
       <header className="recipes-header">
         <div>
-          <button onClick={onBack} className="back-button">
-            ← Back to Menus
-          </button>
           <p className="eyebrow">Recipe Collection</p>
-          <h1>Explore our recipe library</h1>
+          <h1>Recipes</h1>
         </div>
         <div className="header-meta">
+          <div className="meta-card clickable" onClick={onViewMenus}>
+            <span>Menus</span>
+            <strong>View</strong>
+          </div>
+          <div className="meta-card clickable" onClick={onViewItems}>
+            <span>Items</span>
+            <strong>View</strong>
+          </div>
           <div className="meta-card">
             <span>Total Recipes</span>
             <strong>{sortedRecipes.length}</strong>

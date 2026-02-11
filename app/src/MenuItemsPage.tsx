@@ -39,6 +39,7 @@ export default function MenuItemsPage({
   const [autoAddToMenu, setAutoAddToMenu] = useState(true)
   const [ingredientGrouping, setIngredientGrouping] = useState<'category' | 'menu'>('category')
   const [removedIngredients, setRemovedIngredients] = useState<Set<string>>(new Set())
+  const [showShoppingList, setShowShoppingList] = useState(false)
 
   function normalizeProtein(value?: string) {
     return (value ?? 'unknown').trim().toLowerCase()
@@ -633,6 +634,91 @@ export default function MenuItemsPage({
 
   return (
     <div className="items-shell">
+      {showShoppingList ? (
+        <section className="shopping-view">
+          <header className="shopping-header">
+            <div>
+              <p className="eyebrow">Shopping List</p>
+              <h1>Review Shopping List</h1>
+            </div>
+            <div className="shopping-controls">
+              <label className="builder-toggle">
+                <select
+                  value={ingredientGrouping}
+                  onChange={(event) =>
+                    setIngredientGrouping(event.target.value as 'category' | 'menu')
+                  }
+                >
+                  <option value="category">Group by category</option>
+                  <option value="menu">Group by menu item</option>
+                </select>
+              </label>
+              <button className="ghost-button" onClick={() => setShowShoppingList(false)}>
+                Back to items
+              </button>
+              <button className="primary-button" onClick={handleExportIngredients}>
+                Export shopping list
+              </button>
+            </div>
+          </header>
+
+          <div className="shopping-body">
+            {ingredientGrouping === 'menu' ? (
+              getShoppingListByMenu().length ? (
+                <div className="shopping-groups">
+                  {getShoppingListByMenu().map((group) => (
+                    <div key={group.section} className="shopping-group">
+                      <h4>{group.section}</h4>
+                      {group.items.length ? (
+                        <ul className="builder-list">
+                          {group.items.map((ingredient) => (
+                            <li key={ingredient} className="builder-row">
+                              <span>{ingredient}</span>
+                              <button
+                                className="ghost-button"
+                                onClick={() => handleRemoveIngredient(ingredient)}
+                              >
+                                Remove
+                              </button>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <div className="builder-empty">No ingredients listed.</div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="builder-empty">No ingredients yet.</div>
+              )
+            ) : getShoppingListByCategory().length ? (
+              <div className="shopping-groups">
+                {getShoppingListByCategory().map((group) => (
+                  <div key={group.section} className="shopping-group">
+                    <h4>{group.section}</h4>
+                    <ul className="builder-list">
+                      {group.items.map((ingredient) => (
+                        <li key={ingredient} className="builder-row">
+                          <span>{ingredient}</span>
+                          <button
+                            className="ghost-button"
+                            onClick={() => handleRemoveIngredient(ingredient)}
+                          >
+                            Remove
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div className="builder-empty">No ingredients yet.</div>
+            )}
+          </div>
+        </section>
+      ) : (
       <header className="items-header">
         <div>
           <div className="page-actions">
@@ -826,6 +912,9 @@ export default function MenuItemsPage({
                 <option value="menu">Group by menu item</option>
               </select>
             </label>
+            <button className="ghost-button" onClick={() => setShowShoppingList(true)}>
+              View shopping list
+            </button>
           </div>
           <div className="builder-shopping">
             <div className="builder-header">
@@ -895,6 +984,7 @@ export default function MenuItemsPage({
           </div>
         </aside>
       </main>
+      )}
     </div>
   )
 }

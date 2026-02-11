@@ -18,3 +18,7 @@ yarn-error.log*
 # Tauri
 app/src-tauri/target/
 app/src-tauri/gen/
+
+# Tauri build output
+app/tauri/
+app/app@0.0.0

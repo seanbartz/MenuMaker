@@ -668,10 +668,9 @@ export default function MenuItemsPage({
               Export menu
             </button>
             <button className="primary-button" onClick={handleExportIngredients}>
-              Export ingredients
+              Export shopping list
             </button>
             <label className="builder-toggle">
-              <span>Ingredient export</span>
               <select
                 value={ingredientGrouping}
                 onChange={(event) =>

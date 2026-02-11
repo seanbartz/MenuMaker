@@ -475,7 +475,6 @@ export default function MenuItemsPage({
         </div>
         <div className="header-meta">
           <label className="filter-control">
-            <span>Filter by protein</span>
             <select
               value={proteinFilter}
               onChange={(event) => handleFilterChange(event.target.value)}
@@ -489,7 +488,6 @@ export default function MenuItemsPage({
             </select>
           </label>
           <label className="filter-control">
-            <span>Search items</span>
             <input
               type="search"
               placeholder="Type to filter..."

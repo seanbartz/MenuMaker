@@ -369,7 +369,7 @@
 .shopping-groups {
   columns: 3;
   column-gap: 2.5rem;
-  column-rule: 1px solid rgba(0, 0, 0, 0.08);
+  column-rule: 1px solid rgba(61, 122, 107, 0.35);
   padding: 0.5rem 0;
 }
 

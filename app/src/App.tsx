@@ -63,7 +63,7 @@ function isUrl(str: string | null): boolean {
 
 async function openExternal(url: string) {
   try {
-    const mod = await import('@tauri-apps/api/shell')
+    const mod = await import('@tauri-apps/plugin-shell')
     await mod.open(url)
     return
   } catch {

@@ -18,6 +18,7 @@ interface MenuItemsPageProps {
   onViewRecipes: () => void
   menus: Menu[]
   onSaveMenu: (menu: Menu, items: RefactoredMenuItem[]) => void
+  onAddItem: (item: RefactoredMenuItem) => void
 }
 
 export default function MenuItemsPage({
@@ -26,11 +27,15 @@ export default function MenuItemsPage({
   onViewRecipes,
   menus,
   onSaveMenu,
+  onAddItem,
 }: MenuItemsPageProps) {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [proteinFilter, setProteinFilter] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
   const [menuSelections, setMenuSelections] = useState<RefactoredMenuItem[]>([])
+  const [newItemUrl, setNewItemUrl] = useState('')
+  const [scrapeStatus, setScrapeStatus] = useState<'idle' | 'loading' | 'error'>('idle')
+  const [scrapeError, setScrapeError] = useState<string | null>(null)
 
   function normalizeProtein(value?: string) {
     return (value ?? 'unknown').trim().toLowerCase()
@@ -397,6 +402,44 @@ export default function MenuItemsPage({
     downloadMarkdown(`ingredients-${dateStamp}.md`, buildIngredientsMarkdown())
   }
 
+  async function handleAddFromUrl() {
+    if (!newItemUrl.trim()) return
+    setScrapeStatus('loading')
+    setScrapeError(null)
+    try {
+      const mod = await import('@tauri-apps/api/core')
+      const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
+      const result = await invoke<{
+        title: string
+        ingredients: string[]
+        tags: string[]
+        main_protein: string
+      }>('scrape_recipe', { url: newItemUrl.trim() })
+      const title = result.title || newItemUrl.trim()
+      onAddItem({
+        url: newItemUrl.trim(),
+        urls: [newItemUrl.trim()],
+        link_texts: [title],
+        item_texts: [title],
+        menu_files: [],
+        menu_weeks: [],
+        menu_seasons: [],
+        meal_types: [],
+        sections: [],
+        source_hints: [newItemUrl.trim()],
+        ingredients: result.ingredients ?? [],
+        recipe_tags: result.tags ?? [],
+        main_protein: result.main_protein || 'unknown',
+        count: 0,
+      })
+      setNewItemUrl('')
+      setScrapeStatus('idle')
+    } catch (error) {
+      setScrapeStatus('error')
+      setScrapeError(error instanceof Error ? error.message : 'Failed to scrape URL')
+    }
+  }
+
   return (
     <div className="items-shell">
       <header className="items-header">
@@ -447,6 +490,27 @@ export default function MenuItemsPage({
           <div className="list-header">
             <h2>All Items</h2>
             <p>Choose an item to see every occurrence</p>
+          </div>
+          <div className="add-item-card">
+            <label>
+              <span>Add item by URL</span>
+              <input
+                type="url"
+                placeholder="Paste recipe URL..."
+                value={newItemUrl}
+                onChange={(event) => setNewItemUrl(event.target.value)}
+              />
+            </label>
+            <button
+              className="primary-button"
+              onClick={handleAddFromUrl}
+              disabled={scrapeStatus === 'loading'}
+            >
+              {scrapeStatus === 'loading' ? 'Scraping…' : 'Add item'}
+            </button>
+            {scrapeStatus === 'error' && (
+              <p className="detail-empty">{scrapeError ?? 'Failed to scrape URL'}</p>
+            )}
           </div>
           <ul>
             {sortedItems.map((item, index) => {

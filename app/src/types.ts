@@ -36,6 +36,8 @@ export type RefactoredMenuItem = {
   item_texts: string[]
   ingredients: string[]
   main_protein?: string
-  count: number
+  recipe_tags?: string[]
+  side_dish?: string
   side_dishes?: string[]
+  count: number
 }

@@ -4,12 +4,21 @@ use std::fs;
 use std::path::PathBuf;
 
 use serde::{Deserialize, Serialize};
+use scraper::{Html, Selector};
 use tauri::{path::BaseDirectory, AppHandle, Manager};
 
 #[derive(Serialize, Deserialize)]
 struct StoredData {
   menus: serde_json::Value,
   items: serde_json::Value,
+}
+
+#[derive(Serialize, Deserialize)]
+struct ScrapeResult {
+  title: String,
+  ingredients: Vec<String>,
+  tags: Vec<String>,
+  main_protein: String,
 }
 
 fn resolve_path(app: &AppHandle, filename: &str) -> Result<PathBuf, String> {
@@ -63,10 +72,135 @@ fn save_data(app: AppHandle, menus: serde_json::Value, items: serde_json::Value)
   Ok(())
 }
 
+fn extract_text(element: scraper::element_ref::ElementRef) -> String {
+  element.text().collect::<Vec<_>>().join(" ").trim().to_string()
+}
+
+fn normalize_whitespace(value: &str) -> String {
+  value.split_whitespace().collect::<Vec<_>>().join(" ")
+}
+
+fn dedupe(mut values: Vec<String>) -> Vec<String> {
+  values.retain(|v| !v.is_empty());
+  let mut out = Vec::new();
+  for v in values.drain(..) {
+    if !out.iter().any(|e| e.eq_ignore_ascii_case(&v)) {
+      out.push(v);
+    }
+  }
+  out
+}
+
+fn detect_protein(ingredients: &[String]) -> String {
+  if ingredients.is_empty() {
+    return "unknown".to_string();
+  }
+  let text = ingredients.join(" ").to_lowercase();
+  let has = |terms: &[&str]| terms.iter().any(|t| text.contains(t));
+  if has(&["tofu", "tempeh", "seitan"]) {
+    return "tofu".to_string();
+  }
+  if has(&[
+    "chicken", "beef", "pork", "turkey", "sausage", "bacon", "ham", "salmon", "tuna", "shrimp",
+    "scallop", "crab", "fish", "egg", "lamb",
+  ]) {
+    return "meat".to_string();
+  }
+  if has(&["lentil", "bean", "beans", "chickpea"]) {
+    return "vegetarian".to_string();
+  }
+  "vegetarian".to_string()
+}
+
+#[tauri::command]
+async fn scrape_recipe(url: String) -> Result<ScrapeResult, String> {
+  let client = reqwest::Client::builder()
+    .user_agent("MenuMaker Desktop/0.1")
+    .build()
+    .map_err(|err| err.to_string())?;
+
+  let res = client
+    .get(&url)
+    .send()
+    .await
+    .map_err(|err| err.to_string())?;
+
+  let html = res.text().await.map_err(|err| err.to_string())?;
+  let doc = Html::parse_document(&html);
+
+  let title = {
+    let og = Selector::parse("meta[property='og:title']").unwrap();
+    if let Some(el) = doc.select(&og).next() {
+      if let Some(content) = el.value().attr("content") {
+        normalize_whitespace(content)
+      } else {
+        String::new()
+      }
+    } else {
+      let title_sel = Selector::parse("title").unwrap();
+      if let Some(el) = doc.select(&title_sel).next() {
+        normalize_whitespace(&extract_text(el))
+      } else {
+        String::new()
+      }
+    }
+  };
+
+  let mut ingredients = Vec::new();
+  let ingredient_prop = Selector::parse("[itemprop='recipeIngredient']").unwrap();
+  for el in doc.select(&ingredient_prop) {
+    let text = normalize_whitespace(&extract_text(el));
+    if !text.is_empty() {
+      ingredients.push(text);
+    }
+  }
+
+  if ingredients.is_empty() {
+    let ingredient_list = Selector::parse(".ingredients li, li[class*='ingredient']").unwrap();
+    for el in doc.select(&ingredient_list) {
+      let text = normalize_whitespace(&extract_text(el));
+      if !text.is_empty() {
+        ingredients.push(text);
+      }
+    }
+  }
+
+  let mut tags = Vec::new();
+  let tag_meta = Selector::parse("meta[property='article:tag'], meta[name='keywords']").unwrap();
+  for el in doc.select(&tag_meta) {
+    if let Some(content) = el.value().attr("content") {
+      let parts = content
+        .split(',')
+        .map(|v| normalize_whitespace(v))
+        .filter(|v| !v.is_empty());
+      tags.extend(parts);
+    }
+  }
+
+  let tag_sel = Selector::parse("a[rel='tag'], .tags a, .tag a").unwrap();
+  for el in doc.select(&tag_sel) {
+    let text = normalize_whitespace(&extract_text(el));
+    if !text.is_empty() {
+      tags.push(text);
+    }
+  }
+
+  let ingredients = dedupe(ingredients);
+  let tags = dedupe(tags);
+  let main_protein = detect_protein(&ingredients);
+
+  Ok(ScrapeResult {
+    title,
+    ingredients,
+    tags,
+    main_protein,
+  })
+}
+
 fn main() {
   tauri::Builder::default()
     .plugin(tauri_plugin_shell::init())
-    .invoke_handler(tauri::generate_handler![load_data, save_data])
+    .invoke_handler(tauri::generate_handler![load_data, save_data, scrape_recipe])
     .run(tauri::generate_context!())
     .expect("error while running tauri application");
 }

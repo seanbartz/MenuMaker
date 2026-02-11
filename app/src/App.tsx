@@ -148,25 +148,7 @@ function App() {
     const nextMenus = [menu, ...menus]
     setMenus(nextMenus)
     setMenuItems(updatedItems)
-    void (async () => {
-      const invoke = await (async () => {
-        try {
-          const mod = await import('@tauri-apps/api/core')
-          return mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
-        } catch {
-          return null
-        }
-      })()
-      if (!invoke) return
-      try {
-        await invoke('save_data', {
-          menus: { menus: nextMenus },
-          items: { items: updatedItems },
-        })
-      } catch {
-        // ignore persistence errors
-      }
-    })()
+    persistDesktopData(nextMenus, updatedItems)
   }
 
   function handleDeleteMenu(menu: Menu) {
@@ -199,18 +181,58 @@ function App() {
     if (confirmDeleteFile === menu.file) {
       setConfirmDeleteFile(null)
     }
+    persistDesktopData(nextMenus, nextItems)
+  }
 
-    void (async () => {
-      const invoke = await (async () => {
-        try {
-          const mod = await import('@tauri-apps/api/core')
-          return mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
-        } catch {
-          return null
+  function handleAddItem(newItem: RefactoredMenuItem) {
+    setMenuItems((prev) => {
+      const existingIndex = prev.findIndex(
+        (item) =>
+          (item.url && item.url === newItem.url) ||
+          (item.urls ?? []).includes(newItem.url ?? '')
+      )
+      if (existingIndex === -1) {
+        const nextItems = [newItem, ...prev]
+        persistDesktopData(menus, nextItems)
+        return nextItems
+      }
+      const updated = prev.map((item, index) => {
+        if (index !== existingIndex) return item
+        const urls = Array.from(new Set([...(item.urls ?? []), ...(newItem.urls ?? [])]))
+        const link_texts = Array.from(
+          new Set([...(item.link_texts ?? []), ...(newItem.link_texts ?? [])])
+        )
+        const item_texts = Array.from(
+          new Set([...(item.item_texts ?? []), ...(newItem.item_texts ?? [])])
+        )
+        const source_hints = Array.from(
+          new Set([...(item.source_hints ?? []), ...(newItem.source_hints ?? [])])
+        )
+        const recipe_tags = Array.from(
+          new Set([...(item.recipe_tags ?? []), ...(newItem.recipe_tags ?? [])])
+        )
+        return {
+          ...item,
+          url: newItem.url ?? item.url,
+          urls,
+          link_texts,
+          item_texts,
+          source_hints,
+          ingredients: newItem.ingredients?.length ? newItem.ingredients : item.ingredients,
+          recipe_tags,
+          main_protein: newItem.main_protein || item.main_protein,
         }
-      })()
-      if (!invoke) return
+      })
+      persistDesktopData(menus, updated)
+      return updated
+    })
+  }
+
+  function persistDesktopData(nextMenus: Menu[], nextItems: RefactoredMenuItem[]) {
+    void (async () => {
       try {
+        const mod = await import('@tauri-apps/api/core')
+        const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
         await invoke('save_data', {
           menus: { menus: nextMenus },
           items: { items: nextItems },
@@ -289,6 +311,7 @@ function App() {
           onViewRecipes={() => setCurrentPage('recipes')}
           menus={menus}
           onSaveMenu={handleSaveMenu}
+          onAddItem={handleAddItem}
         />
       ) : (
         <div className="app-shell">

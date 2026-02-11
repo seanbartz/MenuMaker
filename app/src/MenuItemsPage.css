@@ -368,7 +368,9 @@
 
 .shopping-groups {
   columns: 3;
-  column-gap: 1.5rem;
+  column-gap: 2.5rem;
+  column-rule: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0.5rem 0;
 }
 
 .shopping-group h4 {

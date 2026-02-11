@@ -65,6 +65,7 @@ fn save_data(app: AppHandle, menus: serde_json::Value, items: serde_json::Value)
 
 fn main() {
   tauri::Builder::default()
+    .plugin(tauri_plugin_shell::init())
     .invoke_handler(tauri::generate_handler![load_data, save_data])
     .run(tauri::generate_context!())
     .expect("error while running tauri application");

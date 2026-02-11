@@ -1,0 +1,7 @@
+{
+  "identifier": "default",
+  "description": "Default capability for MenuMaker Desktop",
+  "local": true,
+  "windows": ["main"],
+  "permissions": ["shell:allow-open"]
+}

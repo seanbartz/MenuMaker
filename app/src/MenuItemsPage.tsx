@@ -37,6 +37,7 @@ export default function MenuItemsPage({
   const [scrapeStatus, setScrapeStatus] = useState<'idle' | 'loading' | 'error'>('idle')
   const [scrapeError, setScrapeError] = useState<string | null>(null)
   const [autoAddToMenu, setAutoAddToMenu] = useState(true)
+  const [ingredientGrouping, setIngredientGrouping] = useState<'category' | 'menu'>('category')
 
   function normalizeProtein(value?: string) {
     return (value ?? 'unknown').trim().toLowerCase()
@@ -135,6 +136,19 @@ export default function MenuItemsPage({
 
   function buildIngredientsMarkdown() {
     const dateStamp = formatDateStamp()
+    if (ingredientGrouping === 'menu') {
+      const content = menuSelections
+        .map((item) => {
+          const title = item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
+          const lines = (item.ingredients ?? [])
+            .filter(Boolean)
+            .map((ingredient) => `- [ ] ${ingredient}`)
+          return `## ${title}\n${lines.length ? lines.join('\n') : '_No ingredients listed._'}`
+        })
+        .join('\n\n')
+      return `# Ingredients - ${dateStamp}\n\n${content}\n`
+    }
+
     const ingredientMap = new Map<string, string>()
     menuSelections.forEach((item) => {
       item.ingredients?.forEach((ingredient) => {
@@ -632,6 +646,18 @@ export default function MenuItemsPage({
             <button className="primary-button" onClick={handleExportIngredients}>
               Export ingredients
             </button>
+            <label className="builder-toggle">
+              <span>Ingredient export</span>
+              <select
+                value={ingredientGrouping}
+                onChange={(event) =>
+                  setIngredientGrouping(event.target.value as 'category' | 'menu')
+                }
+              >
+                <option value="category">Group by category</option>
+                <option value="menu">Group by menu item</option>
+              </select>
+            </label>
           </div>
         </aside>
       </main>

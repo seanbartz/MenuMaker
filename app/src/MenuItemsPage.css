@@ -309,6 +309,22 @@
   margin-top: auto;
 }
 
+.builder-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.builder-toggle select {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0.4rem 0.6rem;
+  font-size: 0.85rem;
+  background: white;
+}
+
 .back-button {
   background: none;
   border: none;

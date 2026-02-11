@@ -14099,7 +14099,19 @@
         "Bulgur salad",
         "Bulgur Salad with Grapes and Feta Cheese"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "ingredients": [
+        "1/2 cup fine-grained bulgur wheat",
+        "1/2 teaspoon coarse salt",
+        "3/4 cup boiling water",
+        "2 tablespoons fresh lemon juice",
+        "1 tablespoon olive oil",
+        "coarse salt and ground pepper",
+        "2 tablespoons minced scallion",
+        "3/4 cup halved seedless grapes",
+        "1/2 cup chopped walnuts",
+        "1/2 cup crumbled feta cheese"
+      ]
     },
     {
       "sections": [],

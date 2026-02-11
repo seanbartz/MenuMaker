@@ -329,20 +329,6 @@ function App() {
                       </div>
                       <span className="menu-season">{seasonLabel(menu.week_of_date)}</span>
                     </button>
-                    {isActive && (
-                      <button
-                        className="ghost-button"
-                        onClick={(event) => {
-                          event.stopPropagation()
-                          const label = menu.title ?? menu.file
-                          if (window.confirm(`Delete \"${label}\"? This cannot be undone.`)) {
-                            handleDeleteMenu(menu)
-                          }
-                        }}
-                      >
-                        Delete menu
-                      </button>
-                    )}
                   </li>
                 )
               })}
@@ -359,18 +345,31 @@ function App() {
                   <h2>{selectedMenu.title ?? selectedMenu.file}</h2>
                   <p className="detail-date">{formatDate(selectedMenu.week_of_date)}</p>
                 </div>
-                {menuStats && (
-                  <div className="detail-stats">
-                    <div>
-                      <span>Items</span>
-                      <strong>{menuStats.total}</strong>
+                <div className="detail-actions">
+                  {menuStats && (
+                    <div className="detail-stats">
+                      <div>
+                        <span>Items</span>
+                        <strong>{menuStats.total}</strong>
+                      </div>
+                      <div>
+                        <span>With links</span>
+                        <strong>{menuStats.linked}</strong>
+                      </div>
                     </div>
-                    <div>
-                      <span>With links</span>
-                      <strong>{menuStats.linked}</strong>
-                    </div>
-                  </div>
-                )}
+                  )}
+                  <button
+                    className="ghost-button"
+                    onClick={() => {
+                      const label = selectedMenu.title ?? selectedMenu.file
+                      if (window.confirm(`Delete \"${label}\"? This cannot be undone.`)) {
+                        handleDeleteMenu(selectedMenu)
+                      }
+                    }}
+                  >
+                    Delete menu
+                  </button>
+                </div>
               </div>
 
               <div className="section-grid">

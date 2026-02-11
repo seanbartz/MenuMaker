@@ -86,7 +86,7 @@
   color: var(--muted);
 }
 
-.add-item-toggle {
+.add-item-card .add-item-toggle {
   display: flex;
   align-items: center;
   gap: 0.5rem;

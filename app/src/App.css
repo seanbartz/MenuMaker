@@ -214,6 +214,24 @@
   color: var(--accent);
 }
 
+.ghost-button.danger {
+  border-color: rgba(204, 50, 50, 0.5);
+  color: #b53a3a;
+}
+
+.ghost-button.danger:hover {
+  border-color: #cc3232;
+  color: #cc3232;
+}
+
+.detail-delete {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 .detail-stats span {
   font-size: 0.75rem;
   color: var(--muted);

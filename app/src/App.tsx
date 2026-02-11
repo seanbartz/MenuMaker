@@ -69,6 +69,7 @@ function App() {
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
   const [currentPage, setCurrentPage] = useState<'menus' | 'recipes' | 'items'>('items')
+  const [confirmDeleteFile, setConfirmDeleteFile] = useState<string | null>(null)
 
   useEffect(() => {
     let cancelled = false
@@ -184,6 +185,9 @@ function App() {
 
     setMenus(nextMenus)
     setMenuItems(nextItems)
+    if (confirmDeleteFile === menu.file) {
+      setConfirmDeleteFile(null)
+    }
 
     void (async () => {
       const invoke = await (async () => {
@@ -358,17 +362,30 @@ function App() {
                       </div>
                     </div>
                   )}
-                  <button
-                    className="ghost-button"
-                    onClick={() => {
-                      const label = selectedMenu.title ?? selectedMenu.file
-                      if (window.confirm(`Delete \"${label}\"? This cannot be undone.`)) {
-                        handleDeleteMenu(selectedMenu)
-                      }
-                    }}
-                  >
-                    Delete menu
-                  </button>
+                  {confirmDeleteFile === selectedMenu.file ? (
+                    <div className="detail-delete">
+                      <span>Delete this menu?</span>
+                      <button
+                        className="ghost-button danger"
+                        onClick={() => handleDeleteMenu(selectedMenu)}
+                      >
+                        Delete
+                      </button>
+                      <button
+                        className="ghost-button"
+                        onClick={() => setConfirmDeleteFile(null)}
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  ) : (
+                    <button
+                      className="ghost-button"
+                      onClick={() => setConfirmDeleteFile(selectedMenu.file)}
+                    >
+                      Delete menu
+                    </button>
+                  )}
                 </div>
               </div>
 

@@ -57,12 +57,6 @@
   box-shadow: 0 8px 24px rgba(228, 87, 46, 0.15);
 }
 
-.meta-card.clickable::after {
-  content: '→';
-  font-size: 1.1rem;
-  color: var(--accent);
-  justify-self: end;
-}
 
 .meta-action {
   font-size: 0.7rem;

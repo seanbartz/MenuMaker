@@ -38,6 +38,7 @@ export default function MenuItemsPage({
   const [scrapeError, setScrapeError] = useState<string | null>(null)
   const [autoAddToMenu, setAutoAddToMenu] = useState(true)
   const [ingredientGrouping, setIngredientGrouping] = useState<'category' | 'menu'>('category')
+  const [removedIngredients, setRemovedIngredients] = useState<Set<string>>(new Set())
 
   function normalizeProtein(value?: string) {
     return (value ?? 'unknown').trim().toLowerCase()
@@ -142,6 +143,7 @@ export default function MenuItemsPage({
           const title = item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
           const lines = (item.ingredients ?? [])
             .filter(Boolean)
+            .filter((ingredient) => !removedIngredients.has(normalizeIngredientKey(ingredient)))
             .map((ingredient) => `- [ ] ${ingredient}`)
           return `## ${title}\n${lines.length ? lines.join('\n') : '_No ingredients listed._'}`
         })
@@ -153,6 +155,7 @@ export default function MenuItemsPage({
     menuSelections.forEach((item) => {
       item.ingredients?.forEach((ingredient) => {
         if (!ingredient) return
+        if (removedIngredients.has(normalizeIngredientKey(ingredient))) return
         const key = normalizeIngredientKey(ingredient)
         if (!ingredientMap.has(key)) {
           ingredientMap.set(key, ingredient)
@@ -417,6 +420,30 @@ export default function MenuItemsPage({
     downloadMarkdown(`ingredients-${dateStamp}.md`, buildIngredientsMarkdown())
   }
 
+  function getShoppingList() {
+    const ingredientMap = new Map<string, string>()
+    menuSelections.forEach((item) => {
+      item.ingredients?.forEach((ingredient) => {
+        if (!ingredient) return
+        const key = normalizeIngredientKey(ingredient)
+        if (removedIngredients.has(key)) return
+        if (!ingredientMap.has(key)) {
+          ingredientMap.set(key, ingredient)
+        }
+      })
+    })
+    return Array.from(ingredientMap.values()).sort((a, b) => a.localeCompare(b))
+  }
+
+  function handleRemoveIngredient(ingredient: string) {
+    const key = normalizeIngredientKey(ingredient)
+    setRemovedIngredients((prev) => {
+      const next = new Set(prev)
+      next.add(key)
+      return next
+    })
+  }
+
   async function handleAddFromUrl() {
     if (!newItemUrl.trim()) return
     setScrapeStatus('loading')
@@ -655,6 +682,31 @@ export default function MenuItemsPage({
                 <option value="menu">Group by menu item</option>
               </select>
             </label>
+          </div>
+          <div className="builder-shopping">
+            <div className="builder-header">
+              <div>
+                <h3>Shopping List</h3>
+                <p>{getShoppingList().length} ingredients</p>
+              </div>
+            </div>
+            {getShoppingList().length ? (
+              <ul className="builder-list">
+                {getShoppingList().map((ingredient) => (
+                  <li key={ingredient} className="builder-row">
+                    <span>{ingredient}</span>
+                    <button
+                      className="ghost-button"
+                      onClick={() => handleRemoveIngredient(ingredient)}
+                    >
+                      Remove
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <div className="builder-empty">No ingredients yet.</div>
+            )}
           </div>
         </aside>
       </main>

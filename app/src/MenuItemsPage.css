@@ -367,14 +367,20 @@
 }
 
 .shopping-groups {
-  display: grid;
-  gap: 1rem;
+  columns: 2;
+  column-gap: 1.5rem;
 }
 
 .shopping-group h4 {
   margin: 0 0 0.5rem;
   font-size: 0.95rem;
   color: var(--ink);
+}
+
+.shopping-group {
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  padding-bottom: 0.8rem;
 }
 
 .shopping-view {
@@ -404,6 +410,12 @@
 .shopping-body {
   display: grid;
   gap: 1.25rem;
+}
+
+@media (max-width: 960px) {
+  .shopping-groups {
+    columns: 1;
+  }
 }
 
 .builder-toggle {

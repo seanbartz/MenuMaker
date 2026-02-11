@@ -36,6 +36,7 @@ export default function MenuItemsPage({
   const [newItemUrl, setNewItemUrl] = useState('')
   const [scrapeStatus, setScrapeStatus] = useState<'idle' | 'loading' | 'error'>('idle')
   const [scrapeError, setScrapeError] = useState<string | null>(null)
+  const [autoAddToMenu, setAutoAddToMenu] = useState(true)
 
   function normalizeProtein(value?: string) {
     return (value ?? 'unknown').trim().toLowerCase()
@@ -416,7 +417,7 @@ export default function MenuItemsPage({
         main_protein: string
       }>('scrape_recipe', { url: newItemUrl.trim() })
       const title = result.title || newItemUrl.trim()
-      onAddItem({
+      const newItem: RefactoredMenuItem = {
         url: newItemUrl.trim(),
         urls: [newItemUrl.trim()],
         link_texts: [title],
@@ -431,7 +432,11 @@ export default function MenuItemsPage({
         recipe_tags: result.tags ?? [],
         main_protein: result.main_protein || 'unknown',
         count: 0,
-      })
+      }
+      onAddItem(newItem)
+      if (autoAddToMenu) {
+        setMenuSelections((prev) => [...prev, newItem])
+      }
       setNewItemUrl('')
       setScrapeStatus('idle')
     } catch (error) {
@@ -500,6 +505,14 @@ export default function MenuItemsPage({
                 value={newItemUrl}
                 onChange={(event) => setNewItemUrl(event.target.value)}
               />
+            </label>
+            <label className="add-item-toggle">
+              <input
+                type="checkbox"
+                checked={autoAddToMenu}
+                onChange={(event) => setAutoAddToMenu(event.target.checked)}
+              />
+              Add to current menu
             </label>
             <button
               className="primary-button"

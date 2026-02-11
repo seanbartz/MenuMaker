@@ -84,7 +84,7 @@ fn dedupe(mut values: Vec<String>) -> Vec<String> {
   values.retain(|v| !v.is_empty());
   let mut out = Vec::new();
   for v in values.drain(..) {
-    if !out.iter().any(|e| e.eq_ignore_ascii_case(&v)) {
+    if !out.iter().any(|e: &String| e.eq_ignore_ascii_case(&v)) {
       out.push(v);
     }
   }

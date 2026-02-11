@@ -420,7 +420,7 @@ export default function MenuItemsPage({
     downloadMarkdown(`ingredients-${dateStamp}.md`, buildIngredientsMarkdown())
   }
 
-  function getShoppingList() {
+  function getShoppingListByCategory() {
     const ingredientMap = new Map<string, string>()
     menuSelections.forEach((item) => {
       item.ingredients?.forEach((ingredient) => {
@@ -432,7 +432,152 @@ export default function MenuItemsPage({
         }
       })
     })
-    return Array.from(ingredientMap.values()).sort((a, b) => a.localeCompare(b))
+
+    const sections: Record<string, string[]> = {
+      Produce: [],
+      Proteins: [],
+      Grains: [],
+      'Packaged Items': [],
+      Staples: [],
+    }
+
+    const classifyIngredient = (ingredient: string): keyof typeof sections => {
+      const text = ingredient.toLowerCase()
+      const includesAny = (terms: string[]) => terms.some((term) => text.includes(term))
+
+      if (
+        includesAny([
+          'apple',
+          'avocado',
+          'banana',
+          'basil',
+          'berry',
+          'broccoli',
+          'cabbage',
+          'carrot',
+          'celery',
+          'cilantro',
+          'corn',
+          'cucumber',
+          'eggplant',
+          'garlic',
+          'ginger',
+          'jalapeno',
+          'kale',
+          'lemon',
+          'lime',
+          'lettuce',
+          'mushroom',
+          'onion',
+          'orange',
+          'parsley',
+          'pepper',
+          'potato',
+          'shallot',
+          'spinach',
+          'squash',
+          'tomato',
+          'zucchini',
+        ])
+      ) {
+        return 'Produce'
+      }
+
+      if (
+        includesAny([
+          'beef',
+          'bacon',
+          'chicken',
+          'pork',
+          'ham',
+          'turkey',
+          'sausage',
+          'steak',
+          'salmon',
+          'tuna',
+          'shrimp',
+          'scallop',
+          'crab',
+          'fish',
+          'tofu',
+          'tempeh',
+          'egg',
+          'lentil',
+          'bean',
+          'chickpea',
+        ])
+      ) {
+        return 'Proteins'
+      }
+
+      if (
+        includesAny([
+          'rice',
+          'pasta',
+          'noodle',
+          'quinoa',
+          'couscous',
+          'barley',
+          'bulgur',
+          'farro',
+          'oat',
+          'orzo',
+          'polenta',
+        ])
+      ) {
+        return 'Grains'
+      }
+
+      if (
+        includesAny([
+          'cheese',
+          'yogurt',
+          'cream',
+          'milk',
+          'butter',
+          'broth',
+          'stock',
+          'salsa',
+          'pesto',
+          'tortilla',
+          'bread',
+          'bun',
+          'wrap',
+          'pita',
+          'chips',
+          'crouton',
+          'canned',
+          'jar',
+          'frozen',
+        ])
+      ) {
+        return 'Packaged Items'
+      }
+
+      return 'Staples'
+    }
+
+    Array.from(ingredientMap.values()).forEach((ingredient) => {
+      const section = classifyIngredient(ingredient)
+      sections[section].push(ingredient)
+    })
+
+    return Object.entries(sections)
+      .map(([section, list]) => ({
+        section,
+        items: list.sort((a, b) => a.localeCompare(b)),
+      }))
+      .filter((group) => group.items.length)
+  }
+
+  function getShoppingListByMenu() {
+    return menuSelections.map((item) => {
+      const title = item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
+      const items = (item.ingredients ?? [])
+        .filter(Boolean)
+        .filter((ingredient) => !removedIngredients.has(normalizeIngredientKey(ingredient)))
+      return { section: title, items }
+    })
   }
 
   function handleRemoveIngredient(ingredient: string) {
@@ -686,23 +831,64 @@ export default function MenuItemsPage({
             <div className="builder-header">
               <div>
                 <h3>Shopping List</h3>
-                <p>{getShoppingList().length} ingredients</p>
+                <p>
+                  {ingredientGrouping === 'menu'
+                    ? getShoppingListByMenu().reduce((sum, group) => sum + group.items.length, 0)
+                    : getShoppingListByCategory().reduce((sum, group) => sum + group.items.length, 0)}{' '}
+                  ingredients
+                </p>
               </div>
             </div>
-            {getShoppingList().length ? (
-              <ul className="builder-list">
-                {getShoppingList().map((ingredient) => (
-                  <li key={ingredient} className="builder-row">
-                    <span>{ingredient}</span>
-                    <button
-                      className="ghost-button"
-                      onClick={() => handleRemoveIngredient(ingredient)}
-                    >
-                      Remove
-                    </button>
-                  </li>
+            {ingredientGrouping === 'menu' ? (
+              getShoppingListByMenu().length ? (
+                <div className="shopping-groups">
+                  {getShoppingListByMenu().map((group) => (
+                    <div key={group.section} className="shopping-group">
+                      <h4>{group.section}</h4>
+                      {group.items.length ? (
+                        <ul className="builder-list">
+                          {group.items.map((ingredient) => (
+                            <li key={ingredient} className="builder-row">
+                              <span>{ingredient}</span>
+                              <button
+                                className="ghost-button"
+                                onClick={() => handleRemoveIngredient(ingredient)}
+                              >
+                                Remove
+                              </button>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <div className="builder-empty">No ingredients listed.</div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="builder-empty">No ingredients yet.</div>
+              )
+            ) : getShoppingListByCategory().length ? (
+              <div className="shopping-groups">
+                {getShoppingListByCategory().map((group) => (
+                  <div key={group.section} className="shopping-group">
+                    <h4>{group.section}</h4>
+                    <ul className="builder-list">
+                      {group.items.map((ingredient) => (
+                        <li key={ingredient} className="builder-row">
+                          <span>{ingredient}</span>
+                          <button
+                            className="ghost-button"
+                            onClick={() => handleRemoveIngredient(ingredient)}
+                          >
+                            Remove
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 ))}
-              </ul>
+              </div>
             ) : (
               <div className="builder-empty">No ingredients yet.</div>
             )}

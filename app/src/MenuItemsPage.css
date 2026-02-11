@@ -366,6 +366,17 @@
   font-size: 1.05rem;
 }
 
+.shopping-groups {
+  display: grid;
+  gap: 1rem;
+}
+
+.shopping-group h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
 .builder-toggle {
   display: flex;
   flex-direction: column;

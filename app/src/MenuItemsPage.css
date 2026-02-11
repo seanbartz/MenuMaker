@@ -24,6 +24,15 @@
   align-items: stretch;
 }
 
+.filter-control {
+  width: 100%;
+}
+
+.filter-control select,
+.filter-control input[type='search'] {
+  max-width: 100%;
+}
+
 .items-header .meta-card {
   width: 100%;
   justify-self: stretch;

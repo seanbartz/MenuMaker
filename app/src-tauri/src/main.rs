@@ -112,6 +112,59 @@ fn detect_protein(ingredients: &[String]) -> String {
   "vegetarian".to_string()
 }
 
+fn extract_from_json_ld(doc: &Html) -> (Vec<String>, Vec<String>) {
+  let mut ingredients = Vec::new();
+  let mut tags = Vec::new();
+  let script_sel = Selector::parse("script[type='application/ld+json']").unwrap();
+  for el in doc.select(&script_sel) {
+    let raw = extract_text(el);
+    let parsed: Result<serde_json::Value, _> = serde_json::from_str(&raw);
+    if parsed.is_err() {
+      continue;
+    }
+    let value = parsed.unwrap();
+    let nodes = if value.is_array() {
+      value.as_array().cloned().unwrap_or_default()
+    } else {
+      vec![value]
+    };
+    for node in nodes {
+      let recipe = if node.get("@type").and_then(|v| v.as_str()) == Some("Recipe") {
+        Some(node)
+      } else if let Some(graph) = node.get("@graph").and_then(|v| v.as_array()) {
+        graph.iter().find(|n| n.get("@type").and_then(|v| v.as_str()) == Some("Recipe")).cloned()
+      } else {
+        None
+      };
+      if let Some(recipe) = recipe {
+        if let Some(list) = recipe.get("recipeIngredient").and_then(|v| v.as_array()) {
+          for ing in list {
+            if let Some(text) = ing.as_str() {
+              ingredients.push(normalize_whitespace(text));
+            }
+          }
+        }
+        if let Some(list) = recipe.get("keywords").and_then(|v| v.as_str()) {
+          for part in list.split(',') {
+            let text = normalize_whitespace(part);
+            if !text.is_empty() {
+              tags.push(text);
+            }
+          }
+        }
+        if let Some(list) = recipe.get("recipeCategory").and_then(|v| v.as_array()) {
+          for cat in list {
+            if let Some(text) = cat.as_str() {
+              tags.push(normalize_whitespace(text));
+            }
+          }
+        }
+      }
+    }
+  }
+  (dedupe(ingredients), dedupe(tags))
+}
+
 #[tauri::command]
 async fn scrape_recipe(url: String) -> Result<ScrapeResult, String> {
   let client = reqwest::Client::builder()
@@ -146,6 +199,8 @@ async fn scrape_recipe(url: String) -> Result<ScrapeResult, String> {
     }
   };
 
+  let (json_ld_ingredients, json_ld_tags) = extract_from_json_ld(&doc);
+
   let mut ingredients = Vec::new();
   let ingredient_prop = Selector::parse("[itemprop='recipeIngredient']").unwrap();
   for el in doc.select(&ingredient_prop) {
@@ -156,7 +211,10 @@ async fn scrape_recipe(url: String) -> Result<ScrapeResult, String> {
   }
 
   if ingredients.is_empty() {
-    let ingredient_list = Selector::parse(".ingredients li, li[class*='ingredient']").unwrap();
+    let ingredient_list = Selector::parse(
+      ".ingredients li, li[class*='ingredient'], .wprm-recipe-ingredient, .tasty-recipes-ingredients li",
+    )
+    .unwrap();
     for el in doc.select(&ingredient_list) {
       let text = normalize_whitespace(&extract_text(el));
       if !text.is_empty() {
@@ -183,6 +241,16 @@ async fn scrape_recipe(url: String) -> Result<ScrapeResult, String> {
     if !text.is_empty() {
       tags.push(text);
     }
+  }
+
+  if ingredients.is_empty() {
+    ingredients = json_ld_ingredients;
+  } else if !json_ld_ingredients.is_empty() {
+    ingredients.extend(json_ld_ingredients);
+  }
+
+  if !json_ld_tags.is_empty() {
+    tags.extend(json_ld_tags);
   }
 
   let ingredients = dedupe(ingredients);

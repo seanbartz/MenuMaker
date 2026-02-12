@@ -444,7 +444,13 @@ export default function MenuItemsPage({
       setActionError(null)
       setActionMessage('Sent menu to Notes.')
     } catch (error) {
-      setActionError(error instanceof Error ? error.message : 'Failed to send to Notes.')
+      if (typeof error === 'string') {
+        setActionError(error)
+      } else if (error instanceof Error) {
+        setActionError(error.message)
+      } else {
+        setActionError('Failed to send to Notes.')
+      }
     }
   }
 
@@ -466,7 +472,13 @@ export default function MenuItemsPage({
       setActionError(null)
       setActionMessage('Sent shopping list to Notes.')
     } catch (error) {
-      setActionError(error instanceof Error ? error.message : 'Failed to send to Notes.')
+      if (typeof error === 'string') {
+        setActionError(error)
+      } else if (error instanceof Error) {
+        setActionError(error.message)
+      } else {
+        setActionError('Failed to send to Notes.')
+      }
     }
   }
 

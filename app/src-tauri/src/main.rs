@@ -196,8 +196,15 @@ fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String
     .map_err(|err| err.to_string())?;
 
   if !output.status.success() {
-    let stderr = String::from_utf8_lossy(&output.stderr);
-    return Err(stderr.to_string());
+    let stderr = String::from_utf8_lossy(&output.stderr).to_string();
+    let stdout = String::from_utf8_lossy(&output.stdout).to_string();
+    if !stderr.trim().is_empty() {
+      return Err(stderr);
+    }
+    if !stdout.trim().is_empty() {
+      return Err(stdout);
+    }
+    return Err("Notes script failed with no output.".to_string());
   }
   Ok(())
 }

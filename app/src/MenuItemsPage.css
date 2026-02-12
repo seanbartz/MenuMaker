@@ -380,6 +380,11 @@
   cursor: pointer;
 }
 
+.shopping-selected {
+  border: 1px solid rgba(47, 122, 97, 0.45);
+  background: rgba(47, 122, 97, 0.12);
+}
+
 .builder-empty {
   color: var(--muted);
   font-size: 0.9rem;

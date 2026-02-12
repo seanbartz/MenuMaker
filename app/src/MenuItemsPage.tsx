@@ -1574,19 +1574,14 @@ export default function MenuItemsPage({
                             <li
                               key={ingredient}
                               className={`builder-row shopping-row${
-                                duplicateItems.has(ingredient) ? ' duplicate-hit' : ''
-                              }`}
+                                selectedShoppingItems.has(
+                                  makeShoppingSelectionKey(group.section, ingredient)
+                                )
+                                  ? ' shopping-selected'
+                                  : ''
+                              }${duplicateItems.has(ingredient) ? ' duplicate-hit' : ''}`}
                               onClick={() => handleToggleShoppingSelection(group.section, ingredient)}
                             >
-                              <label className="shopping-select">
-                                <input
-                                  type="checkbox"
-                                  readOnly
-                                  checked={selectedShoppingItems.has(
-                                    makeShoppingSelectionKey(group.section, ingredient)
-                                  )}
-                                />
-                              </label>
                               <span>{renderIngredientText(ingredient)}</span>
                             </li>
                           ))}
@@ -1610,19 +1605,14 @@ export default function MenuItemsPage({
                         <li
                           key={ingredient}
                           className={`builder-row shopping-row${
-                            duplicateItems.has(ingredient) ? ' duplicate-hit' : ''
-                          }`}
+                            selectedShoppingItems.has(
+                              makeShoppingSelectionKey(group.section, ingredient)
+                            )
+                              ? ' shopping-selected'
+                              : ''
+                          }${duplicateItems.has(ingredient) ? ' duplicate-hit' : ''}`}
                           onClick={() => handleToggleShoppingSelection(group.section, ingredient)}
                         >
-                          <label className="shopping-select">
-                            <input
-                              type="checkbox"
-                              readOnly
-                              checked={selectedShoppingItems.has(
-                                makeShoppingSelectionKey(group.section, ingredient)
-                              )}
-                            />
-                          </label>
                           <span>{renderIngredientText(ingredient)}</span>
                         </li>
                       ))}
@@ -1864,18 +1854,15 @@ export default function MenuItemsPage({
                           {group.items.map((ingredient) => (
                             <li
                               key={ingredient}
-                              className="builder-row shopping-row"
+                              className={`builder-row shopping-row${
+                                selectedShoppingItems.has(
+                                  makeShoppingSelectionKey(group.section, ingredient)
+                                )
+                                  ? ' shopping-selected'
+                                  : ''
+                              }`}
                               onClick={() => handleToggleShoppingSelection(group.section, ingredient)}
                             >
-                              <label className="shopping-select">
-                                <input
-                                  type="checkbox"
-                                  readOnly
-                                  checked={selectedShoppingItems.has(
-                                    makeShoppingSelectionKey(group.section, ingredient)
-                                  )}
-                                />
-                              </label>
                               <span>{renderIngredientText(ingredient)}</span>
                             </li>
                           ))}
@@ -1896,22 +1883,19 @@ export default function MenuItemsPage({
                     <h4>{group.section}</h4>
                     <ul className="builder-list">
                       {group.items.map((ingredient) => (
-                      <li
-                        key={ingredient}
-                        className="builder-row shopping-row"
-                        onClick={() => handleToggleShoppingSelection(group.section, ingredient)}
-                      >
-                        <label className="shopping-select">
-                          <input
-                            type="checkbox"
-                            readOnly
-                            checked={selectedShoppingItems.has(
+                        <li
+                          key={ingredient}
+                          className={`builder-row shopping-row${
+                            selectedShoppingItems.has(
                               makeShoppingSelectionKey(group.section, ingredient)
-                            )}
-                          />
-                        </label>
-                        <span>{renderIngredientText(ingredient)}</span>
-                      </li>
+                            )
+                              ? ' shopping-selected'
+                              : ''
+                          }`}
+                          onClick={() => handleToggleShoppingSelection(group.section, ingredient)}
+                        >
+                          <span>{renderIngredientText(ingredient)}</span>
+                        </li>
                       ))}
                     </ul>
                   </div>

@@ -437,10 +437,14 @@ export default function MenuItemsPage({
     const items = menuSelections.map(
       (item) => item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
     )
+    const normalizedTitle = title.trim().toLowerCase()
+    const cleanedItems = items.filter(
+      (item) => item && item.trim().toLowerCase() !== normalizedTitle
+    )
     try {
       const mod = await import('@tauri-apps/api/core')
       const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
-      await invoke('create_note_checklist', { title, items })
+      await invoke('create_note_checklist', { title, items: cleanedItems })
       setActionError(null)
       setActionMessage('Sent menu to Notes.')
     } catch (error) {
@@ -461,6 +465,10 @@ export default function MenuItemsPage({
       ingredientGrouping === 'menu'
         ? getShoppingListByMenu().flatMap((group) => group.items)
         : getShoppingListByCategory().flatMap((group) => group.items)
+    const normalizedTitle = title.trim().toLowerCase()
+    const cleanedItems = items.filter(
+      (item) => item && item.trim().toLowerCase() !== normalizedTitle
+    )
     if (!items.length) {
       setActionError('No ingredients available.')
       return
@@ -468,7 +476,7 @@ export default function MenuItemsPage({
     try {
       const mod = await import('@tauri-apps/api/core')
       const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
-      await invoke('create_note_checklist', { title, items })
+      await invoke('create_note_checklist', { title, items: cleanedItems })
       setActionError(null)
       setActionMessage('Sent shopping list to Notes.')
     } catch (error) {

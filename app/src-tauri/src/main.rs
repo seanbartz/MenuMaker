@@ -166,13 +166,25 @@ fn extract_from_json_ld(doc: &Html) -> (Vec<String>, Vec<String>) {
 }
 
 fn escape_applescript(value: &str) -> String {
-  value.replace('\\', "\\\\").replace('\"', "\\\"")
+  value
+    .replace('\n', " ")
+    .replace('\r', " ")
+    .replace('\\', "\\\\")
+    .replace('"', "\\\"")
 }
 
 #[tauri::command]
 fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String> {
   let escaped_title = escape_applescript(&title);
-  let list_items = items
+  let normalized_title = title.trim().to_lowercase();
+  let filtered_items = items
+    .into_iter()
+    .filter(|item| {
+      let normalized = item.trim().to_lowercase();
+      !normalized.is_empty() && normalized != normalized_title
+    })
+    .collect::<Vec<_>>();
+  let list_items = filtered_items
     .into_iter()
     .map(|item| format!("\"{}\"", escape_applescript(&item)))
     .collect::<Vec<_>>()
@@ -180,17 +192,39 @@ fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String
 
   let script = format!(
     "set itemList to {{{items}}}\n\
-     set text item delimiters to linefeed\n\
-     set bodyText to itemList as text\n\
      tell application \"Notes\"\n\
        activate\n\
-       set theNote to make new note at folder \"Notes\" with properties {{name:\"{title}\", body:bodyText}}\n\
+       set theNote to make new note at folder \"Notes\" with properties {{name:\"{title}\", body:\"\"}}\n\
+       set selection to {{theNote}}\n\
      end tell\n\
-     delay 0.2\n\
+     delay 0.4\n\
      tell application \"System Events\"\n\
        tell process \"Notes\"\n\
-         keystroke \"a\" using {{command down}}\n\
-         keystroke \"l\" using {{command down, shift down}}\n\
+         set frontmost to true\n\
+         if (count of text areas of window 1) > 0 then\n\
+           click (first text area of window 1)\n\
+         end if\n\
+         set the clipboard to \"{title}\"\n\
+         keystroke \"v\" using {{command down}}\n\
+         key code 36\n\
+         key code 36\n\
+         try\n\
+           click menu bar item \"Format\" of menu bar 1\n\
+           delay 0.2\n\
+           click menu item \"Checklist\" of menu 1 of menu bar item \"Format\" of menu bar 1\n\
+         on error\n\
+           keystroke \"l\" using {{shift down, command down}}\n\
+         end try\n\
+         delay 0.2\n\
+         if (count of text areas of window 1) > 0 then\n\
+           click (first text area of window 1)\n\
+         end if\n\
+         repeat with itemText in itemList\n\
+           set the clipboard to (contents of itemText)\n\
+           keystroke \"v\" using {{command down}}\n\
+           key code 36\n\
+           delay 0.03\n\
+         end repeat\n\
        end tell\n\
      end tell",
     title = escaped_title,

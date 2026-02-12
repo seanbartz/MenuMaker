@@ -345,6 +345,50 @@ export default function MenuItemsPage({
     return number
   }
 
+  function normalizeCombineName(value: string) {
+    const cleaned = value
+      .toLowerCase()
+      .replace(/\([^)]*\)/g, ' ')
+      .split(',')[0]
+      .replace(/[–—]/g, '-')
+      .replace(/[^a-z\s-]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+    const dropTokens = new Set([
+      'fresh',
+      'minced',
+      'peeled',
+      'grated',
+      'chopped',
+      'diced',
+      'sliced',
+      'crushed',
+      'ground',
+      'thinly',
+      'finely',
+      'roughly',
+      'cooked',
+      'raw',
+      'frozen',
+      'thawed',
+      'low-sodium',
+      'lowsodium',
+      'low',
+      'sodium',
+      'reduced-sodium',
+      'reduced',
+      'dark',
+      'light',
+      'toasted',
+      'unsalted',
+      'salted',
+      'boneless',
+      'skinless',
+    ])
+    const tokens = cleaned.split(' ').filter((token) => token && !dropTokens.has(token))
+    return tokens.join(' ').trim()
+  }
+
   function parseIngredientMeasurement(value: string) {
     const cleaned = value
       .replace(/[–—]/g, '-')
@@ -405,7 +449,58 @@ export default function MenuItemsPage({
     index += 1
     const nameTokens = parts.slice(index).filter((token) => token.toLowerCase() !== 'of')
     if (!nameTokens.length) return null
-    return { quantity, unit, name: nameTokens.join(' ') }
+    const rawName = nameTokens.join(' ')
+    const name = normalizeCombineName(rawName)
+    if (!name) return null
+    return { quantity, unit, name }
+  }
+
+  function parseIngredientCount(value: string) {
+    const cleaned = value
+      .replace(/[–—]/g, '-')
+      .replace(/\([^)]*\)/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+    const parts = cleaned.split(' ')
+    if (parts.length < 2) return null
+    const quantity = parseQuantity(parts[0])
+    if (quantity == null) return null
+    const unitTokens = new Set([
+      'clove',
+      'cloves',
+      'bunch',
+      'bunches',
+      'block',
+      'blocks',
+      'package',
+      'packages',
+      'pkg',
+      'pkgs',
+      'can',
+      'cans',
+      'jar',
+      'jars',
+      'piece',
+      'pieces',
+      'head',
+      'heads',
+      'slice',
+      'slices',
+      'stick',
+      'sticks',
+    ])
+    let index = 1
+    let unit: string | null = null
+    if (parts[index] && unitTokens.has(parts[index].toLowerCase())) {
+      unit = parts[index].toLowerCase()
+      index += 1
+    }
+    const nameTokens = parts.slice(index).filter((token) => token.toLowerCase() !== 'of')
+    if (!nameTokens.length) return null
+    const rawName = nameTokens.join(' ')
+    const name = normalizeCombineName(rawName)
+    if (!name) return null
+    return { quantity, unit, name }
   }
 
   function formatQuantity(value: number) {
@@ -431,15 +526,12 @@ export default function MenuItemsPage({
     const tspPerFloz = 6
     let unit = 'tsp'
     let value = totalTsp
-    if (totalTsp >= tspPerCup) {
-      unit = 'cup'
-      value = totalTsp / tspPerCup
+    if (totalTsp >= tspPerFloz) {
+      unit = 'floz'
+      value = totalTsp / tspPerFloz
     } else if (totalTsp >= tspPerTbsp) {
       unit = 'tbsp'
       value = totalTsp / tspPerTbsp
-    } else if (totalTsp >= tspPerFloz && totalTsp % tspPerTbsp !== 0) {
-      unit = 'floz'
-      value = totalTsp / tspPerFloz
     }
     const qty = formatQuantity(value)
     const unitLabel =
@@ -488,27 +580,62 @@ export default function MenuItemsPage({
       setActionError('Select at least two items to combine.')
       return
     }
-    const parsed = selectedIngredients.map((item) => parseIngredientMeasurement(item))
-    if (parsed.some((item) => !item)) {
-      setActionError('Only items with measurements (tsp, tbsp, cups, fl oz) can be combined.')
+    const parsedMeasurements = selectedIngredients.map((item) =>
+      parseIngredientMeasurement(item)
+    )
+    const parsedCounts = selectedIngredients.map((item) => parseIngredientCount(item))
+    const hasMeasurement = parsedMeasurements.every((item) => item)
+    const hasCounts = parsedCounts.every((item) => item)
+    if (!hasMeasurement && !hasCounts) {
+      setActionError(
+        'Selected items must all be measured (tsp, tbsp, cups, fl oz) or all be simple counts.'
+      )
       return
     }
-    const baseName = parsed[0]!.name.toLowerCase()
-    if (parsed.some((item) => item!.name.toLowerCase() !== baseName)) {
+    if (hasMeasurement) {
+      const baseName = parsedMeasurements[0]!.name.toLowerCase()
+      if (parsedMeasurements.some((item) => item!.name.toLowerCase() !== baseName)) {
+        setActionError('Selected items must refer to the same ingredient to combine.')
+        return
+      }
+      const unitToTsp: Record<string, number> = {
+        tsp: 1,
+        tbsp: 3,
+        cup: 48,
+        floz: 6,
+      }
+      const totalTsp = parsedMeasurements.reduce(
+        (sum, item) => sum + item!.quantity * unitToTsp[item!.unit],
+        0
+      )
+      const combined = formatCombinedMeasurement(totalTsp, parsedMeasurements[0]!.name)
+      const toRemove = new Set(
+        selectedIngredients.map((item) => normalizeIngredientKey(item))
+      )
+      setRemovedIngredients((prev) => {
+        const next = new Set(prev)
+        toRemove.forEach((key) => next.add(key))
+        return next
+      })
+      setManualShoppingItems((prev) => [...prev, combined])
+      setSelectedShoppingItems(new Set())
+      setActionError(null)
+      setActionMessage('Combined selected items.')
+      return
+    }
+
+    const baseName = parsedCounts[0]!.name.toLowerCase()
+    if (parsedCounts.some((item) => item!.name.toLowerCase() !== baseName)) {
       setActionError('Selected items must refer to the same ingredient to combine.')
       return
     }
-    const unitToTsp: Record<string, number> = {
-      tsp: 1,
-      tbsp: 3,
-      cup: 48,
-      floz: 6,
+    const totalCount = parsedCounts.reduce((sum, item) => sum + item!.quantity, 0)
+    const unit = parsedCounts[0]!.unit
+    let combined = `${formatQuantity(totalCount)} ${parsedCounts[0]!.name}`
+    if (unit) {
+      const plural = totalCount === 1 ? unit.replace(/s$/, '') : unit.endsWith('s') ? unit : `${unit}s`
+      combined = `${formatQuantity(totalCount)} ${plural} ${parsedCounts[0]!.name}`
     }
-    const totalTsp = parsed.reduce(
-      (sum, item) => sum + item!.quantity * unitToTsp[item!.unit],
-      0
-    )
-    const combined = formatCombinedMeasurement(totalTsp, parsed[0]!.name)
     const toRemove = new Set(
       selectedIngredients.map((item) => normalizeIngredientKey(item))
     )

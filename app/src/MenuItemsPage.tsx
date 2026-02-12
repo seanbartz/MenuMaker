@@ -635,10 +635,101 @@ export default function MenuItemsPage({
       sections[section].push(ingredient)
     })
 
+    const sortKeyForIngredient = (ingredient: string) => {
+      const text = ingredient.toLowerCase()
+      const normalized = text
+        .replace(/\([^)]*\)/g, ' ')
+        .replace(/[–—]/g, '-')
+        .replace(/^[^a-z]+/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim()
+      const quantityWords = [
+        'a',
+        'an',
+        'one',
+        'two',
+        'three',
+        'four',
+        'five',
+        'six',
+        'seven',
+        'eight',
+        'nine',
+        'ten',
+        'half',
+        'quarter',
+      ]
+      const unitWords = [
+        'cup',
+        'cups',
+        'tablespoon',
+        'tablespoons',
+        'tbsp',
+        'teaspoon',
+        'teaspoons',
+        'tsp',
+        'ounce',
+        'ounces',
+        'oz',
+        'pound',
+        'pounds',
+        'lb',
+        'lbs',
+        'clove',
+        'cloves',
+        'can',
+        'cans',
+        'package',
+        'packages',
+        'pkg',
+        'pkgs',
+        'stick',
+        'sticks',
+        'bunch',
+        'bunches',
+        'slice',
+        'slices',
+        'head',
+        'heads',
+        'block',
+        'blocks',
+        'piece',
+        'pieces',
+      ]
+      const tokens = normalized.split(' ').filter(Boolean)
+      let start = 0
+      while (start < tokens.length) {
+        const token = tokens[start]
+        if (/^\d/.test(token) || token.includes('/')) {
+          start += 1
+          continue
+        }
+        if (token === 'of') {
+          start += 1
+          continue
+        }
+        if (quantityWords.includes(token)) {
+          start += 1
+          continue
+        }
+        if (unitWords.includes(token)) {
+          start += 1
+          continue
+        }
+        break
+      }
+      return tokens.slice(start).join(' ') || normalized
+    }
+
     return Object.entries(sections)
       .map(([section, list]) => ({
         section,
-        items: list.sort((a, b) => a.localeCompare(b)),
+        items: list.sort((a, b) => {
+          const keyA = sortKeyForIngredient(a)
+          const keyB = sortKeyForIngredient(b)
+          if (keyA === keyB) return a.localeCompare(b)
+          return keyA.localeCompare(keyB)
+        }),
       }))
       .filter((group) => group.items.length)
   }

@@ -41,6 +41,13 @@ export default function MenuItemsPage({
   const [removedIngredients, setRemovedIngredients] = useState<Set<string>>(new Set())
   const [manualShoppingItems, setManualShoppingItems] = useState<string[]>([])
   const [selectedShoppingItems, setSelectedShoppingItems] = useState<Set<string>>(new Set())
+  const [shoppingUndoStack, setShoppingUndoStack] = useState<
+    {
+      removedKeys: string[]
+      addedManualItems: string[]
+      message: string
+    }[]
+  >([])
   const [showShoppingList, setShowShoppingList] = useState(false)
   const [actionMessage, setActionMessage] = useState<string | null>(null)
   const [actionError, setActionError] = useState<string | null>(null)
@@ -612,12 +619,22 @@ export default function MenuItemsPage({
       const toRemove = new Set(
         selectedIngredients.map((item) => normalizeIngredientKey(item))
       )
+      const removedKeys = Array.from(toRemove)
+      const addedManualItems = [combined]
       setRemovedIngredients((prev) => {
         const next = new Set(prev)
         toRemove.forEach((key) => next.add(key))
         return next
       })
       setManualShoppingItems((prev) => [...prev, combined])
+      setShoppingUndoStack((prev) => [
+        ...prev,
+        {
+          removedKeys,
+          addedManualItems,
+          message: 'Undo combine',
+        },
+      ])
       setSelectedShoppingItems(new Set())
       setActionError(null)
       setActionMessage('Combined selected items.')
@@ -639,15 +656,29 @@ export default function MenuItemsPage({
     const toRemove = new Set(
       selectedIngredients.map((item) => normalizeIngredientKey(item))
     )
+    const removedKeys = Array.from(toRemove)
+    const addedManualItems = [combined]
     setRemovedIngredients((prev) => {
       const next = new Set(prev)
       toRemove.forEach((key) => next.add(key))
       return next
     })
     setManualShoppingItems((prev) => [...prev, combined])
+    setShoppingUndoStack((prev) => [
+      ...prev,
+      {
+        removedKeys,
+        addedManualItems,
+        message: 'Undo combine',
+      },
+    ])
     setSelectedShoppingItems(new Set())
     setActionError(null)
     setActionMessage('Combined selected items.')
+  }
+
+  function handleDeselectShoppingItems() {
+    setSelectedShoppingItems(new Set())
   }
 
   function downloadMarkdown(filename: string, content: string) {
@@ -1101,6 +1132,59 @@ export default function MenuItemsPage({
     })
   }
 
+  function handleRemoveSelectedItems() {
+    if (!selectedShoppingItems.size) {
+      setActionError('Select at least one item to remove.')
+      return
+    }
+    const keysToRemove = new Set<string>()
+    selectedShoppingItems.forEach((key) => {
+      const [, ingredient] = key.split('::')
+      if (ingredient) {
+        keysToRemove.add(normalizeIngredientKey(ingredient))
+      }
+    })
+    const removedKeys = Array.from(keysToRemove)
+    setRemovedIngredients((prev) => {
+      const next = new Set(prev)
+      keysToRemove.forEach((key) => next.add(key))
+      return next
+    })
+    setShoppingUndoStack((prev) => [
+      ...prev,
+      {
+        removedKeys,
+        addedManualItems: [],
+        message: 'Undo remove',
+      },
+    ])
+    setSelectedShoppingItems(new Set())
+    setActionError(null)
+    setActionMessage('Removed selected items.')
+  }
+
+  function handleUndoShoppingAction() {
+    setShoppingUndoStack((prev) => {
+      const next = [...prev]
+      const last = next.pop()
+      if (!last) return prev
+      if (last.removedKeys.length) {
+        setRemovedIngredients((current) => {
+          const updated = new Set(current)
+          last.removedKeys.forEach((key) => updated.delete(key))
+          return updated
+        })
+      }
+      if (last.addedManualItems.length) {
+        setManualShoppingItems((current) =>
+          current.filter((item) => !last.addedManualItems.includes(item))
+        )
+      }
+      setActionMessage('Undid last action.')
+      return next
+    })
+  }
+
   async function handleAddFromUrl() {
     if (!newItemUrl.trim()) return
     setScrapeStatus('loading')
@@ -1156,6 +1240,15 @@ export default function MenuItemsPage({
               <button className="ghost-button" onClick={handleCombineSelectedItems}>
                 Combine selected
               </button>
+              <button className="ghost-button" onClick={handleRemoveSelectedItems}>
+                Remove selected
+              </button>
+              <button className="ghost-button" onClick={handleUndoShoppingAction}>
+                Undo
+              </button>
+              <button className="ghost-button" onClick={handleDeselectShoppingItems}>
+                Deselect all
+              </button>
               <label className="builder-toggle">
                 <select
                   value={ingredientGrouping}
@@ -1169,9 +1262,6 @@ export default function MenuItemsPage({
               </label>
               <button className="ghost-button" onClick={() => setShowShoppingList(false)}>
                 Back to items
-              </button>
-              <button className="primary-button" onClick={handleExportIngredients}>
-                Export shopping list
               </button>
               <button className="ghost-button" onClick={handleShareShoppingToNotes}>
                 Send to Notes
@@ -1204,12 +1294,6 @@ export default function MenuItemsPage({
                                 />
                               </label>
                               <span>{ingredient}</span>
-                              <button
-                                className="ghost-button"
-                                onClick={() => handleRemoveIngredient(ingredient)}
-                              >
-                                Remove
-                              </button>
                             </li>
                           ))}
                         </ul>
@@ -1242,12 +1326,6 @@ export default function MenuItemsPage({
                             />
                           </label>
                           <span>{ingredient}</span>
-                          <button
-                            className="ghost-button"
-                            onClick={() => handleRemoveIngredient(ingredient)}
-                          >
-                            Remove
-                          </button>
                         </li>
                       ))}
                     </ul>
@@ -1499,12 +1577,6 @@ export default function MenuItemsPage({
                                 />
                               </label>
                               <span>{ingredient}</span>
-                              <button
-                                className="ghost-button"
-                                onClick={() => handleRemoveIngredient(ingredient)}
-                              >
-                                Remove
-                              </button>
                             </li>
                           ))}
                         </ul>
@@ -1537,13 +1609,7 @@ export default function MenuItemsPage({
                           />
                         </label>
                         <span>{ingredient}</span>
-                        <button
-                          className="ghost-button"
-                          onClick={() => handleRemoveIngredient(ingredient)}
-                        >
-                            Remove
-                          </button>
-                        </li>
+                      </li>
                       ))}
                     </ul>
                   </div>

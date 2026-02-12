@@ -261,6 +261,126 @@ fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String
   Ok(())
 }
 
+#[derive(serde::Deserialize)]
+struct NoteSection {
+  heading: String,
+  items: Vec<String>,
+}
+
+#[tauri::command]
+fn create_note_checklist_with_headings(
+  title: String,
+  sections: Vec<NoteSection>,
+) -> Result<(), String> {
+  let escaped_title = escape_applescript(&title);
+  let normalized_title = title.trim().to_lowercase();
+  let mut section_chunks: Vec<String> = Vec::new();
+  for section in sections {
+    let heading = section.heading.trim();
+    if heading.is_empty() {
+      continue;
+    }
+    let mut seen = std::collections::HashSet::new();
+    let filtered_items = section
+      .items
+      .into_iter()
+      .filter_map(|item| {
+        let trimmed = item.trim();
+        if trimmed.is_empty() {
+          return None;
+        }
+        let normalized = trimmed.to_lowercase();
+        if normalized == normalized_title {
+          return None;
+        }
+        if seen.contains(&normalized) {
+          return None;
+        }
+        seen.insert(normalized);
+        Some(escape_applescript(trimmed))
+      })
+      .collect::<Vec<_>>();
+
+    if filtered_items.is_empty() {
+      continue;
+    }
+
+    let items_list = filtered_items
+      .into_iter()
+      .map(|item| format!("\"{}\"", item))
+      .collect::<Vec<_>>()
+      .join(", ");
+    section_chunks.push(format!(
+      "{{heading:\"{}\", entries:{{{}}}}}",
+      escape_applescript(heading),
+      items_list
+    ));
+  }
+
+  let sections_payload = section_chunks.join(", ");
+
+  let script = format!(
+    "set sectionList to {{{sections}}}\n\
+     tell application \"Notes\" to activate\n\
+     delay 0.2\n\
+     tell application \"System Events\"\n\
+       tell process \"Notes\"\n\
+         set frontmost to true\n\
+         keystroke \"n\" using {{command down}}\n\
+         delay 0.4\n\
+         if (count of text areas of window 1) > 0 then\n\
+           click (first text area of window 1)\n\
+         end if\n\
+        set the clipboard to \"{title}\"\n\
+        keystroke \"v\" using {{command down}}\n\
+        key code 36\n\
+        key code 36\n\
+        key code 36\n\
+         repeat with sectionItem in sectionList\n\
+           set sectionHeading to heading of sectionItem\n\
+           set sectionItems to entries of sectionItem\n\
+           set the clipboard to sectionHeading\n\
+           keystroke \"v\" using {{command down}}\n\
+           key code 36\n\
+           key code 36\n\
+           keystroke \"l\" using {{shift down, command down}}\n\
+           delay 0.1\n\
+           repeat with itemText in sectionItems\n\
+             keystroke (contents of itemText as text)\n\
+             key code 36\n\
+             delay 0.06\n\
+           end repeat\n\
+           keystroke \"l\" using {{shift down, command down}}\n\
+           delay 0.1\n\
+           key code 36\n\
+           key code 36\n\
+         end repeat\n\
+       end tell\n\
+     end tell",
+    title = escaped_title,
+    sections = sections_payload
+  );
+
+  let output = std::process::Command::new("osascript")
+    .arg("-e")
+    .arg(script)
+    .output()
+    .map_err(|err| err.to_string())?;
+
+  if !output.status.success() {
+    let stderr = String::from_utf8_lossy(&output.stderr).to_string();
+    let stdout = String::from_utf8_lossy(&output.stdout).to_string();
+    if !stderr.trim().is_empty() {
+      return Err(stderr);
+    }
+    if !stdout.trim().is_empty() {
+      return Err(stdout);
+    }
+    return Err("Notes script failed with no output.".to_string());
+  }
+  Ok(())
+}
+
 #[tauri::command]
 async fn scrape_recipe(url: String) -> Result<ScrapeResult, String> {
   let client = reqwest::Client::builder()
@@ -368,7 +488,8 @@ fn main() {
       load_data,
       save_data,
       scrape_recipe,
-      create_note_checklist
+      create_note_checklist,
+      create_note_checklist_with_headings
     ])
     .run(tauri::generate_context!())
     .expect("error while running tauri application");

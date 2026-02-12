@@ -461,33 +461,24 @@ export default function MenuItemsPage({
   async function handleShareShoppingToNotes() {
     const dateStamp = formatShortDate()
     const title = `Shopping List - ${dateStamp}`
-    const items =
+    const sections =
       ingredientGrouping === 'menu'
-        ? getShoppingListByMenu().flatMap((group) => group.items)
-        : getShoppingListByCategory().flatMap((group) => group.items)
-    const dedupedItems = (() => {
-      const seen = new Set<string>()
-      const result: string[] = []
-      items.forEach((item) => {
-        const normalized = normalizeIngredientKey(item)
-        if (!normalized || seen.has(normalized)) return
-        seen.add(normalized)
-        result.push(item)
-      })
-      return result
-    })()
-    const normalizedTitle = title.trim().toLowerCase()
-    const cleanedItems = dedupedItems.filter(
-      (item) => item && item.trim().toLowerCase() !== normalizedTitle
-    )
-    if (!cleanedItems.length) {
+        ? getShoppingListByMenu().map((group) => ({
+            heading: group.section,
+            items: group.items,
+          }))
+        : getShoppingListByCategory().map((group) => ({
+            heading: group.section,
+            items: group.items,
+          }))
+    if (!sections.length) {
       setActionError('No ingredients available.')
       return
     }
     try {
       const mod = await import('@tauri-apps/api/core')
       const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
-      await invoke('create_note_checklist', { title, items: cleanedItems })
+      await invoke('create_note_checklist_with_headings', { title, sections })
       setActionError(null)
       setActionMessage('Sent shopping list to Notes.')
     } catch (error) {

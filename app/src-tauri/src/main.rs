@@ -165,6 +165,43 @@ fn extract_from_json_ld(doc: &Html) -> (Vec<String>, Vec<String>) {
   (dedupe(ingredients), dedupe(tags))
 }
 
+fn escape_applescript(value: &str) -> String {
+  value.replace('\\', "\\\\").replace('\"', "\\\"")
+}
+
+#[tauri::command]
+fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String> {
+  let escaped_title = escape_applescript(&title);
+  let list_items = items
+    .into_iter()
+    .map(|item| format!("\"{}\"", escape_applescript(&item)))
+    .collect::<Vec<_>>()
+    .join(", ");
+
+  let script = format!(
+    "tell application \"Notes\"\n\
+       set theNote to make new note at folder \"Notes\" with properties {{name:\"{title}\"}}\n\
+       repeat with itemText in {{{items}}}\n\
+         make new checklist item at end of checklist items of theNote with properties {{name:itemText}}\n\
+       end repeat\n\
+     end tell",
+    title = escaped_title,
+    items = list_items
+  );
+
+  let output = std::process::Command::new("osascript")
+    .arg("-e")
+    .arg(script)
+    .output()
+    .map_err(|err| err.to_string())?;
+
+  if !output.status.success() {
+    let stderr = String::from_utf8_lossy(&output.stderr);
+    return Err(stderr.to_string());
+  }
+  Ok(())
+}
+
 #[tauri::command]
 async fn scrape_recipe(url: String) -> Result<ScrapeResult, String> {
   let client = reqwest::Client::builder()
@@ -268,7 +305,12 @@ async fn scrape_recipe(url: String) -> Result<ScrapeResult, String> {
 fn main() {
   tauri::Builder::default()
     .plugin(tauri_plugin_shell::init())
-    .invoke_handler(tauri::generate_handler![load_data, save_data, scrape_recipe])
+    .invoke_handler(tauri::generate_handler![
+      load_data,
+      save_data,
+      scrape_recipe,
+      create_note_checklist
+    ])
     .run(tauri::generate_context!())
     .expect("error while running tauri application");
 }

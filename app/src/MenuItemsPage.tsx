@@ -421,6 +421,39 @@ export default function MenuItemsPage({
     downloadMarkdown(`ingredients-${dateStamp}.md`, buildIngredientsMarkdown())
   }
 
+  async function handleShareMenuToNotes() {
+    if (!menuSelections.length) return
+    const dateStamp = formatShortDate()
+    const title = `Menu week of ${dateStamp}`
+    const items = menuSelections.map(
+      (item) => item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
+    )
+    try {
+      const mod = await import('@tauri-apps/api/core')
+      const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
+      await invoke('create_note_checklist', { title, items })
+    } catch {
+      // ignore share errors for now
+    }
+  }
+
+  async function handleShareShoppingToNotes() {
+    const dateStamp = formatShortDate()
+    const title = `Shopping List - ${dateStamp}`
+    const items =
+      ingredientGrouping === 'menu'
+        ? getShoppingListByMenu().flatMap((group) => group.items)
+        : getShoppingListByCategory().flatMap((group) => group.items)
+    if (!items.length) return
+    try {
+      const mod = await import('@tauri-apps/api/core')
+      const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
+      await invoke('create_note_checklist', { title, items })
+    } catch {
+      // ignore share errors for now
+    }
+  }
+
   function getShoppingListByCategory() {
     const ingredientMap = new Map<string, string>()
     menuSelections.forEach((item) => {
@@ -658,6 +691,9 @@ export default function MenuItemsPage({
               </button>
               <button className="primary-button" onClick={handleExportIngredients}>
                 Export shopping list
+              </button>
+              <button className="ghost-button" onClick={handleShareShoppingToNotes}>
+                Send to Notes
               </button>
             </div>
           </header>
@@ -918,6 +954,9 @@ export default function MenuItemsPage({
             </label>
             <button className="ghost-button" onClick={() => setShowShoppingList(true)}>
               View shopping list
+            </button>
+            <button className="ghost-button" onClick={handleShareMenuToNotes}>
+              Send menu to Notes
             </button>
           </div>
           <div className="builder-shopping">

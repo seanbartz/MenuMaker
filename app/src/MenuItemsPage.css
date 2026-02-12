@@ -409,6 +409,16 @@
   flex-wrap: wrap;
 }
 
+.action-message {
+  font-size: 0.8rem;
+  color: var(--accent-2);
+}
+
+.action-error {
+  font-size: 0.8rem;
+  color: #b53a3a;
+}
+
 .shopping-body {
   display: grid;
   gap: 1.25rem;

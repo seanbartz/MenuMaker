@@ -40,6 +40,8 @@ export default function MenuItemsPage({
   const [ingredientGrouping, setIngredientGrouping] = useState<'category' | 'menu'>('category')
   const [removedIngredients, setRemovedIngredients] = useState<Set<string>>(new Set())
   const [showShoppingList, setShowShoppingList] = useState(false)
+  const [actionMessage, setActionMessage] = useState<string | null>(null)
+  const [actionError, setActionError] = useState<string | null>(null)
 
   function normalizeProtein(value?: string) {
     return (value ?? 'unknown').trim().toLowerCase()
@@ -414,15 +416,22 @@ export default function MenuItemsPage({
     const dateStamp = formatDateStamp().replace(/\s+/g, '-')
     downloadMarkdown(`menu-${dateStamp}.md`, buildMenuMarkdown())
     handlePersistMenu()
+    setActionError(null)
+    setActionMessage('Menu export started.')
   }
 
   function handleExportIngredients() {
     const dateStamp = formatDateStamp().replace(/\s+/g, '-')
     downloadMarkdown(`ingredients-${dateStamp}.md`, buildIngredientsMarkdown())
+    setActionError(null)
+    setActionMessage('Shopping list export started.')
   }
 
   async function handleShareMenuToNotes() {
-    if (!menuSelections.length) return
+    if (!menuSelections.length) {
+      setActionError('No menu items selected.')
+      return
+    }
     const dateStamp = formatShortDate()
     const title = `Menu week of ${dateStamp}`
     const items = menuSelections.map(
@@ -432,8 +441,10 @@ export default function MenuItemsPage({
       const mod = await import('@tauri-apps/api/core')
       const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
       await invoke('create_note_checklist', { title, items })
-    } catch {
-      // ignore share errors for now
+      setActionError(null)
+      setActionMessage('Sent menu to Notes.')
+    } catch (error) {
+      setActionError(error instanceof Error ? error.message : 'Failed to send to Notes.')
     }
   }
 
@@ -444,13 +455,18 @@ export default function MenuItemsPage({
       ingredientGrouping === 'menu'
         ? getShoppingListByMenu().flatMap((group) => group.items)
         : getShoppingListByCategory().flatMap((group) => group.items)
-    if (!items.length) return
+    if (!items.length) {
+      setActionError('No ingredients available.')
+      return
+    }
     try {
       const mod = await import('@tauri-apps/api/core')
       const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
       await invoke('create_note_checklist', { title, items })
-    } catch {
-      // ignore share errors for now
+      setActionError(null)
+      setActionMessage('Sent shopping list to Notes.')
+    } catch (error) {
+      setActionError(error instanceof Error ? error.message : 'Failed to send to Notes.')
     }
   }
 
@@ -695,6 +711,8 @@ export default function MenuItemsPage({
               <button className="ghost-button" onClick={handleShareShoppingToNotes}>
                 Send to Notes
               </button>
+              {actionMessage && <span className="action-message">{actionMessage}</span>}
+              {actionError && <span className="action-error">{actionError}</span>}
             </div>
           </header>
 
@@ -958,6 +976,8 @@ export default function MenuItemsPage({
             <button className="ghost-button" onClick={handleShareMenuToNotes}>
               Send menu to Notes
             </button>
+            {actionMessage && <span className="action-message">{actionMessage}</span>}
+            {actionError && <span className="action-error">{actionError}</span>}
           </div>
           <div className="builder-shopping">
             <div className="builder-header">

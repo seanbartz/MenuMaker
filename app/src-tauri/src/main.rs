@@ -182,7 +182,7 @@ fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String
     "tell application \"Notes\"\n\
        set theNote to make new note at folder \"Notes\" with properties {{name:\"{title}\"}}\n\
        repeat with itemText in {{{items}}}\n\
-         make new checklist item at end of checklist items of theNote with properties {{name:itemText}}\n\
+         make new checklist item at theNote with properties {{name:itemText}}\n\
        end repeat\n\
      end tell",
     title = escaped_title,

@@ -328,6 +328,136 @@ export default function MenuItemsPage({
       .replace(/\s+/, ' ')
   }
 
+  function renderIngredientText(ingredient: string) {
+    const unitTokens = new Set([
+      'cup',
+      'cups',
+      'tablespoon',
+      'tablespoons',
+      'tbsp',
+      'teaspoon',
+      'teaspoons',
+      'tsp',
+      'ounce',
+      'ounces',
+      'oz',
+      'fluid',
+      'fl',
+      'fl.',
+      'floz',
+      'fl-oz',
+      'fl-oz.',
+      'fl.oz',
+      'fl.oz.',
+      'pound',
+      'pounds',
+      'lb',
+      'lbs',
+      'clove',
+      'cloves',
+      'can',
+      'cans',
+      'package',
+      'packages',
+      'pkg',
+      'pkgs',
+      'stick',
+      'sticks',
+      'bunch',
+      'bunches',
+      'slice',
+      'slices',
+      'head',
+      'heads',
+      'block',
+      'blocks',
+      'piece',
+      'pieces',
+    ])
+    const stopTokens = new Set([
+      'a',
+      'an',
+      'or',
+      'and',
+      'each',
+      'to',
+      'taste',
+      'for',
+      'the',
+      'of',
+      'with',
+      'plus',
+      'fresh',
+      'small',
+      'medium',
+      'large',
+      'extra',
+      'optional',
+      'more',
+      'less',
+      'about',
+      'approx',
+      'approx.',
+      'approximately',
+    ])
+    const wordNumbers = new Set([
+      'one',
+      'two',
+      'three',
+      'four',
+      'five',
+      'six',
+      'seven',
+      'eight',
+      'nine',
+      'ten',
+      'eleven',
+      'twelve',
+      'thirteen',
+      'fourteen',
+      'fifteen',
+      'sixteen',
+      'seventeen',
+      'eighteen',
+      'nineteen',
+      'twenty',
+      'thirty',
+      'forty',
+      'fifty',
+      'sixty',
+      'seventy',
+      'eighty',
+      'ninety',
+      'hundred',
+      'thousand',
+      'half',
+      'quarter',
+    ])
+    const tokens = ingredient.split(/(\s+)/)
+    let inParens = false
+    return tokens.map((token, index) => {
+      if (token.trim() === '') {
+        return <span key={index}>{token}</span>
+      }
+      if (token.includes('(')) inParens = true
+      const lower = token.toLowerCase().replace(/[,()]/g, '')
+      const isNumber = /^[\d/.-]+$/.test(lower)
+      const isUnit = unitTokens.has(lower)
+      const isStop = stopTokens.has(lower)
+      const isWordNumber = wordNumbers.has(lower)
+      if (isNumber || isUnit || isStop || isWordNumber || inParens) {
+        if (token.includes(')')) inParens = false
+        return <span key={index}>{token}</span>
+      }
+      if (token.includes(')')) inParens = false
+      return (
+        <strong key={index} className="ingredient-keyword">
+          {token}
+        </strong>
+      )
+    })
+  }
+
   function makeShoppingSelectionKey(section: string, ingredient: string) {
     return `${section}::${ingredient}`
   }
@@ -540,7 +670,8 @@ export default function MenuItemsPage({
       unit = 'tbsp'
       value = totalTsp / tspPerTbsp
     }
-    const qty = formatQuantity(value)
+    const qty =
+      unit === 'floz' ? value.toFixed(2).replace(/\.?0+$/, '') : formatQuantity(value)
     const unitLabel =
       unit === 'cup'
         ? value === 1
@@ -1293,7 +1424,7 @@ export default function MenuItemsPage({
                                   }
                                 />
                               </label>
-                              <span>{ingredient}</span>
+                              <span>{renderIngredientText(ingredient)}</span>
                             </li>
                           ))}
                         </ul>
@@ -1325,7 +1456,7 @@ export default function MenuItemsPage({
                               }
                             />
                           </label>
-                          <span>{ingredient}</span>
+                          <span>{renderIngredientText(ingredient)}</span>
                         </li>
                       ))}
                     </ul>
@@ -1576,7 +1707,7 @@ export default function MenuItemsPage({
                                   }
                                 />
                               </label>
-                              <span>{ingredient}</span>
+                              <span>{renderIngredientText(ingredient)}</span>
                             </li>
                           ))}
                         </ul>
@@ -1608,7 +1739,7 @@ export default function MenuItemsPage({
                             }
                           />
                         </label>
-                        <span>{ingredient}</span>
+                        <span>{renderIngredientText(ingredient)}</span>
                       </li>
                       ))}
                     </ul>

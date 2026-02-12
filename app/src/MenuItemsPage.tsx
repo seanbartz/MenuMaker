@@ -41,6 +41,7 @@ export default function MenuItemsPage({
   const [removedIngredients, setRemovedIngredients] = useState<Set<string>>(new Set())
   const [manualShoppingItems, setManualShoppingItems] = useState<string[]>([])
   const [selectedShoppingItems, setSelectedShoppingItems] = useState<Set<string>>(new Set())
+  const [showDuplicates, setShowDuplicates] = useState(false)
   const [shoppingUndoStack, setShoppingUndoStack] = useState<
     {
       removedKeys: string[]
@@ -704,19 +705,9 @@ export default function MenuItemsPage({
     })
   }
 
-  function handleCombineSelectedItems() {
-    if (!selectedShoppingItems.size) {
-      setActionError('Select at least two items to combine.')
-      return
-    }
-    const selectedIngredients: string[] = []
-    selectedShoppingItems.forEach((key) => {
-      const [, ingredient] = key.split('::')
-      if (ingredient) selectedIngredients.push(ingredient)
-    })
+  function combineIngredients(selectedIngredients: string[]) {
     if (selectedIngredients.length < 2) {
-      setActionError('Select at least two items to combine.')
-      return
+      return { error: 'Select at least two items to combine.' }
     }
     const parsedMeasurements = selectedIngredients.map((item) =>
       parseIngredientMeasurement(item)
@@ -725,16 +716,14 @@ export default function MenuItemsPage({
     const hasMeasurement = parsedMeasurements.every((item) => item)
     const hasCounts = parsedCounts.every((item) => item)
     if (!hasMeasurement && !hasCounts) {
-      setActionError(
-        'Selected items must all be measured (tsp, tbsp, cups, fl oz) or all be simple counts.'
-      )
-      return
+      return {
+        error: 'Selected items must all be measured (tsp, tbsp, cups, fl oz) or all be simple counts.',
+      }
     }
     if (hasMeasurement) {
       const baseName = parsedMeasurements[0]!.name.toLowerCase()
       if (parsedMeasurements.some((item) => item!.name.toLowerCase() !== baseName)) {
-        setActionError('Selected items must refer to the same ingredient to combine.')
-        return
+        return { error: 'Selected items must refer to the same ingredient to combine.' }
       }
       const unitToTsp: Record<string, number> = {
         tsp: 1,
@@ -747,54 +736,49 @@ export default function MenuItemsPage({
         0
       )
       const combined = formatCombinedMeasurement(totalTsp, parsedMeasurements[0]!.name)
-      const toRemove = new Set(
-        selectedIngredients.map((item) => normalizeIngredientKey(item))
-      )
-      const removedKeys = Array.from(toRemove)
-      const addedManualItems = [combined]
-      setRemovedIngredients((prev) => {
-        const next = new Set(prev)
-        toRemove.forEach((key) => next.add(key))
-        return next
-      })
-      setManualShoppingItems((prev) => [...prev, combined])
-      setShoppingUndoStack((prev) => [
-        ...prev,
-        {
-          removedKeys,
-          addedManualItems,
-          message: 'Undo combine',
-        },
-      ])
-      setSelectedShoppingItems(new Set())
-      setActionError(null)
-      setActionMessage('Combined selected items.')
-      return
+      const removedKeys = selectedIngredients.map((item) => normalizeIngredientKey(item))
+      return { combined, removedKeys, addedManualItems: [combined] }
     }
 
     const baseName = parsedCounts[0]!.name.toLowerCase()
     if (parsedCounts.some((item) => item!.name.toLowerCase() !== baseName)) {
-      setActionError('Selected items must refer to the same ingredient to combine.')
-      return
+      return { error: 'Selected items must refer to the same ingredient to combine.' }
     }
     const totalCount = parsedCounts.reduce((sum, item) => sum + item!.quantity, 0)
     const unit = parsedCounts[0]!.unit
     let combined = `${formatQuantity(totalCount)} ${parsedCounts[0]!.name}`
     if (unit) {
-      const plural = totalCount === 1 ? unit.replace(/s$/, '') : unit.endsWith('s') ? unit : `${unit}s`
+      const plural =
+        totalCount === 1 ? unit.replace(/s$/, '') : unit.endsWith('s') ? unit : `${unit}s`
       combined = `${formatQuantity(totalCount)} ${plural} ${parsedCounts[0]!.name}`
     }
-    const toRemove = new Set(
-      selectedIngredients.map((item) => normalizeIngredientKey(item))
-    )
-    const removedKeys = Array.from(toRemove)
-    const addedManualItems = [combined]
+    const removedKeys = selectedIngredients.map((item) => normalizeIngredientKey(item))
+    return { combined, removedKeys, addedManualItems: [combined] }
+  }
+
+  function handleCombineSelectedItems() {
+    if (!selectedShoppingItems.size) {
+      setActionError('Select at least two items to combine.')
+      return
+    }
+    const selectedIngredients: string[] = []
+    selectedShoppingItems.forEach((key) => {
+      const [, ingredient] = key.split('::')
+      if (ingredient) selectedIngredients.push(ingredient)
+    })
+    const result = combineIngredients(selectedIngredients)
+    if (result.error) {
+      setActionError(result.error)
+      return
+    }
+    const removedKeys = result.removedKeys ?? []
+    const addedManualItems = result.addedManualItems ?? []
     setRemovedIngredients((prev) => {
       const next = new Set(prev)
-      toRemove.forEach((key) => next.add(key))
+      removedKeys.forEach((key) => next.add(key))
       return next
     })
-    setManualShoppingItems((prev) => [...prev, combined])
+    setManualShoppingItems((prev) => [...prev, ...addedManualItems])
     setShoppingUndoStack((prev) => [
       ...prev,
       {
@@ -1254,6 +1238,32 @@ export default function MenuItemsPage({
     return menuGroups
   }
 
+  function getDuplicateGroups() {
+    const groups =
+      ingredientGrouping === 'menu' ? getShoppingListByMenu() : getShoppingListByCategory()
+    const map = new Map<string, Set<string>>()
+    groups.forEach((group) => {
+      group.items.forEach((ingredient) => {
+        const measurement = parseIngredientMeasurement(ingredient)
+        const count = parseIngredientCount(ingredient)
+        const base =
+          measurement?.name?.toLowerCase() ??
+          count?.name?.toLowerCase() ??
+          normalizeCombineName(ingredient)
+        if (!base) return
+        if (!map.has(base)) map.set(base, new Set())
+        map.get(base)!.add(ingredient)
+      })
+    })
+    return Array.from(map.entries())
+      .map(([base, items]) => ({
+        base,
+        items: Array.from(items),
+      }))
+      .filter((group) => group.items.length > 1)
+      .sort((a, b) => a.base.localeCompare(b.base))
+  }
+
   function handleRemoveIngredient(ingredient: string) {
     const key = normalizeIngredientKey(ingredient)
     setRemovedIngredients((prev) => {
@@ -1292,6 +1302,33 @@ export default function MenuItemsPage({
     setSelectedShoppingItems(new Set())
     setActionError(null)
     setActionMessage('Removed selected items.')
+  }
+
+  function handleCombineSuggested(ingredients: string[]) {
+    const result = combineIngredients(ingredients)
+    if (result.error) {
+      setActionError(result.error)
+      return
+    }
+    const removedKeys = result.removedKeys ?? []
+    const addedManualItems = result.addedManualItems ?? []
+    setRemovedIngredients((prev) => {
+      const next = new Set(prev)
+      removedKeys.forEach((key) => next.add(key))
+      return next
+    })
+    setManualShoppingItems((prev) => [...prev, ...addedManualItems])
+    setShoppingUndoStack((prev) => [
+      ...prev,
+      {
+        removedKeys,
+        addedManualItems,
+        message: 'Undo combine',
+      },
+    ])
+    setSelectedShoppingItems(new Set())
+    setActionError(null)
+    setActionMessage('Combined suggested items.')
   }
 
   function handleUndoShoppingAction() {
@@ -1358,6 +1395,11 @@ export default function MenuItemsPage({
     }
   }
 
+  const duplicateGroups = showDuplicates ? getDuplicateGroups() : []
+  const duplicateItems = showDuplicates
+    ? new Set(duplicateGroups.flatMap((group) => group.items))
+    : new Set<string>()
+
   return (
     <div className="items-shell">
       {showShoppingList ? (
@@ -1393,6 +1435,14 @@ export default function MenuItemsPage({
                   <option value="menu">Group by menu item</option>
                 </select>
               </label>
+              <label className="builder-toggle duplicates-toggle">
+                <input
+                  type="checkbox"
+                  checked={showDuplicates}
+                  onChange={(event) => setShowDuplicates(event.target.checked)}
+                />
+                Duplicates
+              </label>
               <button className="ghost-button pill-accent" onClick={handleShareShoppingToNotes}>
                 Send to Notes
               </button>
@@ -1402,6 +1452,27 @@ export default function MenuItemsPage({
           </header>
 
           <div className="shopping-body">
+            {showDuplicates && duplicateGroups.length ? (
+              <div className="duplicates-panel">
+                <h4>Possible duplicates</h4>
+                <ul className="builder-list">
+                  {duplicateGroups.map((group) => (
+                    <li key={group.base} className="builder-row duplicate-row">
+                      <div className="duplicate-text">
+                        <strong>{group.base}</strong>
+                        <span>{group.items.join(' · ')}</span>
+                      </div>
+                      <button
+                        className="ghost-button"
+                        onClick={() => handleCombineSuggested(group.items)}
+                      >
+                        Combine
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
             {ingredientGrouping === 'menu' ? (
               getShoppingListByMenu().length ? (
                 <div className="shopping-groups">
@@ -1413,7 +1484,9 @@ export default function MenuItemsPage({
                           {group.items.map((ingredient) => (
                             <li
                               key={ingredient}
-                              className="builder-row shopping-row"
+                              className={`builder-row shopping-row${
+                                duplicateItems.has(ingredient) ? ' duplicate-hit' : ''
+                              }`}
                               onClick={() => handleToggleShoppingSelection(group.section, ingredient)}
                             >
                               <label className="shopping-select">
@@ -1447,7 +1520,9 @@ export default function MenuItemsPage({
                       {group.items.map((ingredient) => (
                         <li
                           key={ingredient}
-                          className="builder-row shopping-row"
+                          className={`builder-row shopping-row${
+                            duplicateItems.has(ingredient) ? ' duplicate-hit' : ''
+                          }`}
                           onClick={() => handleToggleShoppingSelection(group.section, ingredient)}
                         >
                           <label className="shopping-select">

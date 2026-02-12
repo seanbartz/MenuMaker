@@ -483,6 +483,45 @@
   gap: 1.25rem;
 }
 
+.duplicates-panel {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 18px;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  display: grid;
+  gap: 0.75rem;
+}
+
+.duplicate-row {
+  align-items: center;
+}
+
+.duplicate-text {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.duplicate-text span {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.duplicate-hit {
+  border: 1px dashed rgba(61, 122, 107, 0.45);
+}
+
+.duplicates-toggle {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.duplicates-toggle input[type='checkbox'] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent-2);
+}
+
 
 .builder-toggle {
   display: flex;

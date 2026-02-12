@@ -951,6 +951,9 @@ export default function MenuItemsPage({
               <h2>Menu Builder</h2>
               <p>{menuSelections.length} items selected</p>
             </div>
+            <button className="ghost-button" onClick={handleShareMenuToNotes}>
+              Send to Notes
+            </button>
             <button className="ghost-button" onClick={handleClearMenu}>
               Clear
             </button>
@@ -976,28 +979,8 @@ export default function MenuItemsPage({
             <div className="builder-empty">Select items to start building a menu.</div>
           )}
           <div className="builder-actions">
-            <button className="primary-button" onClick={handleExportMenu}>
-              Export menu
-            </button>
-            <button className="primary-button" onClick={handleExportIngredients}>
-              Export shopping list
-            </button>
-            <label className="builder-toggle">
-              <select
-                value={ingredientGrouping}
-                onChange={(event) =>
-                  setIngredientGrouping(event.target.value as 'category' | 'menu')
-                }
-              >
-                <option value="category">Group by category</option>
-                <option value="menu">Group by menu item</option>
-              </select>
-            </label>
             <button className="ghost-button" onClick={() => setShowShoppingList(true)}>
               View shopping list
-            </button>
-            <button className="ghost-button" onClick={handleShareMenuToNotes}>
-              Send menu to Notes
             </button>
             {actionMessage && <span className="action-message">{actionMessage}</span>}
             {actionError && <span className="action-error">{actionError}</span>}
@@ -1013,6 +996,17 @@ export default function MenuItemsPage({
                   ingredients
                 </p>
               </div>
+              <label className="builder-toggle">
+                <select
+                  value={ingredientGrouping}
+                  onChange={(event) =>
+                    setIngredientGrouping(event.target.value as 'category' | 'menu')
+                  }
+                >
+                  <option value="category">Group by category</option>
+                  <option value="menu">Group by menu item</option>
+                </select>
+              </label>
             </div>
             {ingredientGrouping === 'menu' ? (
               getShoppingListByMenu().length ? (

@@ -42,6 +42,7 @@ export default function MenuItemsPage({
   const [manualShoppingItems, setManualShoppingItems] = useState<string[]>([])
   const [selectedShoppingItems, setSelectedShoppingItems] = useState<Set<string>>(new Set())
   const [showDuplicates, setShowDuplicates] = useState(false)
+  const [combineTooltip, setCombineTooltip] = useState<string | null>(null)
   const [shoppingUndoStack, setShoppingUndoStack] = useState<
     {
       removedKeys: string[]
@@ -561,6 +562,12 @@ export default function MenuItemsPage({
       'tbsp.': 'tbsp',
       cup: 'cup',
       cups: 'cup',
+      milliliter: 'ml',
+      milliliters: 'ml',
+      ml: 'ml',
+      liter: 'l',
+      liters: 'l',
+      l: 'l',
       'fl': 'floz',
       'fl.': 'floz',
       floz: 'floz',
@@ -568,9 +575,19 @@ export default function MenuItemsPage({
       'fl-oz.': 'floz',
       'fl.oz': 'floz',
       'fl.oz.': 'floz',
-      ounce: 'floz',
-      ounces: 'floz',
-      oz: 'floz',
+      ounce: 'oz',
+      ounces: 'oz',
+      oz: 'oz',
+      pound: 'lb',
+      pounds: 'lb',
+      lb: 'lb',
+      lbs: 'lb',
+      gram: 'g',
+      grams: 'g',
+      g: 'g',
+      kilogram: 'kg',
+      kilograms: 'kg',
+      kg: 'kg',
     }
     let unit = unitMap[unitToken]
     if (!unit && unitToken === 'fl' && parts[index + 1]?.toLowerCase() === 'oz') {
@@ -590,7 +607,34 @@ export default function MenuItemsPage({
     const rawName = nameTokens.join(' ')
     const name = normalizeCombineName(rawName)
     if (!name) return null
-    return { quantity, unit, name }
+    const volumeUnits = new Set(['tsp', 'tbsp', 'cup', 'floz', 'ml', 'l'])
+    const weightUnits = new Set(['oz', 'lb', 'g', 'kg'])
+    const category = volumeUnits.has(unit)
+      ? 'volume'
+      : weightUnits.has(unit)
+        ? 'weight'
+        : 'other'
+    const volumeToMl: Record<string, number> = {
+      tsp: 4.92892,
+      tbsp: 14.7868,
+      cup: 240,
+      floz: 29.5735,
+      ml: 1,
+      l: 1000,
+    }
+    const weightToG: Record<string, number> = {
+      oz: 28.3495,
+      lb: 453.592,
+      g: 1,
+      kg: 1000,
+    }
+    const baseQuantity =
+      category === 'volume'
+        ? quantity * (volumeToMl[unit] ?? 1)
+        : category === 'weight'
+          ? quantity * (weightToG[unit] ?? 1)
+          : quantity
+    return { quantity, unit, name, category, baseQuantity }
   }
 
   function parseIngredientCount(value: string) {
@@ -614,10 +658,20 @@ export default function MenuItemsPage({
       'packages',
       'pkg',
       'pkgs',
-      'can',
-      'cans',
+      'bag',
+      'bags',
+      'box',
+      'boxes',
       'jar',
       'jars',
+      'bottle',
+      'bottles',
+      'pinch',
+      'pinches',
+      'handful',
+      'handfuls',
+      'can',
+      'cans',
       'piece',
       'pieces',
       'head',
@@ -692,6 +746,22 @@ export default function MenuItemsPage({
     return `${qty} ${unitLabel} ${name}`
   }
 
+  function formatCombinedVolume(totalMl: number, name: string) {
+    const mlPerFloz = 29.5735
+    const value = totalMl / mlPerFloz
+    const qty = value.toFixed(2).replace(/\.?0+$/, '')
+    const unitLabel = value === 1 ? 'fluid ounce' : 'fluid ounces'
+    return `${qty} ${unitLabel} ${name}`
+  }
+
+  function formatCombinedWeight(totalG: number, name: string) {
+    const gPerLb = 453.592
+    const value = totalG / gPerLb
+    const qty = value.toFixed(2).replace(/\.?0+$/, '')
+    const unitLabel = value === 1 ? 'pound' : 'pounds'
+    return `${qty} ${unitLabel} ${name}`
+  }
+
   function handleToggleShoppingSelection(section: string, ingredient: string) {
     const key = makeShoppingSelectionKey(section, ingredient)
     setSelectedShoppingItems((prev) => {
@@ -717,7 +787,8 @@ export default function MenuItemsPage({
     const hasCounts = parsedCounts.every((item) => item)
     if (!hasMeasurement && !hasCounts) {
       return {
-        error: 'Selected items must all be measured (tsp, tbsp, cups, fl oz) or all be simple counts.',
+        error:
+          'Selected items must all be compatible measurements (volume/weight) or all be simple counts.',
       }
     }
     if (hasMeasurement) {
@@ -725,17 +796,24 @@ export default function MenuItemsPage({
       if (parsedMeasurements.some((item) => item!.name.toLowerCase() !== baseName)) {
         return { error: 'Selected items must refer to the same ingredient to combine.' }
       }
-      const unitToTsp: Record<string, number> = {
-        tsp: 1,
-        tbsp: 3,
-        cup: 48,
-        floz: 6,
+      const category = parsedMeasurements[0]!.category
+      if (
+        parsedMeasurements.some((item) => item!.category !== category) ||
+        category === 'other'
+      ) {
+        return {
+          error:
+            'Selected items must use compatible units (volume or weight) to combine.',
+        }
       }
-      const totalTsp = parsedMeasurements.reduce(
-        (sum, item) => sum + item!.quantity * unitToTsp[item!.unit],
+      const totalBase = parsedMeasurements.reduce(
+        (sum, item) => sum + item!.baseQuantity,
         0
       )
-      const combined = formatCombinedMeasurement(totalTsp, parsedMeasurements[0]!.name)
+      const combined =
+        category === 'volume'
+          ? formatCombinedVolume(totalBase, parsedMeasurements[0]!.name)
+          : formatCombinedWeight(totalBase, parsedMeasurements[0]!.name)
       const removedKeys = selectedIngredients.map((item) => normalizeIngredientKey(item))
       return { combined, removedKeys, addedManualItems: [combined] }
     }
@@ -746,6 +824,9 @@ export default function MenuItemsPage({
     }
     const totalCount = parsedCounts.reduce((sum, item) => sum + item!.quantity, 0)
     const unit = parsedCounts[0]!.unit
+    if (parsedCounts.some((item) => item!.unit !== unit)) {
+      return { error: 'Selected count items must use the same unit to combine.' }
+    }
     let combined = `${formatQuantity(totalCount)} ${parsedCounts[0]!.name}`
     if (unit) {
       const plural =
@@ -769,6 +850,7 @@ export default function MenuItemsPage({
     const result = combineIngredients(selectedIngredients)
     if (result.error) {
       setActionError(result.error)
+      setCombineTooltip(result.error)
       return
     }
     const removedKeys = result.removedKeys ?? []
@@ -789,6 +871,7 @@ export default function MenuItemsPage({
     ])
     setSelectedShoppingItems(new Set())
     setActionError(null)
+    setCombineTooltip(null)
     setActionMessage('Combined selected items.')
   }
 
@@ -1308,6 +1391,7 @@ export default function MenuItemsPage({
     const result = combineIngredients(ingredients)
     if (result.error) {
       setActionError(result.error)
+      setCombineTooltip(result.error)
       return
     }
     const removedKeys = result.removedKeys ?? []
@@ -1328,6 +1412,7 @@ export default function MenuItemsPage({
     ])
     setSelectedShoppingItems(new Set())
     setActionError(null)
+    setCombineTooltip(null)
     setActionMessage('Combined suggested items.')
   }
 
@@ -1412,7 +1497,11 @@ export default function MenuItemsPage({
               <p className="eyebrow">Shopping List</p>
             </div>
             <div className="shopping-controls">
-              <button className="ghost-button" onClick={handleCombineSelectedItems}>
+              <button
+                className="ghost-button"
+                onClick={handleCombineSelectedItems}
+                title={combineTooltip ?? 'Combine selected'}
+              >
                 Combine selected
               </button>
               <button className="ghost-button pill-danger" onClick={handleRemoveSelectedItems}>

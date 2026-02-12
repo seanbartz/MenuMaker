@@ -177,11 +177,23 @@ fn escape_applescript(value: &str) -> String {
 fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String> {
   let escaped_title = escape_applescript(&title);
   let normalized_title = title.trim().to_lowercase();
+  let mut seen = std::collections::HashSet::new();
   let filtered_items = items
     .into_iter()
-    .filter(|item| {
-      let normalized = item.trim().to_lowercase();
-      !normalized.is_empty() && normalized != normalized_title
+    .filter_map(|item| {
+      let trimmed = item.trim();
+      if trimmed.is_empty() {
+        return None;
+      }
+      let normalized = trimmed.to_lowercase();
+      if normalized == normalized_title {
+        return None;
+      }
+      if seen.contains(&normalized) {
+        return None;
+      }
+      seen.insert(normalized);
+      Some(trimmed.to_string())
     })
     .collect::<Vec<_>>();
   let list_items = filtered_items
@@ -206,8 +218,7 @@ fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String
          end if\n\
          set the clipboard to \"{title}\"\n\
          keystroke \"v\" using {{command down}}\n\
-         key code 36\n\
-         key code 36\n\
+        key code 36\n\
          try\n\
            click menu bar item \"Format\" of menu bar 1\n\
            delay 0.2\n\
@@ -219,12 +230,11 @@ fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String
          if (count of text areas of window 1) > 0 then\n\
            click (first text area of window 1)\n\
          end if\n\
-         repeat with itemText in itemList\n\
-           set the clipboard to (contents of itemText)\n\
-           keystroke \"v\" using {{command down}}\n\
-           key code 36\n\
-           delay 0.03\n\
-         end repeat\n\
+        repeat with itemText in itemList\n\
+          keystroke (contents of itemText)\n\
+          key code 36\n\
+          delay 0.06\n\
+        end repeat\n\
        end tell\n\
      end tell",
     title = escaped_title,

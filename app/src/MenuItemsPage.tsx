@@ -465,11 +465,22 @@ export default function MenuItemsPage({
       ingredientGrouping === 'menu'
         ? getShoppingListByMenu().flatMap((group) => group.items)
         : getShoppingListByCategory().flatMap((group) => group.items)
+    const dedupedItems = (() => {
+      const seen = new Set<string>()
+      const result: string[] = []
+      items.forEach((item) => {
+        const normalized = normalizeIngredientKey(item)
+        if (!normalized || seen.has(normalized)) return
+        seen.add(normalized)
+        result.push(item)
+      })
+      return result
+    })()
     const normalizedTitle = title.trim().toLowerCase()
-    const cleanedItems = items.filter(
+    const cleanedItems = dedupedItems.filter(
       (item) => item && item.trim().toLowerCase() !== normalizedTitle
     )
-    if (!items.length) {
+    if (!cleanedItems.length) {
       setActionError('No ingredients available.')
       return
     }

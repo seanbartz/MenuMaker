@@ -172,21 +172,18 @@ fn escape_applescript(value: &str) -> String {
 #[tauri::command]
 fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String> {
   let escaped_title = escape_applescript(&title);
-  let list_items = items
+  let body = items
     .into_iter()
-    .map(|item| format!("\"{}\"", escape_applescript(&item)))
+    .map(|item| format!("☐ {}", escape_applescript(&item)))
     .collect::<Vec<_>>()
-    .join(", ");
+    .join("\\n");
 
   let script = format!(
     "tell application \"Notes\"\n\
-       set theNote to make new note at folder \"Notes\" with properties {{name:\"{title}\"}}\n\
-       repeat with itemText in {{{items}}}\n\
-         make new checklist item at theNote with properties {{name:itemText}}\n\
-       end repeat\n\
+       make new note at folder \"Notes\" with properties {{name:\"{title}\", body:\"{body}\"}}\n\
      end tell",
     title = escaped_title,
-    items = list_items
+    body = body
   );
 
   let output = std::process::Command::new("osascript")

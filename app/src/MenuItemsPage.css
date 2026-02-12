@@ -370,6 +370,17 @@
   padding: 0.5rem 0;
 }
 
+.shopping-view .shopping-groups {
+  columns: 3;
+  column-gap: 2.5rem;
+  column-rule: 1px solid rgba(61, 122, 107, 0.35);
+}
+
+@media (max-width: 960px) {
+  .shopping-view .shopping-groups {
+    columns: 1;
+  }
+}
 .shopping-group h4 {
   margin: 0 0 0.5rem;
   font-size: 0.95rem;

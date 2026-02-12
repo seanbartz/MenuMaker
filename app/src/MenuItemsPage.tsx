@@ -445,6 +445,7 @@ export default function MenuItemsPage({
       const mod = await import('@tauri-apps/api/core')
       const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
       await invoke('create_note_checklist', { title, items: cleanedItems })
+      handlePersistMenu()
       setActionError(null)
       setActionMessage('Sent menu to Notes.')
     } catch (error) {

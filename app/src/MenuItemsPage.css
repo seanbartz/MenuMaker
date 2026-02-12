@@ -367,9 +367,6 @@
 }
 
 .shopping-groups {
-  columns: 3;
-  column-gap: 2.5rem;
-  column-rule: 1px solid rgba(61, 122, 107, 0.35);
   padding: 0.5rem 0;
 }
 
@@ -424,11 +421,6 @@
   gap: 1.25rem;
 }
 
-@media (max-width: 960px) {
-  .shopping-groups {
-    columns: 1;
-  }
-}
 
 .builder-toggle {
   display: flex;

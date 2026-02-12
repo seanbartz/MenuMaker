@@ -1412,16 +1412,18 @@ export default function MenuItemsPage({
                       {group.items.length ? (
                         <ul className="builder-list">
                           {group.items.map((ingredient) => (
-                            <li key={ingredient} className="builder-row">
+                            <li
+                              key={ingredient}
+                              className="builder-row shopping-row"
+                              onClick={() => handleToggleShoppingSelection(group.section, ingredient)}
+                            >
                               <label className="shopping-select">
                                 <input
                                   type="checkbox"
+                                  readOnly
                                   checked={selectedShoppingItems.has(
                                     makeShoppingSelectionKey(group.section, ingredient)
                                   )}
-                                  onChange={() =>
-                                    handleToggleShoppingSelection(group.section, ingredient)
-                                  }
                                 />
                               </label>
                               <span>{renderIngredientText(ingredient)}</span>
@@ -1444,16 +1446,18 @@ export default function MenuItemsPage({
                     <h4>{group.section}</h4>
                     <ul className="builder-list">
                       {group.items.map((ingredient) => (
-                        <li key={ingredient} className="builder-row">
+                        <li
+                          key={ingredient}
+                          className="builder-row shopping-row"
+                          onClick={() => handleToggleShoppingSelection(group.section, ingredient)}
+                        >
                           <label className="shopping-select">
                             <input
                               type="checkbox"
+                              readOnly
                               checked={selectedShoppingItems.has(
                                 makeShoppingSelectionKey(group.section, ingredient)
                               )}
-                              onChange={() =>
-                                handleToggleShoppingSelection(group.section, ingredient)
-                              }
                             />
                           </label>
                           <span>{renderIngredientText(ingredient)}</span>
@@ -1695,16 +1699,18 @@ export default function MenuItemsPage({
                       {group.items.length ? (
                         <ul className="builder-list">
                           {group.items.map((ingredient) => (
-                            <li key={ingredient} className="builder-row">
+                            <li
+                              key={ingredient}
+                              className="builder-row shopping-row"
+                              onClick={() => handleToggleShoppingSelection(group.section, ingredient)}
+                            >
                               <label className="shopping-select">
                                 <input
                                   type="checkbox"
+                                  readOnly
                                   checked={selectedShoppingItems.has(
                                     makeShoppingSelectionKey(group.section, ingredient)
                                   )}
-                                  onChange={() =>
-                                    handleToggleShoppingSelection(group.section, ingredient)
-                                  }
                                 />
                               </label>
                               <span>{renderIngredientText(ingredient)}</span>
@@ -1727,16 +1733,18 @@ export default function MenuItemsPage({
                     <h4>{group.section}</h4>
                     <ul className="builder-list">
                       {group.items.map((ingredient) => (
-                      <li key={ingredient} className="builder-row">
+                      <li
+                        key={ingredient}
+                        className="builder-row shopping-row"
+                        onClick={() => handleToggleShoppingSelection(group.section, ingredient)}
+                      >
                         <label className="shopping-select">
                           <input
                             type="checkbox"
+                            readOnly
                             checked={selectedShoppingItems.has(
                               makeShoppingSelectionKey(group.section, ingredient)
                             )}
-                            onChange={() =>
-                              handleToggleShoppingSelection(group.section, ingredient)
-                            }
                           />
                         </label>
                         <span>{renderIngredientText(ingredient)}</span>

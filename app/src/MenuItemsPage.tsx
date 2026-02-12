@@ -1364,6 +1364,9 @@ export default function MenuItemsPage({
         <section className="shopping-view">
           <header className="shopping-header">
             <div>
+              <button className="shopping-back" onClick={() => setShowShoppingList(false)}>
+                Back to items
+              </button>
               <p className="eyebrow">Shopping List</p>
               <h1>Review Shopping List</h1>
             </div>
@@ -1371,7 +1374,7 @@ export default function MenuItemsPage({
               <button className="ghost-button" onClick={handleCombineSelectedItems}>
                 Combine selected
               </button>
-              <button className="ghost-button" onClick={handleRemoveSelectedItems}>
+              <button className="ghost-button pill-danger" onClick={handleRemoveSelectedItems}>
                 Remove selected
               </button>
               <button className="ghost-button" onClick={handleUndoShoppingAction}>
@@ -1391,10 +1394,7 @@ export default function MenuItemsPage({
                   <option value="menu">Group by menu item</option>
                 </select>
               </label>
-              <button className="ghost-button" onClick={() => setShowShoppingList(false)}>
-                Back to items
-              </button>
-              <button className="ghost-button" onClick={handleShareShoppingToNotes}>
+              <button className="ghost-button pill-accent" onClick={handleShareShoppingToNotes}>
                 Send to Notes
               </button>
               {actionMessage && <span className="action-message">{actionMessage}</span>}

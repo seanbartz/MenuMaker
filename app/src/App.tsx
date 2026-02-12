@@ -347,33 +347,26 @@ function App() {
             <p>Tap a week to explore ingredients and links.</p>
           </div>
 
-          {status === 'loading' && <div className="loading">Loading menus…</div>}
-          {status === 'error' && (
-            <div className="error">Failed to load menus: {errorMessage}</div>
-          )}
-
-          {status === 'ready' && (
-            <ul>
-              {sortedMenus.map((menu) => {
-                const isActive = menu.file === selectedFile
-                const dateLabel = formatDate(menu.week_of_date)
-                return (
-                  <li key={menu.file}>
-                    <button
-                      className={`menu-card ${isActive ? 'active' : ''}`}
-                      onClick={() => setSelectedFile(menu.file)}
-                    >
-                      <div>
-                        <span className="menu-date">{dateLabel}</span>
-                        <strong>{menu.title ?? menu.file}</strong>
-                      </div>
-                      <span className="menu-season">{seasonLabel(menu.week_of_date)}</span>
-                    </button>
-                  </li>
-                )
-              })}
-            </ul>
-          )}
+          <ul>
+            {sortedMenus.map((menu) => {
+              const isActive = menu.file === selectedFile
+              const dateLabel = formatDate(menu.week_of_date)
+              return (
+                <li key={menu.file}>
+                  <button
+                    className={`menu-card ${isActive ? 'active' : ''}`}
+                    onClick={() => setSelectedFile(menu.file)}
+                  >
+                    <div>
+                      <span className="menu-date">{dateLabel}</span>
+                      <strong>{menu.title ?? menu.file}</strong>
+                    </div>
+                    <span className="menu-season">{seasonLabel(menu.week_of_date)}</span>
+                  </button>
+                </li>
+              )
+            })}
+          </ul>
         </aside>
 
         <section className="menu-detail">

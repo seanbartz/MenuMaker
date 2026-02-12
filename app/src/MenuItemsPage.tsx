@@ -124,199 +124,11 @@ export default function MenuItemsPage({
     setMenuSelections([])
   }
 
-  function formatDateStamp(date = new Date()) {
-    const formatted = date.toLocaleDateString('en-US', {
-      month: 'long',
-      day: 'numeric',
-      year: 'numeric',
-    })
-    return formatted.replace(',', '')
-  }
-
   function formatShortDate(date = new Date()) {
     const month = date.getMonth() + 1
     const day = date.getDate()
     const year = String(date.getFullYear()).slice(-2)
     return `${month}/${day}/${year}`
-  }
-
-  function buildMenuMarkdown() {
-    const dateStamp = formatShortDate()
-    const lines = menuSelections.map((item) => {
-      const title = item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
-      return `- [ ] ${title}`
-    })
-    return `# Menu week of ${dateStamp}\n\n${lines.join('\n')}\n`
-  }
-
-  function buildIngredientsMarkdown() {
-    const dateStamp = formatDateStamp()
-    if (ingredientGrouping === 'menu') {
-      const content = menuSelections
-        .map((item) => {
-          const title = item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
-          const lines = (item.ingredients ?? [])
-            .filter(Boolean)
-            .filter((ingredient) => !removedIngredients.has(normalizeIngredientKey(ingredient)))
-            .map((ingredient) => `- [ ] ${ingredient}`)
-          return `## ${title}\n${lines.length ? lines.join('\n') : '_No ingredients listed._'}`
-        })
-        .join('\n\n')
-      return `# Ingredients - ${dateStamp}\n\n${content}\n`
-    }
-
-    const ingredientMap = new Map<string, string>()
-    menuSelections.forEach((item) => {
-      item.ingredients?.forEach((ingredient) => {
-        if (!ingredient) return
-        if (removedIngredients.has(normalizeIngredientKey(ingredient))) return
-        const key = normalizeIngredientKey(ingredient)
-        if (!ingredientMap.has(key)) {
-          ingredientMap.set(key, ingredient)
-        }
-      })
-    })
-    const sections: Record<string, string[]> = {
-      Produce: [],
-      Proteins: [],
-      Grains: [],
-      'Packaged Items': [],
-      Staples: [],
-    }
-
-    function classifyIngredient(ingredient: string): keyof typeof sections {
-      const text = ingredient.toLowerCase()
-      const includesAny = (terms: string[]) => terms.some((term) => text.includes(term))
-
-      if (
-        includesAny([
-          'apple',
-          'avocado',
-          'banana',
-          'basil',
-          'berry',
-          'broccoli',
-          'cabbage',
-          'carrot',
-          'celery',
-          'cilantro',
-          'corn',
-          'cucumber',
-          'eggplant',
-          'garlic',
-          'ginger',
-          'jalapeno',
-          'kale',
-          'lemon',
-          'lime',
-          'lettuce',
-          'mushroom',
-          'onion',
-          'orange',
-          'parsley',
-          'pepper',
-          'potato',
-          'shallot',
-          'spinach',
-          'squash',
-          'tomato',
-          'zucchini',
-        ])
-      ) {
-        return 'Produce'
-      }
-
-      if (
-        includesAny([
-          'beef',
-          'bacon',
-          'chicken',
-          'pork',
-          'ham',
-          'turkey',
-          'sausage',
-          'steak',
-          'salmon',
-          'tuna',
-          'shrimp',
-          'scallop',
-          'crab',
-          'fish',
-          'tofu',
-          'tempeh',
-          'egg',
-          'lentil',
-          'bean',
-          'chickpea',
-        ])
-      ) {
-        return 'Proteins'
-      }
-
-      if (
-        includesAny([
-          'rice',
-          'pasta',
-          'noodle',
-          'quinoa',
-          'couscous',
-          'barley',
-          'bulgur',
-          'farro',
-          'oat',
-          'orzo',
-          'polenta',
-        ])
-      ) {
-        return 'Grains'
-      }
-
-      if (
-        includesAny([
-          'cheese',
-          'yogurt',
-          'cream',
-          'milk',
-          'butter',
-          'broth',
-          'stock',
-          'salsa',
-          'pesto',
-          'tortilla',
-          'bread',
-          'bun',
-          'wrap',
-          'pita',
-          'chips',
-          'crouton',
-          'canned',
-          'jar',
-          'frozen',
-        ])
-      ) {
-        return 'Packaged Items'
-      }
-
-      return 'Staples'
-    }
-
-    Array.from(ingredientMap.values()).forEach((ingredient) => {
-      const section = classifyIngredient(ingredient)
-      sections[section].push(ingredient)
-    })
-
-    const sectionOrder = Object.keys(sections) as (keyof typeof sections)[]
-    const content = sectionOrder
-      .filter((section) => sections[section].length)
-      .map((section) => {
-        const lines = sections[section]
-          .sort((a, b) => a.localeCompare(b))
-          .map((ingredient) => `- [ ] ${ingredient}`)
-        return `## ${section}\n${lines.join('\n')}`
-      })
-      .join('\n\n')
-
-    return `# Ingredients - ${dateStamp}\n\n${content}\n`
   }
 
   function normalizeIngredientKey(value: string) {
@@ -464,10 +276,10 @@ export default function MenuItemsPage({
     return `${section}::${ingredient}`
   }
 
-  function parseQuantity(token: string) {
+  function parseQuantity(token: string): number | null {
     const rangeMatch = token.match(/^(\d+(?:\.\d+)?(?:\s*\/\s*\d+)?)\s*-\s*(\d+(?:\.\d+)?(?:\s*\/\s*\d+)?)$/)
     if (rangeMatch) {
-      const high = parseQuantity(rangeMatch[2])
+      const high: number | null = parseQuantity(rangeMatch[2])
       return high
     }
     const fractionMatch = token.match(/^(\d+)\s*\/\s*(\d+)$/)
@@ -712,40 +524,6 @@ export default function MenuItemsPage({
     return `${whole} ${simpleNumer}/${simpleDenom}`
   }
 
-  function formatCombinedMeasurement(totalTsp: number, name: string) {
-    const tspPerTbsp = 3
-    const tspPerCup = 48
-    const tspPerFloz = 6
-    let unit = 'tsp'
-    let value = totalTsp
-    if (totalTsp >= tspPerFloz) {
-      unit = 'floz'
-      value = totalTsp / tspPerFloz
-    } else if (totalTsp >= tspPerTbsp) {
-      unit = 'tbsp'
-      value = totalTsp / tspPerTbsp
-    }
-    const qty =
-      unit === 'floz' ? value.toFixed(2).replace(/\.?0+$/, '') : formatQuantity(value)
-    const unitLabel =
-      unit === 'cup'
-        ? value === 1
-          ? 'cup'
-          : 'cups'
-        : unit === 'tbsp'
-          ? value === 1
-            ? 'tablespoon'
-            : 'tablespoons'
-          : unit === 'tsp'
-            ? value === 1
-              ? 'teaspoon'
-              : 'teaspoons'
-            : value === 1
-              ? 'fluid ounce'
-              : 'fluid ounces'
-    return `${qty} ${unitLabel} ${name}`
-  }
-
   function formatCombinedVolume(totalMl: number, name: string) {
     const mlPerFloz = 29.5735
     const value = totalMl / mlPerFloz
@@ -879,20 +657,6 @@ export default function MenuItemsPage({
     setSelectedShoppingItems(new Set())
   }
 
-  function downloadMarkdown(filename: string, content: string) {
-    const blob = new Blob([content], { type: 'text/markdown;charset=utf-8' })
-    const url = URL.createObjectURL(blob)
-    const link = document.createElement('a')
-    link.href = url
-    link.download = filename
-    document.body.appendChild(link)
-    link.click()
-    setTimeout(() => {
-      link.remove()
-      URL.revokeObjectURL(url)
-    }, 0)
-  }
-
   function buildMenuFile(date: Date) {
     const month = date.getMonth() + 1
     const day = date.getDate()
@@ -957,10 +721,9 @@ export default function MenuItemsPage({
         ? Array.from(new Set([...(item.menu_weeks ?? []), newMenu.week_of_date]))
         : item.menu_weeks ?? []
       const season = seasonFromWeek(newMenu.week_of_date)
-      const menuSeasons =
-        season && season !== ''
-          ? Array.from(new Set([...(item.menu_seasons ?? []), season]))
-          : item.menu_seasons ?? []
+      const menuSeasons = season
+        ? Array.from(new Set([...(item.menu_seasons ?? []), season]))
+        : item.menu_seasons ?? []
       return {
         ...item,
         menu_files: menuFiles,
@@ -970,21 +733,6 @@ export default function MenuItemsPage({
       }
     })
     onSaveMenu(newMenu, updatedItems)
-  }
-
-  function handleExportMenu() {
-    const dateStamp = formatDateStamp().replace(/\s+/g, '-')
-    downloadMarkdown(`menu-${dateStamp}.md`, buildMenuMarkdown())
-    handlePersistMenu()
-    setActionError(null)
-    setActionMessage('Menu export started.')
-  }
-
-  function handleExportIngredients() {
-    const dateStamp = formatDateStamp().replace(/\s+/g, '-')
-    downloadMarkdown(`ingredients-${dateStamp}.md`, buildIngredientsMarkdown())
-    setActionError(null)
-    setActionMessage('Shopping list export started.')
   }
 
   async function handleShareMenuToNotes() {
@@ -1347,14 +1095,7 @@ export default function MenuItemsPage({
       .sort((a, b) => a.base.localeCompare(b.base))
   }
 
-  function handleRemoveIngredient(ingredient: string) {
-    const key = normalizeIngredientKey(ingredient)
-    setRemovedIngredients((prev) => {
-      const next = new Set(prev)
-      next.add(key)
-      return next
-    })
-  }
+  const undoDisabled = shoppingUndoStack.length === 0
 
   function handleRemoveSelectedItems() {
     if (!selectedShoppingItems.size) {
@@ -1507,7 +1248,11 @@ export default function MenuItemsPage({
               <button className="ghost-button pill-danger" onClick={handleRemoveSelectedItems}>
                 Remove selected
               </button>
-              <button className="ghost-button" onClick={handleUndoShoppingAction}>
+              <button
+                className="ghost-button"
+                onClick={handleUndoShoppingAction}
+                disabled={undoDisabled}
+              >
                 Undo
               </button>
               <button className="ghost-button" onClick={handleDeselectShoppingItems}>

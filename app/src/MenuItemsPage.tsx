@@ -39,6 +39,8 @@ export default function MenuItemsPage({
   const [autoAddToMenu, setAutoAddToMenu] = useState(true)
   const [ingredientGrouping, setIngredientGrouping] = useState<'category' | 'menu'>('category')
   const [removedIngredients, setRemovedIngredients] = useState<Set<string>>(new Set())
+  const [manualShoppingItems, setManualShoppingItems] = useState<string[]>([])
+  const [selectedShoppingItems, setSelectedShoppingItems] = useState<Set<string>>(new Set())
   const [showShoppingList, setShowShoppingList] = useState(false)
   const [actionMessage, setActionMessage] = useState<string | null>(null)
   const [actionError, setActionError] = useState<string | null>(null)
@@ -319,6 +321,208 @@ export default function MenuItemsPage({
       .replace(/\s+/, ' ')
   }
 
+  function makeShoppingSelectionKey(section: string, ingredient: string) {
+    return `${section}::${ingredient}`
+  }
+
+  function parseQuantity(token: string) {
+    const rangeMatch = token.match(/^(\d+(?:\.\d+)?(?:\s*\/\s*\d+)?)\s*-\s*(\d+(?:\.\d+)?(?:\s*\/\s*\d+)?)$/)
+    if (rangeMatch) {
+      const high = parseQuantity(rangeMatch[2])
+      return high
+    }
+    const fractionMatch = token.match(/^(\d+)\s*\/\s*(\d+)$/)
+    if (fractionMatch) {
+      const numerator = Number(fractionMatch[1])
+      const denominator = Number(fractionMatch[2])
+      if (!Number.isFinite(numerator) || !Number.isFinite(denominator) || denominator === 0) {
+        return null
+      }
+      return numerator / denominator
+    }
+    const number = Number(token)
+    if (!Number.isFinite(number)) return null
+    return number
+  }
+
+  function parseIngredientMeasurement(value: string) {
+    const cleaned = value
+      .replace(/[–—]/g, '-')
+      .replace(/\([^)]*\)/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+    const parts = cleaned.split(' ')
+    if (parts.length < 2) return null
+    let quantity = 0
+    let index = 0
+    const first = parseQuantity(parts[index])
+    if (first == null) return null
+    quantity += first
+    index += 1
+    if (index < parts.length) {
+      const second = parseQuantity(parts[index])
+      if (second != null) {
+        quantity += second
+        index += 1
+      }
+    }
+    if (index >= parts.length) return null
+    const unitToken = parts[index].toLowerCase()
+    const unitMap: Record<string, string> = {
+      teaspoon: 'tsp',
+      teaspoons: 'tsp',
+      tsp: 'tsp',
+      'tsp.': 'tsp',
+      tablespoon: 'tbsp',
+      tablespoons: 'tbsp',
+      tbsp: 'tbsp',
+      'tbsp.': 'tbsp',
+      cup: 'cup',
+      cups: 'cup',
+      'fl': 'floz',
+      'fl.': 'floz',
+      floz: 'floz',
+      'fl-oz': 'floz',
+      'fl-oz.': 'floz',
+      'fl.oz': 'floz',
+      'fl.oz.': 'floz',
+      ounce: 'floz',
+      ounces: 'floz',
+      oz: 'floz',
+    }
+    let unit = unitMap[unitToken]
+    if (!unit && unitToken === 'fl' && parts[index + 1]?.toLowerCase() === 'oz') {
+      unit = 'floz'
+      index += 1
+    } else if (!unit && unitToken === 'fluid' && parts[index + 1]?.toLowerCase() === 'ounce') {
+      unit = 'floz'
+      index += 1
+    } else if (!unit && unitToken === 'fluid' && parts[index + 1]?.toLowerCase() === 'ounces') {
+      unit = 'floz'
+      index += 1
+    }
+    if (!unit) return null
+    index += 1
+    const nameTokens = parts.slice(index).filter((token) => token.toLowerCase() !== 'of')
+    if (!nameTokens.length) return null
+    return { quantity, unit, name: nameTokens.join(' ') }
+  }
+
+  function formatQuantity(value: number) {
+    const rounded = Math.round(value * 8) / 8
+    const whole = Math.floor(rounded)
+    const fraction = rounded - whole
+    if (fraction < 0.0001) return `${whole}`
+    const denom = 8
+    const numer = Math.round(fraction * denom)
+    const gcd = (a: number, b: number): number => (b ? gcd(b, a % b) : a)
+    const divisor = gcd(numer, denom)
+    const simpleNumer = numer / divisor
+    const simpleDenom = denom / divisor
+    if (whole === 0) {
+      return `${simpleNumer}/${simpleDenom}`
+    }
+    return `${whole} ${simpleNumer}/${simpleDenom}`
+  }
+
+  function formatCombinedMeasurement(totalTsp: number, name: string) {
+    const tspPerTbsp = 3
+    const tspPerCup = 48
+    const tspPerFloz = 6
+    let unit = 'tsp'
+    let value = totalTsp
+    if (totalTsp >= tspPerCup) {
+      unit = 'cup'
+      value = totalTsp / tspPerCup
+    } else if (totalTsp >= tspPerTbsp) {
+      unit = 'tbsp'
+      value = totalTsp / tspPerTbsp
+    } else if (totalTsp >= tspPerFloz && totalTsp % tspPerTbsp !== 0) {
+      unit = 'floz'
+      value = totalTsp / tspPerFloz
+    }
+    const qty = formatQuantity(value)
+    const unitLabel =
+      unit === 'cup'
+        ? value === 1
+          ? 'cup'
+          : 'cups'
+        : unit === 'tbsp'
+          ? value === 1
+            ? 'tablespoon'
+            : 'tablespoons'
+          : unit === 'tsp'
+            ? value === 1
+              ? 'teaspoon'
+              : 'teaspoons'
+            : value === 1
+              ? 'fluid ounce'
+              : 'fluid ounces'
+    return `${qty} ${unitLabel} ${name}`
+  }
+
+  function handleToggleShoppingSelection(section: string, ingredient: string) {
+    const key = makeShoppingSelectionKey(section, ingredient)
+    setSelectedShoppingItems((prev) => {
+      const next = new Set(prev)
+      if (next.has(key)) {
+        next.delete(key)
+      } else {
+        next.add(key)
+      }
+      return next
+    })
+  }
+
+  function handleCombineSelectedItems() {
+    if (!selectedShoppingItems.size) {
+      setActionError('Select at least two items to combine.')
+      return
+    }
+    const selectedIngredients: string[] = []
+    selectedShoppingItems.forEach((key) => {
+      const [, ingredient] = key.split('::')
+      if (ingredient) selectedIngredients.push(ingredient)
+    })
+    if (selectedIngredients.length < 2) {
+      setActionError('Select at least two items to combine.')
+      return
+    }
+    const parsed = selectedIngredients.map((item) => parseIngredientMeasurement(item))
+    if (parsed.some((item) => !item)) {
+      setActionError('Only items with measurements (tsp, tbsp, cups, fl oz) can be combined.')
+      return
+    }
+    const baseName = parsed[0]!.name.toLowerCase()
+    if (parsed.some((item) => item!.name.toLowerCase() !== baseName)) {
+      setActionError('Selected items must refer to the same ingredient to combine.')
+      return
+    }
+    const unitToTsp: Record<string, number> = {
+      tsp: 1,
+      tbsp: 3,
+      cup: 48,
+      floz: 6,
+    }
+    const totalTsp = parsed.reduce(
+      (sum, item) => sum + item!.quantity * unitToTsp[item!.unit],
+      0
+    )
+    const combined = formatCombinedMeasurement(totalTsp, parsed[0]!.name)
+    const toRemove = new Set(
+      selectedIngredients.map((item) => normalizeIngredientKey(item))
+    )
+    setRemovedIngredients((prev) => {
+      const next = new Set(prev)
+      toRemove.forEach((key) => next.add(key))
+      return next
+    })
+    setManualShoppingItems((prev) => [...prev, combined])
+    setSelectedShoppingItems(new Set())
+    setActionError(null)
+    setActionMessage('Combined selected items.')
+  }
+
   function downloadMarkdown(filename: string, content: string) {
     const blob = new Blob([content], { type: 'text/markdown;charset=utf-8' })
     const url = URL.createObjectURL(blob)
@@ -504,6 +708,14 @@ export default function MenuItemsPage({
           ingredientMap.set(key, ingredient)
         }
       })
+    })
+    manualShoppingItems.forEach((ingredient) => {
+      if (!ingredient) return
+      const key = normalizeIngredientKey(ingredient)
+      if (removedIngredients.has(key)) return
+      if (!ingredientMap.has(key)) {
+        ingredientMap.set(key, ingredient)
+      }
     })
 
     const sections: Record<string, string[]> = {
@@ -735,13 +947,22 @@ export default function MenuItemsPage({
   }
 
   function getShoppingListByMenu() {
-    return menuSelections.map((item) => {
+    const menuGroups = menuSelections.map((item) => {
       const title = item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
       const items = (item.ingredients ?? [])
         .filter(Boolean)
         .filter((ingredient) => !removedIngredients.has(normalizeIngredientKey(ingredient)))
       return { section: title, items }
     })
+    if (manualShoppingItems.length) {
+      menuGroups.push({
+        section: 'Combined items',
+        items: manualShoppingItems.filter(
+          (ingredient) => !removedIngredients.has(normalizeIngredientKey(ingredient))
+        ),
+      })
+    }
+    return menuGroups
   }
 
   function handleRemoveIngredient(ingredient: string) {
@@ -805,6 +1026,9 @@ export default function MenuItemsPage({
               <h1>Review Shopping List</h1>
             </div>
             <div className="shopping-controls">
+              <button className="ghost-button" onClick={handleCombineSelectedItems}>
+                Combine selected
+              </button>
               <label className="builder-toggle">
                 <select
                   value={ingredientGrouping}
@@ -841,6 +1065,17 @@ export default function MenuItemsPage({
                         <ul className="builder-list">
                           {group.items.map((ingredient) => (
                             <li key={ingredient} className="builder-row">
+                              <label className="shopping-select">
+                                <input
+                                  type="checkbox"
+                                  checked={selectedShoppingItems.has(
+                                    makeShoppingSelectionKey(group.section, ingredient)
+                                  )}
+                                  onChange={() =>
+                                    handleToggleShoppingSelection(group.section, ingredient)
+                                  }
+                                />
+                              </label>
                               <span>{ingredient}</span>
                               <button
                                 className="ghost-button"
@@ -868,6 +1103,17 @@ export default function MenuItemsPage({
                     <ul className="builder-list">
                       {group.items.map((ingredient) => (
                         <li key={ingredient} className="builder-row">
+                          <label className="shopping-select">
+                            <input
+                              type="checkbox"
+                              checked={selectedShoppingItems.has(
+                                makeShoppingSelectionKey(group.section, ingredient)
+                              )}
+                              onChange={() =>
+                                handleToggleShoppingSelection(group.section, ingredient)
+                              }
+                            />
+                          </label>
                           <span>{ingredient}</span>
                           <button
                             className="ghost-button"
@@ -1099,6 +1345,11 @@ export default function MenuItemsPage({
                 </select>
               </label>
             </div>
+            <div className="builder-actions">
+              <button className="ghost-button" onClick={handleCombineSelectedItems}>
+                Combine selected
+              </button>
+            </div>
             {ingredientGrouping === 'menu' ? (
               getShoppingListByMenu().length ? (
                 <div className="shopping-groups">
@@ -1109,6 +1360,17 @@ export default function MenuItemsPage({
                         <ul className="builder-list">
                           {group.items.map((ingredient) => (
                             <li key={ingredient} className="builder-row">
+                              <label className="shopping-select">
+                                <input
+                                  type="checkbox"
+                                  checked={selectedShoppingItems.has(
+                                    makeShoppingSelectionKey(group.section, ingredient)
+                                  )}
+                                  onChange={() =>
+                                    handleToggleShoppingSelection(group.section, ingredient)
+                                  }
+                                />
+                              </label>
                               <span>{ingredient}</span>
                               <button
                                 className="ghost-button"
@@ -1135,12 +1397,23 @@ export default function MenuItemsPage({
                     <h4>{group.section}</h4>
                     <ul className="builder-list">
                       {group.items.map((ingredient) => (
-                        <li key={ingredient} className="builder-row">
-                          <span>{ingredient}</span>
-                          <button
-                            className="ghost-button"
-                            onClick={() => handleRemoveIngredient(ingredient)}
-                          >
+                      <li key={ingredient} className="builder-row">
+                        <label className="shopping-select">
+                          <input
+                            type="checkbox"
+                            checked={selectedShoppingItems.has(
+                              makeShoppingSelectionKey(group.section, ingredient)
+                            )}
+                            onChange={() =>
+                              handleToggleShoppingSelection(group.section, ingredient)
+                            }
+                          />
+                        </label>
+                        <span>{ingredient}</span>
+                        <button
+                          className="ghost-button"
+                          onClick={() => handleRemoveIngredient(ingredient)}
+                        >
                             Remove
                           </button>
                         </li>

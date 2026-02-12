@@ -1368,7 +1368,6 @@ export default function MenuItemsPage({
                 Back to items
               </button>
               <p className="eyebrow">Shopping List</p>
-              <h1>Review Shopping List</h1>
             </div>
             <div className="shopping-controls">
               <button className="ghost-button" onClick={handleCombineSelectedItems}>

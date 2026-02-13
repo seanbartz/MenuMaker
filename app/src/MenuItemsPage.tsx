@@ -537,7 +537,6 @@ export default function MenuItemsPage({
 
   function formatCombinedTsp(totalMl: number, name: string) {
     const mlPerTsp = 4.92892
-    const mlPerTbsp = 14.7868
     const totalTsp = totalMl / mlPerTsp
     let unit = 'tsp'
     let value = totalTsp

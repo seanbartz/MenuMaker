@@ -459,44 +459,44 @@ export default function MenuItemsPage({
     if (parts.length < 2) return null
     const quantity = parseQuantity(parts[0])
     if (quantity == null) return null
-    const unitTokens = new Set([
-      'clove',
-      'cloves',
-      'bunch',
-      'bunches',
-      'block',
-      'blocks',
-      'package',
-      'packages',
-      'pkg',
-      'pkgs',
-      'bag',
-      'bags',
-      'box',
-      'boxes',
-      'jar',
-      'jars',
-      'bottle',
-      'bottles',
-      'pinch',
-      'pinches',
-      'handful',
-      'handfuls',
-      'can',
-      'cans',
-      'piece',
-      'pieces',
-      'head',
-      'heads',
-      'slice',
-      'slices',
-      'stick',
-      'sticks',
-    ])
+    const unitMap: Record<string, string> = {
+      clove: 'clove',
+      cloves: 'clove',
+      bunch: 'bunch',
+      bunches: 'bunch',
+      block: 'block',
+      blocks: 'block',
+      package: 'package',
+      packages: 'package',
+      pkg: 'package',
+      pkgs: 'package',
+      bag: 'bag',
+      bags: 'bag',
+      box: 'box',
+      boxes: 'box',
+      jar: 'jar',
+      jars: 'jar',
+      bottle: 'bottle',
+      bottles: 'bottle',
+      pinch: 'pinch',
+      pinches: 'pinch',
+      handful: 'handful',
+      handfuls: 'handful',
+      can: 'can',
+      cans: 'can',
+      piece: 'piece',
+      pieces: 'piece',
+      head: 'head',
+      heads: 'head',
+      slice: 'slice',
+      slices: 'slice',
+      stick: 'stick',
+      sticks: 'stick',
+    }
     let index = 1
     let unit: string | null = null
-    if (parts[index] && unitTokens.has(parts[index].toLowerCase())) {
-      unit = parts[index].toLowerCase()
+    if (parts[index] && unitMap[parts[index].toLowerCase()]) {
+      unit = unitMap[parts[index].toLowerCase()]
       index += 1
     }
     const nameTokens = parts.slice(index).filter((token) => token.toLowerCase() !== 'of')
@@ -526,9 +526,34 @@ export default function MenuItemsPage({
 
   function formatCombinedVolume(totalMl: number, name: string) {
     const mlPerFloz = 29.5735
-    const value = totalMl / mlPerFloz
-    const qty = value.toFixed(2).replace(/\.?0+$/, '')
-    const unitLabel = value === 1 ? 'fluid ounce' : 'fluid ounces'
+    if (totalMl > mlPerFloz) {
+      const value = totalMl / mlPerFloz
+      const qty = value.toFixed(2).replace(/\.?0+$/, '')
+      const unitLabel = value === 1 ? 'fluid ounce' : 'fluid ounces'
+      return `${qty} ${unitLabel} ${name}`
+    }
+    return formatCombinedTsp(totalMl, name)
+  }
+
+  function formatCombinedTsp(totalMl: number, name: string) {
+    const mlPerTsp = 4.92892
+    const mlPerTbsp = 14.7868
+    const totalTsp = totalMl / mlPerTsp
+    let unit = 'tsp'
+    let value = totalTsp
+    if (totalTsp >= 3) {
+      unit = 'tbsp'
+      value = totalTsp / 3
+    }
+    const qty = formatQuantity(value)
+    const unitLabel =
+      unit === 'tbsp'
+        ? value === 1
+          ? 'tablespoon'
+          : 'tablespoons'
+        : value === 1
+          ? 'teaspoon'
+          : 'teaspoons'
     return `${qty} ${unitLabel} ${name}`
   }
 

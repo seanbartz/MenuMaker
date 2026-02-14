@@ -4,7 +4,7 @@
   "identifier": "com.seanbartz.menumakerdesktop",
   "build": {
     "beforeDevCommand": "npm run dev -- --host 127.0.0.1 --port 5173",
-    "beforeBuildCommand": "npm run build",
+    "beforeBuildCommand": "VITE_BASE=./ npm run build",
     "devUrl": "http://127.0.0.1:5173",
     "frontendDist": "../dist"
   },
@@ -19,6 +19,15 @@
     ]
   },
   "bundle": {
-    "active": true
+    "active": true,
+    "icon": [
+      "icons/icon.icns",
+      "icons/icon.ico",
+      "icons/icon.png"
+    ],
+    "macOS": {
+      "entitlements": "entitlements.plist",
+      "infoPlist": "Info.plist"
+    }
   }
 }

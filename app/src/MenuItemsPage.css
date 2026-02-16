@@ -559,6 +559,46 @@
   font-weight: 600;
 }
 
+.add-url-section {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  display: grid;
+  gap: 0.75rem;
+}
+
+.add-url-section h4 {
+  font-size: 1rem;
+  margin: 0;
+  color: var(--ink);
+}
+
+.add-url-section label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.add-url-section input[type='url'] {
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card-strong);
+  color: var(--ink);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.add-url-section .primary-button {
+  width: fit-content;
+}
+
+.add-url-section .detail-empty.error {
+  color: var(--danger);
+  font-size: 0.85rem;
+}
+
 @media (max-width: 960px) {
   .items-main {
     grid-template-columns: 1fr;

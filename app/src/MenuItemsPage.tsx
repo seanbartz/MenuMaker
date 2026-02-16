@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import './MenuItemsPage.css'
 import type { Menu, MenuItem, RefactoredMenuItem } from './types'
 
@@ -53,6 +53,9 @@ export default function MenuItemsPage({
   const [showShoppingList, setShowShoppingList] = useState(false)
   const [actionMessage, setActionMessage] = useState<string | null>(null)
   const [actionError, setActionError] = useState<string | null>(null)
+  const [editItemUrl, setEditItemUrl] = useState('')
+  const [editScrapeStatus, setEditScrapeStatus] = useState<'idle' | 'loading' | 'error'>('idle')
+  const [editScrapeError, setEditScrapeError] = useState<string | null>(null)
 
   function normalizeProtein(value?: string) {
     return (value ?? 'unknown').trim().toLowerCase()
@@ -100,6 +103,12 @@ export default function MenuItemsPage({
     selectedItem?.link_texts?.[0] ??
     selectedItem?.item_texts?.[0] ??
     'Untitled item'
+
+  useEffect(() => {
+    setEditItemUrl('')
+    setEditScrapeStatus('idle')
+    setEditScrapeError(null)
+  }, [selectedItem])
 
   function handleFilterChange(value: string) {
     setProteinFilter(value)
@@ -1245,6 +1254,38 @@ export default function MenuItemsPage({
     }
   }
 
+  async function handleUpdateItemWithUrl() {
+    if (!editItemUrl.trim() || !selectedItem) return
+    setEditScrapeStatus('loading')
+    setEditScrapeError(null)
+    try {
+      const mod = await import('@tauri-apps/api/core')
+      const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
+      const result = await invoke<{
+        title: string
+        ingredients: string[]
+        tags: string[]
+        main_protein: string
+      }>('scrape_recipe', { url: editItemUrl.trim() })
+      const updatedItem: RefactoredMenuItem = {
+        ...selectedItem,
+        url: editItemUrl.trim(),
+        urls: Array.from(new Set([...(selectedItem.urls ?? []), editItemUrl.trim()])),
+        ingredients: result.ingredients?.length ? result.ingredients : selectedItem.ingredients,
+        recipe_tags: result.tags?.length
+          ? Array.from(new Set([...(selectedItem.recipe_tags ?? []), ...result.tags]))
+          : selectedItem.recipe_tags,
+        main_protein: result.main_protein || selectedItem.main_protein,
+      }
+      onAddItem(updatedItem)
+      setEditItemUrl('')
+      setEditScrapeStatus('idle')
+    } catch (error) {
+      setEditScrapeStatus('error')
+      setEditScrapeError(error instanceof Error ? error.message : 'Failed to scrape URL')
+    }
+  }
+
   const duplicateGroups = showDuplicates ? getDuplicateGroups() : []
   const duplicateItems = showDuplicates
     ? new Set(duplicateGroups.flatMap((group) => group.items))
@@ -1535,6 +1576,37 @@ export default function MenuItemsPage({
                     </ul>
                   ) : (
                     <p className="detail-empty">No ingredients listed.</p>
+                  )}
+                  {(!selectedItem.url || !selectedItem.ingredients?.length) && (
+                    <div className="add-url-section">
+                      <h4>Add Recipe URL</h4>
+                      <p className="detail-empty">
+                        This item is missing {!selectedItem.url && !selectedItem.ingredients?.length
+                          ? 'a URL and ingredients'
+                          : !selectedItem.url
+                          ? 'a URL'
+                          : 'ingredients'}. Add a recipe URL to automatically scrape and populate this data.
+                      </p>
+                      <label>
+                        <span>Recipe URL</span>
+                        <input
+                          type="url"
+                          placeholder="https://example.com/recipe"
+                          value={editItemUrl}
+                          onChange={(event) => setEditItemUrl(event.target.value)}
+                        />
+                      </label>
+                      <button
+                        className="primary-button"
+                        onClick={handleUpdateItemWithUrl}
+                        disabled={editScrapeStatus === 'loading' || !editItemUrl.trim()}
+                      >
+                        {editScrapeStatus === 'loading' ? 'Scraping…' : 'Add URL and Scrape'}
+                      </button>
+                      {editScrapeStatus === 'error' && (
+                        <p className="detail-empty error">{editScrapeError ?? 'Failed to scrape URL'}</p>
+                      )}
+                    </div>
                   )}
                 </div>
               </div>

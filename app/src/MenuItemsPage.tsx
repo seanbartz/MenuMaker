@@ -104,6 +104,19 @@ export default function MenuItemsPage({
     selectedItem?.item_texts?.[0] ??
     'Untitled item'
 
+  function getMissingDataMessage(item: RefactoredMenuItem | null): string {
+    if (!item) return ''
+    const hasUrl = !!item.url
+    const hasIngredients = !!item.ingredients?.length
+    if (!hasUrl && !hasIngredients) {
+      return 'a URL and ingredients'
+    }
+    if (!hasUrl) {
+      return 'a URL'
+    }
+    return 'ingredients'
+  }
+
   useEffect(() => {
     setEditItemUrl('')
     setEditScrapeStatus('idle')
@@ -1258,6 +1271,7 @@ export default function MenuItemsPage({
     if (!editItemUrl.trim() || !selectedItem) return
     setEditScrapeStatus('loading')
     setEditScrapeError(null)
+    const trimmedUrl = editItemUrl.trim()
     try {
       const mod = await import('@tauri-apps/api/core')
       const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
@@ -1266,11 +1280,11 @@ export default function MenuItemsPage({
         ingredients: string[]
         tags: string[]
         main_protein: string
-      }>('scrape_recipe', { url: editItemUrl.trim() })
+      }>('scrape_recipe', { url: trimmedUrl })
       const updatedItem: RefactoredMenuItem = {
         ...selectedItem,
-        url: editItemUrl.trim(),
-        urls: Array.from(new Set([...(selectedItem.urls ?? []), editItemUrl.trim()])),
+        url: trimmedUrl,
+        urls: Array.from(new Set([...(selectedItem.urls ?? []), trimmedUrl])),
         ingredients: result.ingredients?.length ? result.ingredients : selectedItem.ingredients,
         recipe_tags: result.tags?.length
           ? Array.from(new Set([...(selectedItem.recipe_tags ?? []), ...result.tags]))
@@ -1581,11 +1595,7 @@ export default function MenuItemsPage({
                     <div className="add-url-section">
                       <h4>Add Recipe URL</h4>
                       <p className="detail-empty">
-                        This item is missing {!selectedItem.url && !selectedItem.ingredients?.length
-                          ? 'a URL and ingredients'
-                          : !selectedItem.url
-                          ? 'a URL'
-                          : 'ingredients'}. Add a recipe URL to automatically scrape and populate this data.
+                        This item is missing {getMissingDataMessage(selectedItem)}. Add a recipe URL to automatically scrape and populate this data.
                       </p>
                       <label>
                         <span>Recipe URL</span>

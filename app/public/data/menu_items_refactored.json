@@ -855,7 +855,8 @@
         "Prepared brown rice or turmeric rice, quinoa, or homemade naan, for serving",
         "Chopped fresh cilantro for serving"
       ],
-      "main_protein": "chicken"
+      "main_protein": "chicken",
+      "recipe_tags": []
     },
     {
       "url": "https://iowagirleats.com/broccoli-beef-recipe/",
@@ -1231,7 +1232,8 @@
         "Italian drunken noodles"
       ],
       "count": 3,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -1258,7 +1260,8 @@
         "Apple pie"
       ],
       "count": 3,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -1285,7 +1288,8 @@
         "Green bean casserole"
       ],
       "count": 3,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": "https://pinchofyum.com/bang-bang-salmon-with-avocado-cucumber-salsa",
@@ -1849,7 +1853,8 @@
         "8 cups salad greens",
         "1 recipe Best Tahini Sauce"
       ],
-      "main_protein": "vegetarian"
+      "main_protein": "vegetarian",
+      "recipe_tags": []
     },
     {
       "url": "https://www.halfbakedharvest.com/one-pot-hamburger-helper/",
@@ -1903,7 +1908,8 @@
         "1 tablespoon ketchup",
         "fresh parsley, for serving"
       ],
-      "main_protein": "beef"
+      "main_protein": "beef",
+      "recipe_tags": []
     },
     {
       "url": "https://www.howsweeteats.com/2021/05/strawberry-salad/",
@@ -1952,7 +1958,8 @@
         "pinch kosher salt and pepper",
         "1/2 cup olive oil"
       ],
-      "main_protein": "vegetarian"
+      "main_protein": "vegetarian",
+      "recipe_tags": []
     },
     {
       "url": "https://www.spendwithpennies.com/instant-pot-chicken-noodle-soup/",
@@ -2037,7 +2044,8 @@
         "Irish potato soup"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2063,7 +2071,8 @@
         "Dark chocolate almond joy bites"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2090,7 +2099,8 @@
         "Chips and salsa"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2116,7 +2126,8 @@
         "Snack: cookie dough energy bites"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2143,7 +2154,8 @@
         "Roasted cauliflower hummus bowls"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2170,7 +2182,8 @@
         "Best easy fish tacos"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2196,7 +2209,8 @@
         "Cashew tofu stir fry"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2223,7 +2237,8 @@
         "Buffalo chicken wontons and apples"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2249,7 +2264,8 @@
         "Cilantro lime chicken meatball bowls"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2275,7 +2291,8 @@
         "Roasted chicken thighs with delicata squash"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2303,7 +2320,8 @@
         "Red curry lentils"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2330,7 +2348,8 @@
         "Mashed Potatoes"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2356,7 +2375,8 @@
         "Spaghetti squash casserole"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2383,7 +2403,8 @@
         "Sheet pan chicken tikka"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2409,7 +2430,8 @@
         "Easy crockpot carnitas"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2435,7 +2457,8 @@
         "Spaghetti squash pizza boats"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2461,7 +2484,8 @@
         "Instant pot chicken tikka masala"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2487,7 +2511,8 @@
         "Crockpot quinoa chicken primavera"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2513,7 +2538,8 @@
         "Bread salad"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2540,7 +2566,8 @@
         "Kung pao chicken Zoodles"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2571,7 +2598,8 @@
       "main_protein": "unknown",
       "side_dishes": [
         "cuban rice and black beans"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -2597,7 +2625,8 @@
         "Steak tacos and elote"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": "https://cravingsbychrissyteigen.com/blogs/recipes/squash-and-ricotta-pizza-recipe",
@@ -3246,7 +3275,8 @@
         "Instant pot chicken chili verde"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3271,7 +3301,8 @@
         "Saturday: Roasted beet, goat cheese, and candied pecan salad with amelia’s bread"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3295,7 +3326,8 @@
         "Fried chicken, cornbread, green beans"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3319,7 +3351,8 @@
         "Squid ink pasta with shrimp and scallops"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3343,7 +3376,8 @@
         "Quick dal makhani"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3367,7 +3401,8 @@
         "Broccoli cauliflower beef stir fry"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3391,7 +3426,8 @@
         "Skillet-charred fish tacos (cravings p209)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3415,7 +3451,8 @@
         "The best Detox crockpot lentil soup (Pinch of Yum) and bread"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3439,7 +3476,8 @@
         "Smokey beans and greens tacos with ají verde"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3463,7 +3501,8 @@
         "Perogies with bacon, sour cream, cheese, chives, and salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3487,7 +3526,8 @@
         "Orange chicken (freezer) and broccoli"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3511,7 +3551,8 @@
         "Golden soup and spinach salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3535,7 +3576,8 @@
         "Cabbage, sausage, and potato soup"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3559,7 +3601,8 @@
         "Cauliflower and tomato coconut curry"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3583,7 +3626,8 @@
         "SAUSAGE, KALE, AND WHITE BEAN SOUP"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3607,7 +3651,8 @@
         "WALNUT CHORIZO TACOS"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3631,7 +3676,8 @@
         "AVOCADO KALE CAESAR SALAD"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3655,7 +3701,8 @@
         "Spaghetti squash burrito boats"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3679,7 +3726,8 @@
         "Slow cooker Olive Garden pasta e fagioli soup"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3705,7 +3753,8 @@
         "Instant pot beef stew (can freeze ahead)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3729,7 +3778,8 @@
         "Peach smoothie or green smoothie"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3753,7 +3803,8 @@
         "Curry chicken salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3777,7 +3828,8 @@
         "Chicken stir fry"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3801,7 +3853,8 @@
         "Beyond Beef mushroom rice bowls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3825,7 +3878,8 @@
         "Panko chicken"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3849,7 +3903,8 @@
         "Pita sandwiches"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3873,7 +3928,8 @@
         "Garlic caper chicken"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3897,7 +3953,8 @@
         "Instant pot wild rice soup"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3921,7 +3978,8 @@
         "Orange salmon and fried rice"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3945,7 +4003,8 @@
         "Spicy shrimp tacos with garlic cilantro lime slaw"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3969,7 +4028,8 @@
         "Roasted honey nut squash and chickpeas with hot honey (NYT cooking) - make with cous cous"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -3995,7 +4055,8 @@
         "Italian beef and salad (with $$ dear mom greens)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4019,7 +4080,8 @@
         "Sheet pan sausage and peppers (serve as sandwiches with provolone and pasta sauce) - Get baguette from Amelia’s"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4043,7 +4105,8 @@
         "Roasted veggie pitas with avocado dip"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4067,7 +4130,8 @@
         "Crunchwrap Supreme"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4091,7 +4155,8 @@
         "Crockpot chicken gnocchi soup"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4115,7 +4180,8 @@
         "Sunday morning: eggs and chard, bacon, potatoes?"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4139,7 +4205,8 @@
         "Orzo with feta, tomatoes, and dill"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4163,7 +4230,8 @@
         "Cider braised pot roast with caramelized onions and cauliflower rice (takes 3-4 hours in oven)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4188,7 +4256,8 @@
         "Sunday: Brown butter gnocchi with roasted butternut squash and kale"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4212,7 +4281,8 @@
         "Quesadillas and pico"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4236,7 +4306,8 @@
         "Roast and/or chop one of the butternut squash"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4260,7 +4331,8 @@
         "Quick-pickle banana peppers"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4284,7 +4356,8 @@
         "Maple roasted chicken thighs and winter squashSalmon cakes and slaw"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4308,7 +4381,8 @@
         "Rosemary Chicken noodle soup, salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4332,7 +4406,8 @@
         "Double recipes to bring to Jill Tuesday 10/28:"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4356,7 +4431,8 @@
         "Wed spooky season: chili, cornbread muffins"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4381,7 +4457,8 @@
         "Thursday: pan-seared chicken with roasted honey nut squash and apple"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4405,7 +4482,8 @@
         "Friday weenie roast: garlic Spaghetti squash with herbs"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4429,7 +4507,8 @@
         "Chicken lettuce wraps with Lime drench"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4453,7 +4532,8 @@
         "Lemongrass meatball bowls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4477,7 +4557,8 @@
         "Baked shrimp with feta and grilled sourdough"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4502,7 +4583,8 @@
         "Saturday: Turnips with Bacon and Orange (Dooley pg 209), pork chops with apples and onions"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4527,7 +4609,8 @@
         "Tuesday: balsamic roasted fingerling potatoes and Brussels sprouts, baked tilapia with pecan rosemary topping"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4551,7 +4634,8 @@
         "Sheet pan salmon with bok choy"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4575,7 +4659,8 @@
         "Weekend: Pumpkin cinnamon rolls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4601,7 +4686,8 @@
         "Sweet potato salad (use spinach instead of kale)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4625,7 +4711,8 @@
         "Potato soup and dinner rolls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4649,7 +4736,8 @@
         "Morracan stew packet"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4673,7 +4761,8 @@
         "Chipotle Orange Shrimp with Cilantro rice"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4697,7 +4786,8 @@
         "Instant Pot Pasta with meatballs"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4721,7 +4811,8 @@
         "Chicken fajitas and roasted tomatillo salsa, black beans, radishes"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4745,7 +4836,8 @@
         "Lemon braised chicken and beans with mint pesto and arugula salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4771,7 +4863,8 @@
         "Stir fry with tofu, bell peppers, onions radishes, a little cauliflower (Use Pinch of Yum back pocket stir fry sauce recipe)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4795,7 +4888,8 @@
         "Pan burgers, roasted parsnips"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4819,7 +4913,8 @@
         "Senegalese soup"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4845,7 +4940,8 @@
         "Stuffing (make with veggie broth)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4869,7 +4965,8 @@
         "Crackers, goat cheese, Katy’s port wine cranberry sauce"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4893,7 +4990,8 @@
         "Lemon pepper noodles with zucchini and squash and some butter sauce we make up. Maybe chicken if we have our shit together."
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4919,7 +5017,8 @@
         "Instant Pot Pot Roast (Pinch of yum)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4943,7 +5042,8 @@
         "Snack: Hummus and radishes, yacon"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4969,7 +5069,8 @@
         "Kale fried rice (add pan-fried daikon)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -4993,7 +5094,8 @@
         "Side 2: Roasted purple top turnips"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5017,7 +5119,8 @@
         "Side 1: Napa cabbage salad with mandarins and yacon"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5041,7 +5144,8 @@
         "Moroccan chickpeas (from frozen - instant pot) and cous cous, cucumber"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5065,7 +5169,8 @@
         "Potato soup and salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5091,7 +5196,8 @@
         "Salad (pear and goat cheese)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5115,7 +5221,8 @@
         "Millionaire Gnocchi with Red Sauce"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5139,7 +5246,8 @@
         "Creamy Kale pasta"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5163,7 +5271,8 @@
         "Instant Pot Tandoori-Inspired Chicken"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5187,7 +5296,8 @@
         "Pumpkin pie"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5211,7 +5321,8 @@
         "German cucumber dill salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5235,7 +5346,8 @@
         "Pinch of Yum House Favorite Roasted Brussels Sprouts"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5259,7 +5371,8 @@
         "Egg Waffles with Romesco and Goat Cheese"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5283,7 +5396,8 @@
         "Hot Honey Salmon"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5307,7 +5421,8 @@
         "Creamy Mushroom Soup"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5331,7 +5446,8 @@
         "Herb and Garlic Marinated Olives"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5355,7 +5471,8 @@
         "Flank steak and roasted Brussels sprouts"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5379,7 +5496,8 @@
         "Jalapeño poppers"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5403,7 +5521,8 @@
         "Goat cheese, beets, pecan salad and bread"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5427,7 +5546,8 @@
         "Crock pot Irish stew"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5451,7 +5571,8 @@
         "Tandoori chicken (from frozen - instant pot), add roasted cauliflower and potatoes"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5477,7 +5598,8 @@
         "Detox lentil soup and bread (from frozen - instant pot)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5501,7 +5623,8 @@
         "Chicken fingers and roasted broccoli/potatoes"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5525,7 +5648,8 @@
         "Mushroom Penne with Walnut pesto"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5549,7 +5673,8 @@
         "Greek Baked Orzo"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5575,7 +5700,8 @@
         "Vegetarian shepherd’s Pie (Pinch of Yum - contest)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5600,7 +5726,8 @@
         "Sunday:crispy potato, chorizo and green chili hash"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5624,7 +5751,8 @@
         "Vegetable soup and bread"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5649,7 +5777,8 @@
         "Monday: Butternut squash quinoa chili"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5676,7 +5805,8 @@
         "Friday: crispy chicken bacon pesto gnocchi skillet - add asparagus (cousins night out - don’t know if this included dinner)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5700,7 +5830,8 @@
         "Christmas eve: Ham rounds and peanut butter cookies"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5725,7 +5856,8 @@
         "Wednesday: Chicken tacos; napa cabbage slaw with honey lime dressing, avocado"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5749,7 +5881,8 @@
         "Christmas dinner: truffle oil cheesy pasta and bagged salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5773,7 +5906,8 @@
         "Christmas Eve: spinach and artichoke dip, veggie tray, cider,"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5797,7 +5931,8 @@
         "Leftover corned beef sandwiches and bagged salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5821,7 +5956,8 @@
         "Cinnamon rolls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5845,7 +5981,8 @@
         "Spring detox cauliflower salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5869,7 +6006,8 @@
         "Chorizo and butternut squash lentil soup"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5893,7 +6031,8 @@
         "Cozy veggie korma"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5919,7 +6058,8 @@
         "Life changing beef stew (pinch of yum)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5943,7 +6083,8 @@
         "Instant Pot red curry lentils"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5967,7 +6108,8 @@
         "Lunch prep: Greek orzo salad in a jar"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -5991,7 +6133,8 @@
         "Root vegetable stew and bread"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6016,7 +6159,8 @@
         "Breakfast: Croque Madame"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6040,7 +6184,8 @@
         "Baby greens salad with goat cheese, beets, and candied pecans"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6065,7 +6210,8 @@
         "Tuesday: Chicken Noodle Soup"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6089,7 +6235,8 @@
         "Tamales rice and beans"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6113,7 +6260,8 @@
         "4 cheese garlic spaghetti squash and chicken"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6137,7 +6285,8 @@
         "Ribeye steaks, purple potatoes, and green beans"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6161,7 +6310,8 @@
         "Coconut lentil curry with rainbow chard"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6185,7 +6335,8 @@
         "Pepperoncini chicken noodle soup"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6209,7 +6360,8 @@
         "Egg roll bowls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6233,7 +6385,8 @@
         "Chicago hot dogs and salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6259,7 +6412,8 @@
         "Sheet Pan Chicken Tzatziki and sweet potatoes (Half Baked Harvest)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6283,7 +6437,8 @@
         "One pan broccoli quinoa skillet"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6309,7 +6464,8 @@
         "BBQ Ranch Chickpea Quinoa bowls (Dishing Out Health)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6335,7 +6491,8 @@
         "Easy Chicken Enchilada Casserole (Mel’s kitchen cafe)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6361,7 +6518,8 @@
         "Chopped thai salad (Pinch of yum)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6385,7 +6543,8 @@
         "Kimchi grilled cheese"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6409,7 +6568,8 @@
         "Cauliflower soup"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6435,7 +6595,8 @@
         "Mediterranean cous cous bowls (vegetarian)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6460,7 +6621,8 @@
         "Thursday -Seared chicken and sherry pan sauce"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6484,7 +6646,8 @@
         "Pork chorizo and fig bake"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6510,7 +6673,8 @@
         "Instant pot Chicken and Dumplings (Pinch of Yum)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6536,7 +6700,8 @@
         "Chicken broccoli alfredo (Well Plated)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6560,7 +6725,8 @@
         "Sesame beef and broccoli"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6584,7 +6750,8 @@
         "Brussels sprouts tacos"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6610,7 +6777,8 @@
         "Thai summer rolls with peanut sauce (use red cabbage)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6634,7 +6802,8 @@
         "Crispy autumn veg burgers with apple cider slaw, sweet potato fries"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6658,7 +6827,8 @@
         "Warm black bean dip"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6682,7 +6852,8 @@
         "Easy green curry with tofu, red bell pepper, mushrooms, and leftover other veggies"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6707,7 +6878,8 @@
         "Sunday: Fettucini with preserved lemon and roasted garlic, salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6731,7 +6903,8 @@
         "Chicken guacamole taquitos"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6757,7 +6930,8 @@
         "One pot broccoli cheese pesto pasta (half baked harvest)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6783,7 +6957,8 @@
         "Crockpot Thai Yellow Curry Chicken with Garlic Rice (Half baked harvest)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6807,7 +6982,8 @@
         "Double fudge Irish cream cookies"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6833,7 +7009,8 @@
         "Irish soda bread muffins (Maggie)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6858,7 +7035,8 @@
         "Wednesday: corned beef, Irish cheddar cabbage sandwiches"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6883,7 +7061,8 @@
         "Thursday: colcannon"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6907,7 +7086,8 @@
         "Salad (feta, cranberries, apple, walnuts) and dinner rolls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6931,7 +7111,8 @@
         "Leftovers: Corned beef sandwiches"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6955,7 +7136,8 @@
         "Sesame noodle bowls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -6979,7 +7161,8 @@
         "Easy pepper steak and rice"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7003,7 +7186,8 @@
         "The Olivers Salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7027,7 +7211,8 @@
         "Coconut curry ramen"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7051,7 +7236,8 @@
         "Three cheese baked Gnocchi"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7075,7 +7261,8 @@
         "Loaded BBQ Baked potatoes"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7101,7 +7288,8 @@
         "Detox lentil soup (freeze)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7125,7 +7313,8 @@
         "Lunch? Winter rainbow quinoa salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7149,7 +7338,8 @@
         "One Pot Creamy Asparagus and Bacon Pasta"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7173,7 +7363,8 @@
         "Asparagus pasta with Lemon (A couple cooks) add frozen chicken tenders"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7199,7 +7390,8 @@
         "30 Minute Thai Basil Beef noodles (Half Baked Harvest)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7223,7 +7415,8 @@
         "Marry Me Chicken (Pinch of Yum) with mashed potatoes, bagged salad. Use frozen chicken tenders"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7247,7 +7440,8 @@
         "Easter breakfast: eggs, bacon, potatoes, blackberries"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7271,7 +7465,8 @@
         "Easter dinner: lemon asparagus truffle pasta, salad (skinnytaste house salad), dessert: ice cream"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7295,7 +7490,8 @@
         "Chickpea tikka masala with green rice (cookie and Kate p. 157)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7319,7 +7515,8 @@
         "French onion soup"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7343,7 +7540,8 @@
         "Frozen chicken nuggets, bagged salad, sweet potato fries"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7369,7 +7567,8 @@
         "Slow cooker beef stew (Damn Delicious) (Wednesday)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7395,7 +7594,8 @@
         "Ribeye steaks, asparagus, sweet potato fries (use up frozen)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7421,7 +7621,8 @@
         "Spicy shrimp veracruz (Friday)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7447,7 +7648,8 @@
         "Chopped salad pizza (maybe, or maybe just pizza and salad) (Tuesday)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7471,7 +7673,8 @@
         "Healthy Orange chicken"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7495,7 +7698,8 @@
       ],
       "item_texts": [],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7521,7 +7725,8 @@
         "Korean beef bowls (serve with quinoa)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7545,7 +7750,8 @@
         "St Patrick’s Day: Corned beef, cabbage, and potatoes"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7570,7 +7776,8 @@
         "Wednesday: Tandoori chicken and salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7594,7 +7801,8 @@
         "Easter dinner: lemon chicken skewers with creamy feta sauce (half baked harvest), roasted yellow potatoes, flatbread"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7618,7 +7826,8 @@
         "Easter breakfast: monkeys, eggs, moms fancy bacon, fruit"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7643,7 +7852,8 @@
         "Friday: mac and cheese and salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7669,7 +7879,8 @@
         "Easy chicken enchilada casserole (make chicken in instant pot)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7693,7 +7904,8 @@
         "Filipino bbq on grill, grilled peppers and zucchini/squash"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7717,7 +7929,8 @@
         "Curried satay veggie bowls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7741,7 +7954,8 @@
         "Spicy peanut chicken soba noodle salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7765,7 +7979,8 @@
         "Lemon asparagus chicken"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7789,7 +8004,8 @@
         "Easter: ham, mustard sauce, sweet potatoes, green bean casserole, carrot cake cheesecake"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7813,7 +8029,8 @@
         "Buffalo Ranch chopped salad kit with chicken fingers"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7837,7 +8054,8 @@
         "Easter Sunday: ham, mustard sauce, asparagus, sean family sweet potatoes, green bean casserole, dinner rolls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7861,7 +8079,8 @@
         "Strawberry faro salad with avocado and feta"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7885,7 +8104,8 @@
         "Beef ragú with spaghetti, bag salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7909,7 +8129,8 @@
         "Egg salad and dill roasted potatoes"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7933,7 +8154,8 @@
         "Roasted red pepper pasta with cauliflower (Pinch of Yum) - pasta sauce in freezer"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7959,7 +8181,8 @@
         "Spring vegetable egg casserole (make Saturday and refrigerate)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -7983,7 +8206,8 @@
         "Spring pasta salad with honey mustard dressing"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8008,7 +8232,8 @@
         "Lunch: Egg Salad Sandwiches"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8032,7 +8257,8 @@
         "Instant pot carnitas"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8056,7 +8282,8 @@
         "Vegan mega burritos"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8080,7 +8307,8 @@
         "Lemon Herb Pasta Salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8104,7 +8332,8 @@
         "Basic + Awesome Chicken Quinoa salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8130,7 +8359,8 @@
         "Soy-honey glazed Salmon sushi bowl (star tribune recipe)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8156,7 +8386,8 @@
         "Marry me chicken with mashed potatoes and a side salad (Pinch of Yum)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8180,7 +8411,8 @@
         "Chickpea, date, and avocado salad with za’atar vinaigrette (Gimme Some Oven) add feta"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8206,7 +8438,8 @@
         "Red chile toastadas with eggs (Pinch of Yum)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8230,7 +8463,8 @@
         "Baked oatmeal"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8254,7 +8488,8 @@
         "Smash burgers, sweet potato fries, bagged salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8278,7 +8513,8 @@
         "Cashew Crunch Salad with chickpeas"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8302,7 +8538,8 @@
         "strawberry spinach salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8326,7 +8563,8 @@
         "honey mustard grilled salmon with avocado basil sauce, summer cous cous salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8350,7 +8588,8 @@
         "Bagel egg and cheese sandwiches"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8374,7 +8613,8 @@
         "bucatini al la amatriciana"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8398,7 +8638,8 @@
         "Frozen gyros and cucumber and hummus"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8422,7 +8663,8 @@
         "Spinach strawberry salad with poppyseed dressing"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8446,7 +8688,8 @@
         "Chicago dogs and roasted carrots"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8470,7 +8713,8 @@
         "Birthday breakfast: egg bacon bagel sandwich"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8494,7 +8738,8 @@
         "Ribs, corn, cilantro lime cucumber salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8520,7 +8765,8 @@
         "Coconut curry salmon (Pinch of yum)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8550,7 +8796,8 @@
       "side_dish": [
         "bagged salad (pinch of yum)"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8576,7 +8823,8 @@
         "Chicken quinoa salad (pinch of yum)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8600,7 +8848,8 @@
         "Floating taco bowls with quick pico"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8624,7 +8873,8 @@
         "Green pepper, onion, gnocchi"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8648,7 +8898,8 @@
         "Strawberry crunch salad and baguette"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8672,7 +8923,8 @@
         "Roasted cauliflower burrito bowls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8697,7 +8949,8 @@
         "Sunday: Strawberry poppyseed salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8723,7 +8976,8 @@
         "Ground beef bowls (cous cous, ground beef with greek spices, tzatziki, feta, cucumber, tomato, hummus, etc.)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8747,7 +9001,8 @@
         "Cashew tofu and rice"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8771,7 +9026,8 @@
         "Blackberry Pie Bars"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8795,7 +9051,8 @@
         "Peruvian chicken, chips and guacamole"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8819,7 +9076,8 @@
         "Bahn mi (make pickled diakon/carrots) - grill pork"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8845,7 +9103,8 @@
         "Panzanilla salad (Monday)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8869,7 +9128,8 @@
         "Chard and eggs"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8895,7 +9155,8 @@
         "Quesadillas (use avocados!)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8920,7 +9181,8 @@
         "Sunday: Surly; lunch: blts"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8945,7 +9207,8 @@
         "Monday: red quinoa and black bean salad with avocado"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8970,7 +9233,8 @@
         "Thursday: lemon chicken asparagus and cous cous"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -8996,7 +9260,8 @@
         "Lemon Chicken and rice soup - Taste of home (crock pot)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9022,7 +9287,8 @@
         "Kale fried rice (double - make with white rice)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9046,7 +9312,8 @@
         "Weekend breakfast: eggs, bacon"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9070,7 +9337,8 @@
         "Salmon, asparagus potatoes"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9094,7 +9362,8 @@
         "Radish Bean salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9118,7 +9387,8 @@
         "Roasted garlic pasta with burst cherry tomatoes"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9144,7 +9414,8 @@
         "Carmelized onion smash burgers, whatever vegetables are left (cucumber salad, zucchini and squash)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9170,7 +9441,8 @@
         "Granola, yogurt, berries"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9198,7 +9470,8 @@
         "Vegetarian Italian chop salad (make ahead and bring - keep dressing separate)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9224,7 +9497,8 @@
         "Lunchmeat sandwiches, chips, cherries"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9252,7 +9526,8 @@
         "5-ingredient pesto pasta salad (maybe same night as charcuterie)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9278,7 +9553,8 @@
         "Trail mix"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9304,7 +9580,8 @@
         "Peanut butter pretzel bites"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9328,7 +9605,8 @@
         "Potato salmon cakes with garlic and chive Greek yogurt sauce and side salad with beets and goat cheese"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9352,7 +9630,8 @@
         "Spring roll bowls with tofu"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9378,7 +9657,8 @@
         "Garlic scape pesto and gnocchi (and zucchini if any leftover)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9403,7 +9683,8 @@
         "grilled honey mustard salmon, bagged costco salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9428,7 +9709,8 @@
         "Lunch: caprese grilled cheese"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9453,7 +9735,8 @@
         "Breakfast: steel cut oats, potatoes, eggs, bacon, etc."
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9477,7 +9760,8 @@
         "Chicken nuggets/strips (frozen) and roasted broccoli"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9503,7 +9787,8 @@
         "Sheet pan sausage and peppers (Well Plated)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9527,7 +9812,8 @@
         "banana cupcakes"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9556,7 +9842,8 @@
       "side_dish": [
         "“brats”"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9580,7 +9867,8 @@
         "Stir fry noodles and tofu/spinach"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9604,7 +9892,8 @@
         "Chicken nuggets, air fryer broccoli, sweet potato fries"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9628,7 +9917,8 @@
         "Garlic scape beef satay with grilled zucchini"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9654,7 +9944,8 @@
         "Kale fried rice (lunch)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9678,7 +9969,8 @@
         "Strawberry and gorgonzola salad with poppy seed dressing (Skinnytaste) and Amelia’s bread"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9704,7 +9996,8 @@
         "Salmon with Basil sauce and tomato salad (Pinch of Yum)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9730,7 +10023,8 @@
         "The Best Easy Pasta Salad (Pinch of Yum)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9755,7 +10049,8 @@
         "Monday: Pasta with meat sauce"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9780,7 +10075,8 @@
         "Thursday: Detoux Moroccan spiced chickpea glow bowl x2 for Anna and David"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9804,7 +10100,8 @@
         "Sunday morning: bacon, potato, egg casserole, banana bread"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9830,7 +10127,8 @@
         "Peruvian-style green chicken with green sauce, corn salad with chili and lime (halve recipe)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9854,7 +10152,8 @@
         "Sunday breakfast: eggs, potatoes, bacon"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9878,7 +10177,8 @@
         "Peruvian chicken, beans or summer squash"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9902,7 +10202,8 @@
         "Skirt steak and poblano tacos"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9928,7 +10229,8 @@
         "Instant Pot carnitas (Gimme some oven)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9954,7 +10256,8 @@
         "Summer skillet gnocchi (how sweet eats)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -9980,7 +10283,8 @@
         "Cashew chicken and broccoli (gimme some oven)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10005,7 +10309,8 @@
         "Lunch: caprese bites"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10029,7 +10334,8 @@
         "Sean bday: blackberry pie"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10053,7 +10359,8 @@
         "5 ingredient lemon chicken and green beans"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10077,7 +10384,8 @@
         "Roasted eggplant lasagna (pg 163 Love Real Food)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10101,7 +10409,8 @@
         "Gnocchi and summer squash and peppers"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10125,7 +10434,8 @@
         "Blueberry pie"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10149,7 +10459,8 @@
         "Israeli cous cous salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10173,7 +10484,8 @@
         "Bucatini Americiana"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10197,7 +10509,8 @@
         "White people tacos add some random ass peppers from csa"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10221,7 +10534,8 @@
         "poblano and banana peppers"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10245,7 +10559,8 @@
         "Zucchini and squash"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10269,7 +10584,8 @@
         "Fajitas with skirt steak"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10293,7 +10609,8 @@
         "Bachelor dinner: tilapia and peas and rice"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10317,7 +10634,8 @@
         "Greek chicken sheet pan dinner (skinnytaste f&s p.158) with house salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10341,7 +10659,8 @@
         "Zucchini applesauce muffins"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10365,7 +10684,8 @@
         "Tomatillo salsa"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10391,7 +10711,8 @@
         "Sesame chicken salad (Gimme Some Oven)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10415,7 +10736,8 @@
         "Bandh gobhi matar and rice"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10439,7 +10761,8 @@
         "Baked quesadillas"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10464,7 +10787,8 @@
         "Lunch: BLTs or caprese panini"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10488,7 +10812,8 @@
         "Socca with Whipped Feta and Tomato Salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10514,7 +10839,8 @@
         "Stir fry noodles and chicken (okra, cabbage, red pepper, squash)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10540,7 +10866,8 @@
         "Panzanella with Marinated chickpeas and chimichurri (How Sweet Eats)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10564,7 +10891,8 @@
         "Skillet lasagna (America’s test Kitchen) and bagged salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10588,7 +10916,8 @@
         "Sunday SJW brunch: easy cinnamon rolls, spring vegetable egg casserole"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10612,7 +10941,8 @@
         "gnocchi, zucchini, sauce made with tomatoes"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10636,7 +10966,8 @@
         "Caprese Skillet Lasagna"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10660,7 +10991,8 @@
         "Bachelor: Italian sausage, sauté banana peppers, onions, frozen or fresh tomatoes, pasta, any other leftover appropriate vegetables"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10684,7 +11016,8 @@
         "Frozen Lasagna and bagged salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10708,7 +11041,8 @@
         "Mexican casserole"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10732,7 +11066,8 @@
         "Corn, avocado, and quinoa salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10756,7 +11091,8 @@
         "BBQ ribs and corn"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10780,7 +11116,8 @@
         "Chipotle tahini bowls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10806,7 +11143,8 @@
         "Sweet potato black bean quesadillas (Well Plated)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10832,7 +11170,8 @@
         "Moussaka (Christine’s recipe)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10866,7 +11205,8 @@
         "Pizza (make sauce)"
       ],
       "count": 3,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10890,7 +11230,8 @@
         "BLTs and tomato soup"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10914,7 +11255,8 @@
         "Couscous salad with lime basil vinaigrette"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10938,7 +11280,8 @@
         "Enchiladas with poblano peppers and leftover pork"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10962,7 +11305,8 @@
         "Chicago dogs and sweet potato fries"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -10986,7 +11330,8 @@
         "Weekend: Make pesto"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11010,7 +11355,8 @@
         "Ratatouille Baked Chicken"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11034,7 +11380,8 @@
         "Peanut soba noodles"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11058,7 +11405,8 @@
         "Drink: Cucumber agua fresca"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11083,7 +11431,8 @@
         "Lunch: caprese sandwiches and BLTs"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11108,7 +11457,8 @@
         "Grilled Flank steak tacos and roasted corn (use bread salad chimichurri recipe/leftovers) - Two Peas and their Pod - Grill or saute a pepper to go with"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11134,7 +11484,8 @@
         "Bread salad (Wednesday or later)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11158,7 +11509,8 @@
         "Crock pot chili"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11182,7 +11534,8 @@
         "Homemade spaghetti sauce and pasta"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11206,7 +11559,8 @@
         "Mushroom poblano posole verde"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11230,7 +11584,8 @@
         "Slow cooker apple crisp and ice cream"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11254,7 +11609,8 @@
         "Autumn green salad and rolls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11278,7 +11634,8 @@
         "Cookie and Kate favorite quinoa salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11302,7 +11659,8 @@
         "Spaghetti squash, pasta sauce, italiana sausage"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11326,7 +11684,8 @@
         "Smoked salmon arugula bagel sandwiches"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11350,7 +11709,8 @@
         "Roasted tomato caprese saladx2"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11374,7 +11734,8 @@
         "Crockpot Italian beef sandwiches, roasted broccoli"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11400,7 +11761,8 @@
         "Mexican quinoa with lazy guac (double for lunches)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11424,7 +11786,8 @@
         "Honey glazed pork tenderloin with roasted grapes (seriously delish p.206), house salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11448,7 +11811,8 @@
         "Pesto Pasta with summer squash, peppers, baby tomatoes"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11473,7 +11837,8 @@
         "Lunch: BLTs with cucumber salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11497,7 +11862,8 @@
         "Ribs, fresh green bean salad with balsamic dressing, sauteed summer squash"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11521,7 +11887,8 @@
         "Smoked salmon bagels and cream cheese"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11544,7 +11911,8 @@
         "Monday: Honey mustard chicken chopped salad"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11566,7 +11934,8 @@
         "Pecan sweet potatoes"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11588,7 +11957,8 @@
         "Mashed potatoes (add butter-cooked leeks) & gravy"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11610,7 +11980,8 @@
         "Roasted chicken"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11635,7 +12006,8 @@
         "Sunday: slow cooker cozy autumn wild rice soup, baguette"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11657,7 +12029,8 @@
         "Tilapia bachelor style"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11679,7 +12052,8 @@
         "Lemon chicken thighs and asparagus"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11701,7 +12075,8 @@
         "Vegan queso and chips"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11723,7 +12098,8 @@
         "Pumpkin chocolate chip bread"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11747,7 +12123,8 @@
         "Quick and easy spiced chickpea bowls"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11773,7 +12150,8 @@
         "Frozen orange chicken and broccoli (can also add green beans if extra)"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -11797,7 +12175,8 @@
         "Bachelor pasta: noodles, leftover zucchini, ground beef, sauce in fridge, ricotta in fridge"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": "https://bakerbynature.com/garlicky-tomato-basil-pasta-salad/",
@@ -11878,7 +12257,8 @@
         "Roasted Japanese eggplant with crushed tomato, pecorino, and thyme"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": "https://damndelicious.net/2014/01/03/bbq-chicken-salad/",
@@ -13488,7 +13868,8 @@
         "Green Goddess roasted chicken and carrots"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": "https://www.twopeasandtheirpod.com/italian-pasta-salad/",
@@ -13661,7 +14042,8 @@
         "Granola"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -13766,7 +14148,8 @@
         "85% lean ground beef",
         "burger buns",
         "pickles"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -13918,7 +14301,8 @@
         "Menus/Menu week of 2-19-18.md",
         "Menus/Menu week of 4-10-19.md"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -14116,7 +14500,8 @@
         "3/4 cup halved seedless grapes",
         "1/2 cup chopped walnuts",
         "1/2 cup crumbled feta cheese"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "sections": [],
@@ -14156,7 +14541,8 @@
         "Menus/Menu week of 4-16-18.md"
       ],
       "link_texts": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "sections": [],
@@ -14184,7 +14570,8 @@
         "Menus/Menu week of 8-17-19.md"
       ],
       "link_texts": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -14213,7 +14600,8 @@
       "source_hints": [],
       "urls": [],
       "link_texts": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -14377,7 +14765,8 @@
       ],
       "urls": [],
       "link_texts": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -14499,7 +14888,8 @@
       "source_hints": [],
       "urls": [],
       "link_texts": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -14733,7 +15123,8 @@
       "main_protein": "unknown",
       "ingredients": [
         "steak (ribeye, delmonico, NY Strip, T-bone, porterhouse)"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -14816,7 +15207,8 @@
       "link_texts": [
         "Whole Wheat Waffles Recipe"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -14846,7 +15238,8 @@
       "source_hints": [],
       "urls": [],
       "link_texts": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -15005,7 +15398,8 @@
         "spring"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -15242,7 +15636,8 @@
         "fall"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -15272,7 +15667,8 @@
         "spring"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -15363,7 +15759,8 @@
         "sweet potato fries"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -15388,7 +15785,8 @@
         "summer"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -15569,7 +15967,8 @@
         "summer"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -15781,7 +16180,8 @@
         "1/2 cup grated parmesan",
         "4 tablespoons salted butter"
       ],
-      "main_protein": "seafood"
+      "main_protein": "seafood",
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -15882,7 +16282,8 @@
         "fall"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -15970,7 +16371,8 @@
         "fall"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -16180,7 +16582,8 @@
         "summer"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -16310,7 +16713,8 @@
         "1 teaspoon sea salt",
         "4 cloves garlic",
         "1/2 cup olive oil"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "count": 4,
@@ -16345,7 +16749,8 @@
         "make soda bread muffins"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "count": 6,
@@ -16382,7 +16787,8 @@
         "summer"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "count": 5,
@@ -16420,7 +16826,8 @@
       ],
       "source_hints": [],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "count": 4,
@@ -16478,7 +16885,8 @@
         "2 tablespoons lime juice",
         "2 cloves garlic, peeled",
         "Kosher salt"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "count": 3,
@@ -16714,7 +17122,8 @@
         "3 cloves garlic, smashed",
         "2-3 ounces cream cheese, at room temperature",
         "4 tablespoons salted butter"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -16749,7 +17158,8 @@
         "Roasted dill potato wedges and chicken salad",
         "Saturday party: Chopped salad kits, order pizza, angel food cake cupcakes, berries"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -16815,7 +17225,8 @@
         "1 medium yellow squash, cut into 1/4” thick rounds",
         "1 dry pint cherry tomatoes, halved",
         "1 red onion, cut into 1” pieces"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -16935,7 +17346,8 @@
         "Snack: breakfast balls",
         "Monday work: breakfast balls"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -16963,7 +17375,8 @@
         "Breakfast sandwiches",
         "Father’s Day breakfast: Open-faced breakfast sandwiches with runny eggs"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -17000,7 +17413,8 @@
         "Caprese pasta salad",
         "Thai peanut chicken sweet potato noodles"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -17092,7 +17506,8 @@
         "pasta all amatriciana",
         "Tuesday: pasta all amatriciana"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -17120,7 +17535,8 @@
         "Buffalo cauliflower tacos with avocado crema",
         "New Years Eve: buffalo cauliflower tacos with avocado crema"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -17155,7 +17571,8 @@
         "Potato leek soup",
         "1 pan baked ham and swiss sliders"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -17334,7 +17751,8 @@
         "Chicken pot pie with biscuits",
         "Chicken Pot Pie with Biscuits (Pinch of Yum - contest)"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -17368,7 +17786,8 @@
         "Chicken teriyaki burgers with sesame slaw",
         "Chicken teriyaki burgers"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -17467,7 +17886,8 @@
         "Coconut Lime Grilled Chicken (pinch of yum) with zucchini and squash",
         "Coconut Lime Grilled Chicken"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -17733,7 +18153,8 @@
         "Peach cobbler",
         "Garlic butter chicken breasts with zucchini and corn (Julia’s album)"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -17838,7 +18259,8 @@
         "Date night rigatoni",
         "Date night rigatoni with sausage and kale"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -17940,7 +18362,8 @@
         "Feel good fall salad (sweet potatoes) and baguette",
         "Monday: Feel good fall salad (sweet potatoes) and baguette"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18020,7 +18443,8 @@
         "Breakfast: French toast, bacon",
         "Christmas morning: Vanilla Honey French toast and bacon"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18047,7 +18471,8 @@
         "Garlic scape pesto pasta salad",
         "Pesto caprese pasta salad"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18075,7 +18500,8 @@
         "General Tsos chicken and broccoli",
         "General Taos chicken and broccoli"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18197,7 +18623,8 @@
         "Ginger peanut chicken",
         "Ginger Peanut Chicken with coconut rice (Pinch of Yum)"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18227,7 +18654,8 @@
         "Baked ham and Swiss sliders, salad with raspberries, spinach, goat cheese",
         "Baked ham and Swiss sliders (some w porta bella mushrooms) - 350 15 mins"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18334,7 +18762,8 @@
         "Hummus and veggies (carrots, cucumbers, celery)",
         "Veggies (bell pepper, cucumber, baby carrots) and homemade hummus and yogurt ranch"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18390,7 +18819,8 @@
         "6 tablespoons apple cider vinegar, divided",
         "1 (18-ounce) bottle favorite bbq sauce"
       ],
-      "main_protein": "pork"
+      "main_protein": "pork",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18465,7 +18895,8 @@
         "Kosher salt and freshly ground black pepper, to taste",
         "1/3 cup freshly grated Parmesan",
         "1/4 cup chopped fresh basil leaves"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18571,7 +19002,8 @@
         "Olive Garden Zuppa Toscana and everyday italian salad",
         "Zuppa toscana and bread"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18713,7 +19145,8 @@
         "Mels Buddha bowls (chicken) with peanut sauce",
         "Buddha bowls with chicken"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18744,7 +19177,8 @@
         "Friday: Panera creamy tomato soup, grilled cheese, every day italian salad, chocolate chip cookies (Andrea and Cliff’s)",
         "Panera Creamy Tomato Soup and grilled cheese"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18776,7 +19210,8 @@
         "Peanut noodles with roasted broccoli (vegetarian)",
         "Easy weeknight peanut noodles with roasted broccoli (double) (Vegetarian)"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18884,7 +19319,8 @@
         "Pork shoulder roast",
         "Pork shoulder"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18910,7 +19346,8 @@
         "Puppy chow",
         "Puppy chow - Haley"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -18979,7 +19416,8 @@
         "8 oz fresh mozzarella pearls",
         "2 Tbsp fresh basil leaves, minced",
         "kosher salt and freshly-ground black pepper, to taste"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -19021,7 +19459,8 @@
         "Beet and goat cheese salad",
         "Cinnamon rolls (make Saturday and refrigerate)"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -19050,7 +19489,8 @@
         "Red Chile tostadas with eggs",
         "Red Chile tostadas with eggs (did we like this recipe?)"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -19178,7 +19618,8 @@
         "Ribs and coleslaw and green beans",
         "Ribs, green beans, Corn"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -19205,7 +19646,8 @@
         "Ribs, corn, and broccoli salad",
         "Ribs with arugula salad and broccoli salad"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -19234,7 +19676,8 @@
         "Rosemary Chicken Thighs with Apples and Brussels Sprouts",
         "Rosemary chicken thighs with apples and brussels sprouts (use red potatoes also)"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -19329,7 +19772,8 @@
         "Skyline and bagged salad",
         "Skyline and salad"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -19659,7 +20103,8 @@
         "Tofu green curry and brown rice",
         "Green tofu curry"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -19689,7 +20134,8 @@
         "Tortellini and pesto",
         "Tortellini, zucchini, corn, pesto (bachelor style)"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -19889,7 +20335,8 @@
         "Weekend breakfast: Instant Pot steel cut oats",
         "Sunday AM: Instant pot steel cut oats,"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -20086,7 +20533,8 @@
       ],
       "source_hints": [],
       "urls": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_seasons": [
@@ -20158,7 +20606,8 @@
         "onion",
         "can of corn",
         "can of diced tomatoes"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "menu_seasons": [
@@ -20507,7 +20956,8 @@
       ],
       "source_hints": [],
       "urls": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_seasons": [
@@ -20535,7 +20985,8 @@
       ],
       "source_hints": [],
       "urls": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_seasons": [
@@ -20743,7 +21194,7 @@
         "Chipotle",
         "Crock Pot",
         "Cumin",
-        "Easy",
+        "SOS Series",
         "Farmers Market",
         "Fast",
         "Garlic",
@@ -20880,7 +21331,8 @@
         "Corned beef brisket",
         "cabbage",
         "potatoes"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "menu_seasons": [
@@ -20910,7 +21362,8 @@
       ],
       "source_hints": [],
       "urls": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -20934,7 +21387,8 @@
         "Simmered daikon radish with chicken in yuzu sauce"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -20958,7 +21412,8 @@
         "Slow cooker apple cider pulled pork"
       ],
       "count": 1,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "menu_weeks": [
@@ -21128,7 +21583,8 @@
         "Pizza bites"
       ],
       "count": 2,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -21152,7 +21608,8 @@
       "meal_types": [
         "dinner"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -21264,7 +21721,8 @@
       "meal_types": [
         "dinner"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -21303,7 +21761,8 @@
         "Menus/Menu week of 2-11-25.md"
       ],
       "sections": [],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -21483,7 +21942,7 @@
       ],
       "recipe_tags": [
         "Dinner",
-        "Easy",
+        "SOS Series",
         "Sheet Pan",
         "Main Dishes",
         "Vegetarian",
@@ -21660,7 +22119,8 @@
         "8 to 12 ounces 2% evaporated milk",
         "1/2 teaspoon garlic powder",
         "1/4 teaspoon ground black pepper"
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -21691,7 +22151,8 @@
       "count": 3,
       "urls": [],
       "url": null,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -21715,7 +22176,8 @@
       "count": 1,
       "urls": [],
       "url": null,
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "meal_types": [
@@ -21851,7 +22313,8 @@
         "2 tablespoons chopped fresh cilantro, plus more for garnishing",
         "1 to 2 teaspoons sherry vinegar or red wine vinegar or lime juice, to taste",
         "Garnishes: chopped cilantro, sliced avocado, tortilla chips, sour cream or crème fraîche, grated cheddar cheese, etc."
-      ]
+      ],
+      "recipe_tags": []
     },
     {
       "item_texts": [
@@ -21914,7 +22377,8 @@
         "Slow Cooker Vegetarian Chili Recipe",
         "Vegetarian Chili Recipe"
       ],
-      "main_protein": "unknown"
+      "main_protein": "unknown",
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -21939,7 +22403,8 @@
       ],
       "ingredients": null,
       "main_protein": "unknown",
-      "count": 1
+      "count": 1,
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -21960,7 +22425,8 @@
       ],
       "ingredients": null,
       "main_protein": "unknown",
-      "count": 1
+      "count": 1,
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -21981,7 +22447,8 @@
       ],
       "ingredients": null,
       "main_protein": "unknown",
-      "count": 1
+      "count": 1,
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -22007,7 +22474,8 @@
       "source_hints": [],
       "ingredients": null,
       "main_protein": "unknown",
-      "count": 1
+      "count": 1,
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -22054,7 +22522,8 @@
       ],
       "ingredients": null,
       "main_protein": "unknown",
-      "count": 11
+      "count": 11,
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -22082,7 +22551,8 @@
       ],
       "ingredients": null,
       "main_protein": "unknown",
-      "count": 2
+      "count": 2,
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -22107,7 +22577,8 @@
       ],
       "ingredients": null,
       "main_protein": "unknown",
-      "count": 1
+      "count": 1,
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -22132,7 +22603,8 @@
       ],
       "ingredients": null,
       "main_protein": "unknown",
-      "count": 1
+      "count": 1,
+      "recipe_tags": []
     },
     {
       "url": null,
@@ -22157,7 +22629,8 @@
       ],
       "ingredients": null,
       "main_protein": "unknown",
-      "count": 1
+      "count": 1,
+      "recipe_tags": []
     }
   ]
 }

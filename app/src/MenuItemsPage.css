@@ -38,6 +38,11 @@
   justify-self: stretch;
 }
 
+.filter-stack {
+  display: grid;
+  gap: 0.4rem;
+}
+
 .filter-control {
   display: grid;
   gap: 0.35rem;

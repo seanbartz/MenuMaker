@@ -1548,32 +1548,34 @@ export default function MenuItemsPage({
               <h1>Menu Items</h1>
             </div>
             <div className="header-meta">
-              <label className="filter-control">
-                <select
-                  value={proteinFilter}
-                  onChange={(event) => handleFilterChange(event.target.value)}
-                >
-                  <option value="all">All proteins</option>
-                  {proteinOptions.map(({ protein, count }) => (
-                    <option key={protein} value={protein}>
-                      {protein} ({count})
-                    </option>
-                  ))}
-                </select>
-              </label>
-              <label className="filter-control">
-                <select
-                  value={tagFilter}
-                  onChange={(event) => handleTagFilterChange(event.target.value)}
-                >
-                  <option value="all">All tags</option>
-                  {tagOptions.map(({ tag, count }) => (
-                    <option key={tag} value={tag}>
-                      {tag} ({count})
-                    </option>
-                  ))}
-                </select>
-              </label>
+              <div className="filter-stack">
+                <label className="filter-control">
+                  <select
+                    value={proteinFilter}
+                    onChange={(event) => handleFilterChange(event.target.value)}
+                  >
+                    <option value="all">All proteins</option>
+                    {proteinOptions.map(({ protein, count }) => (
+                      <option key={protein} value={protein}>
+                        {protein} ({count})
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label className="filter-control">
+                  <select
+                    value={tagFilter}
+                    onChange={(event) => handleTagFilterChange(event.target.value)}
+                  >
+                    <option value="all">All tags</option>
+                    {tagOptions.map(({ tag, count }) => (
+                      <option key={tag} value={tag}>
+                        {tag} ({count})
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              </div>
               <label className="filter-control">
                 <input
                   type="search"

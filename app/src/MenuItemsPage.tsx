@@ -19,6 +19,7 @@ interface MenuItemsPageProps {
   menus: Menu[]
   onSaveMenu: (menu: Menu, items: RefactoredMenuItem[]) => void
   onAddItem: (item: RefactoredMenuItem) => void
+  onUpdateItem: (originalItem: RefactoredMenuItem, updatedItem: RefactoredMenuItem) => void
 }
 
 export default function MenuItemsPage({
@@ -28,6 +29,7 @@ export default function MenuItemsPage({
   menus,
   onSaveMenu,
   onAddItem,
+  onUpdateItem,
 }: MenuItemsPageProps) {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [proteinFilter, setProteinFilter] = useState('all')
@@ -788,9 +790,14 @@ export default function MenuItemsPage({
     }
     const dateStamp = formatShortDate()
     const title = `Menu week of ${dateStamp}`
-    const items = menuSelections.map(
-      (item) => item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
-    )
+    const items = menuSelections.map((item) => {
+      const title = item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
+      const url = item.url ?? item.urls?.[0]
+      if (url) {
+        return `${title} — ${url}`
+      }
+      return title
+    })
     const normalizedTitle = title.trim().toLowerCase()
     const cleanedItems = items.filter(
       (item) => item && item.trim().toLowerCase() !== normalizedTitle
@@ -1255,9 +1262,23 @@ export default function MenuItemsPage({
         main_protein: result.main_protein || 'unknown',
         count: 0,
       }
-      onAddItem(newItem)
-      if (autoAddToMenu) {
-        setMenuSelections((prev) => [...prev, newItem])
+      const shouldUpdateSelected =
+        selectedItem && !selectedItem.url && !(selectedItem.urls ?? []).length
+      if (shouldUpdateSelected && selectedItem) {
+        const mergedItem = mergeRefactoredItem(selectedItem, newItem)
+        onUpdateItem(selectedItem, newItem)
+        setMenuSelections((prev) => {
+          const next = prev.map((item) => (item === selectedItem ? mergedItem : item))
+          if (autoAddToMenu && !next.includes(mergedItem)) {
+            next.push(mergedItem)
+          }
+          return next
+        })
+      } else {
+        onAddItem(newItem)
+        if (autoAddToMenu) {
+          setMenuSelections((prev) => [...prev, newItem])
+        }
       }
       setNewItemUrl('')
       setScrapeStatus('idle')
@@ -1291,12 +1312,45 @@ export default function MenuItemsPage({
           : selectedItem.recipe_tags,
         main_protein: result.main_protein || selectedItem.main_protein,
       }
-      onAddItem(updatedItem)
+      onUpdateItem(selectedItem, updatedItem)
       setEditItemUrl('')
       setEditScrapeStatus('idle')
     } catch (error) {
       setEditScrapeStatus('error')
       setEditScrapeError(error instanceof Error ? error.message : 'Failed to scrape URL')
+    }
+  }
+
+  function mergeRefactoredItem(
+    existing: RefactoredMenuItem,
+    incoming: RefactoredMenuItem
+  ): RefactoredMenuItem {
+    const urls = Array.from(new Set([...(existing.urls ?? []), ...(incoming.urls ?? [])]))
+    if (incoming.url) {
+      urls.push(incoming.url)
+    }
+    const link_texts = Array.from(
+      new Set([...(existing.link_texts ?? []), ...(incoming.link_texts ?? [])])
+    )
+    const item_texts = Array.from(
+      new Set([...(existing.item_texts ?? []), ...(incoming.item_texts ?? [])])
+    )
+    const source_hints = Array.from(
+      new Set([...(existing.source_hints ?? []), ...(incoming.source_hints ?? [])])
+    )
+    const recipe_tags = Array.from(
+      new Set([...(existing.recipe_tags ?? []), ...(incoming.recipe_tags ?? [])])
+    )
+    return {
+      ...existing,
+      url: incoming.url ?? existing.url,
+      urls: Array.from(new Set(urls)),
+      link_texts,
+      item_texts,
+      source_hints,
+      ingredients: incoming.ingredients?.length ? incoming.ingredients : existing.ingredients,
+      recipe_tags,
+      main_protein: incoming.main_protein || existing.main_protein,
     }
   }
 

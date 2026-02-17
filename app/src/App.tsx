@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { Component, useEffect, useMemo, useState, type ReactNode } from 'react'
 import './App.css'
 import RecipesPage from './RecipesPage'
 import MenuItemsPage from './MenuItemsPage'
@@ -6,6 +6,27 @@ import type { Menu, MenuItem, Recipe, RefactoredMenuItem } from './types'
 
 const BASE = import.meta.env.BASE_URL
 const UNSECTIONED_SECTION = 'Unsectioned'
+
+class ErrorBoundary extends Component<{ children: ReactNode }, { error: Error | null }> {
+  state: { error: Error | null } = { error: null }
+
+  static getDerivedStateFromError(error: Error) {
+    return { error }
+  }
+
+  render() {
+    if (this.state.error) {
+      return (
+        <div className="app-shell">
+          <main className="app-main">
+            <div className="error">Something went wrong: {this.state.error.message}</div>
+          </main>
+        </div>
+      )
+    }
+    return this.props.children
+  }
+}
 
 function normalize(text: string) {
   return text
@@ -70,6 +91,39 @@ async function openExternal(url: string) {
     // fall back to browser
   }
   window.open(url, '_blank', 'noopener,noreferrer')
+}
+
+function mergeRefactoredItem(
+  existing: RefactoredMenuItem,
+  incoming: RefactoredMenuItem
+): RefactoredMenuItem {
+  const urls = Array.from(new Set([...(existing.urls ?? []), ...(incoming.urls ?? [])]))
+  if (incoming.url) {
+    urls.push(incoming.url)
+  }
+  const link_texts = Array.from(
+    new Set([...(existing.link_texts ?? []), ...(incoming.link_texts ?? [])])
+  )
+  const item_texts = Array.from(
+    new Set([...(existing.item_texts ?? []), ...(incoming.item_texts ?? [])])
+  )
+  const source_hints = Array.from(
+    new Set([...(existing.source_hints ?? []), ...(incoming.source_hints ?? [])])
+  )
+  const recipe_tags = Array.from(
+    new Set([...(existing.recipe_tags ?? []), ...(incoming.recipe_tags ?? [])])
+  )
+  return {
+    ...existing,
+    url: incoming.url ?? existing.url,
+    urls: Array.from(new Set(urls)),
+    link_texts,
+    item_texts,
+    source_hints,
+    ingredients: incoming.ingredients?.length ? incoming.ingredients : existing.ingredients,
+    recipe_tags,
+    main_protein: incoming.main_protein || existing.main_protein,
+  }
 }
 
 function App() {
@@ -196,33 +250,32 @@ function App() {
         persistDesktopData(menus, nextItems)
         return nextItems
       }
-      const updated = prev.map((item, index) => {
-        if (index !== existingIndex) return item
-        const urls = Array.from(new Set([...(item.urls ?? []), ...(newItem.urls ?? [])]))
-        const link_texts = Array.from(
-          new Set([...(item.link_texts ?? []), ...(newItem.link_texts ?? [])])
+      const updated = prev.map((item, index) =>
+        index === existingIndex ? mergeRefactoredItem(item, newItem) : item
+      )
+      persistDesktopData(menus, updated)
+      return updated
+    })
+  }
+
+  function handleUpdateItem(originalItem: RefactoredMenuItem, updatedItem: RefactoredMenuItem) {
+    setMenuItems((prev) => {
+      let existingIndex = prev.findIndex((item) => item === originalItem)
+      if (existingIndex === -1 && originalItem.url) {
+        existingIndex = prev.findIndex(
+          (item) =>
+            (item.url && item.url === originalItem.url) ||
+            (item.urls ?? []).includes(originalItem.url ?? '')
         )
-        const item_texts = Array.from(
-          new Set([...(item.item_texts ?? []), ...(newItem.item_texts ?? [])])
-        )
-        const source_hints = Array.from(
-          new Set([...(item.source_hints ?? []), ...(newItem.source_hints ?? [])])
-        )
-        const recipe_tags = Array.from(
-          new Set([...(item.recipe_tags ?? []), ...(newItem.recipe_tags ?? [])])
-        )
-        return {
-          ...item,
-          url: newItem.url ?? item.url,
-          urls,
-          link_texts,
-          item_texts,
-          source_hints,
-          ingredients: newItem.ingredients?.length ? newItem.ingredients : item.ingredients,
-          recipe_tags,
-          main_protein: newItem.main_protein || item.main_protein,
-        }
-      })
+      }
+      if (existingIndex === -1) {
+        const nextItems = [updatedItem, ...prev]
+        persistDesktopData(menus, nextItems)
+        return nextItems
+      }
+      const updated = prev.map((item, index) =>
+        index === existingIndex ? mergeRefactoredItem(item, updatedItem) : item
+      )
       persistDesktopData(menus, updated)
       return updated
     })
@@ -280,29 +333,26 @@ function App() {
     return { total, linked }
   }, [selectedMenu])
 
+  let content: ReactNode
   if (status === 'loading') {
-    return (
+    content = (
       <div className="app-shell">
         <main className="app-main">
           <div className="loading">Loading data…</div>
         </main>
       </div>
     )
-  }
-
-  if (status === 'error') {
-    return (
+  } else if (status === 'error') {
+    content = (
       <div className="app-shell">
         <main className="app-main">
           <div className="error">Failed to load menus: {errorMessage}</div>
         </main>
       </div>
     )
-  }
-
-  return (
-    <>
-      {currentPage === 'recipes' ? (
+  } else {
+    content =
+      currentPage === 'recipes' ? (
         <RecipesPage
           recipes={recipes}
           onViewMenus={() => setCurrentPage('menus')}
@@ -316,6 +366,7 @@ function App() {
           menus={menus}
           onSaveMenu={handleSaveMenu}
           onAddItem={handleAddItem}
+          onUpdateItem={handleUpdateItem}
         />
       ) : (
         <div className="app-shell">
@@ -497,10 +548,11 @@ function App() {
           )}
         </section>
       </main>
-    </div>
-      )}
-    </>
-  )
+        </div>
+      )
+  }
+
+  return <ErrorBoundary>{content}</ErrorBoundary>
 }
 
 export default App

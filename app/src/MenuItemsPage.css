@@ -270,6 +270,18 @@
   gap: 0.4rem;
 }
 
+.tag-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(47, 122, 97, 0.12);
+  color: #25664f;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
 .page-actions {
   display: flex;
   gap: 0.6rem;

@@ -1345,6 +1345,20 @@ export default function MenuItemsPage({
   const duplicateItems = showDuplicates
     ? new Set(duplicateGroups.flatMap((group) => group.items))
     : new Set<string>()
+  const tagDisplaySet = new Set([
+    'Baking',
+    '5 Ingredients',
+    'Crock Pot',
+    'Easy',
+    'Fast',
+    'Grilling',
+    'Pasta',
+    'SOS Series',
+    'Simple',
+    'Weeknight Meals',
+  ])
+  const selectedTags =
+    selectedItem?.recipe_tags?.filter((tag) => tagDisplaySet.has(tag)) ?? []
 
   return (
     <div className="items-shell">
@@ -1662,6 +1676,18 @@ export default function MenuItemsPage({
                     </div>
                   )}
                 </div>
+                {selectedTags.length ? (
+                  <div className="detail-card">
+                    <h3>Tags</h3>
+                    <div className="pill-row">
+                      {selectedTags.map((tag) => (
+                        <span key={tag} className="tag-pill">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                ) : null}
               </div>
             </>
           ) : (

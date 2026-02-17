@@ -3031,7 +3031,7 @@
         "Main Dishes",
         "Quick and Easy",
         "Recipes",
-        "Slow Cooker",
+        "Crock Pot",
         "Spring",
         "Tomato",
         "Vegetarian"
@@ -17907,7 +17907,7 @@
         "Meat and Chicken",
         "Quick and Easy",
         "Sandwiches",
-        "Slow Cooker",
+        "Crock Pot",
         "Spring",
         "Sugar Free",
         "Tomato"
@@ -20426,7 +20426,7 @@
         "Meat and Chicken",
         "Quick and Easy",
         "Recipes",
-        "Slow Cooker",
+        "Crock Pot",
         "Tacos"
       ]
     },
@@ -20749,7 +20749,6 @@
         "Garlic",
         "Shredded Pork",
         "Simple",
-        "Slow Cooker",
         "Tacos"
       ],
       "main_protein": "pork"

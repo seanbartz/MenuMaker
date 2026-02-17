@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import './MenuItemsPage.css'
 import type { Menu, MenuItem, RefactoredMenuItem } from './types'
 
@@ -19,6 +19,7 @@ interface MenuItemsPageProps {
   menus: Menu[]
   onSaveMenu: (menu: Menu, items: RefactoredMenuItem[]) => void
   onAddItem: (item: RefactoredMenuItem) => void
+  onUpdateItem: (originalItem: RefactoredMenuItem, updatedItem: RefactoredMenuItem) => void
 }
 
 export default function MenuItemsPage({
@@ -28,6 +29,7 @@ export default function MenuItemsPage({
   menus,
   onSaveMenu,
   onAddItem,
+  onUpdateItem,
 }: MenuItemsPageProps) {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [proteinFilter, setProteinFilter] = useState('all')
@@ -53,6 +55,9 @@ export default function MenuItemsPage({
   const [showShoppingList, setShowShoppingList] = useState(false)
   const [actionMessage, setActionMessage] = useState<string | null>(null)
   const [actionError, setActionError] = useState<string | null>(null)
+  const [editItemUrl, setEditItemUrl] = useState('')
+  const [editScrapeStatus, setEditScrapeStatus] = useState<'idle' | 'loading' | 'error'>('idle')
+  const [editScrapeError, setEditScrapeError] = useState<string | null>(null)
 
   function normalizeProtein(value?: string) {
     return (value ?? 'unknown').trim().toLowerCase()
@@ -100,6 +105,12 @@ export default function MenuItemsPage({
     selectedItem?.link_texts?.[0] ??
     selectedItem?.item_texts?.[0] ??
     'Untitled item'
+
+  useEffect(() => {
+    setEditItemUrl('')
+    setEditScrapeStatus('idle')
+    setEditScrapeError(null)
+  }, [selectedItem])
 
   function handleFilterChange(value: string) {
     setProteinFilter(value)
@@ -766,9 +777,14 @@ export default function MenuItemsPage({
     }
     const dateStamp = formatShortDate()
     const title = `Menu week of ${dateStamp}`
-    const items = menuSelections.map(
-      (item) => item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
-    )
+    const items = menuSelections.map((item) => {
+      const title = item.link_texts?.[0] ?? item.item_texts?.[0] ?? 'Untitled item'
+      const url = item.url ?? item.urls?.[0]
+      if (url) {
+        return `${title} — ${url}`
+      }
+      return title
+    })
     const normalizedTitle = title.trim().toLowerCase()
     const cleanedItems = items.filter(
       (item) => item && item.trim().toLowerCase() !== normalizedTitle
@@ -1233,15 +1249,95 @@ export default function MenuItemsPage({
         main_protein: result.main_protein || 'unknown',
         count: 0,
       }
-      onAddItem(newItem)
-      if (autoAddToMenu) {
-        setMenuSelections((prev) => [...prev, newItem])
+      const shouldUpdateSelected =
+        selectedItem && !selectedItem.url && !(selectedItem.urls ?? []).length
+      if (shouldUpdateSelected && selectedItem) {
+        const mergedItem = mergeRefactoredItem(selectedItem, newItem)
+        onUpdateItem(selectedItem, newItem)
+        setMenuSelections((prev) => {
+          const next = prev.map((item) => (item === selectedItem ? mergedItem : item))
+          if (autoAddToMenu && !next.includes(mergedItem)) {
+            next.push(mergedItem)
+          }
+          return next
+        })
+      } else {
+        onAddItem(newItem)
+        if (autoAddToMenu) {
+          setMenuSelections((prev) => [...prev, newItem])
+        }
       }
       setNewItemUrl('')
       setScrapeStatus('idle')
     } catch (error) {
       setScrapeStatus('error')
       setScrapeError(error instanceof Error ? error.message : 'Failed to scrape URL')
+    }
+  }
+
+  async function handleUpdateItemWithUrl() {
+    if (!editItemUrl.trim() || !selectedItem) return
+    setEditScrapeStatus('loading')
+    setEditScrapeError(null)
+    const trimmedUrl = editItemUrl.trim()
+    try {
+      const mod = await import('@tauri-apps/api/core')
+      const invoke = mod.invoke as <T>(cmd: string, args?: Record<string, unknown>) => Promise<T>
+      const result = await invoke<{
+        title: string
+        ingredients: string[]
+        tags: string[]
+        main_protein: string
+      }>('scrape_recipe', { url: trimmedUrl })
+      const updatedItem: RefactoredMenuItem = {
+        ...selectedItem,
+        url: trimmedUrl,
+        urls: Array.from(new Set([...(selectedItem.urls ?? []), trimmedUrl])),
+        ingredients: result.ingredients?.length ? result.ingredients : selectedItem.ingredients,
+        recipe_tags: result.tags?.length
+          ? Array.from(new Set([...(selectedItem.recipe_tags ?? []), ...result.tags]))
+          : selectedItem.recipe_tags,
+        main_protein: result.main_protein || selectedItem.main_protein,
+      }
+      onUpdateItem(selectedItem, updatedItem)
+      setEditItemUrl('')
+      setEditScrapeStatus('idle')
+    } catch (error) {
+      setEditScrapeStatus('error')
+      setEditScrapeError(error instanceof Error ? error.message : 'Failed to scrape URL')
+    }
+  }
+
+  function mergeRefactoredItem(
+    existing: RefactoredMenuItem,
+    incoming: RefactoredMenuItem
+  ): RefactoredMenuItem {
+    const urls = Array.from(new Set([...(existing.urls ?? []), ...(incoming.urls ?? [])]))
+    if (incoming.url) {
+      urls.push(incoming.url)
+    }
+    const link_texts = Array.from(
+      new Set([...(existing.link_texts ?? []), ...(incoming.link_texts ?? [])])
+    )
+    const item_texts = Array.from(
+      new Set([...(existing.item_texts ?? []), ...(incoming.item_texts ?? [])])
+    )
+    const source_hints = Array.from(
+      new Set([...(existing.source_hints ?? []), ...(incoming.source_hints ?? [])])
+    )
+    const recipe_tags = Array.from(
+      new Set([...(existing.recipe_tags ?? []), ...(incoming.recipe_tags ?? [])])
+    )
+    return {
+      ...existing,
+      url: incoming.url ?? existing.url,
+      urls: Array.from(new Set(urls)),
+      link_texts,
+      item_texts,
+      source_hints,
+      ingredients: incoming.ingredients?.length ? incoming.ingredients : existing.ingredients,
+      recipe_tags,
+      main_protein: incoming.main_protein || existing.main_protein,
     }
   }
 
@@ -1535,6 +1631,35 @@ export default function MenuItemsPage({
                     </ul>
                   ) : (
                     <p className="detail-empty">No ingredients listed.</p>
+                  )}
+                  {!selectedItem.url && (
+                    <div className="add-url-section">
+                      <h4>Add Recipe URL</h4>
+                      <p className="detail-empty">
+                        {!selectedItem.ingredients?.length
+                          ? 'This item is missing a URL and ingredients. Add a recipe URL to automatically scrape and populate this data.'
+                          : 'This item is missing a URL. Add a recipe URL to automatically scrape additional data.'}
+                      </p>
+                      <label>
+                        <span>Recipe URL</span>
+                        <input
+                          type="url"
+                          placeholder="https://example.com/recipe"
+                          value={editItemUrl}
+                          onChange={(event) => setEditItemUrl(event.target.value)}
+                        />
+                      </label>
+                      <button
+                        className="primary-button"
+                        onClick={handleUpdateItemWithUrl}
+                        disabled={editScrapeStatus === 'loading' || !editItemUrl.trim()}
+                      >
+                        {editScrapeStatus === 'loading' ? 'Scraping…' : 'Add URL and Scrape'}
+                      </button>
+                      {editScrapeStatus === 'error' && (
+                        <p className="detail-empty error">{editScrapeError ?? 'Failed to scrape URL'}</p>
+                      )}
+                    </div>
                   )}
                 </div>
               </div>

@@ -2,6 +2,20 @@ import { useMemo, useState, useEffect } from 'react'
 import './MenuItemsPage.css'
 import type { Menu, MenuItem, RefactoredMenuItem } from './types'
 
+const TAG_FILTERS = [
+  'Baking',
+  '5 Ingredients',
+  'Crock Pot',
+  'Easy',
+  'Fast',
+  'Grilling',
+  'Pasta',
+  'SOS Series',
+  'Simple',
+  'Weeknight Meals',
+]
+const TAG_FILTER_SET = new Set(TAG_FILTERS)
+
 function getSiteName(url: string | null): string {
   if (!url) return 'No link'
   try {
@@ -33,6 +47,7 @@ export default function MenuItemsPage({
 }: MenuItemsPageProps) {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [proteinFilter, setProteinFilter] = useState('all')
+  const [tagFilter, setTagFilter] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
   const [menuSelections, setMenuSelections] = useState<RefactoredMenuItem[]>([])
   const [newItemUrl, setNewItemUrl] = useState('')
@@ -69,12 +84,16 @@ export default function MenuItemsPage({
       if (proteinFilter !== 'all') {
         if (normalizeProtein(item.main_protein) !== proteinFilter) return false
       }
+      if (tagFilter !== 'all') {
+        if (!item.recipe_tags?.includes(tagFilter)) return false
+      }
       if (!normalizedQuery) return true
       const haystack = [
         item.link_texts?.[0],
         item.item_texts?.[0],
         ...(item.link_texts ?? []),
         ...(item.item_texts ?? []),
+        ...(item.recipe_tags ?? []),
       ]
         .filter(Boolean)
         .join(' ')
@@ -87,7 +106,7 @@ export default function MenuItemsPage({
         b.link_texts[0] ?? b.item_texts[0] ?? ''
       )
     })
-  }, [items, proteinFilter, searchQuery])
+  }, [items, proteinFilter, tagFilter, searchQuery])
 
   const proteinOptions = useMemo(() => {
     const counts = new Map<string, number>()
@@ -98,6 +117,20 @@ export default function MenuItemsPage({
     return Array.from(counts.entries())
       .sort((a, b) => a[0].localeCompare(b[0]))
       .map(([protein, count]) => ({ protein, count }))
+  }, [items])
+
+  const tagOptions = useMemo(() => {
+    const counts = new Map<string, number>()
+    items.forEach((item) => {
+      item.recipe_tags?.forEach((tag) => {
+        if (!TAG_FILTER_SET.has(tag)) return
+        counts.set(tag, (counts.get(tag) ?? 0) + 1)
+      })
+    })
+    return TAG_FILTERS.filter((tag) => counts.has(tag)).map((tag) => ({
+      tag,
+      count: counts.get(tag) ?? 0,
+    }))
   }, [items])
 
   const selectedItem = sortedItems[selectedIndex] ?? null
@@ -114,6 +147,11 @@ export default function MenuItemsPage({
 
   function handleFilterChange(value: string) {
     setProteinFilter(value)
+    setSelectedIndex(0)
+  }
+
+  function handleTagFilterChange(value: string) {
+    setTagFilter(value)
     setSelectedIndex(0)
   }
 
@@ -1345,20 +1383,8 @@ export default function MenuItemsPage({
   const duplicateItems = showDuplicates
     ? new Set(duplicateGroups.flatMap((group) => group.items))
     : new Set<string>()
-  const tagDisplaySet = new Set([
-    'Baking',
-    '5 Ingredients',
-    'Crock Pot',
-    'Easy',
-    'Fast',
-    'Grilling',
-    'Pasta',
-    'SOS Series',
-    'Simple',
-    'Weeknight Meals',
-  ])
   const selectedTags =
-    selectedItem?.recipe_tags?.filter((tag) => tagDisplaySet.has(tag)) ?? []
+    selectedItem?.recipe_tags?.filter((tag) => TAG_FILTER_SET.has(tag)) ?? []
 
   return (
     <div className="items-shell">
@@ -1531,6 +1557,19 @@ export default function MenuItemsPage({
                   {proteinOptions.map(({ protein, count }) => (
                     <option key={protein} value={protein}>
                       {protein} ({count})
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="filter-control">
+                <select
+                  value={tagFilter}
+                  onChange={(event) => handleTagFilterChange(event.target.value)}
+                >
+                  <option value="all">All tags</option>
+                  {tagOptions.map(({ tag, count }) => (
+                    <option key={tag} value={tag}>
+                      {tag} ({count})
                     </option>
                   ))}
                 </select>

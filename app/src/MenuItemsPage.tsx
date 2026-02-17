@@ -106,19 +106,6 @@ export default function MenuItemsPage({
     selectedItem?.item_texts?.[0] ??
     'Untitled item'
 
-  function getMissingDataMessage(item: RefactoredMenuItem | null): string {
-    if (!item) return ''
-    const hasUrl = !!item.url
-    const hasIngredients = !!item.ingredients?.length
-    if (!hasUrl && !hasIngredients) {
-      return 'a URL and ingredients'
-    }
-    if (!hasUrl) {
-      return 'a URL'
-    }
-    return 'ingredients'
-  }
-
   useEffect(() => {
     setEditItemUrl('')
     setEditScrapeStatus('idle')
@@ -1645,11 +1632,13 @@ export default function MenuItemsPage({
                   ) : (
                     <p className="detail-empty">No ingredients listed.</p>
                   )}
-                  {(!selectedItem.url || !selectedItem.ingredients?.length) && (
+                  {!selectedItem.url && (
                     <div className="add-url-section">
                       <h4>Add Recipe URL</h4>
                       <p className="detail-empty">
-                        This item is missing {getMissingDataMessage(selectedItem)}. Add a recipe URL to automatically scrape and populate this data.
+                        {!selectedItem.ingredients?.length
+                          ? 'This item is missing a URL and ingredients. Add a recipe URL to automatically scrape and populate this data.'
+                          : 'This item is missing a URL. Add a recipe URL to automatically scrape additional data.'}
                       </p>
                       <label>
                         <span>Recipe URL</span>

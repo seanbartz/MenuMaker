@@ -236,6 +236,7 @@ fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String
            set the clipboard to itemsText\n\
            keystroke \"v\" using {{command down}}\n\
            key code 36\n\
+           delay 0.25\n\
          end if\n\
        end tell\n\
      end tell",
@@ -345,7 +346,7 @@ fn create_note_checklist_with_headings(
            key code 36\n\
            key code 36\n\
            keystroke \"l\" using {{shift down, command down}}\n\
-           delay 0.2\n\
+           delay 0.25\n\
            set oldDelims to AppleScript's text item delimiters\n\
            set AppleScript's text item delimiters to return\n\
            set itemsText to sectionItems as text\n\
@@ -354,8 +355,9 @@ fn create_note_checklist_with_headings(
            keystroke \"v\" using {{command down}}\n\
            key code 36\n\
            keystroke \"l\" using {{shift down, command down}}\n\
-           delay 0.1\n\
+           delay 0.25\n\
            key code 36\n\
+           delay 0.2\n\
          end repeat\n\
        end tell\n\
      end tell",

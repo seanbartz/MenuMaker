@@ -173,17 +173,6 @@ fn escape_applescript(value: &str) -> String {
     .replace('"', "\\\"")
 }
 
-fn join_applescript_lines(lines: &[String]) -> String {
-  if lines.is_empty() {
-    return "\"\"".to_string();
-  }
-  lines
-    .iter()
-    .map(|line| format!("\"{}\"", escape_applescript(line)))
-    .collect::<Vec<_>>()
-    .join(" & return & ")
-}
-
 #[tauri::command]
 fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String> {
   let escaped_title = escape_applescript(&title);
@@ -207,30 +196,51 @@ fn create_note_checklist(title: String, items: Vec<String>) -> Result<(), String
       Some(trimmed.to_string())
     })
     .collect::<Vec<_>>();
-  let mut body_lines = Vec::new();
-  let trimmed_title = title.trim();
-  if !trimmed_title.is_empty() {
-    body_lines.push(trimmed_title.to_string());
-  }
-  if !filtered_items.is_empty() {
-    if !body_lines.is_empty() {
-      body_lines.push(String::new());
-    }
-    for item in filtered_items {
-      body_lines.push(format!("☐ {}", item));
-    }
-  }
-  let body_expr = join_applescript_lines(&body_lines);
+  let list_items = filtered_items
+    .into_iter()
+    .map(|item| format!("\"{}\"", escape_applescript(&item)))
+    .collect::<Vec<_>>()
+    .join(", ");
 
   let script = format!(
-    "set bodyText to {body}\n\
+    "set itemList to {{{items}}}\n\
      tell application \"Notes\"\n\
        activate\n\
-       set theNote to make new note at folder \"Notes\" with properties {{name:\"{title}\", body:bodyText}}\n\
+       set theNote to make new note at folder \"Notes\" with properties {{name:\"{title}\", body:\"\"}}\n\
        show theNote\n\
+     end tell\n\
+     delay 0.4\n\
+     tell application \"System Events\"\n\
+       tell process \"Notes\"\n\
+         set frontmost to true\n\
+         if (count of text areas of window 1) > 0 then\n\
+           click (first text area of window 1)\n\
+         end if\n\
+         set the clipboard to \"{title}\"\n\
+         keystroke \"v\" using {{command down}}\n\
+         key code 36\n\
+         key code 36\n\
+         if (count of itemList) > 0 then\n\
+           try\n\
+             click menu bar item \"Format\" of menu bar 1\n\
+             delay 0.2\n\
+             click menu item \"Checklist\" of menu 1 of menu bar item \"Format\" of menu bar 1\n\
+           on error\n\
+             keystroke \"l\" using {{shift down, command down}}\n\
+           end try\n\
+           delay 0.2\n\
+           set oldDelims to AppleScript's text item delimiters\n\
+           set AppleScript's text item delimiters to return\n\
+           set itemsText to itemList as text\n\
+           set AppleScript's text item delimiters to oldDelims\n\
+           set the clipboard to itemsText\n\
+           keystroke \"v\" using {{command down}}\n\
+           key code 36\n\
+         end if\n\
+       end tell\n\
      end tell",
     title = escaped_title,
-    body = body_expr
+    items = list_items
   );
 
   let output = std::process::Command::new("osascript")
@@ -266,11 +276,7 @@ fn create_note_checklist_with_headings(
 ) -> Result<(), String> {
   let escaped_title = escape_applescript(&title);
   let normalized_title = title.trim().to_lowercase();
-  let mut body_lines: Vec<String> = Vec::new();
-  let trimmed_title = title.trim();
-  if !trimmed_title.is_empty() {
-    body_lines.push(trimmed_title.to_string());
-  }
+  let mut section_chunks: Vec<String> = Vec::new();
   for section in sections {
     let heading = section.heading.trim();
     if heading.is_empty() {
@@ -301,26 +307,60 @@ fn create_note_checklist_with_headings(
       continue;
     }
 
-    if !body_lines.is_empty() {
-      body_lines.push(String::new());
-    }
-    body_lines.push(heading.to_string());
-    for item in filtered_items {
-      body_lines.push(format!("☐ {}", item));
-    }
+    let items_list = filtered_items
+      .into_iter()
+      .map(|item| format!("\"{}\"", item))
+      .collect::<Vec<_>>()
+      .join(", ");
+    section_chunks.push(format!(
+      "{{heading:\"{}\", entries:{{{}}}}}",
+      escape_applescript(heading),
+      items_list
+    ));
   }
 
-  let body_expr = join_applescript_lines(&body_lines);
+  let sections_payload = section_chunks.join(", ");
 
   let script = format!(
-    "set bodyText to {body}\n\
-     tell application \"Notes\"\n\
-       activate\n\
-       set theNote to make new note at folder \"Notes\" with properties {{name:\"{title}\", body:bodyText}}\n\
-       show theNote\n\
+    "set sectionList to {{{sections}}}\n\
+     tell application \"Notes\" to activate\n\
+     delay 0.2\n\
+     tell application \"System Events\"\n\
+       tell process \"Notes\"\n\
+         set frontmost to true\n\
+         keystroke \"n\" using {{command down}}\n\
+         delay 0.4\n\
+         if (count of text areas of window 1) > 0 then\n\
+           click (first text area of window 1)\n\
+         end if\n\
+         set the clipboard to \"{title}\"\n\
+         keystroke \"v\" using {{command down}}\n\
+         key code 36\n\
+         key code 36\n\
+         repeat with sectionItem in sectionList\n\
+           set sectionHeading to heading of sectionItem\n\
+           set sectionItems to entries of sectionItem\n\
+           set the clipboard to sectionHeading\n\
+           keystroke \"v\" using {{command down}}\n\
+           key code 36\n\
+           key code 36\n\
+           keystroke \"l\" using {{shift down, command down}}\n\
+           delay 0.2\n\
+           set oldDelims to AppleScript's text item delimiters\n\
+           set AppleScript's text item delimiters to return\n\
+           set itemsText to sectionItems as text\n\
+           set AppleScript's text item delimiters to oldDelims\n\
+           set the clipboard to itemsText\n\
+           keystroke \"v\" using {{command down}}\n\
+           key code 36\n\
+           keystroke \"l\" using {{shift down, command down}}\n\
+           delay 0.1\n\
+           key code 36\n\
+         end repeat\n\
+       end tell\n\
      end tell",
     title = escaped_title,
-    body = body_expr
+    sections = sections_payload
   );
 
   let output = std::process::Command::new("osascript")
